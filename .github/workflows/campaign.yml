@@ -1,0 +1,55 @@
+name: Paper campaign
+
+# Long-runner chain: a job every 6 hours, each polling for ~5h40m, gives
+# near-continuous market coverage with zero machines of our own. Offset
+# minute :19 because GitHub delays top-of-the-hour crons heavily (same
+# lesson as the tipoff scanner). Public repo => standard runners are free.
+#
+# 100% PAPER: the supervisor only calls public read-only endpoints. There
+# are no exchange credentials anywhere in this repo or its secrets.
+on:
+  schedule:
+    - cron: "19 1,7,13,19 * * *"
+  workflow_dispatch: {}     # manual "Run workflow" button for testing
+
+permissions:
+  contents: write           # checkpoints commit state/data/REPORT.md back
+
+concurrency:
+  group: paper-campaign     # serialize: never two supervisors on one ledger
+  cancel-in-progress: false
+
+jobs:
+  supervise:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355    # hard stop under the 6h runner cap; the
+                            # supervisor exits itself at ~5h40m
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity for checkpoints
+        run: |
+          git config user.name "paper-lab-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run supervisor (paper only)
+        run: python supervisor.py
+
+      - name: Final checkpoint safety net
+        if: always()
+        run: |
+          git add state data REPORT.md || true
+          if git diff --cached --quiet; then
+            echo "nothing left to commit"
+          else
+            git commit -m "lab: final checkpoint $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase && git push || echo "push failed; next run will carry it"
+          fi

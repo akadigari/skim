@@ -65,12 +65,24 @@ class Favorites:
         return {"positions": self.positions, "last_scan_ts": self.last_scan_ts}
 
     # -- opening -------------------------------------------------------------
-    def scan_and_open(self, api: Kalshi, evidence: list) -> int:
+    def scan_and_open(self, api: Kalshi, evidence: list, poly=None) -> int:
         now = time.time()
         if now - self.last_scan_ts < config.FAV_SCAN_SECONDS:
             return 0
         self.last_scan_ts = now
-        open_count = sum(1 for p in self.positions.values() if p["status"] == "open")
+        opened = self._open_kalshi(api, evidence, now)
+        if poly is not None and config.POLY_ENABLED:
+            opened += self._open_poly(poly, evidence, now)
+        if opened:
+            log.info("favorites: opened %d paper positions", opened)
+        return opened
+
+    def _open_count(self, venue: str) -> int:
+        return sum(1 for p in self.positions.values()
+                   if p["status"] == "open" and p.get("venue", "kalshi") == venue)
+
+    def _open_kalshi(self, api: Kalshi, evidence: list, now: float) -> int:
+        open_count = self._open_count("kalshi")
         opened = 0
         for c in scan_candidates(api):
             if open_count + opened >= config.FAV_MAX_POSITIONS:
@@ -82,9 +94,9 @@ class Favorites:
                 continue    # nobody real at the touch — skip ghost books
             n = config.FAV_CONTRACTS
             for variant in ("maker", "taker"):
-                key = f"{c['ticker']}|{variant}"
-                if key in self.positions:
-                    continue
+                key = f"kalshi|{c['ticker']}|{variant}"
+                if key in self.positions or f"{c['ticker']}|{variant}" in self.positions:
+                    continue                     # (second form: pre-venue keys)
                 if variant == "taker":
                     price = book.best_ask
                     fee = taker_fee_cents(price, n)
@@ -96,20 +108,44 @@ class Favorites:
                            "filled_qty": 0.0, "fee_cents": 0.0,
                            "queue_ahead": book.size_at("bid", price),
                            "last_tape_ts": now, "status": "open"}
-                pos.update({"ticker": c["ticker"], "opened_ts": now,
+                pos.update({"venue": "kalshi", "ticker": c["ticker"], "opened_ts": now,
                             "close_ts": c["close_ts"],
                             "days_to_close_at_entry": c["days_to_close"]})
                 self.positions[key] = pos
                 opened += 1
                 evidence.append({"type": "fav_open", **pos})
-        if opened:
-            log.info("favorites: opened %d paper positions", opened)
         return opened
 
-    # -- maker fill simulation (tape replay, queue-conservative) --------------
+    def _open_poly(self, poly, evidence: list, now: float) -> int:
+        """Polymarket leg, phase 1: TAKER-ONLY at the ask, zero fees — the
+        cheapest-execution test of whether the bias exists at all."""
+        opened = 0
+        open_count = self._open_count("polymarket")
+        for c in poly.favorite_candidates():
+            if open_count + opened >= config.POLY_FAV_MAX_POSITIONS:
+                break
+            key = f"polymarket|{c['ticker']}|taker"
+            if key in self.positions:
+                continue
+            n = config.FAV_CONTRACTS
+            pos = {"venue": "polymarket", "variant": "taker", "price": c["ask"],
+                   "qty": n, "filled_qty": n,
+                   "fee_cents": config.POLY_TAKER_FEE_CENTS * n,
+                   "status": "open", "ticker": c["ticker"], "opened_ts": now,
+                   "close_ts": c["close_ts"],
+                   "days_to_close_at_entry": c["days_to_close"],
+                   "question": c.get("question", "")}
+            self.positions[key] = pos
+            opened += 1
+            evidence.append({"type": "fav_open", **pos})
+        return opened
+
+    # -- maker fill simulation (tape replay, queue-conservative; Kalshi only) --
     def update_maker_fills(self, api: Kalshi, evidence: list) -> None:
         for key, p in self.positions.items():
             if p["status"] != "open" or p["variant"] != "maker":
+                continue
+            if p.get("venue", "kalshi") != "kalshi":
                 continue
             if p["filled_qty"] >= p["qty"]:
                 continue
@@ -132,14 +168,18 @@ class Favorites:
             p["last_tape_ts"] = time.time()
 
     # -- grading ---------------------------------------------------------------
-    def grade(self, api: Kalshi, evidence: list) -> int:
+    def grade(self, api: Kalshi, evidence: list, poly=None) -> int:
         graded = 0
         for key, p in self.positions.items():
             if p["status"] != "open":
                 continue
             if time.time() < p["close_ts"]:
                 continue
-            res = api.result(p["ticker"])
+            venue = p.get("venue", "kalshi")
+            if venue == "polymarket":
+                res = poly.result(p["ticker"]) if poly is not None else None
+            else:
+                res = api.result(p["ticker"])
             if res is None:
                 # settle lag: give it the standard window, then void it out
                 if time.time() - p["close_ts"] > 14 * 86400:
@@ -160,18 +200,22 @@ class Favorites:
 
     # -- stats -------------------------------------------------------------------
     def stats(self) -> dict:
-        out = {}
-        for variant in ("maker", "taker"):
-            ps = [p for p in self.positions.values() if p["variant"] == variant]
+        """'maker'/'taker' = the Kalshi experiment (the pre-registered gate);
+        'poly_taker' = the Polymarket zero-fee existence test."""
+        def bucket(venue, variant):
+            ps = [p for p in self.positions.values()
+                  if p["variant"] == variant and p.get("venue", "kalshi") == venue]
             settled = [p for p in ps if p["status"] == "settled"]
             risked = sum(p["price"] * p["filled_qty"] for p in settled)
             pnl = sum(p["pnl_cents"] for p in settled)
             wins = sum(1 for p in settled if p.get("result") == "yes")
-            out[variant] = {
+            return {
                 "open": sum(1 for p in ps if p["status"] == "open"),
                 "unfilled": sum(1 for p in ps if p["status"] == "unfilled"),
                 "settled": len(settled), "wins": wins,
                 "pnl_cents": pnl,
                 "roi_pct": (100.0 * pnl / risked) if risked else None,
             }
-        return out
+        return {"maker": bucket("kalshi", "maker"),
+                "taker": bucket("kalshi", "taker"),
+                "poly_taker": bucket("polymarket", "taker")}

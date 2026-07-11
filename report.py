@@ -85,7 +85,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         return f"${c/100:+.2f}"
 
     lines = [
-        "# Kalshi Paper Lab — campaign report",
+        "# SKIM — Skimming Kalshi's Incentive Markets (campaign report)",
         "",
         f"_Auto-generated {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} — "
         f"**day {days:.1f} of {config.CAMPAIGN_DAYS}**. 100% paper: this repo only "
@@ -123,7 +123,9 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     def roi_str(v):
         return f"{v:+.2f}%" if v is not None else "n/a"
 
+    pt = fav_stats.get("poly_taker", {})
     mk_roi, tk_roi = roi_str(mk.get("roi_pct")), roi_str(tk.get("roi_pct"))
+    pt_roi = roi_str(pt.get("roi_pct"))
     lines += [
         "",
         "## Experiment 2 — Favorites (85-95c maker vs taker control)",
@@ -132,13 +134,17 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         "",
         "| variant | open | unfilled | settled | wins | P&L | cond-on-fill ROI |",
         "|---|---|---|---|---|---|---|",
-        f"| maker | {mk.get('open',0)} | {mk.get('unfilled',0)} | {n_mk} | "
+        f"| kalshi maker | {mk.get('open',0)} | {mk.get('unfilled',0)} | {n_mk} | "
         f"{w_mk} (win-rate CI {lo:.0%}-{hi:.0%}) | {usd(mk.get('pnl_cents',0.0))} | {mk_roi} |",
-        f"| taker | {tk.get('open',0)} | — | {tk.get('settled',0)} | {tk.get('wins',0)} | "
+        f"| kalshi taker | {tk.get('open',0)} | — | {tk.get('settled',0)} | {tk.get('wins',0)} | "
         f"{usd(tk.get('pnl_cents',0.0))} | {tk_roi} |",
+        f"| poly taker (zero-fee) | {pt.get('open',0)} | — | {pt.get('settled',0)} | "
+        f"{pt.get('wins',0)} | {usd(pt.get('pnl_cents',0.0))} | {pt_roi} |",
         "",
         "_If maker ROI < taker ROI, queue fills are adversely selected — the exact "
-        "failure mode this experiment exists to measure._",
+        "failure mode this experiment exists to measure. The Polymarket taker leg is "
+        "the zero-fee existence test of the bias itself (phase 1: taker-only there; "
+        "the pre-registered gate is judged on the Kalshi maker leg only)._",
         "",
         "## Kill criteria (pre-registered)",
         "",

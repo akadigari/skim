@@ -186,7 +186,7 @@ class TestGates(unittest.TestCase):
                       discount_factor=0.5)
         text = report.render({"campaign_start_ts": time.time() - 86400},
                              [s], Favorites().stats())
-        self.assertIn("Kalshi Paper Lab", text)
+        self.assertIn("SKIM", text)
         self.assertIn("Gate status", text)
         self.assertIn("KILL", text)          # kill criteria section always present
 

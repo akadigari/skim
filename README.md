@@ -1,46 +1,64 @@
-# kalshi-paper-lab
+# SKIM — Skimming Kalshi's Incentive Markets
 
-A 14-day, fully-automated **paper trading** campaign that answers two pre-registered
-questions about making money on Kalshi — with **zero machines of my own** (it runs
-entirely on GitHub Actions) and **zero ability to trade** (it only reads public
-endpoints; there are no exchange credentials anywhere).
+A 14-day, fully-automated **paper trading** campaign that tests the two most
+credible "actually makes money" ideas from my prediction-market research — with
+**zero machines of my own** (it runs entirely on GitHub Actions) and **zero
+ability to trade** (public read-only endpoints; no exchange credentials exist
+anywhere in this repo or its secrets).
+
+The name is the thesis: don't out-predict anyone — **skim** what's structurally
+on offer. Kalshi pays daily liquidity-incentive **pools** for resting quotes
+(experiment 1 skims the pools), and retail flow overpays for longshots
+(experiment 2 skims the favorite side of that bias).
 
 **Live scoreboard: [REPORT.md](REPORT.md)** — regenerated every 30 minutes while
-the campaign runs.
+the campaign runs. A dedicated Telegram bot DMs a daily digest and screams if
+the pipeline dies.
 
-## The two experiments
+## The experiments
 
-### 1. MM breadth — liquidity-pool harvesting
-Kalshi pays ~$35k/day in per-market liquidity incentive pools (CFTC-filed scoring
-rules) to whoever rests qualifying quotes near the touch. This experiment
-hypothetically quotes the **top 15 pooled markets** (200×200, join-the-touch),
-reproduces the published scoring math every 20 seconds, and charges itself for
-adverse selection using the real public trade tape through a queue-conservative
-fill model.
+### 1. MM breadth — liquidity-pool skimming
+~3,900 active pools exist right now. SKIM hypothetically quotes the **top-15**
+(200×200, join-the-touch), reproduces Kalshi's CFTC-filed scoring math every 20
+seconds, and charges itself adverse selection via the real public trade tape
+through a queue-conservative fill model.
 
 **GO** iff decision ($ rewards + spread − adverse selection − fees) ≥ 3× the
-measured 3-market baseline ($1.50/day) **and** earn/pay ≥ 1.5. Otherwise **KILL**.
+measured 3-market baseline ($1.50/day) **and** earn/pay ≥ 1.5. Else **KILL**.
 
 ### 2. Favorites — does the favorite-longshot bias survive being filled?
-Academic work (~300k contracts) says makers on the ≥50¢ side earned ~+2.6%
-post-fee — *unconditionally*. The open question is adverse selection: are the
-fills you actually receive the bad ones? This experiment rests hypothetical maker
-bids at 85–95¢ on soon-resolving markets **and** runs a taker control on the same
-candidates. If maker ROI < taker ROI conditional on fill, the queue is adversely
-selected and the edge is a mirage.
+Rest hypothetical maker bids at 85–95¢ on soon-resolving Kalshi markets, with a
+taker control on the same candidates. If maker ROI < taker ROI conditional on
+fill, the queue is adversely selected and the "edge" is a mirage. A
+**Polymarket taker-only leg** (fees are zero there) tests whether the bias
+exists at all under the cheapest possible execution; the pre-registered gate is
+judged on the Kalshi maker leg only.
 
 **GO** iff maker conditional-on-fill ROI > 0 after fees across ≥300 settled
-positions. Until then the report says **UNDERPOWERED** — honestly, not broken.
+positions; **UNDERPOWERED** is reported honestly until then.
 
-## How it runs with my computer off
+## How it runs with the laptop off
 
-- `.github/workflows/campaign.yml` crons **every 6 hours**; each job is a
-  long-runner (~5h40m) so coverage is near-continuous. A concurrency group
-  serializes jobs; each one checkpoints state + evidence + `REPORT.md` back to
-  the repo every 30 minutes, so a killed runner loses ≤30 min of data.
+- `campaign.yml` crons **every 6h**; each job long-runs ~5h40m, so coverage is a
+  near-continuous chain. Checkpoints (state + evidence + REPORT.md) commit back
+  every 30 min — a killed runner loses ≤30 min.
+- `watchdog.yml` is the **dead-man's switch**: a 10-second job offset between
+  campaign runs; if the committed heartbeat is >7.5h old it alerts Telegram.
+  Silent when healthy.
 - Public repo ⇒ GitHub-hosted runners are free.
-- The raw evidence (`data/evidence.jsonl`) doubles as an order-book/fill archive
-  nobody else is recording — it cannot be backfilled later.
+- `data/evidence.jsonl` doubles as an orderbook/fill archive nobody else records.
+
+## Telegram (dedicated bot — optional)
+
+This project uses its **own** bot so it stays separate from my other scanners:
+
+1. In Telegram: **@BotFather** → `/newbot` → name it (e.g. `SKIM Lab`) → copy the token.
+2. Message the new bot once, then get your chat id from **@userinfobot**.
+3. Repo → Settings → Secrets and variables → Actions → add
+   `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
+
+You'll get one digest per day ("📊 SKIM day 3.2 — PAPER results…") plus health
+alerts. Unset = everything still runs, just silently.
 
 ## Run it locally (optional)
 
@@ -52,12 +70,13 @@ python -m unittest discover -s tests -q
 
 ## Honesty rules
 
-- Paper first, always; this repo is structurally incapable of placing an order.
+- Paper first, always; every digest says PAPER out loud.
 - Queue model is **conservative** (cancels assumed behind us → understates fills).
-- Kill criteria are pre-registered in `config.py`/`report.py` and printed in the
-  report; a null result is a *finding*, not a failure.
-- Known clock: Kalshi's liquidity & volume incentive programs currently end
+- Kill criteria are pre-registered in `config.py`/`report.py`; a null result is
+  a finding, not a failure.
+- Known clock: Kalshi's liquidity/volume incentive programs currently end
   **Sept 1, 2026** — a GO is only actionable before renewal risk.
 
 *Scoring math ported from my mm_bot project (Kalshi's published Feb-2026 program
-terms), including the period_reward centi-cents unit trap.*
+terms, including the period_reward centi-cents unit trap); Polymarket resolution
+reader ported from my logical_arb project.*

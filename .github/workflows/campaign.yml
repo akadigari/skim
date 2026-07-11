@@ -1,4 +1,4 @@
-name: Paper campaign
+name: SKIM paper campaign
 
 # Long-runner chain: a job every 6 hours, each polling for ~5h40m, gives
 # near-continuous market coverage with zero machines of our own. Offset
@@ -41,6 +41,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Run supervisor (paper only)
+        env:
+          # Dedicated SKIM bot (separate from other projects). Optional --
+          # everything runs fine with these unset; you just get no digest.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python supervisor.py
 
       - name: Final checkpoint safety net

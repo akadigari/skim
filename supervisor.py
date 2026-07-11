@@ -48,10 +48,31 @@ def load_state() -> dict:
 def save_state(state: dict, sims: list, fav: Favorites) -> None:
     state["mm"] = [s.to_dict() for s in sims]
     state["favorites"] = fav.to_dict()
+    state["last_checkpoint_ts"] = time.time()   # the health watchdog reads this
     config.STATE_DIR.mkdir(exist_ok=True)
     tmp = STATE_PATH.with_suffix(".tmp")
     tmp.write_text(json.dumps(state, indent=1))
     tmp.replace(STATE_PATH)
+
+
+def maybe_send_digest(state: dict, sims: list, fav: Favorites) -> None:
+    """Once a day, tell the (dedicated) Telegram bot how the PAPER money looks."""
+    import report as report_mod
+    import telegram
+    if not telegram.configured():
+        return
+    if time.time() - state.get("last_digest_ts", 0.0) < config.DIGEST_EVERY_HOURS * 3600:
+        return
+    days = max((time.time() - state.get("campaign_start_ts", time.time())) / 86400.0, 0.0)
+    totals = {"rewards": sum(s.reward_cents for s in sims),
+              "spread": sum(s.spread_pnl_cents for s in sims),
+              "adverse": sum(s.adverse_cents for s in sims),
+              "fees": sum(s.fees_cents for s in sims),
+              "decision": sum(s.decision_cents for s in sims)}
+    mm_v, _ = report_mod.mm_gate(totals, days)
+    fv_v, _ = report_mod.fav_gate(fav.stats())
+    if telegram.send(telegram.render_digest(state, sims, fav.stats(), mm_v, fv_v)):
+        state["last_digest_ts"] = time.time()
 
 
 def append_evidence(rows: list) -> None:
@@ -119,6 +140,10 @@ def main() -> None:
                         format="%(asctime)s %(name)s %(levelname)s %(message)s")
 
     api = Kalshi()
+    poly = None
+    if config.POLY_ENABLED:
+        from polymarket import Polymarket
+        poly = Polymarket()
     state = load_state()
     sims = [MarketSim.from_dict(d) for d in state.get("mm", [])]
     fav = Favorites(state.get("favorites"))
@@ -126,7 +151,7 @@ def main() -> None:
 
     # start-of-job housekeeping: grade what resolved, refill the roster
     sims = grade_mm(api, sims, evidence)
-    fav.grade(api, evidence)
+    fav.grade(api, evidence, poly=poly)
     live = [s for s in sims if s.last_mid not in (0.0, 100.0)]
     roster = select_markets(api, keep=[s.ticker for s in live])
     have = {s.ticker for s in sims}
@@ -145,7 +170,7 @@ def main() -> None:
             except Exception as e:                # one bad market never kills the job
                 log.warning("tick %s failed: %s", s.ticker, e)
         try:
-            fav.scan_and_open(api, evidence)      # internally hourly-throttled
+            fav.scan_and_open(api, evidence, poly=poly)   # internally hourly-throttled
             fav.update_maker_fills(api, evidence)
         except Exception as e:
             log.warning("favorites pass failed: %s", e)
@@ -156,6 +181,7 @@ def main() -> None:
         if now >= deadline:
             break
         if now >= next_checkpoint:
+            maybe_send_digest(state, sims, fav)   # daily; no-op when unconfigured
             save_state(state, sims, fav)
             append_evidence(evidence)
             REPORT_PATH.write_text(report.render(state, sims, fav.stats()))
@@ -166,7 +192,7 @@ def main() -> None:
             time.sleep(sleep)
 
     # final flush
-    fav.grade(api, evidence)
+    fav.grade(api, evidence, poly=poly)
     save_state(state, sims, fav)
     append_evidence(evidence)
     REPORT_PATH.write_text(report.render(state, sims, fav.stats()))

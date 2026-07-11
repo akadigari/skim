@@ -63,6 +63,23 @@ MM_GO_EARN_PAY_RATIO = 1.5                      # AND (rewards+spread)/(AS+fees)
 FAV_GO_MIN_RESOLUTIONS = 300                    # favorites verdict needs n >= this
                                                 # (report shows Wilson CI + power honestly)
 
+# --- Polymarket favorites leg (phase 1: TAKER-ONLY — see polymarket.py) -------
+POLY_ENABLED = True
+POLY_SCAN_PAGES = 5                # top-volume gamma pages scanned per hour
+POLY_MAX_SPREAD_CENTS = 3.0        # skip wide-spread books (unfair taker test)
+POLY_TAKER_FEE_CENTS = 0.0         # Polymarket taker fee is currently zero
+POLY_FAV_MAX_POSITIONS = 40        # separate cap from the Kalshi book
+
+# --- Telegram (dedicated SKIM bot — separate from other projects' bots) -------
+# Set as GitHub repo secrets TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID; env-only,
+# everything no-ops silently when unset. Digest once a day; PAPER said out loud.
+DIGEST_EVERY_HOURS = 20            # >= this long since last digest -> send one
+
+# --- Health watchdog -----------------------------------------------------------
+# Campaign jobs checkpoint every 30 min while running and chain every ~6h; if
+# the committed state is older than this, something in the chain died.
+HEALTH_STALE_HOURS = 7.5
+
 # --- Long-runner scheduling (GitHub Actions) ----------------------------------
 # The workflow crons every 6h; each job runs until this deadline then exits so
 # the next queued job takes over (concurrency group serializes them).

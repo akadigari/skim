@@ -175,6 +175,7 @@ def wind_down(api, poly, state, sims, fav, evidence, age_days, push) -> None:
                               "frozen_ts": time.time()}
         state["campaign_complete"] = True
         log.info("Favorites verdict FROZEN: %s — campaign complete", verdict)
+    state["api_requests_last_job"] = api.request_count
     append_evidence(evidence)
     save_state(state, sims, fav)
     REPORT_PATH.write_text(report.render(state, sims, fav.stats()))
@@ -198,6 +199,8 @@ def main() -> None:
         from polymarket import Polymarket
         poly = Polymarket()
     state = load_state()
+    state["jobs_started"] = state.get("jobs_started", 0) + 1
+    state["last_job_start_ts"] = time.time()
     sims = [MarketSim.from_dict(d) for d in state.get("mm", [])]
     fav = Favorites(state.get("favorites"))
     evidence: list = []
@@ -253,6 +256,7 @@ def main() -> None:
         if now >= deadline:
             break
         if now >= next_checkpoint:
+            state["api_requests_last_job"] = api.request_count
             maybe_send_digest(state, sims, fav)   # daily; no-op when unconfigured
             append_evidence(evidence)             # evidence first: rows the state
             save_state(state, sims, fav)          # doesn't count yet are benign
@@ -265,6 +269,7 @@ def main() -> None:
 
     # final flush
     fav.grade(api, evidence, poly=poly)
+    state["api_requests_last_job"] = api.request_count
     append_evidence(evidence)
     save_state(state, sims, fav)
     REPORT_PATH.write_text(report.render(state, sims, fav.stats()))

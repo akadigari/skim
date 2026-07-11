@@ -157,6 +157,20 @@ class TestGateFloors(unittest.TestCase):
         self.assertIn("FINAL: KILL", text)
         self.assertIn("CAMPAIGN COMPLETE", text)
 
+    def test_health_section_renders(self):
+        state = {"campaign_start_ts": time.time() - 86400, "quoting_now": 1,
+                 "last_checkpoint_ts": time.time() - 60, "jobs_started": 5,
+                 "last_job_start_ts": time.time() - 3600,
+                 "api_requests_last_job": 4200}
+        s = MarketSim(ticker="T", pool_per_day=100.0, target_size=1000,
+                      discount_factor=0.5)
+        s.retired = True
+        text = report.render(state, [s], {"maker": {}, "taker": {}, "poly_taker": {}})
+        self.assertIn("## Health", text)
+        self.assertIn("jobs run (6h chain) | 5", text)
+        self.assertIn("API requests last job | 4200", text)
+        self.assertIn("1 / 1", text)               # quoting / retired
+
     def test_calibration_tripwire_demotes_go(self):
         # Enormous modeled rewards/market/day on ON TRACK status must demote.
         state = {"campaign_start_ts": time.time() - 2 * 86400, "quoting_now": 1}

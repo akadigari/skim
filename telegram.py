@@ -79,6 +79,11 @@ def render_digest(state: dict, sims: list, fav_stats: dict,
         + (f" | poly taker {pt.get('settled', 0)} settled, "
            f"P&L {usd(pt.get('pnl_cents', 0.0))}" if pt else ""),
         "",
+        f"🩺 health: job #{state.get('jobs_started', '?')} of the 6h chain, "
+        f"{state.get('quoting_now', len(sims))} markets quoting, "
+        f"{state.get('api_requests_last_job', 0)} API reqs last job, "
+        f"watchdog armed ({config.HEALTH_STALE_HOURS:g}h stale alarm)",
+        "",
         "Full report: https://github.com/akadigari/skim/blob/main/REPORT.md",
     ]
     return "\n".join(lines)

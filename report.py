@@ -111,9 +111,31 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
                       f"${config.MM_CALIBRATION_MAX_PER_MARKET_DAY_CENTS/100:.2f} tripwire")
 
     mk, tk = fav_stats.get("maker", {}), fav_stats.get("taker", {})
+    pt = fav_stats.get("poly_taker", {})
 
     def usd(c):
         return f"${c/100:+.2f}"
+
+    # -- health block: is the machine itself alive and behaving? ------------
+    retired = sum(1 for s in sims if getattr(s, "retired", False))
+    health = ["## Health", "", "| check | status |", "|---|---|"]
+    last_cp = state.get("last_checkpoint_ts")
+    if last_cp:
+        health.append(
+            f"| last checkpoint | {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime(last_cp))} "
+            f"— if this is > {config.HEALTH_STALE_HOURS}h old, the watchdog has already "
+            "alerted Telegram |")
+    health.append(f"| jobs run (6h chain) | {state.get('jobs_started', 0)} |")
+    job_start = state.get("last_job_start_ts")
+    if job_start:
+        health.append(f"| current job age | {(time.time() - job_start)/3600.0:.1f}h "
+                      f"of {config.JOB_DEADLINE_MINUTES/60.0:.1f}h max |")
+    health.append(f"| markets quoting / retired | {n_quoting} / {retired} |")
+    health.append(f"| favorites open (maker/taker/poly) | {mk.get('open', 0)} / "
+                  f"{tk.get('open', 0)} / {pt.get('open', 0)} |")
+    health.append(f"| API requests last job | {state.get('api_requests_last_job', 0)} |")
+    health.append("| crons (UTC) | campaign :19 of 1,7,13,19 — watchdog :49 of 3,9,15,21 |")
+    health.append("")
 
     lines = [
         "# SKIM — Skimming Kalshi's Incentive Markets (campaign report)",
@@ -124,6 +146,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         f"**day {days:.1f} of {config.CAMPAIGN_DAYS}**. 100% paper: this repo only "
         "reads public endpoints and cannot place orders._",
         "",
+        *health,
         "## Experiment 1 — MM breadth (liquidity-pool harvesting)",
         "",
         f"**Gate status: {mm_verdict}** — {mm_detail}",
@@ -160,7 +183,6 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     def roi_str(v):
         return f"{v:+.2f}%" if v is not None else "n/a"
 
-    pt = fav_stats.get("poly_taker", {})
     mk_roi, tk_roi = roi_str(mk.get("roi_pct")), roi_str(tk.get("roi_pct"))
     pt_roi = roi_str(pt.get("roi_pct"))
     lines += [

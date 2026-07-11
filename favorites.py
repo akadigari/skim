@@ -26,6 +26,7 @@ import logging
 import time
 
 import config
+import tape
 from kalshi import Kalshi, parse_iso
 from mm_sim import maker_fee_cents, taker_fee_cents
 
@@ -33,23 +34,30 @@ log = logging.getLogger("lab.fav")
 
 
 def scan_candidates(api: Kalshi) -> list[dict]:
-    """Open markets with best bid in the band, closing within the window."""
+    """Open markets with best bid in the band, closing within the window.
+    Prices are read via Kalshi.market_price_cents — the live /markets payload
+    carries only *_dollars fields, and reading the legacy field left this whole
+    experiment silently dead (review finding). The close window is filtered
+    SERVER-side so we see the real universe, not a 4,000-row prefix."""
     lo, hi = config.FAV_BAND_CENTS
     now = time.time()
     out = []
-    for m in api.open_markets():
-        bid = m.get("yes_bid")
-        ask = m.get("yes_ask")
-        bid = float(bid) if bid is not None else None
-        ask = float(ask) if ask is not None else None
+    rows = api.open_markets(max_pages=40, min_close_ts=int(now),
+                            max_close_ts=int(now + config.FAV_MAX_DAYS_TO_CLOSE * 86400))
+    for m in rows:
+        bid = Kalshi.market_price_cents(m, "yes_bid")
+        ask = Kalshi.market_price_cents(m, "yes_ask")
         close_ts = parse_iso(m.get("close_time"))
         if bid is None or ask is None or close_ts is None:
             continue
         days = (close_ts - now) / 86400.0
         if not (lo <= bid <= hi) or not (0.05 <= days <= config.FAV_MAX_DAYS_TO_CLOSE):
             continue
+        if ask - bid > config.KALSHI_MAX_SPREAD_CENTS:
+            continue                     # wide spread: unfair maker/taker comparison
         out.append({"ticker": m.get("ticker"), "bid": bid, "ask": ask,
                     "close_ts": close_ts, "days_to_close": round(days, 2)})
+    log.info("favorites scan: %d kalshi candidates from %d rows", len(out), len(rows))
     return out
 
 
@@ -90,6 +98,11 @@ class Favorites:
             book = api.book(c["ticker"])
             if book.best_bid is None or book.best_ask is None:
                 continue
+            lo, hi = config.FAV_BAND_CENTS
+            if not (lo <= book.best_bid <= hi):
+                continue    # moved out of band between scan and entry
+            if book.best_ask - book.best_bid > config.KALSHI_MAX_SPREAD_CENTS:
+                continue
             if book.size_at("bid", book.best_bid) < config.FAV_MIN_BID_SIZE:
                 continue    # nobody real at the touch — skip ghost books
             n = config.FAV_CONTRACTS
@@ -107,7 +120,7 @@ class Favorites:
                     pos = {"variant": "maker", "price": price, "qty": n,
                            "filled_qty": 0.0, "fee_cents": 0.0,
                            "queue_ahead": book.size_at("bid", price),
-                           "last_tape_ts": now, "status": "open"}
+                           "tape_cursor": tape.new_cursor(now), "status": "open"}
                 pos.update({"venue": "kalshi", "ticker": c["ticker"], "opened_ts": now,
                             "close_ts": c["close_ts"],
                             "days_to_close_at_entry": c["days_to_close"]})
@@ -142,6 +155,7 @@ class Favorites:
 
     # -- maker fill simulation (tape replay, queue-conservative; Kalshi only) --
     def update_maker_fills(self, api: Kalshi, evidence: list) -> None:
+        now = time.time()
         for key, p in self.positions.items():
             if p["status"] != "open" or p["variant"] != "maker":
                 continue
@@ -149,7 +163,11 @@ class Favorites:
                 continue
             if p["filled_qty"] >= p["qty"]:
                 continue
-            for t in api.trades_since(p["ticker"], p["last_tape_ts"]):
+            if now >= p["close_ts"]:
+                continue                # market closed: no new tape can fill us
+            if "tape_cursor" not in p:  # migrate any pre-cursor position
+                p["tape_cursor"] = tape.new_cursor(p.get("last_tape_ts", now))
+            for t in tape.fresh_trades(api, p["ticker"], p["tape_cursor"]):
                 if t.taker_side != "no":            # only sells consume our bid
                     continue
                 if t.price_cents < p["price"] - 1e-9:      # traded through us
@@ -164,8 +182,8 @@ class Favorites:
                     p["filled_qty"] += fill
                     p["fee_cents"] += maker_fee_cents(p["price"], fill)
                     evidence.append({"type": "fav_fill", "key": key,
-                                     "ts": t.ts, "qty": fill})
-            p["last_tape_ts"] = time.time()
+                                     "ts": t.ts, "trade_id": t.trade_id,
+                                     "qty": fill})
 
     # -- grading ---------------------------------------------------------------
     def grade(self, api: Kalshi, evidence: list, poly=None) -> int:
@@ -179,11 +197,22 @@ class Favorites:
             if venue == "polymarket":
                 res = poly.result(p["ticker"]) if poly is not None else None
             else:
-                res = api.result(p["ticker"])
+                m = api.market(p["ticker"])
+                r = (m.get("result") or "").lower()
+                res = r if r in ("yes", "no") else None
+                if res is None:
+                    # Kalshi can push close_time later (delayed settlement).
+                    # Restart the void clock from the CURRENT close so a real
+                    # late outcome isn't silently dropped from the GO sample.
+                    fresh_close = parse_iso(m.get("close_time"))
+                    if fresh_close and fresh_close > p["close_ts"]:
+                        p["close_ts"] = fresh_close
+                        continue
             if res is None:
                 # settle lag: give it the standard window, then void it out
                 if time.time() - p["close_ts"] > 14 * 86400:
                     p["status"] = "void"
+                    evidence.append({"type": "fav_void", "key": key})
                 continue
             n = p["filled_qty"]
             if n <= 0:

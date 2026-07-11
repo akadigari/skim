@@ -37,7 +37,13 @@ MM_POLL_SECONDS = 20               # sim tick; Kalshi snapshots 1/s — our shar
                                    # estimator stays unbiased, just noisier
 MM_MARKOUT_SECONDS = 300           # adverse-selection markout horizon (5 min)
 MM_RESERVE_PER_MARKET_USD = 200.0  # capital reserve assumption for ranking
-QUEUE_POLICY = "conservative"      # cancels assumed BEHIND us (understates fills)
+MM_MAX_INVENTORY = 400             # |net contracts| cap per market (2x quote size):
+                                   # keeps the sim honest to the reserve assumption
+QUEUE_POLICY = "conservative"      # cancels assumed BEHIND us -> UNDERSTATES fills.
+                                   # NB (review-corrected): for the decision number
+                                   # that is verdict-OPTIMISTIC (rewards accrue with
+                                   # or without fills; fills mostly bring costs) —
+                                   # hence the fills-evidence floor in the GO gate.
 
 # Maker fee: Kalshi now charges makers ~25% of the taker fee (pm.wiki, 2026).
 # VERIFY against kalshi.com's fee schedule before any live decision.
@@ -50,16 +56,35 @@ FAV_MAX_DAYS_TO_CLOSE = 7          # only soon-resolving markets (per Whelan: av
                                    # final-day entries; we log entry-day for cuts)
 FAV_CONTRACTS = 10                 # small hypothetical size per position
 FAV_MIN_BID_SIZE = 50              # book must show some real size at our price
-FAV_MAX_POSITIONS = 60             # cap concurrent open paper positions
+FAV_MAX_POSITIONS = 120            # concurrent open paper positions (Kalshi).
+                                   # Expected-n honesty: ~0.5-2 day median holding in
+                                   # the <=7d window -> very roughly 15-60 settles/day
+                                   # at cap; 300 settles is reachable in 14d only in
+                                   # the good case, hence FAV_END_DAYS extends grading.
 FAV_SCAN_SECONDS = 3600            # scan cadence (hourly)
+FAV_FILL_CHECK_SECONDS = 600       # maker tape-fill sweep cadence (was every tick —
+                                   # pointless request load; fills replay incrementally)
+KALSHI_MAX_SPREAD_CENTS = 3.0      # skip wide-spread books (unfair maker/taker test)
+FAV_END_DAYS = 28                  # PRE-REGISTERED: favorites positions opened during
+                                   # the 14-day campaign keep GRADING until day 28
+                                   # (no new exposure after day 14); verdict frozen then
 
 # --- Campaign / gates ----------------------------------------------------------
 CAMPAIGN_DAYS = 14
 # mm_bot's measured 3-market baseline was $20-80/month => ~$0.67-2.67/day.
 # GO requires the breadth decision-number to reach 3x the midpoint of that.
-MM_BASELINE_DECISION_PER_DAY_CENTS = 150.0     # $1.50/day midpoint baseline
+MM_BASELINE_DECISION_PER_DAY_CENTS = 166.7     # TRUE midpoint of the measured
+                                                # $20-80/month 3-market baseline
+                                                # (=$0.67-2.67/day -> $1.67/day)
 MM_GO_MULTIPLE = 3.0                            # GO: decision/day >= 3x baseline
 MM_GO_EARN_PAY_RATIO = 1.5                      # AND (rewards+spread)/(AS+fees) >= 1.5
+MM_GO_MIN_FILLS = 30                            # the ratio leg is MEANINGLESS with no
+                                                # cost evidence: below this fill count
+                                                # the gate reads UNMEASURED, never GO
+MM_CALIBRATION_MAX_PER_MARKET_DAY_CENTS = 900   # tripwire: modeled rewards/market/day
+                                                # >10x the real mm_bot baseline means
+                                                # the share model is uncalibrated ->
+                                                # GO demoted to NO VERDICT
 FAV_GO_MIN_RESOLUTIONS = 300                    # favorites verdict needs n >= this
                                                 # (report shows Wilson CI + power honestly)
 
@@ -68,7 +93,7 @@ POLY_ENABLED = True
 POLY_SCAN_PAGES = 5                # top-volume gamma pages scanned per hour
 POLY_MAX_SPREAD_CENTS = 3.0        # skip wide-spread books (unfair taker test)
 POLY_TAKER_FEE_CENTS = 0.0         # Polymarket taker fee is currently zero
-POLY_FAV_MAX_POSITIONS = 40        # separate cap from the Kalshi book
+POLY_FAV_MAX_POSITIONS = 80        # separate cap from the Kalshi book
 
 # --- Telegram (dedicated SKIM bot — separate from other projects' bots) -------
 # Set as GitHub repo secrets TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID; env-only,

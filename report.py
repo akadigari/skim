@@ -37,10 +37,19 @@ def mm_gate(totals: dict, days: float) -> tuple[str, str]:
     dec_day = totals["decision"] / days
     earn = totals["rewards"] + totals["spread"]
     pay = totals["adverse"] + totals["fees"]
+    fills = totals.get("fills", 0)
     ratio = (earn / pay) if pay > 0 else float("inf")
     need = config.MM_GO_MULTIPLE * config.MM_BASELINE_DECISION_PER_DAY_CENTS
     detail = (f"decision ${dec_day/100:.2f}/day vs GO bar ${need/100:.2f}/day; "
-              f"earn/pay {ratio:.2f} vs {config.MM_GO_EARN_PAY_RATIO}")
+              f"earn/pay {ratio:.2f} vs {config.MM_GO_EARN_PAY_RATIO}; "
+              f"fills {fills}/{config.MM_GO_MIN_FILLS} evidence floor")
+    # The queue model UNDERSTATES fills, which flatters the decision number
+    # (rewards accrue without fills; fills mostly bring costs). With no body
+    # of fill/cost evidence, the ratio leg is vacuous — refuse to conclude.
+    if fills < config.MM_GO_MIN_FILLS or pay <= 0:
+        if days >= config.CAMPAIGN_DAYS:
+            return "NO VERDICT (UNMEASURED)", detail + " — cost side never got evidence"
+        return "UNMEASURED", detail + " — cost side lacks evidence so far"
     if days < config.CAMPAIGN_DAYS:
         return ("ON TRACK" if dec_day >= need and ratio >= config.MM_GO_EARN_PAY_RATIO
                 else "BEHIND"), detail
@@ -79,6 +88,28 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
 
     mm_verdict, mm_detail = mm_gate(totals, days)
     fv_verdict, fv_detail = fav_gate(fav_stats)
+
+    # Frozen (pre-registered horizon) verdicts override live recomputation —
+    # a verdict that keeps mutating after day 14 isn't pre-registered at all.
+    frozen_mm = state.get("mm_final")
+    if frozen_mm:
+        mm_verdict = f"FINAL: {frozen_mm['verdict']}"
+        mm_detail = frozen_mm["detail"] + " (frozen at day 14)"
+    frozen_fav = state.get("fav_final")
+    if frozen_fav:
+        fv_verdict = f"FINAL: {frozen_fav['verdict']}"
+        fv_detail = frozen_fav["detail"] + f" (frozen at day {config.FAV_END_DAYS})"
+
+    # Calibration tripwire: if the model claims rewards >10x the real-money
+    # per-market baseline, the share model is uncalibrated — never say GO.
+    n_quoting = max(state.get("quoting_now", len(sims)), 1)
+    rew_per_mkt_day = totals["rewards"] / max(days, 0.04) / n_quoting
+    uncalibrated = rew_per_mkt_day > config.MM_CALIBRATION_MAX_PER_MARKET_DAY_CENTS
+    if uncalibrated and not frozen_mm and mm_verdict in ("GO", "ON TRACK"):
+        mm_verdict = "NO VERDICT (REWARD MODEL UNCALIBRATED)"
+        mm_detail += (f"; modeled ${rew_per_mkt_day/100:.2f}/market/day exceeds the "
+                      f"${config.MM_CALIBRATION_MAX_PER_MARKET_DAY_CENTS/100:.2f} tripwire")
+
     mk, tk = fav_stats.get("maker", {}), fav_stats.get("taker", {})
 
     def usd(c):
@@ -87,6 +118,8 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     lines = [
         "# SKIM — Skimming Kalshi's Incentive Markets (campaign report)",
         "",
+        *(["**🏁 CAMPAIGN COMPLETE — verdicts below are FROZEN.**", ""]
+          if state.get("campaign_complete") else []),
         f"_Auto-generated {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} — "
         f"**day {days:.1f} of {config.CAMPAIGN_DAYS}**. 100% paper: this repo only "
         "reads public endpoints and cannot place orders._",
@@ -97,12 +130,16 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         "",
         "| metric | value |",
         "|---|---|",
-        f"| markets quoted | {len(sims)} |",
+        f"| markets quoting now / touched | {state.get('quoting_now', len(sims))} / {len(sims)} |",
         f"| est. rewards accrued | {usd(totals['rewards'])} |",
         f"| spread P&L (cash + mark) | {usd(totals['spread'])} |",
         f"| adverse selection (markout) | {usd(-totals['adverse'])} |",
         f"| maker fees | {usd(-totals['fees'])} |",
         f"| **decision number** | **{usd(totals['decision'])}** |",
+        f"| decision at 0.25x rewards (share-optimism haircut) | "
+        f"{usd(totals['decision'] - 0.75 * totals['rewards'])} |",
+        f"| decision at 0.10x rewards | "
+        f"{usd(totals['decision'] - 0.90 * totals['rewards'])} |",
         f"| fills / snapshots (counted) | {totals['fills']} / "
         f"{totals['snapshots']} ({totals['counted']}) |",
         "",

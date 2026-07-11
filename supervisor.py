@@ -39,10 +39,14 @@ REPORT_PATH = config.BASE_DIR / "REPORT.md"
 # State
 # ---------------------------------------------------------------------------
 def load_state() -> dict:
+    """Fresh state ONLY when no file exists. A corrupt/unreadable committed
+    state must raise: a silent reset would wipe the campaign and be committed
+    as truth within 30 minutes — the loud failure trips the health watchdog."""
     try:
-        return json.loads(STATE_PATH.read_text())
-    except (OSError, ValueError):
+        raw = STATE_PATH.read_text()
+    except FileNotFoundError:
         return {"campaign_start_ts": time.time(), "mm": [], "favorites": {}}
+    return json.loads(raw)   # ValueError/OSError propagate on purpose
 
 
 def save_state(state: dict, sims: list, fav: Favorites) -> None:
@@ -103,7 +107,8 @@ def git_checkpoint(push: bool) -> None:
         for _ in range(3):                        # tolerate a racing push
             if run("push").returncode == 0:
                 return
-            run("pull", "--rebase")
+            if run("pull", "--rebase").returncode != 0:
+                run("rebase", "--abort")          # never leave a half-rebase behind
         log.warning("git push failed after retries; data is committed locally")
 
 
@@ -111,21 +116,69 @@ def git_checkpoint(push: bool) -> None:
 # MM inventory grading: settle inventory in markets that resolved
 # ---------------------------------------------------------------------------
 def grade_mm(api: Kalshi, sims: list, evidence: list) -> list:
-    keep = []
     for s in sims:
+        if s.retired:
+            continue
         m = api.market(s.ticker)
         status = (m.get("status") or "").lower()
         res = (m.get("result") or "").lower()
         if res in ("yes", "no"):
             settle = 100.0 if res == "yes" else 0.0
+            s.flush_markouts(settle, evidence)    # near-settlement AS is never dropped
             s.cash_cents += settle * s.inventory
             s.inventory = 0.0
             s.last_mid = settle                   # spread_pnl marks at settlement
-            s.bid = s.ask = None                  # keep the accumulator, stop quoting
+            s.bid = s.ask = None
+            s.retired = True                      # keep the totals, stop ticking
             evidence.append({"type": "mm_settle", "ticker": s.ticker, "result": res,
                              "decision_cents": s.decision_cents})
-        keep.append(s)                            # unsettled / fetch blip: hold as-is
-    return keep
+        elif status in ("settled", "finalized", "determined"):
+            # terminal WITHOUT a yes/no result: a void/scratch. Unwind at the
+            # last known mark — inventing neither a win nor a loss.
+            mark = s.last_mid or 0.0
+            s.flush_markouts(mark, evidence)
+            s.cash_cents += mark * s.inventory
+            s.inventory = 0.0
+            s.bid = s.ask = None
+            s.retired = True
+            evidence.append({"type": "mm_void", "ticker": s.ticker,
+                             "decision_cents": s.decision_cents})
+    return sims
+
+
+# ---------------------------------------------------------------------------
+# Wind-down (day 14 -> FAV_END_DAYS): freeze MM, keep grading favorites
+# ---------------------------------------------------------------------------
+def wind_down(api, poly, state, sims, fav, evidence, age_days, push) -> None:
+    """After day CAMPAIGN_DAYS: no new exposure, no MM accrual. Freeze the MM
+    verdict once, keep grading favorites until FAV_END_DAYS, then freeze that
+    and mark the campaign complete. Each pass is a short job (~1 min)."""
+    import report as report_mod
+    if "mm_final" not in state:
+        grade_mm(api, sims, evidence)     # settle anything already resolved first
+        days = float(config.CAMPAIGN_DAYS)
+        totals = {"rewards": sum(s.reward_cents for s in sims),
+                  "spread": sum(s.spread_pnl_cents for s in sims),
+                  "adverse": sum(s.adverse_cents for s in sims),
+                  "fees": sum(s.fees_cents for s in sims),
+                  "decision": sum(s.decision_cents for s in sims),
+                  "fills": sum(s.fills for s in sims)}
+        verdict, detail = report_mod.mm_gate(totals, days)
+        state["mm_final"] = {"verdict": verdict, "detail": detail,
+                             "totals": totals, "frozen_ts": time.time()}
+        log.info("MM verdict FROZEN at day %.1f: %s", age_days, verdict)
+    grade_mm(api, sims, evidence)         # settle stragglers for the record
+    fav.grade(api, evidence, poly=poly)
+    if age_days >= config.FAV_END_DAYS and "fav_final" not in state:
+        verdict, detail = report_mod.fav_gate(fav.stats())
+        state["fav_final"] = {"verdict": verdict, "detail": detail,
+                              "frozen_ts": time.time()}
+        state["campaign_complete"] = True
+        log.info("Favorites verdict FROZEN: %s — campaign complete", verdict)
+    append_evidence(evidence)
+    save_state(state, sims, fav)
+    REPORT_PATH.write_text(report.render(state, sims, fav.stats()))
+    git_checkpoint(push=push)
 
 
 # ---------------------------------------------------------------------------
@@ -149,18 +202,31 @@ def main() -> None:
     fav = Favorites(state.get("favorites"))
     evidence: list = []
 
+    # ---- campaign phases (review: the day-14 verdict must FREEZE) ----------
+    age_days = (time.time() - state.get("campaign_start_ts", time.time())) / 86400.0
+    if state.get("campaign_complete"):
+        log.info("campaign complete — no-op run")
+        return
+    if age_days >= config.CAMPAIGN_DAYS:
+        wind_down(api, poly, state, sims, fav, evidence, age_days,
+                  push=not args.no_push and not args.once)
+        return
+
     # start-of-job housekeeping: grade what resolved, refill the roster
     sims = grade_mm(api, sims, evidence)
     fav.grade(api, evidence, poly=poly)
-    live = [s for s in sims if s.last_mid not in (0.0, 100.0)]
-    roster = select_markets(api, keep=[s.ticker for s in live])
+    kept = [s for s in sims if not s.retired]
+    roster = select_markets(api, kept)            # refreshes kept sims' pool terms
     have = {s.ticker for s in sims}
     sims += [s for s in roster if s.ticker not in have]
-    quoting = [s for s in sims if s.ticker in {r.ticker for r in roster}]
+    quoting = roster
+    state["quoting_now"] = len(quoting)
     log.info("roster: %d quoting, %d total accumulators", len(quoting), len(sims))
 
     deadline = time.time() + config.JOB_DEADLINE_MINUTES * 60
     next_checkpoint = time.time() + config.CHECKPOINT_MINUTES * 60
+    next_fill_sweep = time.time() + config.FAV_FILL_CHECK_SECONDS
+    next_fav_grade = time.time() + 3600
 
     while True:
         tick_started = time.time()
@@ -171,7 +237,13 @@ def main() -> None:
                 log.warning("tick %s failed: %s", s.ticker, e)
         try:
             fav.scan_and_open(api, evidence, poly=poly)   # internally hourly-throttled
-            fav.update_maker_fills(api, evidence)
+            now0 = time.time()
+            if now0 >= next_fill_sweep:
+                fav.update_maker_fills(api, evidence)
+                next_fill_sweep = now0 + config.FAV_FILL_CHECK_SECONDS
+            if now0 >= next_fav_grade:
+                fav.grade(api, evidence, poly=poly)       # recycle slots hourly
+                next_fav_grade = now0 + 3600
         except Exception as e:
             log.warning("favorites pass failed: %s", e)
 
@@ -182,8 +254,8 @@ def main() -> None:
             break
         if now >= next_checkpoint:
             maybe_send_digest(state, sims, fav)   # daily; no-op when unconfigured
-            save_state(state, sims, fav)
-            append_evidence(evidence)
+            append_evidence(evidence)             # evidence first: rows the state
+            save_state(state, sims, fav)          # doesn't count yet are benign
             REPORT_PATH.write_text(report.render(state, sims, fav.stats()))
             git_checkpoint(push=not args.no_push)
             next_checkpoint = now + config.CHECKPOINT_MINUTES * 60
@@ -193,8 +265,8 @@ def main() -> None:
 
     # final flush
     fav.grade(api, evidence, poly=poly)
-    save_state(state, sims, fav)
     append_evidence(evidence)
+    save_state(state, sims, fav)
     REPORT_PATH.write_text(report.render(state, sims, fav.stats()))
     if not args.once:
         git_checkpoint(push=not args.no_push)

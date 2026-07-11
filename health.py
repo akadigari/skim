@@ -27,9 +27,15 @@ STATE_PATH = config.STATE_DIR / "campaign.json"
 def staleness_hours(now: float | None = None) -> float | None:
     """Hours since the last committed checkpoint; None if no state yet."""
     try:
-        state = json.loads(STATE_PATH.read_text())
-    except (OSError, ValueError):
-        return None
+        raw = STATE_PATH.read_text()
+    except FileNotFoundError:
+        return None                    # campaign hasn't started: not an alarm
+    except OSError:
+        return float("inf")            # unreadable state IS an alarm
+    try:
+        state = json.loads(raw)
+    except ValueError:
+        return float("inf")            # corrupt committed state IS an alarm
     ts = state.get("last_checkpoint_ts") or state.get("campaign_start_ts")
     if not ts:
         return None

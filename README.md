@@ -24,7 +24,7 @@ seconds, and charges itself adverse selection via the real public trade tape
 through a queue-conservative fill model.
 
 **GO** iff decision ($ rewards + spread − adverse selection − fees) ≥ 3× the
-measured 3-market baseline ($1.50/day) **and** earn/pay ≥ 1.5. Else **KILL**.
+3-market baseline ($1.67/day, the midpoint of mm_bot's paper $20-80/month) **and** earn/pay ≥ 1.5, **and** the fill/cost side actually has evidence (below a minimum fill count the gate reads UNMEASURED, never GO). Else **KILL**.
 
 ### 2. Favorites — does the favorite-longshot bias survive being filled?
 Rest hypothetical maker bids at 85–95¢ on soon-resolving Kalshi markets, with a
@@ -71,7 +71,8 @@ python -m unittest discover -s tests -q
 ## Honesty rules
 
 - Paper first, always; every digest says PAPER out loud.
-- Queue model is **conservative** (cancels assumed behind us → understates fills).
+- Queue model understates fills (cancels assumed behind us). Review-corrected honesty note: for the decision number that bias is *optimistic* — rewards accrue without fills while fills mostly bring costs — so the GO gate requires a minimum body of fill evidence and the report prints reward-haircut sensitivity.
+- The share estimator assumes competitors don't react to our quotes; the report prints the decision number at 1x / 0.25x / 0.1x reward haircuts so that optimism is visible, and an uncalibrated reward model demotes GO to NO VERDICT.
 - Kill criteria are pre-registered in `config.py`/`report.py`; a null result is
   a finding, not a failure.
 - Known clock: Kalshi's liquidity/volume incentive programs currently end

@@ -76,7 +76,7 @@ class TestPolyFavorites(unittest.TestCase):
         # open via the poly branch only (kalshi scan bypassed with a stub api)
 
         class NoKalshi:
-            def open_markets(self):
+            def open_markets(self, **kw):
                 return []
         opened = fav.scan_and_open(NoKalshi(), [], poly=FakePoly([cand]))
         self.assertEqual(opened, 1)

@@ -128,8 +128,8 @@ class TestFavorites(unittest.TestCase):
         }
 
         class FakeApi:
-            def result(self, t):
-                return result
+            def market(self, t):
+                return {"result": result or "", "close_time": None}
         fav.grade(FakeApi(), [])
         return fav
 
@@ -150,8 +150,8 @@ class TestFavorites(unittest.TestCase):
         fav.positions["X|maker"]["filled_qty"] = 0.0
 
         class FakeApi:
-            def result(self, t):
-                return "yes"
+            def market(self, t):
+                return {"result": "yes", "close_time": None}
         fav.grade(FakeApi(), [])
         self.assertEqual(fav.positions["X|maker"]["status"], "unfilled")
 
@@ -165,11 +165,11 @@ class TestFavorites(unittest.TestCase):
 class TestGates(unittest.TestCase):
     def test_mm_gate_go_and_kill(self):
         good = {"rewards": 10000.0, "spread": 0.0, "adverse": 2000.0,
-                "fees": 1000.0, "decision": 7000.0}
+                "fees": 1000.0, "decision": 8000.0, "fills": 50}
         v, _ = report.mm_gate(good, days=config.CAMPAIGN_DAYS)
-        self.assertEqual(v, "GO")            # 7000/14 = 500c/day >= 450 bar; ratio 3.3
+        self.assertEqual(v, "GO")            # 571c/day >= 500.1c bar; ratio 3.3
         bad = {"rewards": 1000.0, "spread": 0.0, "adverse": 2000.0,
-               "fees": 500.0, "decision": -1500.0}
+               "fees": 500.0, "decision": -1500.0, "fills": 50}
         v, _ = report.mm_gate(bad, days=config.CAMPAIGN_DAYS)
         self.assertEqual(v, "KILL")
 

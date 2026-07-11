@@ -73,6 +73,8 @@ class Book:
     def mid(self):
         if self.best_bid is None or self.best_ask is None:
             return None
+        if self.best_ask <= self.best_bid:
+            return None                            # crossed snapshot: don't trust it
         return (self.best_bid + self.best_ask) / 2.0
 
     def size_at(self, side: str, price: float) -> float:
@@ -86,6 +88,7 @@ class Trade:
     price_cents: float
     count: float
     taker_side: str      # "yes" -> asks consumed; "no" -> bids consumed
+    trade_id: str = ""   # for cross-tick dedup at the watermark boundary
 
 
 @dataclass
@@ -147,6 +150,8 @@ class Kalshi:
             cursor = data.get("cursor") or data.get("next_cursor")
             if not cursor or not rows:
                 break
+        else:
+            log.warning("_paginate %s: max_pages hit with cursor live — TRUNCATED", path)
         return out
 
     # -- incentive pools ----------------------------------------------------
@@ -172,23 +177,46 @@ class Kalshi:
     def book(self, ticker: str) -> Book:
         data = self._get(f"/markets/{ticker}/orderbook")
         ob = (data.get("orderbook_fp") or data.get("orderbook") or {})
-        yes = ob.get("yes_dollars") or ob.get("yes") or []
-        no = ob.get("no_dollars") or ob.get("no") or []
+        # Bind the unit conversion to WHICH key the response used — never to the
+        # value's magnitude (a legacy 1-cent level must not become $1.00).
+        if ob.get("yes_dollars") is not None or ob.get("no_dollars") is not None:
+            yes, no = ob.get("yes_dollars") or [], ob.get("no_dollars") or []
+            def px(v):
+                return float(v) * 100.0
+        else:
+            yes, no = ob.get("yes") or [], ob.get("no") or []
+            def px(v):
+                return float(v)
 
-        def px(v):  # dollar-string in *_dollars form; integer cents in legacy form
-            f = float(v)
-            return f * 100.0 if f <= 1.5 else f
+        def ok(price):
+            return 0.0 < price < 100.0            # drop impossible levels
 
-        bids = sorted([Level(px(p), fp_to_float(s)) for p, s in yes],
+        bids = sorted([Level(px(p), fp_to_float(s)) for p, s in yes if ok(px(p))],
                       key=lambda l: -l.price_cents)
-        asks = sorted([Level(100.0 - px(p), fp_to_float(s)) for p, s in no],
+        asks = sorted([Level(100.0 - px(p), fp_to_float(s)) for p, s in no
+                       if ok(100.0 - px(p))],
                       key=lambda l: l.price_cents)
         return Book(ticker=ticker, ts=time.time(), bids=bids, asks=asks)
 
-    def trades_since(self, ticker: str, min_ts: float, limit: int = 200) -> list[Trade]:
-        rows = self._get("/markets/trades",
-                         {"ticker": ticker, "limit": limit, "min_ts": int(min_ts)}
-                         ).get("trades") or []
+    def trades_since(self, ticker: str, min_ts: float, limit: int = 200,
+                     max_pages: int = 5) -> list[Trade]:
+        """Public tape newer than min_ts, OLDEST FIRST, cursor-paginated so a busy
+        window can't silently truncate at one page. min_ts is int-floored by the
+        API; callers must therefore keep a FLOAT watermark + id-dedup (tape.py)."""
+        rows, cursor, pages = [], None, 0
+        while pages < max_pages:
+            pages += 1
+            params = {"ticker": ticker, "limit": limit, "min_ts": int(min_ts)}
+            if cursor:
+                params["cursor"] = cursor
+            data = self._get("/markets/trades", params)
+            page = data.get("trades") or []
+            rows.extend(page)
+            cursor = data.get("cursor") or data.get("next_cursor")
+            if not cursor or not page:
+                break
+        else:
+            log.warning("trades_since %s: page cap hit — tape window truncated", ticker)
         trades = [Trade(
             ts=parse_iso(r.get("created_time")) or 0.0,
             price_cents=dollars_to_cents(r.get("yes_price_dollars"))
@@ -196,16 +224,38 @@ class Kalshi:
                         else float(r.get("yes_price") or 0.0),
             count=fp_to_float(r.get("count_fp")) or float(r.get("count") or 0.0),
             taker_side=r.get("taker_outcome_side") or r.get("taker_side", ""),
+            trade_id=str(r.get("trade_id") or ""),
         ) for r in rows]
         trades.sort(key=lambda t: t.ts)          # oldest first for tape replay
         return trades
 
+    @staticmethod
+    def market_price_cents(m: dict, field: str):
+        """Read a price field off a /markets row, whichever shape the API used.
+        Live payloads carry {field}_dollars ("0.87"); legacy carried integer
+        cents. Returns cents float or None. (The favorites scan was dead without
+        this — live /markets no longer returns the legacy field.)"""
+        dollars = m.get(f"{field}_dollars")
+        if dollars not in (None, ""):
+            return float(dollars) * 100.0
+        legacy = m.get(field)
+        if legacy in (None, ""):
+            return None
+        return float(legacy)
+
     def market(self, ticker: str) -> dict:
         return self._get(f"/markets/{ticker}").get("market") or {}
 
-    def open_markets(self, max_pages: int = 20) -> list[dict]:
-        return self._paginate("/markets", {"status": "open", "limit": 200},
-                              "markets", max_pages=max_pages)
+    def open_markets(self, max_pages: int = 20, min_close_ts: int | None = None,
+                     max_close_ts: int | None = None) -> list[dict]:
+        """Open markets, optionally close-window-filtered SERVER-side so a
+        scan sees the real universe instead of an arbitrary page prefix."""
+        params: dict = {"status": "open", "limit": 200}
+        if min_close_ts is not None:
+            params["min_close_ts"] = int(min_close_ts)
+        if max_close_ts is not None:
+            params["max_close_ts"] = int(max_close_ts)
+        return self._paginate("/markets", params, "markets", max_pages=max_pages)
 
     def result(self, ticker: str):
         """'yes' | 'no' | None (unsettled/void). Only terminal statuses count."""

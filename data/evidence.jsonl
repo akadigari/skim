@@ -830,3 +830,15 @@
 {"type": "fav_settle", "key": "polymarket|2883756|taker", "result": "yes", "pnl_cents": 130.0}
 {"type": "fav_settle", "key": "polymarket|2882757|taker", "result": "yes", "pnl_cents": 70.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2816938", "opened_ts": 1783886689.588234, "close_ts": 1784482800.0, "days_to_close_at_entry": 6.9, "question": "Cleveland Guardians vs. Miami Marlins"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783887149.977872, "trade_id": "723475f3-59da-5dc5-df9a-be91ca8035fe", "side": "ask", "price": 12.0, "qty": 144.63}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783887149.977872, "trade_id": "69697555-23be-5db4-f1a7-628a3e8fd1c2", "side": "ask", "price": 12.0, "qty": 20.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783887149.977872, "trade_id": "66e873db-40c6-5842-fa0c-dd0a7a2c2b0a", "side": "ask", "price": 12.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783887149.977872, "trade_id": "5ca35b2a-31d1-520f-c21b-cab22038c461", "side": "ask", "price": 12.0, "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783887149.977872, "trade_id": "2fcad0e1-67fa-5542-ccb5-c7855d286b3f", "side": "ask", "price": 12.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783887149.977872, "trade_id": "22a0c2e1-9e8d-5dc4-c44e-01f82b7f2f1c", "side": "ask", "price": 12.0, "qty": 15.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 12.0, "qty": 144.63, "mid_later": 11.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 12.0, "qty": 20.0, "mid_later": 11.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 12.0, "qty": 5.0, "mid_later": 11.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 12.0, "qty": 10.0, "mid_later": 11.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 12.0, "qty": 1.0, "mid_later": 11.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 12.0, "qty": 15.0, "mid_later": 11.5, "adverse_cents": 0.0}

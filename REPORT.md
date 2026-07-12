@@ -1,6 +1,6 @@
 # SKIM — Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-12 03:15 UTC — **day 0.2 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-12 03:23 UTC — **day 0.2 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
 
 ## Experiment 1 — MM breadth (liquidity-pool harvesting)
 
@@ -9,14 +9,14 @@ _Auto-generated 2026-07-12 03:15 UTC — **day 0.2 of 14**. 100% paper: this rep
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 15 |
-| est. rewards accrued | $+177.59 |
+| est. rewards accrued | $+178.05 |
 | spread P&L (cash + mark) | $-312.74 |
 | adverse selection (markout) | $-895.44 |
 | maker fees | $-47.73 |
-| **decision number** | **$-1078.32** |
-| decision at 0.25x rewards (share-optimism haircut) | $-1211.52 |
-| decision at 0.10x rewards | $-1238.16 |
-| fills / snapshots (counted) | 302 / 14955 (6414) |
+| **decision number** | **$-1077.87** |
+| decision at 0.25x rewards (share-optimism haircut) | $-1211.40 |
+| decision at 0.10x rewards | $-1238.11 |
+| fills / snapshots (counted) | 302 / 15300 (6437) |
 
 ### Per-market
 
@@ -27,7 +27,7 @@ _Auto-generated 2026-07-12 03:15 UTC — **day 0.2 of 14**. 100% paper: this rep
 | KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19 | $193 | 62% | $+9.58 | $-1.00 | 2 | $+8.44 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+3.38 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $+3.22 |
-| KXAAAGASD-26JUL12-3.875 | $198 | 69% | $+31.67 | $-30.68 | 80 | $-5.47 |
+| KXAAAGASD-26JUL12-3.875 | $198 | 69% | $+32.13 | $-30.68 | 80 | $-5.01 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-11.15 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-11.33 |
 | KXWCSTART-26JUL11ARGSUI-SUI-FRIEDE22 | $193 | 85% | $+12.75 | $-39.21 | 9 | $-28.96 |

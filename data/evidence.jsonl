@@ -674,3 +674,5 @@
 {"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783826030.021376, "trade_id": "09340f49-4c2d-6f0e-af66-727cdef9d6c0", "side": "ask", "price": 90.0, "qty": 0.12}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 90.0, "qty": 3.19, "mid_later": 89.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 90.0, "qty": 2.0, "mid_later": 89.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.870", "side": "bid", "price": 98.0, "qty": 12.420000000000002, "mid_later": 98.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 90.0, "qty": 0.12, "mid_later": 89.5, "adverse_cents": 0.0}

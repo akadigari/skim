@@ -802,3 +802,23 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2885024", "opened_ts": 1783875887.8826663, "close_ts": 1784476800.0, "days_to_close_at_entry": 6.95, "question": "Bogota: Nicolas Mejia vs Matias Soto"}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783876698.430567, "trade_id": "90791107-b47d-60dd-3b3f-71d9d57de056", "side": "ask", "price": 31.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 31.0, "qty": 200, "mid_later": 51.5, "adverse_cents": 4100.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783877881.15917, "trade_id": "c39fb1b2-b197-6324-2e06-060038df2178", "side": "bid", "price": 51.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783877881.15917, "trade_id": "89cf70a1-6daf-6119-2f3a-0c5ba646acd2", "side": "bid", "price": 51.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783877881.15917, "trade_id": "1e300ed4-387e-6d2e-035f-b8e6df3b9499", "side": "bid", "price": 51.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1783877942.450816, "trade_id": "798dffc9-438c-58a1-a6c5-84d399e4bace", "side": "ask", "price": 8.0, "qty": 7.759999999999998}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 51.0, "qty": 2.0, "mid_later": 45.0, "adverse_cents": 12.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 51.0, "qty": 1.0, "mid_later": 45.0, "adverse_cents": 6.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 51.0, "qty": 1.0, "mid_later": 45.0, "adverse_cents": 6.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 8.0, "qty": 7.759999999999998, "mid_later": 7.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1783878619.529441, "trade_id": "b0d381e9-ca1c-4a7d-238f-20323a5c7a9f", "side": "ask", "price": 8.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1783878619.529441, "trade_id": "992f4207-48ca-4ee4-0ab4-5d1b6d22d5b3", "side": "ask", "price": 8.0, "qty": 187.24}
+{"type": "fav_fill", "key": "kalshi|KXBRENTW-26JUL1717-T73.99|maker", "ts": 1783878628.794225, "trade_id": "d2475a37-3d4c-6078-6a6d-b78173e0c28a", "qty": 10.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 8.0, "qty": 5.0, "mid_later": 13.5, "adverse_cents": 27.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 8.0, "qty": 187.24, "mid_later": 13.5, "adverse_cents": 1029.8200000000002}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1783879168.884478, "trade_id": "076f5e06-2bd6-5d04-ae42-ea6e19b3ef7b", "side": "ask", "price": 39.0, "qty": 10.990000000000002}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1783879168.884478, "trade_id": "06e91554-9a2a-5541-b184-13c575e6abda", "side": "ask", "price": 39.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 10.990000000000002, "mid_later": 38.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 1.0, "mid_later": 38.5, "adverse_cents": 0.0}
+{"type": "fav_open", "variant": "maker", "price": 85.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 125.0, "tape_cursor": {"ts": 1783879487.903898, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXALBUMEQUIV-ALB26JUL16-140K", "opened_ts": 1783879487.903898, "close_ts": 1784469600.0, "days_to_close_at_entry": 6.83}
+{"type": "fav_open", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 9, "status": "open", "venue": "kalshi", "ticker": "KXALBUMEQUIV-ALB26JUL16-140K", "opened_ts": 1783879487.903898, "close_ts": 1784469600.0, "days_to_close_at_entry": 6.83}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2804715", "opened_ts": 1783879487.903898, "close_ts": 1784131800.0, "days_to_close_at_entry": 2.92, "question": "LoL: Bilibili Gaming vs Movistar KOI (BO1) - Esports World Cup Group C"}

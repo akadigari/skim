@@ -676,3 +676,39 @@
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 90.0, "qty": 2.0, "mid_later": 89.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.870", "side": "bid", "price": 98.0, "qty": 12.420000000000002, "mid_later": 98.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 90.0, "qty": 0.12, "mid_later": 89.5, "adverse_cents": 0.0}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-AJASHA14", "result": "no", "decision_cents": -15036.859410401183}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-MMUHEI2", "result": "no", "decision_cents": -4995.607171469826}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "result": "no", "decision_cents": 7288.095726194953}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-FRIEDE22", "result": "yes", "decision_cents": -4970.315887335666}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-RVARGA17", "result": "no", "decision_cents": -56149.349821181044}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25", "result": "no", "decision_cents": 37.933221219536904}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI6", "result": "yes", "decision_cents": -5258.788527245823}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-NMOLIN26", "result": "yes", "decision_cents": -29897.404960666805}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23", "result": "no", "decision_cents": -278.15198718681586}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16", "result": "no", "decision_cents": -1300.5303247019315}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19", "result": "no", "decision_cents": 844.0151707989772}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-JALVAR9", "result": "yes", "decision_cents": -4699.965527317898}
+{"type": "mm_settle", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7", "result": "yes", "decision_cents": -2047.179649694865}
+{"type": "fav_settle", "key": "polymarket|2712984|taker", "result": "yes", "pnl_cents": 95.0}
+{"type": "fav_settle", "key": "polymarket|2844231|taker", "result": "yes", "pnl_cents": 92.5}
+{"type": "fav_open", "variant": "maker", "price": 90.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 200.0, "tape_cursor": {"ts": 1783831405.9266956, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXCOPPERW-26JUL1717-T5.99", "opened_ts": 1783831405.9266956, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.68}
+{"type": "fav_open", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 5, "status": "open", "venue": "kalshi", "ticker": "KXCOPPERW-26JUL1717-T5.99", "opened_ts": 1783831405.9266956, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.68}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2880285", "opened_ts": 1783831405.9266956, "close_ts": 1784055600.0, "days_to_close_at_entry": 2.59, "question": "France vs. Spain: O/U 0.5"}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783831511.227789, "trade_id": "d87e4db8-3194-6cec-f25a-2fc65be61b87", "side": "ask", "price": 59.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783831574.97355, "trade_id": "11f82e4d-1d8a-46c1-bc1f-9805509a89f7", "side": "bid", "price": 46.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RIH", "ts": 1783831593.620034, "trade_id": "1cb4d31a-0bcb-7150-ceec-efbb0441e590", "side": "bid", "price": 52.0, "qty": 0.01}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 59.0, "qty": 200, "mid_later": 58.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 46.0, "qty": 2.0, "mid_later": 30.0, "adverse_cents": 32.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RIH", "side": "bid", "price": 52.0, "qty": 0.01, "mid_later": 35.0, "adverse_cents": 0.17}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RIH", "ts": 1783831979.823052, "trade_id": "24276f5e-e418-432a-0b33-985fa97e7160", "side": "ask", "price": 37.0, "qty": 2.220446049250313e-16}
+{"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL1717-T59499.99|maker", "ts": 1783830177.132814, "trade_id": "16381d91-f14d-64b8-548d-a276ba067f90", "qty": 10.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RIH", "side": "ask", "price": 37.0, "qty": 2.220446049250313e-16, "mid_later": 41.0, "adverse_cents": 8.881784197001252e-16}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783832575.827064, "trade_id": "bc127b60-c015-64e0-0179-f901f2c42623", "side": "ask", "price": 27.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783832650.882841, "trade_id": "faa5391b-865d-6f28-83b7-e7372f8d11e1", "side": "bid", "price": 69.0, "qty": 0.98}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783832650.882841, "trade_id": "8cc55f2c-6747-6d21-ae34-5774a927ccbe", "side": "bid", "price": 69.0, "qty": 199.02}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 1.0, "mid_later": 14.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 69.0, "qty": 0.98, "mid_later": 14.0, "adverse_cents": 53.9}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 69.0, "qty": 199.02, "mid_later": 14.0, "adverse_cents": 10946.1}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783833044.52728, "trade_id": "63c25cdf-3397-77ba-ee58-54cdcdae6511", "side": "bid", "price": 57.99999999999999, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783833044.52728, "trade_id": "3e47b4a5-e028-7618-d805-09c4c3bec131", "side": "bid", "price": 57.99999999999999, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783833044.52728, "trade_id": "14e24068-b482-7085-e2b4-fab42d5379c4", "side": "bid", "price": 57.99999999999999, "qty": 4.0}

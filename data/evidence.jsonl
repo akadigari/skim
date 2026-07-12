@@ -590,3 +590,11 @@
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 89.0, "qty": 1.0, "mid_later": 88.0, "adverse_cents": 1.0}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 89.0, "qty": 1.0, "mid_later": 88.0, "adverse_cents": 1.0}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 89.0, "qty": 1.0, "mid_later": 88.0, "adverse_cents": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783819602.567887, "trade_id": "84638256-6293-6b5b-3d3d-f00ecbee6e85", "side": "bid", "price": 87.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 87.0, "qty": 200, "mid_later": 85.5, "adverse_cents": 300.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783820416.231494, "trade_id": "5bfbddd0-753a-6398-662c-08b88b1eb812", "side": "bid", "price": 85.0, "qty": 200}
+{"type": "fav_open", "variant": "maker", "price": 95.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 98.0, "tape_cursor": {"ts": 1783820611.2740738, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXETHD-26JUL1717-T1589.99", "opened_ts": 1783820611.2740738, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.8}
+{"type": "fav_open", "variant": "taker", "price": 98.0, "qty": 10, "filled_qty": 10, "fee_cents": 2, "status": "open", "venue": "kalshi", "ticker": "KXETHD-26JUL1717-T1589.99", "opened_ts": 1783820611.2740738, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.8}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2419361", "opened_ts": 1783820611.2740738, "close_ts": 1783900800.0, "days_to_close_at_entry": 0.93, "question": "Will Argentina reach the Semifinals at the 2026 FIFA World Cup?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2818085", "opened_ts": 1783820611.2740738, "close_ts": 1783958400.0, "days_to_close_at_entry": 1.59, "question": "Will the price of Bitcoin be above $62,000 on July 13?"}
+{"type": "fav_settle", "key": "polymarket|2878267|taker", "result": "yes", "pnl_cents": 60.0}

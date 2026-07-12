@@ -727,3 +727,6 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 30.0, "qty": 69.42999999999999, "mid_later": 29.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 30.0, "qty": 2.0, "mid_later": 29.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "bid", "price": 56.00000000000001, "qty": 4.36, "mid_later": 56.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783837246.443148, "trade_id": "16da6666-a58d-60de-eb41-02c1e88892fe", "side": "bid", "price": 43.0, "qty": 2.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 43.0, "qty": 2.0, "mid_later": 22.0, "adverse_cents": 42.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 98.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2866996", "opened_ts": 1783838608.1585991, "close_ts": 1783857600.0, "days_to_close_at_entry": 0.22, "question": "Will the highest temperature in Hong Kong be 34\u00b0C on July 12?"}

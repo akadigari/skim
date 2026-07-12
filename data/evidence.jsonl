@@ -497,3 +497,61 @@
 {"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815218.581001, "trade_id": "25ac8e2f-4bc9-7693-7baa-bb9f014fce7f", "side": "ask", "price": 84.0, "qty": 5.77}
 {"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "ask", "price": 2.0, "qty": 200, "mid_later": 2.0, "adverse_cents": 0.0}
 {"type": "fav_fill", "key": "kalshi|KXWTESTMATCH-26JUL100600INDENG-IND|maker", "ts": 1783814659.441266, "trade_id": "c9c35072-39ca-485a-ed71-888077216b67", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815316.486037, "trade_id": "ae7613c3-cc15-75cb-981f-73ea0f1b3093", "side": "ask", "price": 84.0, "qty": 17.65}
+{"type": "mm_fill", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "ts": 1783815342.86402, "trade_id": "97754ad9-a5f3-504e-45cc-32eeceb7f32f", "side": "ask", "price": 2.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "bid", "price": 1.0, "qty": 21.85999999999991, "mid_later": 1.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "bid", "price": 1.0, "qty": 151.4, "mid_later": 1.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "bid", "price": 1.0, "qty": 18.75, "mid_later": 1.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "bid", "price": 1.0, "qty": 7.990000000000094, "mid_later": 1.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 5.77, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 17.65, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "ask", "price": 2.0, "qty": 200, "mid_later": 1.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815678.736034, "trade_id": "383c7682-5baf-4c34-0af6-8f599a9f03c2", "side": "ask", "price": 84.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815678.736034, "trade_id": "071f9c1d-1f63-466d-3a45-1a28da7e4cc9", "side": "ask", "price": 84.0, "qty": 4.41}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815703.613125, "trade_id": "7b680d81-4403-482d-bd34-0234a353e93d", "side": "ask", "price": 84.0, "qty": 2.35}
+{"type": "mm_fill", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "ts": 1783815708.254307, "trade_id": "29475292-b3b7-7f53-b927-23ad63c4e101", "side": "bid", "price": 1.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815727.599341, "trade_id": "012de1d8-57ef-7c5d-2260-7e49e6639301", "side": "ask", "price": 84.0, "qty": 5.88}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815816.818367, "trade_id": "02e92718-d79b-48dc-e81d-e0109d78d320", "side": "bid", "price": 83.0, "qty": 0.11000000000000032}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783815816.818367, "trade_id": "011e171f-ad89-4f44-cc5c-32b4e56d81ce", "side": "bid", "price": 83.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 5.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 4.41, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 2.35, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22", "side": "bid", "price": 1.0, "qty": 200, "mid_later": 1.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 5.88, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 83.0, "qty": 0.11000000000000032, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 83.0, "qty": 5.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "f39e685f-09cc-6459-fdd0-147ac1f8a64a", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "eff12996-32ef-690e-d11e-932cafa5bd32", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "d20b65e9-591c-673a-fed6-ce57e83ce118", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "bc63c8ad-d0b4-6658-edd3-89b7235d5ff2", "side": "ask", "price": 84.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "bbe8dea1-319c-6b44-ca75-db81c8c41f19", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "92ae7884-66cf-61af-e309-be29f462ee37", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "6e1e44c3-2335-6325-ee63-4997bbf51cf5", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816152.621854, "trade_id": "08180627-cedc-6c85-c87f-a77c59f47cd4", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.870", "ts": 1783816287.557441, "trade_id": "f171954f-c8b9-7490-6994-3a16f1f2d49c", "side": "bid", "price": 93.0, "qty": 141.01000000000002}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 4.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "fav_fill", "key": "kalshi|KXETHD-26JUL1717-T1709.99|maker", "ts": 1783816284.87505, "trade_id": "e705a251-05b9-7947-5027-6228dd0107c9", "qty": 10.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.870", "side": "bid", "price": 93.0, "qty": 141.01000000000002, "mid_later": 93.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816594.045106, "trade_id": "d4360a02-ed00-79a5-b993-4ccd095d436c", "side": "bid", "price": 83.0, "qty": 0.25}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816866.086407, "trade_id": "94fde623-82b1-5788-13ef-4fe74adfc07e", "side": "ask", "price": 84.0, "qty": 1.35}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816866.086407, "trade_id": "2a649093-020c-5420-1f9f-7a188d74630a", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.875", "ts": 1783816891.025416, "trade_id": "ecffaa46-137b-547e-fdf4-ccfa4a2f52d3", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL12-3.875", "side": "bid", "price": 83.0, "qty": 0.25, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "fav_open", "variant": "maker", "price": 85.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 406.14, "tape_cursor": {"ts": 1783817011.2565453, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXCFLGAME-26JUL11CGYMTL-MTL", "opened_ts": 1783817011.2565453, "close_ts": 1784415600.0, "days_to_close_at_entry": 6.93}
+{"type": "fav_open", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 8, "status": "open", "venue": "kalshi", "ticker": "KXCFLGAME-26JUL11CGYMTL-MTL", "opened_ts": 1783817011.2565453, "close_ts": 1784415600.0, "days_to_close_at_entry": 6.93}
+{"type": "fav_open", "variant": "maker", "price": 85.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 56.0, "tape_cursor": {"ts": 1783817011.2565453, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3981.99", "opened_ts": 1783817011.2565453, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.84}
+{"type": "fav_open", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 8, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3981.99", "opened_ts": 1783817011.2565453, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.84}
+{"type": "fav_open", "variant": "maker", "price": 93.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 749.0, "tape_cursor": {"ts": 1783817011.2565453, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXBTCD-26JUL1717-T58999.99", "opened_ts": 1783817011.2565453, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.84}
+{"type": "fav_open", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 3, "status": "open", "venue": "kalshi", "ticker": "KXBTCD-26JUL1717-T58999.99", "opened_ts": 1783817011.2565453, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.84}
+{"type": "fav_open", "variant": "maker", "price": 86.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 554.0, "tape_cursor": {"ts": 1783817011.2565453, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXBRENTW-26JUL1717-T73.99", "opened_ts": 1783817011.2565453, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.84}
+{"type": "fav_open", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 8, "status": "open", "venue": "kalshi", "ticker": "KXBRENTW-26JUL1717-T73.99", "opened_ts": 1783817011.2565453, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.84}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2859909", "opened_ts": 1783817011.2565453, "close_ts": 1783900740.0, "days_to_close_at_entry": 0.97, "question": "Will \"Minions & Monsters\" 2nd Weekend Box Office be at least 20m?"}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.870", "ts": 1783817033.848993, "trade_id": "8f5ee723-19ce-4d93-2f6e-31d691de1742", "side": "bid", "price": 92.0, "qty": 24.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL12-3.870", "ts": 1783817033.848993, "trade_id": "377e51b4-e866-4a50-1111-a09eafb20b48", "side": "bid", "price": 92.0, "qty": 176.0}

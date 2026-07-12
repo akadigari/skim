@@ -1,6 +1,6 @@
 # SKIM — Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-12 00:14 UTC — **day 0.1 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-12 00:44 UTC — **day 0.1 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
 
 ## Experiment 1 — MM breadth (liquidity-pool harvesting)
 
@@ -9,25 +9,25 @@ _Auto-generated 2026-07-12 00:14 UTC — **day 0.1 of 14**. 100% paper: this rep
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 15 |
-| est. rewards accrued | $+149.58 |
-| spread P&L (cash + mark) | $-327.34 |
+| est. rewards accrued | $+154.96 |
+| spread P&L (cash + mark) | $-322.74 |
 | adverse selection (markout) | $-875.99 |
-| maker fees | $-44.16 |
-| **decision number** | **$-1097.91** |
-| decision at 0.25x rewards (share-optimism haircut) | $-1210.10 |
-| decision at 0.10x rewards | $-1232.53 |
-| fills / snapshots (counted) | 223 / 6810 (5380) |
+| maker fees | $-44.84 |
+| **decision number** | **$-1088.60** |
+| decision at 0.25x rewards (share-optimism haircut) | $-1204.82 |
+| decision at 0.10x rewards | $-1228.06 |
+| fills / snapshots (counted) | 247 / 8175 (5584) |
 
 ### Per-market
 
 | ticker | pool $/day | share | rewards | AS | fills | decision |
 |---|---|---|---|---|---|---|
-| KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22 | $180 | 55% | $+8.73 | $-154.12 | 67 | $+63.28 |
-| KXAAAGASD-26JUL12-3.870 | $198 | 48% | $+10.04 | $-0.00 | 26 | $+10.51 |
+| KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22 | $180 | 52% | $+8.73 | $-154.12 | 69 | $+67.10 |
+| KXAAAGASD-26JUL12-3.870 | $198 | 48% | $+12.08 | $-0.00 | 29 | $+12.53 |
 | KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19 | $193 | 62% | $+9.58 | $-1.00 | 2 | $+8.44 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+3.38 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $+3.22 |
-| KXAAAGASD-26JUL12-3.875 | $198 | 71% | $+14.73 | $-20.23 | 21 | $-9.52 |
+| KXAAAGASD-26JUL12-3.875 | $198 | 72% | $+18.07 | $-20.23 | 40 | $-6.06 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-11.15 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-11.33 |
 | KXWCSTART-26JUL11ARGSUI-SUI-FRIEDE22 | $193 | 85% | $+12.75 | $-39.21 | 9 | $-28.96 |
@@ -44,9 +44,9 @@ _Auto-generated 2026-07-12 00:14 UTC — **day 0.1 of 14**. 100% paper: this rep
 
 | variant | open | unfilled | settled | wins | P&L | cond-on-fill ROI |
 |---|---|---|---|---|---|---|
-| kalshi maker | 23 | 0 | 0 | 0 (win-rate CI 0%-100%) | $+0.00 | n/a |
-| kalshi taker | 23 | — | 0 | 0 | $+0.00 | n/a |
-| poly taker (zero-fee) | 6 | — | 0 | 0 | $+0.00 | n/a |
+| kalshi maker | 27 | 0 | 0 | 0 (win-rate CI 0%-100%) | $+0.00 | n/a |
+| kalshi taker | 27 | — | 0 | 0 | $+0.00 | n/a |
+| poly taker (zero-fee) | 7 | — | 0 | 0 | $+0.00 | n/a |
 
 _If maker ROI < taker ROI, queue fills are adversely selected — the exact failure mode this experiment exists to measure. The Polymarket taker leg is the zero-fee existence test of the bias itself (phase 1: taker-only there; the pre-registered gate is judged on the Kalshi maker leg only)._
 

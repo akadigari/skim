@@ -827,3 +827,6 @@
 {"type": "fav_fill", "key": "kalshi|KXALBUMEQUIV-ALB26JUL16-140K|maker", "ts": 1783881650.270712, "trade_id": "167bfe91-1345-6acb-bf98-81a31d461137", "qty": 10.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2888166", "opened_ts": 1783883089.5416746, "close_ts": 1783900800.0, "days_to_close_at_entry": 0.2, "question": "Counter-Strike: BESTIA vs Keyd (BO3) - Thunderpick World Championship South Amer"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2833129", "opened_ts": 1783883089.5416746, "close_ts": 1784044800.0, "days_to_close_at_entry": 1.87, "question": "Will the price of Bitcoin be above $62,000 on July 14?"}
+{"type": "fav_settle", "key": "polymarket|2883756|taker", "result": "yes", "pnl_cents": 130.0}
+{"type": "fav_settle", "key": "polymarket|2882757|taker", "result": "yes", "pnl_cents": 70.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2816938", "opened_ts": 1783886689.588234, "close_ts": 1784482800.0, "days_to_close_at_entry": 6.9, "question": "Cleveland Guardians vs. Miami Marlins"}

@@ -793,3 +793,7 @@
 {"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873820.361397, "trade_id": "b41ea3d3-910e-42e2-c848-13cd4c565c06", "side": "ask", "price": 78.0, "qty": 1.0}
 {"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873827.559708, "trade_id": "200bb33f-b3b3-7c02-0611-4cf8c4d22a10", "side": "ask", "price": 81.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "bid", "price": 81.0, "qty": 200, "mid_later": 80.5, "adverse_cents": 100.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 78.0, "qty": 99.0, "mid_later": 80.5, "adverse_cents": 247.5}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 78.0, "qty": 1.0, "mid_later": 80.5, "adverse_cents": 2.5}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 78.0, "qty": 1.0, "mid_later": 80.5, "adverse_cents": 2.5}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 81.0, "qty": 200, "mid_later": 80.5, "adverse_cents": 0.0}

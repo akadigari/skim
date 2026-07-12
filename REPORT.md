@@ -1,6 +1,6 @@
 # SKIM — Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-12 01:44 UTC — **day 0.2 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-12 02:15 UTC — **day 0.2 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
 
 ## Experiment 1 — MM breadth (liquidity-pool harvesting)
 
@@ -9,26 +9,26 @@ _Auto-generated 2026-07-12 01:44 UTC — **day 0.2 of 14**. 100% paper: this rep
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 15 |
-| est. rewards accrued | $+166.02 |
-| spread P&L (cash + mark) | $-329.23 |
-| adverse selection (markout) | $-879.38 |
-| maker fees | $-45.73 |
-| **decision number** | **$-1088.33** |
-| decision at 0.25x rewards (share-optimism haircut) | $-1212.84 |
-| decision at 0.10x rewards | $-1237.75 |
-| fills / snapshots (counted) | 264 / 10875 (5944) |
+| est. rewards accrued | $+170.88 |
+| spread P&L (cash + mark) | $-319.89 |
+| adverse selection (markout) | $-888.38 |
+| maker fees | $-46.48 |
+| **decision number** | **$-1083.87** |
+| decision at 0.25x rewards (share-optimism haircut) | $-1212.03 |
+| decision at 0.10x rewards | $-1237.66 |
+| fills / snapshots (counted) | 271 / 12240 (6126) |
 
 ### Per-market
 
 | ticker | pool $/day | share | rewards | AS | fills | decision |
 |---|---|---|---|---|---|---|
 | KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22 | $180 | 52% | $+8.73 | $-154.12 | 69 | $+67.10 |
-| KXAAAGASD-26JUL12-3.870 | $198 | 53% | $+17.47 | $-0.00 | 29 | $+17.92 |
+| KXAAAGASD-26JUL12-3.870 | $198 | 51% | $+19.21 | $-9.00 | 30 | $+17.95 |
 | KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19 | $193 | 62% | $+9.58 | $-1.00 | 2 | $+8.44 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+3.38 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $+3.22 |
+| KXAAAGASD-26JUL12-3.875 | $198 | 72% | $+26.86 | $-23.63 | 63 | $-6.75 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-11.15 |
-| KXAAAGASD-26JUL12-3.875 | $198 | 72% | $+23.74 | $-23.63 | 57 | $-11.17 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-11.33 |
 | KXWCSTART-26JUL11ARGSUI-SUI-FRIEDE22 | $193 | 85% | $+12.75 | $-39.21 | 9 | $-28.96 |
 | KXWCSTART-26JUL11ARGSUI-ARG-JALVAR9 | $180 | 65% | $+8.99 | $-12.03 | 23 | $-35.73 |

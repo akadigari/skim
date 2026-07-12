@@ -755,3 +755,41 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.9, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2885001", "opened_ts": 1783849408.2323399, "close_ts": 1784449800.0, "days_to_close_at_entry": 6.95, "question": "Iasi Open, Qualification: Caroline Werner vs Ilinca Amariei"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2884981", "opened_ts": 1783849408.2323399, "close_ts": 1784449800.0, "days_to_close_at_entry": 6.95, "question": "Swedish Open, Qualification: Martin Krumich vs Frederico Ferreira Silva"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2870361", "opened_ts": 1783849408.2323399, "close_ts": 1783864800.0, "days_to_close_at_entry": 0.18, "question": "Valorant: Nova Esports vs FunPlus Phoenix (BO3) - VCT China Stage 2 Group Alpha"}
+{"type": "mm_settle", "ticker": "KXAAAGASD-26JUL12-3.875", "result": "yes", "decision_cents": 2108.9170299053317}
+{"type": "mm_settle", "ticker": "KXAAAGASD-26JUL12-3.870", "result": "yes", "decision_cents": 2744.2979888644145}
+{"type": "fav_settle", "key": "polymarket|2880710|taker", "result": "no", "pnl_cents": -940.0}
+{"type": "fav_settle", "key": "polymarket|2870361|taker", "result": "yes", "pnl_cents": 110.0}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-ZEN", "gap_s": 20459.64980149269}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-VIC", "gap_s": 20459.694598913193}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-PAR", "gap_s": 20459.698610305786}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KEN", "gap_s": 20459.69587135315}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RYA", "gap_s": 20459.696285009384}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KIM", "gap_s": 20459.697783231735}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KYL", "gap_s": 20459.696166038513}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-DRA", "gap_s": 20459.702414751053}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TIM", "gap_s": 20459.701852083206}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RIH", "gap_s": 20459.69716668129}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TOMH", "gap_s": 20459.695729255676}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRA", "gap_s": 20459.695400714874}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 20459.694246530533}
+{"type": "mm_gap_resume", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "gap_s": 20459.69654250145}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 20459.697080373764}
+{"type": "fav_open", "variant": "maker", "price": 89.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 200.0, "tape_cursor": {"ts": 1783872267.950126, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXCOPPERW-26JUL1717-T6.02", "opened_ts": 1783872267.950126, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.21}
+{"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXCOPPERW-26JUL1717-T6.02", "opened_ts": 1783872267.950126, "close_ts": 1784322000.0, "days_to_close_at_entry": 5.21}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2883756", "opened_ts": 1783872267.950126, "close_ts": 1783885500.0, "days_to_close_at_entry": 0.15, "question": "Valorant: 100 Thieves vs NRG (BO5) - Esports World Cup Playoffs"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2882790", "opened_ts": 1783872267.950126, "close_ts": 1783882800.0, "days_to_close_at_entry": 0.12, "question": "Counter-Strike: Bushido Wildcats vs MOUZ NXT (BO3) - ESL Challenger League Europ"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2884890", "opened_ts": 1783872267.950126, "close_ts": 1784473200.0, "days_to_close_at_entry": 6.96, "question": "Croatia Open, Qualification: Marco Cecchinato vs Genaro Alberto Olivieri"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.5, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2835635", "opened_ts": 1783872267.950126, "close_ts": 1783900740.0, "days_to_close_at_entry": 0.33, "question": "Iran successfully targets shipping on July 12?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2882757", "opened_ts": 1783872267.950126, "close_ts": 1783884000.0, "days_to_close_at_entry": 0.14, "question": "Counter-Strike: fnatic vs Misa Esports (BO3) - ESL Challenger League Europe Cup "}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873156.049962, "trade_id": "fd17d78b-d945-4e3c-ca4a-b1a28bcc8264", "side": "bid", "price": 83.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873240.994932, "trade_id": "c01e93f1-4bf7-59ab-0346-48f0ee01823f", "side": "bid", "price": 74.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "bid", "price": 83.0, "qty": 200, "mid_later": 73.5, "adverse_cents": 1900.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873501.438035, "trade_id": "ca53896c-d68a-5e54-db09-a8c2f7962ae2", "side": "ask", "price": 74.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "bid", "price": 74.0, "qty": 200, "mid_later": 83.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873690.994252, "trade_id": "bbf7b92a-5eb8-56f3-932c-7a2365f2f6a1", "side": "bid", "price": 81.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 74.0, "qty": 200, "mid_later": 77.5, "adverse_cents": 700.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873820.361397, "trade_id": "ce2d5ceb-4f66-42c6-e021-e59b4a3870b6", "side": "ask", "price": 78.0, "qty": 99.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873820.361397, "trade_id": "c01969da-b178-4600-cd72-97d761ed54fa", "side": "ask", "price": 78.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873820.361397, "trade_id": "b41ea3d3-910e-42e2-c848-13cd4c565c06", "side": "ask", "price": 78.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783873827.559708, "trade_id": "200bb33f-b3b3-7c02-0611-4cf8c4d22a10", "side": "ask", "price": 81.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "bid", "price": 81.0, "qty": 200, "mid_later": 80.5, "adverse_cents": 100.0}

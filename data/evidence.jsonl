@@ -724,3 +724,6 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783834856.153429, "trade_id": "4918aed9-6cb9-5e5f-453f-6fcc217bc8bc", "side": "ask", "price": 30.0, "qty": 2.0}
 {"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "ask", "price": 57.0, "qty": 200, "mid_later": 56.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "ts": 1783834958.730614, "trade_id": "c87ae71b-233d-66a9-ef4f-6734ac206293", "side": "bid", "price": 56.00000000000001, "qty": 4.36}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 30.0, "qty": 69.42999999999999, "mid_later": 29.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 30.0, "qty": 2.0, "mid_later": 29.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "side": "bid", "price": 56.00000000000001, "qty": 4.36, "mid_later": 56.5, "adverse_cents": 0.0}

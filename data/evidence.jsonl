@@ -1182,3 +1182,4 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "bid", "price": 34.0, "qty": 0.3400000000000001, "mid_later": 34.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-ZEN", "ts": 1783958134.243257, "trade_id": "3fcce351-6969-6917-3b92-4568ea10114d", "side": "bid", "price": 34.0, "qty": 199.66}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "bid", "price": 34.0, "qty": 199.66, "mid_later": 33.5, "adverse_cents": 99.83}
+{"type": "fav_settle", "key": "polymarket|2818085|taker", "result": "yes", "pnl_cents": 80.0}

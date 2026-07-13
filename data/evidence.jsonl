@@ -1183,3 +1183,73 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-ZEN", "ts": 1783958134.243257, "trade_id": "3fcce351-6969-6917-3b92-4568ea10114d", "side": "bid", "price": 34.0, "qty": 199.66}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "bid", "price": 34.0, "qty": 199.66, "mid_later": 33.5, "adverse_cents": 99.83}
 {"type": "fav_settle", "key": "polymarket|2818085|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN", "result": "yes", "decision_cents": -26548.40320719951}
+{"type": "fav_settle", "key": "polymarket|2859909|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "fav_settle", "key": "kalshi|KXSOLD-26JUL1317-T73.9999|taker", "result": "yes", "pnl_cents": 112.0}
+{"type": "fav_settle", "key": "kalshi|KXSOLD-26JUL1317-T72.9999|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "kalshi|KXSILVERD-26JUL1317-T56.25|maker", "result": "yes", "pnl_cents": 108.25}
+{"type": "fav_settle", "key": "kalshi|KXSILVERD-26JUL1317-T56.25|taker", "result": "yes", "pnl_cents": 93.0}
+{"type": "fav_settle", "key": "kalshi|KXSILVERD-26JUL1317-T56|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXSILVERD-26JUL1317-T55.75|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXGOLDD-26JUL1317-T3967|maker", "result": "yes", "pnl_cents": 88.5}
+{"type": "fav_settle", "key": "kalshi|KXGOLDD-26JUL1317-T3967|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL1317-T61249.99|maker", "result": "yes", "pnl_cents": 118.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL1317-T61249.99|taker", "result": "yes", "pnl_cents": 103.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL1317-T60749.99|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL1317-T60499.99|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTD-26JUL1317-T77|maker", "result": "yes", "pnl_cents": 128.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTD-26JUL1317-T77|taker", "result": "yes", "pnl_cents": 112.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTD-26JUL1317-T76.50|maker", "result": "yes", "pnl_cents": 88.5}
+{"type": "fav_settle", "key": "kalshi|KXBRENTD-26JUL1317-T76.50|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTD-26JUL1317-T76|maker", "result": "yes", "pnl_cents": 49.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTD-26JUL1317-T76|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "polymarket|2860426|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_settle", "key": "polymarket|2877760|taker", "result": "yes", "pnl_cents": 40.0}
+{"type": "fav_settle", "key": "polymarket|2818013|taker", "result": "yes", "pnl_cents": 120.0}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-ZEN", "gap_s": 20465.11920452118}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-VIC", "gap_s": 20465.197649478912}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-PAR", "gap_s": 20465.202662229538}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KEN", "gap_s": 20465.19717812538}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RYA", "gap_s": 20465.197623729706}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KIM", "gap_s": 20465.196497440338}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KYL", "gap_s": 20465.198642253876}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-DRA", "gap_s": 20465.196207761765}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TIM", "gap_s": 20465.197981119156}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RIH", "gap_s": 20465.195104599}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TOMH", "gap_s": 20465.198467969894}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRA", "gap_s": 20465.198429584503}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 20465.197941303253}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 20465.195786476135}
+{"type": "mm_gap_resume", "ticker": "KXDXYDUD-26JUL13-T100.9650", "gap_s": 20465.19488620758}
+{"type": "fav_open", "variant": "maker", "price": 88.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 1011.23, "tape_cursor": {"ts": 1783980197.06146, "ids": ["14fbdb72-9aff-57eb-2e47-a5769e0fdf6f"]}, "status": "open", "venue": "kalshi", "ticker": "KXWCATTEND-26JUL20-DAV", "opened_ts": 1783979844.5396266, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.67}
+{"type": "fav_open", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 7, "status": "open", "venue": "kalshi", "ticker": "KXWCATTEND-26JUL20-DAV", "opened_ts": 1783979844.5396266, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.67}
+{"type": "fav_open", "variant": "maker", "price": 92.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 2010.0, "tape_cursor": {"ts": 1783980283.972317, "ids": ["18304610-5b62-4817-1123-9e2887509143"]}, "status": "open", "venue": "kalshi", "ticker": "KXRT-ODY-85", "opened_ts": 1783979844.5396266, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.67}
+{"type": "fav_open", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 5, "status": "open", "venue": "kalshi", "ticker": "KXRT-ODY-85", "opened_ts": 1783979844.5396266, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.67}
+{"type": "fav_open", "variant": "maker", "price": 95.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 2418.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXRT-ODY-80", "opened_ts": 1783979844.5396266, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.67}
+{"type": "fav_open", "variant": "taker", "price": 97.0, "qty": 10, "filled_qty": 10, "fee_cents": 3, "status": "open", "venue": "kalshi", "ticker": "KXRT-ODY-80", "opened_ts": 1783979844.5396266, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.67}
+{"type": "fav_open", "variant": "maker", "price": 95.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 57.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL20-3.820", "opened_ts": 1783979844.5396266, "close_ts": 1784519940.0, "days_to_close_at_entry": 6.25}
+{"type": "fav_open", "variant": "taker", "price": 97.0, "qty": 10, "filled_qty": 10, "fee_cents": 3, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL20-3.820", "opened_ts": 1783979844.5396266, "close_ts": 1784519940.0, "days_to_close_at_entry": 6.25}
+{"type": "fav_open", "variant": "maker", "price": 93.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 53.0, "tape_cursor": {"ts": 1783980171.764717, "ids": ["a8f11b79-7002-481c-485c-7d4bb18f94d7", "417ae9fd-46b4-499d-6d23-bf47dc1014ef"]}, "status": "open", "venue": "kalshi", "ticker": "KXALBUMEQUIV-ALB26JUL16-120K", "opened_ts": 1783979844.5396266, "close_ts": 1784469600.0, "days_to_close_at_entry": 5.67}
+{"type": "fav_open", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXALBUMEQUIV-ALB26JUL16-120K", "opened_ts": 1783979844.5396266, "close_ts": 1784469600.0, "days_to_close_at_entry": 5.67}
+{"type": "fav_open", "variant": "maker", "price": 95.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 800.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXSILVERW-26JUL1717-T51.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "taker", "price": 97.0, "qty": 10, "filled_qty": 10, "fee_cents": 3, "status": "open", "venue": "kalshi", "ticker": "KXSILVERW-26JUL1717-T51.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "maker", "price": 86.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 503.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3841.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 8, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3841.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "maker", "price": 90.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 500.0, "tape_cursor": {"ts": 1783980415.9759, "ids": ["29bbe5be-9522-6f5b-447b-be9288055264", "04a3d366-070c-606a-59f1-d92a9f518c8f"]}, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3821.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3821.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "maker", "price": 92.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 52.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3801.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 5, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3801.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "maker", "price": 93.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 503.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3781.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXGOLDW-26JUL1717-T3781.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "maker", "price": 91.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 124.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXBRENTW-26JUL1717-T75.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXBRENTW-26JUL1717-T75.99", "opened_ts": 1783979844.5396266, "close_ts": 1784322000.0, "days_to_close_at_entry": 3.96}
+{"type": "fav_open", "variant": "maker", "price": 85.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 150.0, "tape_cursor": {"ts": 1783979844.5396266, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXCS2GAME-26JUL151200BKGH-GH", "opened_ts": 1783979844.5396266, "close_ts": 1784304000.0, "days_to_close_at_entry": 3.75}
+{"type": "fav_open", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 8, "status": "open", "venue": "kalshi", "ticker": "KXCS2GAME-26JUL151200BKGH-GH", "opened_ts": 1783979844.5396266, "close_ts": 1784304000.0, "days_to_close_at_entry": 3.75}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.1, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2891314", "opened_ts": 1783979844.5396266, "close_ts": 1784559600.0, "days_to_close_at_entry": 6.71, "question": "Lincoln: Coleman Wong vs Tung-Lin Wu"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2821329", "opened_ts": 1783979844.5396266, "close_ts": 1784073540.0, "days_to_close_at_entry": 1.08, "question": "Israel x Lebanon diplomatic meeting by July 14, 2026?"}
+{"type": "fav_fill", "key": "kalshi|KXGOLDW-26JUL1717-T3961.99|maker", "ts": 1783973390.708733, "trade_id": "d055b18f-2620-6fe1-bb44-a9b4fd206035", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXETHD-26JUL1717-T1669.99|maker", "ts": 1783959657.638601, "trade_id": "a5bedb57-f260-70bf-e3c3-d773757226ec", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXBRENTW-26JUL1717-T69.99|maker", "ts": 1783962181.9786, "trade_id": "d88d4b6e-3f7a-4751-3187-ea6ecb1cee61", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL1717-T57499.99|maker", "ts": 1783964301.819965, "trade_id": "85824d61-546a-609c-662b-c0a86c6e4a17", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXWCPRICE-26JULWCSEMI2-1750|maker", "ts": 1783959418.47791, "trade_id": "7ce8682f-8d90-67cc-f6fe-b65d6e049d4c", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXGOLDW-26JUL1717-T3821.99|maker", "ts": 1783980415.9759, "trade_id": "29bbe5be-9522-6f5b-447b-be9288055264", "qty": 10.0}

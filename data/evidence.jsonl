@@ -1038,3 +1038,14 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "435d87ba-bfd8-494e-74cf-b0c25764eaf4", "side": "bid", "price": 36.0, "qty": 5.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "3ed2ebe6-4084-4518-69dd-0fbc00652b98", "side": "bid", "price": 36.0, "qty": 4.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "088c5a9c-3372-4e81-56af-07eb33e254d9", "side": "bid", "price": 36.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 118.0, "mid_later": 33.0, "adverse_cents": 354.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 3.0, "mid_later": 33.0, "adverse_cents": 9.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 25.0, "mid_later": 33.0, "adverse_cents": 75.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 1.0, "mid_later": 33.0, "adverse_cents": 3.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 5.0, "mid_later": 33.0, "adverse_cents": 15.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 4.0, "mid_later": 33.0, "adverse_cents": 12.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 36.0, "qty": 4.0, "mid_later": 33.0, "adverse_cents": 12.0}
+{"type": "fav_fill", "key": "kalshi|KXGOLDW-26JUL1717-T3901.99|maker", "ts": 1783952215.660837, "trade_id": "f6684fda-12c1-5bb7-e4a4-ff8ad5d150e1", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXGOLDW-26JUL1717-T3861.99|maker", "ts": 1783952240.647517, "trade_id": "bfc2a304-9104-5528-fe16-b2fa0567d79b", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXGOLDD-26JUL1317-T3967|maker", "ts": 1783952212.473012, "trade_id": "a783e5ea-b146-62f3-8eba-3afebdd762b5", "qty": 10.0}
+{"type": "fav_settle", "key": "polymarket|2870902|taker", "result": "yes", "pnl_cents": 90.0}

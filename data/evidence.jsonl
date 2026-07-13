@@ -1021,3 +1021,20 @@
 {"type": "mm_markout", "ticker": "KXDXYDUD-26JUL13-T100.9650", "side": "ask", "price": 36.0, "qty": 124.11, "mid_later": 45.5, "adverse_cents": 1179.045}
 {"type": "mm_fill", "ticker": "KXDXYDUD-26JUL13-T100.9650", "ts": 1783948252.102815, "trade_id": "d54dc96f-8bbf-7f47-02ed-6da9bf738eba", "side": "ask", "price": 38.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXDXYDUD-26JUL13-T100.9650", "side": "ask", "price": 38.0, "qty": 200, "mid_later": 37.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783950551.284374, "trade_id": "b787692b-a7ad-7001-ab5c-16b210844784", "side": "ask", "price": 15.0, "qty": 159.99999999999997}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783950551.284374, "trade_id": "3e0f4313-0ce3-7224-b74c-b9abc5a7f856", "side": "ask", "price": 15.0, "qty": 25.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783950551.284374, "trade_id": "00ff1cb9-43af-7405-b543-b5d5000fd3ad", "side": "ask", "price": 15.0, "qty": 4.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 85.1, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2885230", "opened_ts": 1783950675.5381355, "close_ts": 1784534400.0, "days_to_close_at_entry": 6.76, "question": "Bunschoten: Gilles Arnaud Bailly vs Filippo Romano"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2898991", "opened_ts": 1783950675.5381355, "close_ts": 1784547000.0, "days_to_close_at_entry": 6.9, "question": "Istanbul 2: Hanne Vandewinkel vs Carol Young Suh Lee"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.4, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2899018", "opened_ts": 1783950675.5381355, "close_ts": 1784552400.0, "days_to_close_at_entry": 6.96, "question": "Istanbul 2: Gabriela Knutson vs Irem Kurt"}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 15.0, "qty": 159.99999999999997, "mid_later": 17.5, "adverse_cents": 399.99999999999994}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 15.0, "qty": 25.0, "mid_later": 17.5, "adverse_cents": 62.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 15.0, "qty": 4.0, "mid_later": 17.5, "adverse_cents": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL1317-T61249.99|maker", "ts": 1783950778.645557, "trade_id": "5398b97e-6a16-5b22-5fe7-269b78b26f00", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "a4f9ff04-2a0f-4bbf-43af-6e76e9c64cb9", "side": "bid", "price": 36.0, "qty": 118.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "5e06ab84-9311-45ef-43f8-69c8a6369d24", "side": "bid", "price": 36.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "5ad4dd9e-eb1a-440c-5835-88c1da9267ab", "side": "bid", "price": 36.0, "qty": 25.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "48aa1e1c-139e-4482-445e-6c7d3ef73b36", "side": "bid", "price": 36.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "435d87ba-bfd8-494e-74cf-b0c25764eaf4", "side": "bid", "price": 36.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "3ed2ebe6-4084-4518-69dd-0fbc00652b98", "side": "bid", "price": 36.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783951406.261772, "trade_id": "088c5a9c-3372-4e81-56af-07eb33e254d9", "side": "bid", "price": 36.0, "qty": 4.0}

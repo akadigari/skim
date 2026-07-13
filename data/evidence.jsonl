@@ -1017,3 +1017,5 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.9, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2891174", "opened_ts": 1783943471.8435273, "close_ts": 1784530800.0, "days_to_close_at_entry": 6.8, "question": "Iasi Open, Qualification: Leyre Romero Gormaz vs Zhibek Kulambayeva"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2885201", "opened_ts": 1783943471.8435273, "close_ts": 1784534400.0, "days_to_close_at_entry": 6.84, "question": "Cordenons: Inaki Montes vs Lorenzo Angelini"}
 {"type": "fav_fill", "key": "kalshi|KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI|maker", "ts": 1783943252.982792, "trade_id": "68ad08ab-a434-74b5-f9f0-58db844269b3", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL13-T100.9650", "ts": 1783944764.263431, "trade_id": "18c0c09e-c3ec-44ef-95ff-0054f9dba052", "side": "ask", "price": 36.0, "qty": 124.11}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL13-T100.9650", "side": "ask", "price": 36.0, "qty": 124.11, "mid_later": 45.5, "adverse_cents": 1179.045}

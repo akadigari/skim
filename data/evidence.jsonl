@@ -1253,3 +1253,12 @@
 {"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL1717-T57499.99|maker", "ts": 1783964301.819965, "trade_id": "85824d61-546a-609c-662b-c0a86c6e4a17", "qty": 10.0}
 {"type": "fav_fill", "key": "kalshi|KXWCPRICE-26JULWCSEMI2-1750|maker", "ts": 1783959418.47791, "trade_id": "7ce8682f-8d90-67cc-f6fe-b65d6e049d4c", "qty": 10.0}
 {"type": "fav_fill", "key": "kalshi|KXGOLDW-26JUL1717-T3821.99|maker", "ts": 1783980415.9759, "trade_id": "29bbe5be-9522-6f5b-447b-be9288055264", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1783982063.619147, "trade_id": "e423a465-7121-52fa-8f99-92aa55771796", "side": "bid", "price": 47.0, "qty": 7.86}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1783982063.619147, "trade_id": "d468a6ea-43b0-5faa-86ca-7a5c72a433c0", "side": "bid", "price": 47.0, "qty": 192.14}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "bid", "price": 47.0, "qty": 7.86, "mid_later": 43.0, "adverse_cents": 31.44}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "bid", "price": 47.0, "qty": 192.14, "mid_later": 43.0, "adverse_cents": 768.56}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1783983313.831299, "trade_id": "c70d7933-03b6-4b08-4a19-e1d8f7db2271", "side": "bid", "price": 55.00000000000001, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1783983313.831299, "trade_id": "aeaec3a3-61ca-443f-7aea-95346d19ec63", "side": "bid", "price": 55.00000000000001, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1783983313.831299, "trade_id": "7bacfdcc-0f54-47d5-58c9-18b859914a33", "side": "bid", "price": 55.00000000000001, "qty": 0.01}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1783983313.831299, "trade_id": "53eb7ee0-e184-4da8-4f9e-351881b6e3a7", "side": "bid", "price": 55.00000000000001, "qty": 0.01}
+{"type": "fav_fill", "key": "kalshi|KXALBUMEQUIV-ALB26JUL16-120K|maker", "ts": 1783983400.728719, "trade_id": "66337b91-cdcb-459b-81d8-24f77b611f32", "qty": 10.0}

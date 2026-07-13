@@ -975,3 +975,8 @@
 {"type": "fav_fill", "key": "kalshi|KXRT-EVI-70|maker", "ts": 1783918693.736223, "trade_id": "e94efeb1-d496-5584-cad5-fb8de6d6d4f4", "qty": 10.0}
 {"type": "fav_fill", "key": "kalshi|KXCPICORE-26JUN-T0.1|maker", "ts": 1783919351.066773, "trade_id": "bc3b11a2-bbe1-406e-0b2c-ec39a8c546ed", "qty": 10.0}
 {"type": "fav_fill", "key": "kalshi|KXWTI-26JUL1414-T71.49|maker", "ts": 1783919809.61206, "trade_id": "b3296321-ebd5-5bf3-ed14-e64f7a390609", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1783922945.88824, "trade_id": "59557764-27cd-7e14-8a08-8ce92e64b581", "side": "bid", "price": 38.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1783922945.88824, "trade_id": "1d05480f-420a-7e2b-adee-7e2eb8809cca", "side": "bid", "price": 38.0, "qty": 11.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "bid", "price": 38.0, "qty": 3.0, "mid_later": 38.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "bid", "price": 38.0, "qty": 11.0, "mid_later": 38.5, "adverse_cents": 0.0}
+{"type": "fav_fill", "key": "kalshi|KXSILVERD-26JUL1317-T56.25|maker", "ts": 1783923081.685081, "trade_id": "b945c2ee-0291-556b-1030-91af2acd6e7a", "qty": 10.0}

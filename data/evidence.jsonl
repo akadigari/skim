@@ -1019,3 +1019,5 @@
 {"type": "fav_fill", "key": "kalshi|KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI|maker", "ts": 1783943252.982792, "trade_id": "68ad08ab-a434-74b5-f9f0-58db844269b3", "qty": 10.0}
 {"type": "mm_fill", "ticker": "KXDXYDUD-26JUL13-T100.9650", "ts": 1783944764.263431, "trade_id": "18c0c09e-c3ec-44ef-95ff-0054f9dba052", "side": "ask", "price": 36.0, "qty": 124.11}
 {"type": "mm_markout", "ticker": "KXDXYDUD-26JUL13-T100.9650", "side": "ask", "price": 36.0, "qty": 124.11, "mid_later": 45.5, "adverse_cents": 1179.045}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL13-T100.9650", "ts": 1783948252.102815, "trade_id": "d54dc96f-8bbf-7f47-02ed-6da9bf738eba", "side": "ask", "price": 38.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL13-T100.9650", "side": "ask", "price": 38.0, "qty": 200, "mid_later": 37.5, "adverse_cents": 0.0}

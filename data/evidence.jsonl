@@ -1169,3 +1169,16 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 32.0, "qty": 163.0, "mid_later": 31.5, "adverse_cents": 81.5}
 {"type": "fav_settle", "key": "kalshi|KXRT-EVI-70|maker", "result": "yes", "pnl_cents": 59.0}
 {"type": "fav_settle", "key": "kalshi|KXRT-EVI-70|taker", "result": "yes", "pnl_cents": 46.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 21.0, "qty": 200, "mid_later": 25.0, "adverse_cents": 800.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "bid", "price": 36.0, "qty": 6.34, "mid_later": 30.5, "adverse_cents": 34.87}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 17.0, "qty": 6.74, "mid_later": 18.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 17.0, "qty": 1.35, "mid_later": 18.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "bid", "price": 28.999999999999996, "qty": 3.0, "mid_later": 21.0, "adverse_cents": 23.99999999999999}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "bid", "price": 28.999999999999996, "qty": 1.17, "mid_later": 21.0, "adverse_cents": 9.359999999999996}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "bid", "price": 28.999999999999996, "qty": 3.46, "mid_later": 21.0, "adverse_cents": 27.67999999999999}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-ZEN", "ts": 1783957795.827995, "trade_id": "0fda2066-d65c-4b1d-2de2-d62b0c51930f", "side": "bid", "price": 34.0, "qty": 0.3400000000000001}
+{"type": "fav_open", "variant": "maker", "price": 94.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 3617.89, "tape_cursor": {"ts": 1783958112.01655, "ids": ["fe18207c-4ab6-7da3-3cc7-be3412e425a0"]}, "status": "open", "venue": "kalshi", "ticker": "KXWCATTEND-26JUL20-TBRA", "opened_ts": 1783957875.5866158, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.92}
+{"type": "fav_open", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXWCATTEND-26JUL20-TBRA", "opened_ts": 1783957875.5866158, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.92}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "bid", "price": 34.0, "qty": 0.3400000000000001, "mid_later": 34.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-ZEN", "ts": 1783958134.243257, "trade_id": "3fcce351-6969-6917-3b92-4568ea10114d", "side": "bid", "price": 34.0, "qty": 199.66}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "bid", "price": 34.0, "qty": 199.66, "mid_later": 33.5, "adverse_cents": 99.83}

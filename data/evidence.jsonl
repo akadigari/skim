@@ -1385,3 +1385,42 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "ask", "price": 14.0, "qty": 200, "mid_later": 24.0, "adverse_cents": 2000.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2898155", "opened_ts": 1784020771.9246023, "close_ts": 1784038200.0, "days_to_close_at_entry": 0.2, "question": "Counter-Strike: SPARTA vs ENCE (BO3) - European Pro League Series 8 Group C"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2907563", "opened_ts": 1784020771.9246023, "close_ts": 1784620800.0, "days_to_close_at_entry": 6.94, "question": "Bunschoten: Jay Clarke vs Louis Wessels"}
+{"type": "fav_settle", "key": "kalshi|KXCPICORE-26JUN-T0.1|maker", "result": "no", "pnl_cents": -872.0}
+{"type": "fav_settle", "key": "kalshi|KXCPICORE-26JUN-T0.1|taker", "result": "no", "pnl_cents": -888.0}
+{"type": "fav_settle", "key": "polymarket|2898155|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-ZEN", "gap_s": 20460.614614248276}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-VIC", "gap_s": 20460.648173570633}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-PAR", "gap_s": 20460.518096923828}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KEN", "gap_s": 20460.59940314293}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RYA", "gap_s": 20460.62459421158}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KIM", "gap_s": 20460.668035268784}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KYL", "gap_s": 20460.623157262802}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-DRA", "gap_s": 20460.6644179821}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TIM", "gap_s": 20460.664574623108}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RIH", "gap_s": 20460.66934990883}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TOMH", "gap_s": 20460.64607334137}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRA", "gap_s": 20460.662946224213}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 20460.667784929276}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 20460.667117118835}
+{"type": "mm_gap_resume", "ticker": "KXDXYDUD-26JUL13-T100.9650", "gap_s": 20460.663458108902}
+{"type": "fav_open", "variant": "maker", "price": 94.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 3786.04, "tape_cursor": {"ts": 1784045260.992178, "ids": ["40a2a34d-3c9e-6524-70a7-8c79c50b2cbe"]}, "status": "open", "venue": "kalshi", "ticker": "KXTRUMPWORLDCUP-26-DJT-1", "opened_ts": 1784043604.8901699, "close_ts": 1784606340.0, "days_to_close_at_entry": 6.51}
+{"type": "fav_open", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXTRUMPWORLDCUP-26-DJT-1", "opened_ts": 1784043604.8901699, "close_ts": 1784606340.0, "days_to_close_at_entry": 6.51}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2905239", "opened_ts": 1784043604.8901699, "close_ts": 1784059200.0, "days_to_close_at_entry": 0.18, "question": "S&P 500 (SPX) Up or Down on July 14?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.9, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2905434", "opened_ts": 1784043604.8901699, "close_ts": 1784062800.0, "days_to_close_at_entry": 0.22, "question": "WTI Crude Oil (WTI) Up or Down on July 14?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.25, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2891663", "opened_ts": 1784043604.8901699, "close_ts": 1784142000.0, "days_to_close_at_entry": 1.14, "question": "England vs. Argentina: O/U 0.5"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784043748.223029, "trade_id": "a19e9bf8-d87f-5388-35bf-98284396622d", "side": "ask", "price": 47.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 47.0, "qty": 200, "mid_later": 53.0, "adverse_cents": 1200.0}
+{"type": "fav_fill", "key": "kalshi|KXWCATTEND-26JUL20-DAV|maker", "ts": 1784036409.161669, "trade_id": "840fbb54-1d61-6867-f9a0-e980b407436f", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXTOPMODEL-26JUL20-CLAUT|maker", "ts": 1784032253.771378, "trade_id": "027895fa-32e7-6346-85ee-730c11ba0452", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784044240.130568, "trade_id": "970acdba-3692-6727-3b07-b9755f82738b", "side": "bid", "price": 39.0, "qty": 77.96}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784044240.130568, "trade_id": "7c5f33f1-6d06-63ea-3eb3-1b6f6548ed8a", "side": "bid", "price": 39.0, "qty": 1.25}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784044394.390106, "trade_id": "7f613903-1ac2-5bbb-60c0-f0fe648c098b", "side": "bid", "price": 39.0, "qty": 15.61}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 77.96, "mid_later": 39.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 1.25, "mid_later": 39.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 15.61, "mid_later": 39.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784044857.714683, "trade_id": "ee99fc08-6d4a-660f-de94-1feb371f048b", "side": "bid", "price": 39.0, "qty": 5.18}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784044857.714683, "trade_id": "d6643a40-6bb8-6b95-e9ba-0ead15f12a87", "side": "bid", "price": 39.0, "qty": 18.23}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784044998.154907, "trade_id": "14a31665-fdc0-7685-6b4a-782e8aabf6ef", "side": "bid", "price": 39.0, "qty": 4.8}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 5.18, "mid_later": 39.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 18.23, "mid_later": 39.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 4.8, "mid_later": 39.5, "adverse_cents": 0.0}

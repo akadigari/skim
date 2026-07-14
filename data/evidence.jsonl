@@ -1379,3 +1379,5 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KEN", "ts": 1784014071.588713, "trade_id": "edc0684e-4469-4dda-8fb1-f125c15a4f2a", "side": "ask", "price": 13.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KEN", "side": "ask", "price": 13.0, "qty": 200, "mid_later": 34.5, "adverse_cents": 4300.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2907199", "opened_ts": 1784017171.878536, "close_ts": 1784620800.0, "days_to_close_at_entry": 6.99, "question": "Cordenons: Max Alcala Gurri vs Giorgio Tabacco"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784018473.242495, "trade_id": "840459c9-26e6-4bc2-5067-e3587a2180c9", "side": "ask", "price": 34.0, "qty": 1.1700000000000004}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 34.0, "qty": 1.1700000000000004, "mid_later": 33.5, "adverse_cents": 0.0}

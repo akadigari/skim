@@ -1312,3 +1312,8 @@
 {"type": "fav_open", "variant": "maker", "price": 91.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 212.0, "tape_cursor": {"ts": 1783994264.5684211, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL20-3.860", "opened_ts": 1783994264.5684211, "close_ts": 1784519940.0, "days_to_close_at_entry": 6.08}
 {"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL20-3.860", "opened_ts": 1783994264.5684211, "close_ts": 1784519940.0, "days_to_close_at_entry": 6.08}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783994270.452961, "trade_id": "57020fb0-b673-6e2f-a136-5f83639581a2", "side": "ask", "price": 30.0, "qty": 20.770000000000003}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 30.0, "qty": 20.770000000000003, "mid_later": 29.5, "adverse_cents": 0.0}
+{"type": "fav_fill", "key": "kalshi|KXTRUMPATTEND|maker", "ts": 1783994735.959045, "trade_id": "f3b496e0-a07d-6491-8ad3-81b03e42c327", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783995085.758733, "trade_id": "006c47d5-fba0-4ae0-99d0-0dfedb11c672", "side": "ask", "price": 27.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 200, "mid_later": 27.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1783995969.272423, "trade_id": "4a943585-cbae-7b70-1d4d-73e689396c93", "side": "bid", "price": 54.0, "qty": 3.1799999999999997}

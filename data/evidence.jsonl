@@ -1317,3 +1317,20 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783995085.758733, "trade_id": "006c47d5-fba0-4ae0-99d0-0dfedb11c672", "side": "ask", "price": 27.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 200, "mid_later": 27.0, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1783995969.272423, "trade_id": "4a943585-cbae-7b70-1d4d-73e689396c93", "side": "bid", "price": 54.0, "qty": 3.1799999999999997}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 54.0, "qty": 3.1799999999999997, "mid_later": 54.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KYL", "ts": 1783996325.250596, "trade_id": "a5358e55-1531-6b52-c2bc-d11729d870c8", "side": "ask", "price": 21.0, "qty": 13.560000000000008}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783996358.608287, "trade_id": "5acde704-0a0e-5f2f-fd99-ad898a37b878", "side": "ask", "price": 27.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783996358.608287, "trade_id": "26f6b5ef-6b78-54ef-f9bc-2a45684c019d", "side": "ask", "price": 27.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783996358.608287, "trade_id": "04d93411-10a9-5be8-c981-43609b5ca323", "side": "ask", "price": 27.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783996358.608287, "trade_id": "037dc294-79d6-5445-d0ce-561ca61bf3ed", "side": "ask", "price": 27.0, "qty": 3.61}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1783996393.412745, "trade_id": "bf60f96f-f328-59f4-ecdb-fa46ab9175a2", "side": "ask", "price": 38.0, "qty": 10.830000000000014}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1783996393.412745, "trade_id": "38cb5936-3387-5f17-c787-3b8718618f46", "side": "ask", "price": 38.0, "qty": 0.89}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "ask", "price": 21.0, "qty": 13.560000000000008, "mid_later": 20.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 2.0, "mid_later": 27.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 3.0, "mid_later": 27.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 3.0, "mid_later": 27.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 27.0, "qty": 3.61, "mid_later": 27.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 38.0, "qty": 10.830000000000014, "mid_later": 37.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 38.0, "qty": 0.89, "mid_later": 37.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1783997719.775025, "trade_id": "f98dfd5f-f1b6-4207-0aa0-51d03b5c6632", "side": "ask", "price": 38.0, "qty": 188.28}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.9, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2891323", "opened_ts": 1783997864.5878215, "close_ts": 1784559600.0, "days_to_close_at_entry": 6.5, "question": "Lincoln: J.J. Wolf vs Andrew Fenty"}

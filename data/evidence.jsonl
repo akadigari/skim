@@ -1368,3 +1368,7 @@
 {"type": "mm_gap_resume", "ticker": "KXDXYDUD-26JUL13-T100.9650", "gap_s": 2487.393896818161}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784005538.193738, "trade_id": "bb4394d2-5643-6073-a965-0d555cf1d44a", "side": "ask", "price": 28.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 28.0, "qty": 200, "mid_later": 43.5, "adverse_cents": 3100.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1784009962.873453, "trade_id": "fe041939-a3f2-450e-1061-8f03b9cacc48", "side": "ask", "price": 49.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-ZEN", "ts": 1784010136.001888, "trade_id": "d892c71a-8a7a-7304-8f57-45630fa867b7", "side": "ask", "price": 14.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "ask", "price": 49.0, "qty": 200, "mid_later": 66.0, "adverse_cents": 3400.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "ask", "price": 14.0, "qty": 200, "mid_later": 13.5, "adverse_cents": 0.0}

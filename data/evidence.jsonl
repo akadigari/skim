@@ -1350,3 +1350,19 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "ask", "price": 49.0, "qty": 15.53, "mid_later": 48.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1783999856.856675, "trade_id": "b696f610-d950-498e-1ac7-ba61506ed5f1", "side": "bid", "price": 32.0, "qty": 17.62}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 32.0, "qty": 17.62, "mid_later": 32.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2851417|taker", "result": "yes", "pnl_cents": 60.0}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-ZEN", "gap_s": 2487.2778613567352}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-VIC", "gap_s": 2487.372029066086}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-PAR", "gap_s": 2487.3707180023193}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KEN", "gap_s": 2487.3612389564514}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RYA", "gap_s": 2487.380580186844}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KIM", "gap_s": 2487.3839061260223}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KYL", "gap_s": 2487.3664865493774}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-DRA", "gap_s": 2487.3613913059235}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TIM", "gap_s": 2487.3846430778503}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RIH", "gap_s": 2487.474529027939}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TOMH", "gap_s": 2487.400221824646}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRA", "gap_s": 2487.4148259162903}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 2487.3965244293213}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 2487.409806251526}
+{"type": "mm_gap_resume", "ticker": "KXDXYDUD-26JUL13-T100.9650", "gap_s": 2487.393896818161}

@@ -1455,3 +1455,10 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1784052012.391513, "trade_id": "1f81b908-39b4-4d23-221e-a8e068b41441", "side": "bid", "price": 70.0, "qty": 91.86000000000001}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 33.0, "qty": 200, "mid_later": 33.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "bid", "price": 70.0, "qty": 91.86000000000001, "mid_later": 70.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784053091.064517, "trade_id": "f1e48ce8-1a86-5917-6568-59fd2a3dae3e", "side": "ask", "price": 29.0, "qty": 6.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784053091.064517, "trade_id": "de8f5749-ce92-50dd-6422-c6360d7593c4", "side": "ask", "price": 29.0, "qty": 194.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 29.0, "qty": 6.0, "mid_later": 32.5, "adverse_cents": 21.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 29.0, "qty": 194.0, "mid_later": 32.5, "adverse_cents": 679.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 85.6, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2885203", "opened_ts": 1784054424.845821, "close_ts": 1784534400.0, "days_to_close_at_entry": 5.56, "question": "Cordenons: Maxim Mrva vs Carlo Alberto Caniato"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2899027", "opened_ts": 1784054424.845821, "close_ts": 1784620800.0, "days_to_close_at_entry": 6.56, "question": "Croatia Open: Federico Agustin Gomez vs Niels McDonald"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.2, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2891252", "opened_ts": 1784054424.845821, "close_ts": 1784556000.0, "days_to_close_at_entry": 5.81, "question": "Granby: August Holmgren vs Yosuke Watanuki"}

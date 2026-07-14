@@ -1424,3 +1424,7 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 5.18, "mid_later": 39.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 18.23, "mid_later": 39.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 39.0, "qty": 4.8, "mid_later": 39.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2833129|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "fav_settle", "key": "polymarket|2833125|taker", "result": "yes", "pnl_cents": 49.00000000000006}
+{"type": "fav_settle", "key": "polymarket|2833078|taker", "result": "yes", "pnl_cents": 57.00000000000003}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2885148", "opened_ts": 1784047224.7957191, "close_ts": 1784530800.0, "days_to_close_at_entry": 5.6, "question": "Iasi Open: Paula Badosa vs Anhelina Kalinina"}

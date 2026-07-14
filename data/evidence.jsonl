@@ -1299,3 +1299,16 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "ask", "price": 43.99999999999999, "qty": 10.65, "mid_later": 47.0, "adverse_cents": 31.950000000000077}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "ask", "price": 43.99999999999999, "qty": 150.84, "mid_later": 47.0, "adverse_cents": 452.52000000000106}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 30.0, "qty": 200, "mid_later": 29.5, "adverse_cents": 100.0}
+{"type": "fav_settle", "key": "kalshi|KXWTI-26JUL1314-T72.49|maker", "result": "yes", "pnl_cents": 128.0}
+{"type": "fav_settle", "key": "kalshi|KXWTI-26JUL1314-T72.49|taker", "result": "yes", "pnl_cents": 112.0}
+{"type": "fav_settle", "key": "kalshi|KXWTI-26JUL1314-T71.99|maker", "result": "yes", "pnl_cents": 78.5}
+{"type": "fav_settle", "key": "kalshi|KXWTI-26JUL1314-T71.99|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXWTI-26JUL1314-T70.99|maker", "result": "yes", "pnl_cents": 49.0}
+{"type": "fav_settle", "key": "kalshi|KXWTI-26JUL1314-T70.99|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_open", "variant": "maker", "price": 94.69999999999999, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 118.0, "tape_cursor": {"ts": 1783994264.5684211, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXTRUMPATTEND", "opened_ts": 1783994264.5684211, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.5}
+{"type": "fav_open", "variant": "taker", "price": 95.4, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXTRUMPATTEND", "opened_ts": 1783994264.5684211, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.5}
+{"type": "fav_open", "variant": "maker", "price": 85.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 57.0, "tape_cursor": {"ts": 1783994264.5684211, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXTOPMODEL-26JUL20-CLAUT", "opened_ts": 1783994264.5684211, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.5}
+{"type": "fav_open", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 9, "status": "open", "venue": "kalshi", "ticker": "KXTOPMODEL-26JUL20-CLAUT", "opened_ts": 1783994264.5684211, "close_ts": 1784556000.0, "days_to_close_at_entry": 6.5}
+{"type": "fav_open", "variant": "maker", "price": 91.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 212.0, "tape_cursor": {"ts": 1783994264.5684211, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL20-3.860", "opened_ts": 1783994264.5684211, "close_ts": 1784519940.0, "days_to_close_at_entry": 6.08}
+{"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL20-3.860", "opened_ts": 1783994264.5684211, "close_ts": 1784519940.0, "days_to_close_at_entry": 6.08}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1783994270.452961, "trade_id": "57020fb0-b673-6e2f-a136-5f83639581a2", "side": "ask", "price": 30.0, "qty": 20.770000000000003}

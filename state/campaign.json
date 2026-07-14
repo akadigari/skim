@@ -484,7 +484,7 @@
     "size": 200,
     "queue_ahead": 83.36
    },
-   "last_tick_ts": 1784020787.480055,
+   "last_tick_ts": 1784022590.7326882,
    "tape_cursor": {
     "ts": 1784019805.991823,
     "ids": [
@@ -495,13 +495,13 @@
    "inventory": 53.629999999999995,
    "peak_abs_inventory": 453.63,
    "cash_cents": -10417.79,
-   "reward_cents": 4137.297811146877,
+   "reward_cents": 4219.7768528004935,
    "fees_cents": 265.25,
    "adverse_cents": 2099.83,
    "fills": 15,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2851.789606202049,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2908.6893365511564,
    "pending_markouts": [],
    "retired": false
   },
@@ -522,7 +522,7 @@
     "size": 200,
     "queue_ahead": 1081.5
    },
-   "last_tick_ts": 1784020787.6950746,
+   "last_tick_ts": 1784022590.948359,
    "tape_cursor": {
     "ts": 1784002727.7498603,
     "ids": []
@@ -531,13 +531,13 @@
    "inventory": 44.01,
    "peak_abs_inventory": 44.01,
    "cash_cents": -4092.9300000000003,
-   "reward_cents": 2694.7664175622435,
+   "reward_cents": 2712.795650425785,
    "fees_cents": 6.0,
    "adverse_cents": 0.0,
    "fills": 8,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 1857.080218216888,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 1869.518461582754,
    "pending_markouts": [],
    "retired": false
   },
@@ -558,7 +558,7 @@
     "size": 200,
     "queue_ahead": 220.78000000000003
    },
-   "last_tick_ts": 1784020787.9971497,
+   "last_tick_ts": 1784022591.2461174,
    "tape_cursor": {
     "ts": 1784018226.31833,
     "ids": [
@@ -569,13 +569,13 @@
    "inventory": 144.45000000000002,
    "peak_abs_inventory": 144.45000000000002,
    "cash_cents": -5200.2,
-   "reward_cents": 3483.899560885226,
+   "reward_cents": 3525.780757414637,
    "fees_cents": 59.5,
    "adverse_cents": 34.87,
    "fills": 11,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2400.1290232688543,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2429.0214014913972,
    "pending_markouts": [],
    "retired": false
   },
@@ -596,7 +596,7 @@
     "size": 200,
     "queue_ahead": 12.0
    },
-   "last_tick_ts": 1784020788.2971816,
+   "last_tick_ts": 1784022591.545334,
    "tape_cursor": {
     "ts": 1784016672.95622,
     "ids": [
@@ -607,13 +607,13 @@
    "inventory": -161.0,
    "peak_abs_inventory": 161.0,
    "cash_cents": 1820.0,
-   "reward_cents": 3356.6443519364652,
+   "reward_cents": 3466.7711895701923,
    "fees_cents": 51.5,
    "adverse_cents": 4300.0,
    "fills": 7,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2314.3795369300324,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2390.353176022665,
    "pending_markouts": [],
    "retired": false
   },
@@ -634,7 +634,7 @@
     "size": 200,
     "queue_ahead": 390.53000000000003
    },
-   "last_tick_ts": 1784020788.5973046,
+   "last_tick_ts": 1784022591.8476155,
    "tape_cursor": {
     "ts": 1784017930.848918,
     "ids": [
@@ -645,13 +645,13 @@
    "inventory": -395.71000000000004,
    "peak_abs_inventory": 405.0,
    "cash_cents": 7384.32,
-   "reward_cents": 3729.305260674827,
+   "reward_cents": 3774.3740040774655,
    "fees_cents": 117.5,
    "adverse_cents": 822.55,
    "fills": 15,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2571.3890451650277,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2602.4818129392083,
    "pending_markouts": [],
    "retired": false
   },
@@ -672,7 +672,7 @@
     "size": 198.83,
     "queue_ahead": 0.0
    },
-   "last_tick_ts": 1784020788.896363,
+   "last_tick_ts": 1784022592.1481159,
    "tape_cursor": {
     "ts": 1784018473.242495,
     "ids": [
@@ -684,13 +684,13 @@
    "inventory": -49.979999999999976,
    "peak_abs_inventory": 268.96000000000004,
    "cash_cents": -13380.830000000004,
-   "reward_cents": 3840.6365616732096,
+   "reward_cents": 3920.9327257424425,
    "fees_cents": 612.75,
    "adverse_cents": 18019.0,
    "fills": 43,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2646.5299801294505,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2701.9229403574845,
    "pending_markouts": [],
    "retired": false
   },
@@ -711,7 +711,7 @@
     "size": 200,
     "queue_ahead": 492.24999999999994
    },
-   "last_tick_ts": 1784020789.1949208,
+   "last_tick_ts": 1784022592.4483948,
    "tape_cursor": {
     "ts": 1784019355.201057,
     "ids": [
@@ -723,13 +723,13 @@
    "inventory": 211.6099999999999,
    "peak_abs_inventory": 225.1699999999999,
    "cash_cents": -6353.169999999997,
-   "reward_cents": 3853.5923049299486,
+   "reward_cents": 3884.8383856895543,
    "fees_cents": 88.0,
    "adverse_cents": 61.03999999999998,
    "fills": 18,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2655.9352150089067,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2677.491668287192,
    "pending_markouts": [],
    "retired": false
   },
@@ -750,7 +750,7 @@
     "size": 200,
     "queue_ahead": 849.25
    },
-   "last_tick_ts": 1784020789.497836,
+   "last_tick_ts": 1784022592.7479131,
    "tape_cursor": {
     "ts": 1784017420.825245,
     "ids": [
@@ -761,13 +761,13 @@
    "inventory": -149.0,
    "peak_abs_inventory": 200.0,
    "cash_cents": -285.0,
-   "reward_cents": 3297.2651133823697,
+   "reward_cents": 3322.1529873114514,
    "fees_cents": 47.75,
    "adverse_cents": 2228.32,
    "fills": 9,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2274.1332026165974,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2291.3031953297996,
    "pending_markouts": [],
    "retired": false
   },
@@ -788,7 +788,7 @@
     "size": 200,
     "queue_ahead": 196.38
    },
-   "last_tick_ts": 1784020789.7970724,
+   "last_tick_ts": 1784022593.0478404,
    "tape_cursor": {
     "ts": 1784017359.853914,
     "ids": [
@@ -799,13 +799,13 @@
    "inventory": -196.94000000000003,
    "peak_abs_inventory": 196.94000000000003,
    "cash_cents": 7585.240000000001,
-   "reward_cents": 3281.1346915268437,
+   "reward_cents": 3330.4798618867394,
    "fees_cents": 97.75,
    "adverse_cents": 188.28,
    "fills": 11,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2262.0395419353845,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2296.0824267123917,
    "pending_markouts": [],
    "retired": false
   },
@@ -826,7 +826,7 @@
     "size": 200,
     "queue_ahead": 1120.2900000000002
    },
-   "last_tick_ts": 1784020790.099233,
+   "last_tick_ts": 1784022593.3475795,
    "tape_cursor": {
     "ts": 1784019296.631552,
     "ids": [
@@ -845,13 +845,13 @@
    "inventory": 0.009999999999999778,
    "peak_abs_inventory": 0.01,
    "cash_cents": -0.5199999999999918,
-   "reward_cents": 2413.605383733672,
+   "reward_cents": 2428.392564385018,
    "fees_cents": 0.25,
    "adverse_cents": 0.1700000000000009,
    "fills": 2,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 1664.7437376755897,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 1674.9453294731484,
    "pending_markouts": [],
    "retired": false
   },
@@ -872,7 +872,7 @@
     "size": 200,
     "queue_ahead": 472.41
    },
-   "last_tick_ts": 1784020790.3972495,
+   "last_tick_ts": 1784022593.6461134,
    "tape_cursor": {
     "ts": 1784002730.4792502,
     "ids": []
@@ -881,13 +881,13 @@
    "inventory": -14.440000000000001,
    "peak_abs_inventory": 14.440000000000001,
    "cash_cents": 563.1600000000001,
-   "reward_cents": 2899.0644289697802,
+   "reward_cents": 2932.181761321106,
    "fees_cents": 6.5,
    "adverse_cents": 0.0,
    "fills": 3,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 1998.2953511508013,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2021.1428057473147,
    "pending_markouts": [],
    "retired": false
   },
@@ -904,7 +904,7 @@
     "queue_ahead": 4.0
    },
    "ask": null,
-   "last_tick_ts": 1784020790.6965427,
+   "last_tick_ts": 1784022593.9498522,
    "tape_cursor": {
     "ts": 1784009966.550267,
     "ids": [
@@ -915,13 +915,13 @@
    "inventory": -402.82,
    "peak_abs_inventory": 402.82,
    "cash_cents": 18292.179999999997,
-   "reward_cents": 5235.35460363222,
+   "reward_cents": 5283.837746989073,
    "fees_cents": 362.25,
    "adverse_cents": 4800.000000000002,
    "fills": 16,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 3608.218204609257,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 3641.6663902535133,
    "pending_markouts": [],
    "retired": false
   },
@@ -942,7 +942,7 @@
     "size": 200,
     "queue_ahead": 109.94
    },
-   "last_tick_ts": 1784020791.000052,
+   "last_tick_ts": 1784022594.2512927,
    "tape_cursor": {
     "ts": 1784019328.125751,
     "ids": [
@@ -955,13 +955,13 @@
    "inventory": -18.739999999999984,
    "peak_abs_inventory": 400.89,
    "cash_cents": 1104.2699999999986,
-   "reward_cents": 4200.427488091413,
+   "reward_cents": 4233.130221843273,
    "fees_cents": 324.25,
    "adverse_cents": 4736.0,
    "fills": 31,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 2895.4328393995784,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 2917.9942553634564,
    "pending_markouts": [],
    "retired": false
   },
@@ -1012,7 +1012,7 @@
     "size": 200,
     "queue_ahead": 483.09
    },
-   "last_tick_ts": 1784020791.3011332,
+   "last_tick_ts": 1784022594.5489519,
    "tape_cursor": {
     "ts": 1784005631.023719,
     "ids": [
@@ -1023,13 +1023,13 @@
    "inventory": -200.0,
    "peak_abs_inventory": 200.0,
    "cash_cents": 2400.0,
-   "reward_cents": 1605.2586112145011,
+   "reward_cents": 1606.9662619037174,
    "fees_cents": 37.0,
    "adverse_cents": 500.0,
    "fills": 1,
-   "snapshots": 6007,
-   "counted": 6007,
-   "share_sum": 1107.6119662092437,
+   "snapshots": 6097,
+   "counted": 6097,
+   "share_sum": 1108.7900662092366,
    "pending_markouts": [],
    "retired": false
   },
@@ -1042,7 +1042,7 @@
    "category": "KXDXYDUD",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784020791.6001017,
+   "last_tick_ts": 1784022594.8465955,
    "tape_cursor": {
     "ts": 1784017206.357122,
     "ids": [
@@ -1057,7 +1057,7 @@
    "fees_cents": 251.75,
    "adverse_cents": 13661.595000000001,
    "fills": 6,
-   "snapshots": 3965,
+   "snapshots": 4055,
    "counted": 3062,
    "share_sum": 1199.378536283561,
    "pending_markouts": [],
@@ -4484,8 +4484,8 @@
   "last_scan_ts": 1784020771.9246023
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1784020791.9156642,
+ "last_checkpoint_ts": 1784022595.1661384,
  "jobs_started": 6,
  "last_job_start_ts": 1784002722.570231,
- "api_requests_last_job": 28082
+ "api_requests_last_job": 30855
 }

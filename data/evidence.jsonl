@@ -1366,3 +1366,5 @@
 {"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 2487.3965244293213}
 {"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 2487.409806251526}
 {"type": "mm_gap_resume", "ticker": "KXDXYDUD-26JUL13-T100.9650", "gap_s": 2487.393896818161}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784005538.193738, "trade_id": "bb4394d2-5643-6073-a965-0d555cf1d44a", "side": "ask", "price": 28.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 28.0, "qty": 200, "mid_later": 43.5, "adverse_cents": 3100.0}

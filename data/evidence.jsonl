@@ -1481,3 +1481,5 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "ask", "price": 25.0, "qty": 1.0, "mid_later": 24.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "ask", "price": 25.0, "qty": 0.01, "mid_later": 24.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-ZEN", "side": "ask", "price": 25.0, "qty": 67.54, "mid_later": 24.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2905419|taker", "result": "yes", "pnl_cents": 50.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2071546", "opened_ts": 1784061644.8976617, "close_ts": 1784505600.0, "days_to_close_at_entry": 5.14, "question": "Will Spain reach the 2026 FIFA World Cup final?"}

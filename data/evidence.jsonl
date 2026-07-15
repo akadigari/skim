@@ -1607,3 +1607,25 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784134950.616305, "trade_id": "2a14e6ea-072c-75eb-b2b9-08ddfdf8b967", "side": "ask", "price": 56.0, "qty": 51.97}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 51.97, "mid_later": 55.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784135317.926748, "trade_id": "7aee4eb7-d53b-741d-1b9e-a331d0722990", "side": "ask", "price": 4.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 4.0, "qty": 200, "mid_later": 6.5, "adverse_cents": 500.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784135738.818827, "trade_id": "a6a5e5cc-d0f5-43f1-0a3a-984b8988188f", "side": "ask", "price": 5.0, "qty": 7.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784135738.818827, "trade_id": "61d9ba8d-c5e2-4e9e-0408-4b6ba4f34361", "side": "ask", "price": 5.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784135738.818827, "trade_id": "4bf0e871-806e-457e-2ec9-a4711d9de8be", "side": "ask", "price": 5.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784135738.818827, "trade_id": "397e516a-d270-4186-266d-8ead4ca5f354", "side": "ask", "price": 5.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784135879.732172, "trade_id": "88705b28-80d8-453a-738d-0d7148b6132a", "side": "ask", "price": 7.0, "qty": 0.01}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784135879.732172, "trade_id": "22cf4cd2-0faa-427c-62f5-d9a1fc921d9a", "side": "ask", "price": 7.0, "qty": 15.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784135973.907042, "trade_id": "8c9c1034-2b28-7ae9-82fd-5a2bd8ac1b2a", "side": "bid", "price": 81.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 5.0, "qty": 7.0, "mid_later": 5.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 5.0, "qty": 3.0, "mid_later": 5.5, "adverse_cents": 1.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 5.0, "qty": 5.0, "mid_later": 5.5, "adverse_cents": 2.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 5.0, "qty": 1.0, "mid_later": 5.5, "adverse_cents": 0.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 7.0, "qty": 0.01, "mid_later": 10.5, "adverse_cents": 0.035}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 7.0, "qty": 15.0, "mid_later": 10.5, "adverse_cents": 52.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 81.0, "qty": 200, "mid_later": 82.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784136405.468969, "trade_id": "73b7cb11-d3cc-54ff-f4a1-b78ec181a82f", "side": "ask", "price": 56.0, "qty": 17.32}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 17.32, "mid_later": 55.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2804722|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_open", "variant": "maker", "price": 93.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 728.0, "tape_cursor": {"ts": 1784137244.5824478, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXHORMUZWEEKLY-26JUL19-T40", "opened_ts": 1784137244.5824478, "close_ts": 1784638800.0, "days_to_close_at_entry": 5.81}
+{"type": "fav_open", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 3, "status": "open", "venue": "kalshi", "ticker": "KXHORMUZWEEKLY-26JUL19-T40", "opened_ts": 1784137244.5824478, "close_ts": 1784638800.0, "days_to_close_at_entry": 5.81}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2925689", "opened_ts": 1784137244.5824478, "close_ts": 1784151600.0, "days_to_close_at_entry": 0.17, "question": "Dota 2: BetBoom Team vs LGD Gaming - Game 2 Winner"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2928938", "opened_ts": 1784137244.5824478, "close_ts": 1784158500.0, "days_to_close_at_entry": 0.25, "question": "Counter-Strike: Inner Circle Academy vs Subtop De France (BO3) - CCT Europe Clos"}

@@ -1718,3 +1718,38 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 3.43, "mid_later": 58.5, "adverse_cents": 8.575000000000001}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 2.0, "mid_later": 60.0, "adverse_cents": 8.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 79.93999999999998, "mid_later": 60.0, "adverse_cents": 319.75999999999993}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784146383.160077, "trade_id": "645a2597-afe7-66ee-c9d5-15e8b4c63862", "side": "bid", "price": 42.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784146641.013726, "trade_id": "0e6b144e-d51d-7e0b-0780-dfea8090454f", "side": "ask", "price": 25.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "bid", "price": 42.0, "qty": 200, "mid_later": 17.5, "adverse_cents": 4900.0}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 25.0, "qty": 200, "mid_later": 46.5, "adverse_cents": 4300.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784146985.357157, "trade_id": "de3e6d06-dad3-4005-014d-a95cd0fa44b6", "side": "bid", "price": 45.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784147243.414432, "trade_id": "269635a0-14bb-685e-1332-193575e59868", "side": "ask", "price": 23.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "bid", "price": 45.0, "qty": 200, "mid_later": 45.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784147352.475242, "trade_id": "5b25a696-3677-4029-14f0-cb853b5a5586", "side": "bid", "price": 38.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 23.0, "qty": 200, "mid_later": 32.0, "adverse_cents": 1800.0}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "bid", "price": 38.0, "qty": 200, "mid_later": 30.5, "adverse_cents": 1500.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "9583d43b-3ec8-4353-2f3d-7b8739ed5ffa", "side": "ask", "price": 39.0, "qty": 29.31000000000006}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "90bf6bf8-20ec-47d3-31ca-df805981c03f", "side": "ask", "price": 39.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "8fdde140-88bb-4961-3065-ef92e411d786", "side": "ask", "price": 39.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "6aafc898-188d-4aec-2b96-bb4bbaf74b4a", "side": "ask", "price": 39.0, "qty": 25.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "5c8cd8c5-c8c7-444d-34ff-3dad9bd47d04", "side": "ask", "price": 39.0, "qty": 2.64}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "3bac6e14-3ad4-4ea7-13bc-cbf0c1d75ad8", "side": "ask", "price": 39.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "324f0f17-ead8-4085-2b50-6c8bea9e8fd0", "side": "ask", "price": 39.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "31ef4b54-7b4e-4cd2-09c8-abdbc9d1f903", "side": "ask", "price": 39.0, "qty": 15.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784147727.03971, "trade_id": "09d9a428-2d83-440b-398c-a48b794cf122", "side": "ask", "price": 39.0, "qty": 4.0}
+{"type": "fav_settle", "key": "kalshi|KXWCPRICE-26JULWCSEMI2-1750|maker", "result": "yes", "pnl_cents": 88.5}
+{"type": "fav_settle", "key": "kalshi|KXWCPRICE-26JULWCSEMI2-1750|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "polymarket|2932445|taker", "result": "no", "pnl_cents": -910.0}
+{"type": "fav_settle", "key": "polymarket|2928933|taker", "result": "yes", "pnl_cents": 70.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 29.31000000000006, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 4.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 5.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 25.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 2.64, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 3.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 1.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 15.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 39.0, "qty": 4.0, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "fav_open", "variant": "maker", "price": 88.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 67.0, "tape_cursor": {"ts": 1784148044.6714897, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXHORMUZWEEKLY-26JUL19-T45", "opened_ts": 1784148044.6714897, "close_ts": 1784638800.0, "days_to_close_at_entry": 5.68}
+{"type": "fav_open", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXHORMUZWEEKLY-26JUL19-T45", "opened_ts": 1784148044.6714897, "close_ts": 1784638800.0, "days_to_close_at_entry": 5.68}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2923102", "opened_ts": 1784148044.6714897, "close_ts": 1784710800.0, "days_to_close_at_entry": 6.51, "question": "Croatia Open: Dino Prizmic vs Alex Molcan"}

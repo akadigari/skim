@@ -1554,3 +1554,4 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 2.87, "mid_later": 56.0, "adverse_cents": 51.660000000000004}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 2.0, "mid_later": 56.0, "adverse_cents": 36.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2909038", "opened_ts": 1784099960.3297548, "close_ts": 1784131200.0, "days_to_close_at_entry": 0.36, "question": "Will Elon Musk post <40 tweets from July 13 to July 15, 2026?"}
+{"type": "fav_fill", "key": "kalshi|KXHORMUZWEEKLY-26JUL19-T30|maker", "ts": 1784102226.655341, "trade_id": "e882405d-400e-6d2e-7ce0-87e6e264742c", "qty": 10.0}

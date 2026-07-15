@@ -1599,3 +1599,11 @@
 {"type": "fav_settle", "key": "polymarket|2846320|taker", "result": "yes", "pnl_cents": 76.99999999999989}
 {"type": "fav_settle", "key": "polymarket|2846327|taker", "result": "yes", "pnl_cents": 100.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2928933", "opened_ts": 1784133644.5730581, "close_ts": 1784146500.0, "days_to_close_at_entry": 0.15, "question": "Counter-Strike: Entropy vs Honv\u00e9d (BO3) - CCT Europe Closed Qualifier: Series #5"}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 14.0, "qty": 200, "mid_later": 68.5, "adverse_cents": 10900.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784133696.588268, "trade_id": "d31facf9-82fb-6e03-d6db-f3c097256e65", "side": "ask", "price": 10.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784133773.819144, "trade_id": "4822eee5-053b-6a4b-4f74-5f913205e85e", "side": "bid", "price": 6.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 10.0, "qty": 200, "mid_later": 5.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 6.0, "qty": 4.0, "mid_later": 5.5, "adverse_cents": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784134950.616305, "trade_id": "2a14e6ea-072c-75eb-b2b9-08ddfdf8b967", "side": "ask", "price": 56.0, "qty": 51.97}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 51.97, "mid_later": 55.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784135317.926748, "trade_id": "7aee4eb7-d53b-741d-1b9e-a331d0722990", "side": "ask", "price": 4.0, "qty": 200}

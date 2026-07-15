@@ -1578,3 +1578,24 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131649.584866, "trade_id": "8074fce0-6732-50b8-0c8d-5e8583baf7c3", "side": "bid", "price": 54.0, "qty": 200}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131681.199861, "trade_id": "df5263af-8a11-5a95-fe13-86d53ddc6eb7", "side": "bid", "price": 53.0, "qty": 200}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131733.360923, "trade_id": "1b012b25-ea76-6b98-483c-753982709464", "side": "bid", "price": 48.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131897.059265, "trade_id": "4d7c7d97-5c1a-7696-1f88-860df54ca6ee", "side": "bid", "price": 46.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131933.661634, "trade_id": "fc841e07-d7a1-7e1f-4c79-31349d4c6f3e", "side": "bid", "price": 42.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 54.0, "qty": 200, "mid_later": 40.0, "adverse_cents": 2800.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 53.0, "qty": 200, "mid_later": 35.5, "adverse_cents": 3500.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 48.0, "qty": 200, "mid_later": 32.0, "adverse_cents": 3200.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 46.0, "qty": 200, "mid_later": 31.5, "adverse_cents": 2900.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 42.0, "qty": 200, "mid_later": 31.5, "adverse_cents": 2100.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784132504.875515, "trade_id": "049cb3a6-abe5-7978-676e-d0b26127ba71", "side": "bid", "price": 42.0, "qty": 100.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784132721.588562, "trade_id": "c6f615b6-7558-7677-4f6d-10592fcad1c3", "side": "ask", "price": 56.0, "qty": 42.61}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784132721.588562, "trade_id": "29b4984c-6b6c-7ffd-45b6-33841b84b7b6", "side": "ask", "price": 56.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 42.0, "qty": 100.0, "mid_later": 40.5, "adverse_cents": 150.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784132829.925121, "trade_id": "f146e3cb-f810-55b5-7a9f-d3e42309e09e", "side": "bid", "price": 12.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 42.61, "mid_later": 55.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 56.0, "qty": 1.0, "mid_later": 55.5, "adverse_cents": 0.0}
+{"type": "fav_fill", "key": "kalshi|KXSILVERW-26JUL1717-T53.99|maker", "ts": 1784132878.59734, "trade_id": "1a1f671e-fa16-5895-f5e0-48c59e3a3ccd", "qty": 10.0}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "bid", "price": 12.0, "qty": 200, "mid_later": 6.0, "adverse_cents": 1200.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784133350.219771, "trade_id": "bab2ff58-0b04-56c5-8e94-75d8cd83e979", "side": "ask", "price": 14.0, "qty": 200}
+{"type": "fav_settle", "key": "polymarket|2804715|taker", "result": "yes", "pnl_cents": 130.0}
+{"type": "fav_settle", "key": "polymarket|2846320|taker", "result": "yes", "pnl_cents": 76.99999999999989}
+{"type": "fav_settle", "key": "polymarket|2846327|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2928933", "opened_ts": 1784133644.5730581, "close_ts": 1784146500.0, "days_to_close_at_entry": 0.15, "question": "Counter-Strike: Entropy vs Honv\u00e9d (BO3) - CCT Europe Closed Qualifier: Series #5"}

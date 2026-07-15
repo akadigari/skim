@@ -1555,3 +1555,26 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 2.0, "mid_later": 56.0, "adverse_cents": 36.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2909038", "opened_ts": 1784099960.3297548, "close_ts": 1784131200.0, "days_to_close_at_entry": 0.36, "question": "Will Elon Musk post <40 tweets from July 13 to July 15, 2026?"}
 {"type": "fav_fill", "key": "kalshi|KXHORMUZWEEKLY-26JUL19-T30|maker", "ts": 1784102226.655341, "trade_id": "e882405d-400e-6d2e-7ce0-87e6e264742c", "qty": 10.0}
+{"type": "fav_settle", "key": "polymarket|2835635|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXSPRLVL-26JUL15-T308|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "polymarket|2804708|taker", "result": "yes", "pnl_cents": 140.0}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-ZEN", "gap_s": 20460.068090438843}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-VIC", "gap_s": 20460.120767354965}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-PAR", "gap_s": 20460.119072675705}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KEN", "gap_s": 20460.120042800903}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RYA", "gap_s": 20460.12075161934}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KIM", "gap_s": 20460.122556447983}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KYL", "gap_s": 20460.118663549423}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-DRA", "gap_s": 20460.120265960693}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TIM", "gap_s": 20460.122633218765}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RIH", "gap_s": 20460.121825933456}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TOMH", "gap_s": 20460.12040066719}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRA", "gap_s": 20460.12023949623}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 20460.122685432434}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 20460.121453762054}
+{"type": "mm_gap_resume", "ticker": "KXRAIN-26JUL15-MIA", "gap_s": 20460.13071703911}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2932445", "opened_ts": 1784130024.573757, "close_ts": 1784145900.0, "days_to_close_at_entry": 0.18, "question": "Dota 2: 1win vs Vici Gaming (BO3) - Esports World Cup Survival"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2860518", "opened_ts": 1784130024.573757, "close_ts": 1784217600.0, "days_to_close_at_entry": 1.01, "question": "Will the price of Bitcoin be above $64,000 on July 16?"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131649.584866, "trade_id": "8074fce0-6732-50b8-0c8d-5e8583baf7c3", "side": "bid", "price": 54.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131681.199861, "trade_id": "df5263af-8a11-5a95-fe13-86d53ddc6eb7", "side": "bid", "price": 53.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784131733.360923, "trade_id": "1b012b25-ea76-6b98-483c-753982709464", "side": "bid", "price": 48.0, "qty": 200}

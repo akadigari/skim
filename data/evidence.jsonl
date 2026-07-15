@@ -1660,3 +1660,21 @@
 {"type": "fav_open", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 7, "status": "open", "venue": "kalshi", "ticker": "KXHORMUZPEAK-26JUL19-T15", "opened_ts": 1784140844.6076674, "close_ts": 1784638800.0, "days_to_close_at_entry": 5.76}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2930522", "opened_ts": 1784140844.6076674, "close_ts": 1784739600.0, "days_to_close_at_entry": 6.93, "question": "ITF Gandia: Anas Mazdrashki vs Joan Torres Espinosa"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2857461", "opened_ts": 1784140844.6076674, "close_ts": 1784159100.0, "days_to_close_at_entry": 0.21, "question": "Counter-Strike: paiN vs Phantom (BO3) - Stake Ranked Episode 3 Playoffs"}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 80.0, "qty": 200, "mid_later": 80.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784141121.235118, "trade_id": "2404e43f-de0e-53ee-6a8e-7104966e7999", "side": "ask", "price": 17.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 17.0, "qty": 1.0, "mid_later": 16.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784141470.282297, "trade_id": "3edecc92-94a1-7180-7770-e9a2a79cb2b6", "side": "bid", "price": 7.000000000000001, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1784141620.55233, "trade_id": "3bab21ae-80e5-56f3-dec0-4f0ac4319b02", "side": "ask", "price": 70.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 7.000000000000001, "qty": 200, "mid_later": 4.5, "adverse_cents": 500.00000000000017}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "ask", "price": 70.0, "qty": 200, "mid_later": 70.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784141939.92574, "trade_id": "9addced9-4034-424e-075b-533d8070828e", "side": "bid", "price": 81.0, "qty": 1.4}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784141939.92574, "trade_id": "72f9bffa-ce18-4511-2701-518aca2160d5", "side": "bid", "price": 81.0, "qty": 1.6}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784141939.92574, "trade_id": "2487927e-cba4-44c1-2f6c-980f1beb10c4", "side": "bid", "price": 81.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784142013.509593, "trade_id": "6fa6d7b4-5ba8-430b-4478-d248db81ab5f", "side": "ask", "price": 34.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784142062.652067, "trade_id": "cd6a9735-ad93-4a6b-2408-1139ad978731", "side": "ask", "price": 39.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 81.0, "qty": 1.4, "mid_later": 58.5, "adverse_cents": 31.499999999999996}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 81.0, "qty": 1.6, "mid_later": 58.5, "adverse_cents": 36.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 81.0, "qty": 8.0, "mid_later": 58.5, "adverse_cents": 180.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 34.0, "qty": 200, "mid_later": 41.0, "adverse_cents": 1400.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 39.0, "qty": 200, "mid_later": 41.0, "adverse_cents": 400.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784142444.980408, "trade_id": "ec72f895-d273-547f-ee18-e817111f6517", "side": "bid", "price": 55.00000000000001, "qty": 200}

@@ -1629,3 +1629,18 @@
 {"type": "fav_open", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 3, "status": "open", "venue": "kalshi", "ticker": "KXHORMUZWEEKLY-26JUL19-T40", "opened_ts": 1784137244.5824478, "close_ts": 1784638800.0, "days_to_close_at_entry": 5.81}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2925689", "opened_ts": 1784137244.5824478, "close_ts": 1784151600.0, "days_to_close_at_entry": 0.17, "question": "Dota 2: BetBoom Team vs LGD Gaming - Game 2 Winner"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2928938", "opened_ts": 1784137244.5824478, "close_ts": 1784158500.0, "days_to_close_at_entry": 0.25, "question": "Counter-Strike: Inner Circle Academy vs Subtop De France (BO3) - CCT Europe Clos"}
+{"type": "fav_fill", "key": "kalshi|KXSILVERW-26JUL1717-T54.99|maker", "ts": 1784136808.432399, "trade_id": "b30683f2-dcb7-6107-855b-87e08deb406b", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784137641.888155, "trade_id": "e29a5c51-3091-5be6-cedf-8b7196d56ca0", "side": "ask", "price": 6.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784137641.888155, "trade_id": "bb8495e3-48a2-59f9-d6d5-c4cdb572d1a0", "side": "ask", "price": 6.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784137641.888155, "trade_id": "82073b03-56eb-554f-fe00-11e79991fc02", "side": "ask", "price": 6.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784137641.888155, "trade_id": "6dd5c6bf-282c-5fea-e8d9-bbfc13de2c37", "side": "ask", "price": 6.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784137641.888155, "trade_id": "6121cd7a-7f50-5f1d-f958-787548395015", "side": "ask", "price": 6.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784137641.888155, "trade_id": "5aa4754a-abd2-558c-d6b6-2df41085e4e9", "side": "ask", "price": 6.0, "qty": 3.0}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 6.0, "qty": 1.0, "mid_later": 11.5, "adverse_cents": 5.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 6.0, "qty": 3.0, "mid_later": 11.5, "adverse_cents": 16.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 6.0, "qty": 2.0, "mid_later": 11.5, "adverse_cents": 11.0}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 6.0, "qty": 3.0, "mid_later": 11.5, "adverse_cents": 16.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 6.0, "qty": 3.0, "mid_later": 11.5, "adverse_cents": 16.5}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 6.0, "qty": 3.0, "mid_later": 11.5, "adverse_cents": 16.5}
+{"type": "mm_fill", "ticker": "KXRAIN-26JUL15-MIA", "ts": 1784138679.494762, "trade_id": "3f3742b5-fbb2-7962-1492-02a2e906bf49", "side": "ask", "price": 16.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXRAIN-26JUL15-MIA", "side": "ask", "price": 16.0, "qty": 200, "mid_later": 13.5, "adverse_cents": 0.0}

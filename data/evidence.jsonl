@@ -1548,3 +1548,9 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784098128.089197, "trade_id": "839dd232-fcaf-4536-7aac-83a521a7ede8", "side": "bid", "price": 74.0, "qty": 10.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784098128.089197, "trade_id": "70ca8544-37eb-44b8-4307-07c2326171ac", "side": "bid", "price": 74.0, "qty": 2.87}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784098128.089197, "trade_id": "1210c927-b7b6-4a60-6ff1-e3379d7f6eea", "side": "bid", "price": 74.0, "qty": 2.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 7.0, "mid_later": 56.0, "adverse_cents": 126.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 0.01, "mid_later": 56.0, "adverse_cents": 0.18}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 10.0, "mid_later": 56.0, "adverse_cents": 180.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 2.87, "mid_later": 56.0, "adverse_cents": 51.660000000000004}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 74.0, "qty": 2.0, "mid_later": 56.0, "adverse_cents": 36.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2909038", "opened_ts": 1784099960.3297548, "close_ts": 1784131200.0, "days_to_close_at_entry": 0.36, "question": "Will Elon Musk post <40 tweets from July 13 to July 15, 2026?"}

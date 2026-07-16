@@ -1912,3 +1912,5 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 0.42, "mid_later": 19.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 10.0, "mid_later": 19.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 1.58, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2871319", "opened_ts": 1784190521.6255383, "close_ts": 1784304000.0, "days_to_close_at_entry": 1.31, "question": "Will the price of Bitcoin be above $62,000 on July 17?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2920202", "opened_ts": 1784190521.6255383, "close_ts": 1784707200.0, "days_to_close_at_entry": 5.98, "question": "Cordenons: Max Alcala Gurri vs Lorenzo Angelini"}

@@ -2014,3 +2014,18 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 53.0, "qty": 189.41, "mid_later": 53.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KYL", "ts": 1784221693.942938, "trade_id": "ea3cc4b4-9d33-6e10-c638-81325c61e6c6", "side": "ask", "price": 53.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "ask", "price": 53.0, "qty": 200, "mid_later": 55.5, "adverse_cents": 500.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784223656.397047, "trade_id": "5c2ab984-3e17-49b7-3064-648d32bdfab6", "side": "ask", "price": 53.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784223845.216448, "trade_id": "e926543f-60b6-611e-a434-8ae06f03037d", "side": "ask", "price": 54.0, "qty": 0.5999999999999943}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784223845.216448, "trade_id": "c061c22a-2c46-62fa-965e-cc80bf578473", "side": "ask", "price": 54.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784223845.216448, "trade_id": "451b2c98-996e-6929-b8c1-822ce7f9f818", "side": "ask", "price": 54.0, "qty": 191.4}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784223864.82663, "trade_id": "93899c6c-32ab-74ad-1418-cc0156795f83", "side": "bid", "price": 52.0, "qty": 58.99}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784223864.82663, "trade_id": "304e4de6-d356-7423-0178-3b39fe3bbb1d", "side": "bid", "price": 52.0, "qty": 141.01}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 53.0, "qty": 200, "mid_later": 53.5, "adverse_cents": 100.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784223991.34207, "trade_id": "6eb2c405-3c5b-527b-8870-ab876c5b6f1e", "side": "ask", "price": 54.0, "qty": 106.06}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 0.5999999999999943, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 8.0, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 191.4, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 52.0, "qty": 58.99, "mid_later": 51.5, "adverse_cents": 29.495}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 52.0, "qty": 141.01, "mid_later": 51.5, "adverse_cents": 70.505}
+{"type": "fav_settle", "key": "polymarket|2917071|taker", "result": "yes", "pnl_cents": 40.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.5, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2922975", "opened_ts": 1784224220.0615504, "close_ts": 1784707200.0, "days_to_close_at_entry": 5.59, "question": "Swedish Open: Alejandro Tabilo vs Lautaro Midon"}

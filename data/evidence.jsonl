@@ -1906,3 +1906,9 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 149.6, "mid_later": 53.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 4.0, "mid_later": 53.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 4.0, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784185160.692997, "trade_id": "2c8b6853-ab42-518d-d56b-faa0e0be9c59", "side": "bid", "price": 19.0, "qty": 0.42}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784185160.692997, "trade_id": "28711088-81a9-5128-e6b7-5b79a5efff78", "side": "bid", "price": 19.0, "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784185160.692997, "trade_id": "0567934b-048b-5a08-c1a0-2554beb9ea12", "side": "bid", "price": 19.0, "qty": 1.58}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 0.42, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 10.0, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 1.58, "mid_later": 19.5, "adverse_cents": 0.0}

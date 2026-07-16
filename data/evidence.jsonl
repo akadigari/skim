@@ -1879,3 +1879,18 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-PAR", "ts": 1784179428.64608, "trade_id": "1ef5a386-8af3-43c2-5f33-1d228854087c", "side": "ask", "price": 33.0, "qty": 1.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RIH", "side": "bid", "price": 62.0, "qty": 3.990000000000002, "mid_later": 57.0, "adverse_cents": 19.95000000000001}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2437514", "opened_ts": 1784179712.8467824, "close_ts": 1784519940.0, "days_to_close_at_entry": 3.94, "question": "Will Unai Sim\u00f3n win the Golden Glove at the 2026 FIFA World Cup?"}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 2.0, "mid_later": 36.5, "adverse_cents": 7.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 1.0, "mid_later": 36.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 4.0, "mid_later": 36.5, "adverse_cents": 14.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 4.99, "mid_later": 36.5, "adverse_cents": 17.465}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 0.01, "mid_later": 36.5, "adverse_cents": 0.035}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 1.0, "mid_later": 36.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 4.0, "mid_later": 36.5, "adverse_cents": 14.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 1.09, "mid_later": 36.5, "adverse_cents": 3.8150000000000004}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 0.01, "mid_later": 36.5, "adverse_cents": 0.035}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 0.01, "mid_later": 36.5, "adverse_cents": 0.035}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "ask", "price": 33.0, "qty": 1.0, "mid_later": 36.5, "adverse_cents": 3.5}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KEN", "ts": 1784180592.70488, "trade_id": "c145c769-0edc-6fc7-1fdd-f31d3f444e1e", "side": "bid", "price": 61.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784180592.70581, "trade_id": "e107f2d5-0c33-6e9c-7c3c-b0ebf7312c0e", "side": "bid", "price": 19.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KEN", "side": "bid", "price": 61.0, "qty": 200, "mid_later": 60.0, "adverse_cents": 200.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 5.0, "mid_later": 19.5, "adverse_cents": 0.0}

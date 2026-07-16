@@ -1894,3 +1894,15 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784180592.70581, "trade_id": "e107f2d5-0c33-6e9c-7c3c-b0ebf7312c0e", "side": "bid", "price": 19.0, "qty": 5.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KEN", "side": "bid", "price": 61.0, "qty": 200, "mid_later": 60.0, "adverse_cents": 200.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 19.0, "qty": 5.0, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-VIC", "ts": 1784182013.058958, "trade_id": "ac9d1af7-784c-69cc-983a-4579c624c51b", "side": "ask", "price": 67.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-VIC", "ts": 1784182013.058958, "trade_id": "8ec000e8-4215-6538-83b2-808522bfb66e", "side": "ask", "price": 67.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-VIC", "ts": 1784182013.058958, "trade_id": "7f16286b-b384-6b6f-ab55-0ef36cef5ebc", "side": "ask", "price": 67.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-VIC", "side": "ask", "price": 67.0, "qty": 3.0, "mid_later": 67.5, "adverse_cents": 1.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-VIC", "side": "ask", "price": 67.0, "qty": 4.0, "mid_later": 67.5, "adverse_cents": 2.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-VIC", "side": "ask", "price": 67.0, "qty": 4.0, "mid_later": 67.5, "adverse_cents": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784182626.46452, "trade_id": "fa6cfa6f-37be-55cc-6b08-44993453c4f9", "side": "ask", "price": 54.0, "qty": 149.6}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784182626.46452, "trade_id": "d92ea43c-484a-52da-7e7e-8242b8d93613", "side": "ask", "price": 54.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784182626.46452, "trade_id": "a12cc95a-b677-52b4-57e4-c73509934a19", "side": "ask", "price": 54.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 149.6, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 4.0, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 54.0, "qty": 4.0, "mid_later": 53.5, "adverse_cents": 0.0}

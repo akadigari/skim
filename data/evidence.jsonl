@@ -2101,3 +2101,9 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.1, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2871252", "opened_ts": 1784231420.103014, "close_ts": 1784304000.0, "days_to_close_at_entry": 0.84, "question": "Will the price of Ethereum be above $1,800 on July 17?"}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784231465.488686, "trade_id": "935003de-8021-7ace-3087-34bcedf0b1ac", "side": "ask", "price": 53.0, "qty": 0.13999999999999924}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784231465.488686, "trade_id": "4ea8307f-c0ee-7876-0422-a82230e6f553", "side": "ask", "price": 53.0, "qty": 9.89}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1784231714.121655, "trade_id": "05ba1fbc-99a6-4825-b48e-7d9ee0534b11", "side": "bid", "price": 79.0, "qty": 0.72}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 53.0, "qty": 0.13999999999999924, "mid_later": 52.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 53.0, "qty": 9.89, "mid_later": 52.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "bid", "price": 79.0, "qty": 0.72, "mid_later": 79.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784232327.533862, "trade_id": "1a74d6db-54c8-571d-62cd-b9e4e71796ca", "side": "bid", "price": 31.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "bid", "price": 31.0, "qty": 200, "mid_later": 30.5, "adverse_cents": 100.0}

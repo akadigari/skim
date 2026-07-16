@@ -1957,3 +1957,14 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784195685.889117, "trade_id": "2b5efcb7-0263-64d1-b134-a8da964980a2", "side": "bid", "price": 94.0, "qty": 2.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784195685.889117, "trade_id": "2a64bf15-ebdd-6fb4-ba13-436aa3dba4e3", "side": "bid", "price": 94.0, "qty": 7.109999999999999}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-VIC", "side": "ask", "price": 68.0, "qty": 200, "mid_later": 74.5, "adverse_cents": 1300.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 42.0, "mid_later": 93.5, "adverse_cents": 21.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 15.0, "mid_later": 93.5, "adverse_cents": 7.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 10.0, "mid_later": 93.5, "adverse_cents": 5.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 4.0, "mid_later": 93.5, "adverse_cents": 2.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 25.0, "mid_later": 93.5, "adverse_cents": 12.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 54.89, "mid_later": 93.5, "adverse_cents": 27.445}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 25.0, "mid_later": 93.5, "adverse_cents": 12.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 10.0, "mid_later": 93.5, "adverse_cents": 5.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 5.0, "mid_later": 93.5, "adverse_cents": 2.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 2.0, "mid_later": 93.5, "adverse_cents": 1.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 7.109999999999999, "mid_later": 93.5, "adverse_cents": 3.5549999999999997}

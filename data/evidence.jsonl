@@ -1968,3 +1968,28 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 5.0, "mid_later": 93.5, "adverse_cents": 2.5}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 2.0, "mid_later": 93.5, "adverse_cents": 1.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "bid", "price": 94.0, "qty": 7.109999999999999, "mid_later": 93.5, "adverse_cents": 3.5549999999999997}
+{"type": "fav_settle", "key": "polymarket|2766413|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-ZEN", "gap_s": 20458.3020260334}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-VIC", "gap_s": 20458.381853342056}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-PAR", "gap_s": 20458.388090133667}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KEN", "gap_s": 20458.381372451782}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RYA", "gap_s": 20458.38126683235}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KIM", "gap_s": 20458.379098415375}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-KYL", "gap_s": 20458.382068634033}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-DRA", "gap_s": 20458.380316257477}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TIM", "gap_s": 20458.381070137024}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-RIH", "gap_s": 20458.38088798523}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TOMH", "gap_s": 20458.379451036453}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRA", "gap_s": 20458.380612373352}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEO", "gap_s": 20458.37871837616}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-TRAV", "gap_s": 20458.38258743286}
+{"type": "mm_gap_resume", "ticker": "KXWCATTEND-26JUL20-LEB", "gap_s": 20458.382863998413}
+{"type": "fav_open", "variant": "maker", "price": 87.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 64.01, "tape_cursor": {"ts": 1784216980.0541713, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXSPRLVL-26JUL22-T310", "opened_ts": 1784216980.0541713, "close_ts": 1784730540.0, "days_to_close_at_entry": 5.94}
+{"type": "fav_open", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 8, "status": "open", "venue": "kalshi", "ticker": "KXSPRLVL-26JUL22-T310", "opened_ts": 1784216980.0541713, "close_ts": 1784730540.0, "days_to_close_at_entry": 5.94}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2934835", "opened_ts": 1784216980.0541713, "close_ts": 1784233200.0, "days_to_close_at_entry": 0.19, "question": "Dota 2: PARIVISION vs Rune Eaters (BO3) - Esports World Cup Playoffs"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2936764", "opened_ts": 1784216980.0541713, "close_ts": 1784234100.0, "days_to_close_at_entry": 0.2, "question": "Counter-Strike: NIP vs Gentle Mates (BO3) - Stake Ranked Episode 3 Playoffs"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2936760", "opened_ts": 1784216980.0541713, "close_ts": 1784234100.0, "days_to_close_at_entry": 0.2, "question": "Counter-Strike: NIP vs Gentle Mates - Map 2 Winner"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2942112", "opened_ts": 1784216980.0541713, "close_ts": 1784408400.0, "days_to_close_at_entry": 2.22, "question": "France vs. England: O/U 1.5"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2786494", "opened_ts": 1784216980.0541713, "close_ts": 1784232000.0, "days_to_close_at_entry": 0.17, "question": "Will Qaraba\u011f A\u011fdam FK win on 2026-07-16?"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784217483.304813, "trade_id": "ea70804c-247c-5d46-6eab-027777cd08b2", "side": "bid", "price": 52.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "bid", "price": 52.0, "qty": 200, "mid_later": 51.5, "adverse_cents": 100.0}

@@ -2002,3 +2002,15 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-PAR", "side": "bid", "price": 31.0, "qty": 200, "mid_later": 26.0, "adverse_cents": 1000.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 85.5, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2923037", "opened_ts": 1784220600.0587637, "close_ts": 1784707200.0, "days_to_close_at_entry": 5.63, "question": "Swiss Open: Alexander Bublik vs Quentin Halys"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2905629", "opened_ts": 1784220600.0587637, "close_ts": 1784228400.0, "days_to_close_at_entry": 0.09, "question": "Valorant: Fnatic vs GIANTX - Map 2 Winner"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784221199.755702, "trade_id": "9abbeae3-796f-7d9f-83cc-5a812793372a", "side": "ask", "price": 52.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784221336.102796, "trade_id": "76b70cff-3b5b-7d8f-f91d-4b76ffc03baa", "side": "bid", "price": 53.0, "qty": 5.589999999999998}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784221336.102796, "trade_id": "70198663-b764-721a-c62b-fd90b1b8b9d1", "side": "bid", "price": 53.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784221336.102796, "trade_id": "56f10960-138b-7526-e238-fdbc53fac0dc", "side": "bid", "price": 53.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784221336.102796, "trade_id": "4de8f647-316a-7ff3-e81f-0eb3cd5e2a5b", "side": "bid", "price": 53.0, "qty": 189.41}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 52.0, "qty": 200, "mid_later": 52.5, "adverse_cents": 100.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 53.0, "qty": 5.589999999999998, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 53.0, "qty": 3.0, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 53.0, "qty": 2.0, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 53.0, "qty": 189.41, "mid_later": 53.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KYL", "ts": 1784221693.942938, "trade_id": "ea3cc4b4-9d33-6e10-c638-81325c61e6c6", "side": "ask", "price": 53.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "ask", "price": 53.0, "qty": 200, "mid_later": 55.5, "adverse_cents": 500.0}

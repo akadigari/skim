@@ -1,13 +1,13 @@
 """
-kalshi.py — the ONLY module that talks to the network. Public, keyless, read-only.
+kalshi.py: the ONLY module that talks to the network. Public, keyless, read-only.
 
 Everything is a plain GET against api.elections.kalshi.com; this repo is
 structurally incapable of trading. Conventions ported from the author's mm_bot
 (verified against the live API):
   * prices arrive as DOLLAR STRINGS ("0.8700") or integer cents; sizes as *_fp
-    fractional strings — converted ONCE here, to float cents / float contracts;
+    fractional strings, converted ONCE here, to float cents / float contracts;
   * GET /markets/{t}/orderbook returns TWO BID stacks (yes + no); a no-bid at p
-    is a yes-ASK at 100-p — normalized here so callers see bids/asks best-first;
+    is a yes-ASK at 100-p, normalized here so callers see bids/asks best-first;
   * GET /markets/trades: taker_outcome_side "yes" => asks consumed,
     "no" => bids consumed. Oldest-first for tape replay.
   * GET /incentive_programs: period_reward is in CENTI-CENTS.
@@ -121,7 +121,7 @@ class Program:
 
 
 class Kalshi:
-    """Thin wrapper around Kalshi's public read-only API — the only place in
+    """Thin wrapper around Kalshi's public read-only API: the only place in
     this repo that makes a network call."""
 
     def __init__(self):
@@ -173,7 +173,7 @@ class Kalshi:
             if not cursor or not rows:
                 break
         else:
-            log.warning("_paginate %s: max_pages hit with cursor live — TRUNCATED", path)
+            log.warning("_paginate %s: max_pages hit with cursor live: TRUNCATED", path)
         return out
 
     # -- incentive pools ----------------------------------------------------
@@ -201,11 +201,11 @@ class Kalshi:
     def book(self, ticker: str) -> Book:
         """Fetch and normalize one market's order book. Kalshi returns two
         BID stacks (yes-bids and no-bids); a no-bid at price p is really a
-        yes-ask at 100-p, so that flip happens here — callers just see
+        yes-ask at 100-p, so that flip happens here. Callers just see
         plain bids/asks, best price first."""
         data = self._get(f"/markets/{ticker}/orderbook")
         ob = (data.get("orderbook_fp") or data.get("orderbook") or {})
-        # Bind the unit conversion to WHICH key the response used — never to the
+        # Bind the unit conversion to WHICH key the response used, never to the
         # value's magnitude (a legacy 1-cent level must not become $1.00).
         if ob.get("yes_dollars") is not None or ob.get("no_dollars") is not None:
             yes, no = ob.get("yes_dollars") or [], ob.get("no_dollars") or []
@@ -247,7 +247,7 @@ class Kalshi:
             if not cursor or not page:
                 break
         else:
-            log.warning("trades_since %s: page cap hit — tape window truncated", ticker)
+            log.warning("trades_since %s: page cap hit, tape window truncated", ticker)
         trades = [Trade(
             ts=parse_iso(r.get("created_time")) or 0.0,
             price_cents=dollars_to_cents(r.get("yes_price_dollars"))
@@ -265,7 +265,7 @@ class Kalshi:
         """Read a price field off a /markets row, whichever shape the API used.
         Live payloads carry {field}_dollars ("0.87"); legacy carried integer
         cents. Returns cents float or None. (The favorites scan was dead without
-        this — live /markets no longer returns the legacy field.)"""
+        this: live /markets no longer returns the legacy field.)"""
         dollars = m.get(f"{field}_dollars")
         if dollars not in (None, ""):
             return float(dollars) * 100.0

@@ -1,5 +1,5 @@
 """
-polymarket.py — second venue for the FAVORITES experiment, phase 1: TAKER-ONLY.
+polymarket.py: second venue for the FAVORITES experiment, phase 1: TAKER-ONLY.
 
 WHY TAKER-ONLY HERE (scope honesty): the maker-vs-taker adverse-selection
 question is being answered on Kalshi, where the tape replay machinery lives.
@@ -66,7 +66,7 @@ class Polymarket:
     def favorite_candidates(self) -> list[dict]:
         """Open markets, by volume, with best bid in the band and closing within
         the window. Gamma hard-caps offsets (~2200 => 422), so the top volume
-        pages are the honest reachable universe — fine: favorites need liquidity."""
+        pages are the honest reachable universe, fine: favorites need liquidity."""
         lo, hi = config.FAV_BAND_CENTS
         now = time.time()
         out = []

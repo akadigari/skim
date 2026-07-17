@@ -2,7 +2,7 @@ name: Health watchdog
 
 # Dead-man's switch: a 10-second job, offset between the campaign runs, that
 # reads the last committed checkpoint timestamp and screams on the (dedicated)
-# SKIM Telegram bot if the chain has gone quiet. Silent when healthy — you
+# SKIM Telegram bot if the chain has gone quiet. Silent when healthy. You
 # only ever hear from it when something died.
 on:
   schedule:

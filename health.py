@@ -1,12 +1,12 @@
 """
-health.py — the dead-man's switch. A tiny separate workflow (watchdog.yml) runs
+health.py: the dead-man's switch. A tiny separate workflow (watchdog.yml) runs
 this every 6 hours, offset from the campaign jobs. It reads the last checkpoint
 timestamp from the COMMITTED state file: if the campaign chain has gone quiet
 for more than HEALTH_STALE_HOURS, it screams on Telegram. Silent when healthy.
 
 Why a separate workflow: the campaign job can't report its own death. This one
 is a 10-second job with its own schedule, so a crashed supervisor, a broken
-push, a dead API, or a disabled workflow all surface as the same loud symptom —
+push, a dead API, or a disabled workflow all surface as the same loud symptom:
 a stale checkpoint. (If GitHub Actions itself is down, nothing can alert; the
 daily digest doubles as a positive heartbeat for that case: no digest = look.)
 """
@@ -60,7 +60,7 @@ def main() -> int:
         telegram.send(
             f"🚨 SKIM heartbeat is STALE: last checkpoint {hours:.1f}h ago "
             f"(threshold {config.HEALTH_STALE_HOURS}h).\n"
-            "The campaign chain has stopped — check the Actions tab:\n"
+            "The campaign chain has stopped, check the Actions tab:\n"
             "https://github.com/akadigari/skim/actions")
         print(f"STALE: {hours:.1f}h")
         return 0          # alerting IS the job succeeding; don't fail the run

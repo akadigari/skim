@@ -1,5 +1,5 @@
 """
-report.py — regenerate REPORT.md: the campaign's single honest scoreboard,
+report.py: regenerate REPORT.md: the campaign's single honest scoreboard,
 readable from a phone on GitHub. The GO/KILL gates are encoded here so the
 verdict is computed, not vibed.
 
@@ -22,7 +22,7 @@ import config
 
 def wilson(k: int, n: int, z: float = 1.96):
     """Wilson score confidence interval for a win rate: k wins out of n
-    trials. Returns (low, high) — honest about uncertainty at small sample sizes."""
+    trials. Returns (low, high), honest about uncertainty at small sample sizes."""
     if n <= 0:
         return (0.0, 1.0)
     ph = k / n
@@ -49,11 +49,11 @@ def mm_gate(totals: dict, days: float) -> tuple[str, str]:
               f"fills {fills}/{config.MM_GO_MIN_FILLS} evidence floor")
     # The queue model UNDERSTATES fills, which flatters the decision number
     # (rewards accrue without fills; fills mostly bring costs). With no body
-    # of fill/cost evidence, the ratio leg is vacuous — refuse to conclude.
+    # of fill/cost evidence, the ratio leg is vacuous: refuse to conclude.
     if fills < config.MM_GO_MIN_FILLS or pay <= 0:
         if days >= config.CAMPAIGN_DAYS:
-            return "NO VERDICT (UNMEASURED)", detail + " — cost side never got evidence"
-        return "UNMEASURED", detail + " — cost side lacks evidence so far"
+            return "NO VERDICT (UNMEASURED)", detail + ", cost side never got evidence"
+        return "UNMEASURED", detail + ", cost side lacks evidence so far"
     if days < config.CAMPAIGN_DAYS:
         return ("ON TRACK" if dec_day >= need and ratio >= config.MM_GO_EARN_PAY_RATIO
                 else "BEHIND"), detail
@@ -70,7 +70,7 @@ def fav_gate(stats: dict) -> tuple[str, str]:
     roi = mk.get("roi_pct")
     if n < config.FAV_GO_MIN_RESOLUTIONS:
         return "UNDERPOWERED", (f"{n}/{config.FAV_GO_MIN_RESOLUTIONS} settled maker "
-                                f"positions — no verdict yet (this is honest, not broken)")
+                                f"positions, no verdict yet (this is honest, not broken)")
     if roi is not None and roi > 0:
         return "GO", f"maker conditional-on-fill ROI {roi:+.2f}% over {n} settled"
     return "KILL", f"maker conditional-on-fill ROI {roi if roi is not None else 0:+.2f}% <= 0 over {n} settled"
@@ -97,7 +97,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     mm_verdict, mm_detail = mm_gate(totals, days)
     fv_verdict, fv_detail = fav_gate(fav_stats)
 
-    # Frozen (pre-registered horizon) verdicts override live recomputation —
+    # Frozen (pre-registered horizon) verdicts override live recomputation:
     # a verdict that keeps mutating after day 14 isn't pre-registered at all.
     frozen_mm = state.get("mm_final")
     if frozen_mm:
@@ -109,7 +109,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         fv_detail = frozen_fav["detail"] + f" (frozen at day {config.FAV_END_DAYS})"
 
     # Calibration tripwire: if the model claims rewards >10x the real-money
-    # per-market baseline, the share model is uncalibrated — never say GO.
+    # per-market baseline, the share model is uncalibrated. Never say GO.
     n_quoting = max(state.get("quoting_now", len(sims)), 1)
     rew_per_mkt_day = totals["rewards"] / max(days, 0.04) / n_quoting
     uncalibrated = rew_per_mkt_day > config.MM_CALIBRATION_MAX_PER_MARKET_DAY_CENTS
@@ -132,8 +132,8 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     if last_cp:
         health.append(
             f"| last checkpoint | {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime(last_cp))} "
-            f"— if this is > {config.HEALTH_STALE_HOURS}h old, the watchdog has already "
-            "alerted Telegram |")
+            f"(if this is > {config.HEALTH_STALE_HOURS}h old, the watchdog has already "
+            "alerted Telegram) |")
     health.append(f"| jobs run (6h chain) | {state.get('jobs_started', 0)} |")
     job_start = state.get("last_job_start_ts")
     if job_start:
@@ -143,22 +143,22 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     health.append(f"| favorites open (maker/taker/poly) | {mk.get('open', 0)} / "
                   f"{tk.get('open', 0)} / {pt.get('open', 0)} |")
     health.append(f"| API requests last job | {state.get('api_requests_last_job', 0)} |")
-    health.append("| crons (UTC) | campaign :19 of 1,7,13,19 — watchdog :49 of 3,9,15,21 |")
+    health.append("| crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |")
     health.append("")
 
     lines = [
-        "# SKIM — Skimming Kalshi's Incentive Markets (campaign report)",
+        "# SKIM: Skimming Kalshi's Incentive Markets (campaign report)",
         "",
-        *(["**🏁 CAMPAIGN COMPLETE — verdicts below are FROZEN.**", ""]
+        *(["**🏁 CAMPAIGN COMPLETE: verdicts below are FROZEN.**", ""]
           if state.get("campaign_complete") else []),
-        f"_Auto-generated {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())} — "
+        f"_Auto-generated {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}, "
         f"**day {days:.1f} of {config.CAMPAIGN_DAYS}**. 100% paper: this repo only "
         "reads public endpoints and cannot place orders._",
         "",
         *health,
-        "## Experiment 1 — MM breadth (liquidity-pool harvesting)",
+        "## Experiment 1: MM breadth (liquidity-pool harvesting)",
         "",
-        f"**Gate status: {mm_verdict}** — {mm_detail}",
+        f"**Gate status: {mm_verdict}**, {mm_detail}",
         "",
         "| metric | value |",
         "|---|---|",
@@ -197,20 +197,20 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     pt_roi = roi_str(pt.get("roi_pct"))
     lines += [
         "",
-        "## Experiment 2 — Favorites (85-95c maker vs taker control)",
+        "## Experiment 2: Favorites (85-95c maker vs taker control)",
         "",
-        f"**Gate status: {fv_verdict}** — {fv_detail}",
+        f"**Gate status: {fv_verdict}**, {fv_detail}",
         "",
         "| variant | open | unfilled | settled | wins | P&L | cond-on-fill ROI |",
         "|---|---|---|---|---|---|---|",
         f"| kalshi maker | {mk.get('open',0)} | {mk.get('unfilled',0)} | {n_mk} | "
         f"{w_mk} (win-rate CI {lo:.0%}-{hi:.0%}) | {usd(mk.get('pnl_cents',0.0))} | {mk_roi} |",
-        f"| kalshi taker | {tk.get('open',0)} | — | {tk.get('settled',0)} | {tk.get('wins',0)} | "
+        f"| kalshi taker | {tk.get('open',0)} | - | {tk.get('settled',0)} | {tk.get('wins',0)} | "
         f"{usd(tk.get('pnl_cents',0.0))} | {tk_roi} |",
-        f"| poly taker (zero-fee) | {pt.get('open',0)} | — | {pt.get('settled',0)} | "
+        f"| poly taker (zero-fee) | {pt.get('open',0)} | - | {pt.get('settled',0)} | "
         f"{pt.get('wins',0)} | {usd(pt.get('pnl_cents',0.0))} | {pt_roi} |",
         "",
-        "_If maker ROI < taker ROI, queue fills are adversely selected — the exact "
+        "_If maker ROI < taker ROI, queue fills are adversely selected: the exact "
         "failure mode this experiment exists to measure. The Polymarket taker leg is "
         "the zero-fee existence test of the bias itself (phase 1: taker-only there; "
         "the pre-registered gate is judged on the Kalshi maker leg only)._",
@@ -223,7 +223,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         "- **Favorites**: KILL if maker conditional-on-fill ROI <= 0 once "
         f"{config.FAV_GO_MIN_RESOLUTIONS} positions settle (report stays UNDERPOWERED "
         "until then rather than faking a verdict).",
-        "- The Kalshi liquidity/volume incentive programs end **Sept 1, 2026** — a GO "
+        "- The Kalshi liquidity/volume incentive programs end **Sept 1, 2026**, a GO "
         "here is only actionable before renewal risk.",
     ]
     return "\n".join(lines)

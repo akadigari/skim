@@ -1,5 +1,5 @@
 """
-supervisor.py — the long-runner GitHub Actions executes. One invocation:
+supervisor.py: the long-runner GitHub Actions executes. One invocation:
 
     load state -> (re)select markets -> grade favorites -> LOOP until deadline:
         every MM_POLL_SECONDS: tick every MM market (book + tape -> sim)
@@ -41,7 +41,7 @@ REPORT_PATH = config.BASE_DIR / "REPORT.md"
 def load_state() -> dict:
     """Fresh state ONLY when no file exists. A corrupt/unreadable committed
     state must raise: a silent reset would wipe the campaign and be committed
-    as truth within 30 minutes — the loud failure trips the health watchdog."""
+    as truth within 30 minutes. The loud failure trips the health watchdog."""
     try:
         raw = STATE_PATH.read_text()
     except FileNotFoundError:
@@ -145,7 +145,7 @@ def grade_mm(api: Kalshi, sims: list, evidence: list) -> list:
                              "decision_cents": s.decision_cents})
         elif status in ("settled", "finalized", "determined"):
             # terminal WITHOUT a yes/no result: a void/scratch. Unwind at the
-            # last known mark — inventing neither a win nor a loss.
+            # last known mark, inventing neither a win nor a loss.
             mark = s.last_mid or 0.0
             s.flush_markouts(mark, evidence)
             s.cash_cents += mark * s.inventory
@@ -185,7 +185,7 @@ def wind_down(api, poly, state, sims, fav, evidence, age_days, push) -> None:
         state["fav_final"] = {"verdict": verdict, "detail": detail,
                               "frozen_ts": time.time()}
         state["campaign_complete"] = True
-        log.info("Favorites verdict FROZEN: %s — campaign complete", verdict)
+        log.info("Favorites verdict FROZEN: %s, campaign complete", verdict)
     state["api_requests_last_job"] = api.request_count
     append_evidence(evidence)
     save_state(state, sims, fav)
@@ -222,7 +222,7 @@ def main() -> None:
     # ---- campaign phases (review: the day-14 verdict must FREEZE) ----------
     age_days = (time.time() - state.get("campaign_start_ts", time.time())) / 86400.0
     if state.get("campaign_complete"):
-        log.info("campaign complete — no-op run")
+        log.info("campaign complete, no-op run")
         return
     if age_days >= config.CAMPAIGN_DAYS:
         wind_down(api, poly, state, sims, fav, evidence, age_days,

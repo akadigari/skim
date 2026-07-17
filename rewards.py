@@ -1,5 +1,5 @@
 """
-rewards.py — Kalshi's PUBLISHED liquidity-incentive scoring, reproduced exactly.
+rewards.py: Kalshi's PUBLISHED liquidity-incentive scoring, reproduced exactly.
 Ported from the author's mm_bot (verified against the CFTC-filed Feb-2026 terms).
 
 The rules, per scoring snapshot (Kalshi samples ~1/second at random instants):
@@ -7,7 +7,7 @@ The rules, per scoring snapshot (Kalshi samples ~1/second at random instants):
   2. Walk each side best-first; only the first Target Size contracts of depth
      qualify (orders straddling the boundary qualify partially).
   3. A qualifying order scores  discount_factor ^ (ticks from best) * size
-     — at the observed 0.5 factor, one tick off the touch HALVES your score.
+     (at the observed 0.5 factor, one tick off the touch HALVES your score).
   4. Sides are normalized separately; the pool pays pro-rata, capped $1k/day.
 
 Our sim ticks every MM_POLL_SECONDS instead of every second: the share
@@ -22,7 +22,7 @@ def side_scores(levels, my_price, my_size, is_bid, target_size, discount_factor,
                 tick_cents=1.0):
     """Score ONE side. levels = [(price_cents, size)] displayed (any order).
     Returns (my_score, others_score, side_depth). 'Ticks from best' is measured
-    from the best price INCLUDING ours — improving the touch decays everyone
+    from the best price INCLUDING ours: improving the touch decays everyone
     else from YOUR price."""
     rows = [(p, s, False) for p, s in levels]
     if my_price is not None and my_size > 0:

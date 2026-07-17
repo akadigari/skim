@@ -61,7 +61,7 @@ class TestTapeExactlyOnce(unittest.TestCase):
 
     def test_no_phantom_fill_across_ticks(self):
         # End-to-end: the exact review scenario. 250 lots at our bid with
-        # queue_ahead 300 must absorb into the queue ONCE — the second sight
+        # queue_ahead 300 must absorb into the queue ONCE. The second sight
         # of the same trade must not manufacture a 200-lot fill.
         s = MarketSim(ticker="X", pool_per_day=0.0, target_size=1e9,
                       discount_factor=0.5)

@@ -1,10 +1,10 @@
 """
-telegram.py — SKIM's voice: a daily "is it making money?" digest and health
+telegram.py: SKIM's voice: a daily "is it making money?" digest and health
 alerts, on a DEDICATED bot so this project stays separate from the others.
 
 Config is env-only (GitHub repo secrets TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID);
 with neither set every function is a silent no-op, so the lab runs fine keyless.
-stdlib urllib — no new dependencies. Fail-soft: a Telegram outage can never
+stdlib urllib, no new dependencies. Fail-soft: a Telegram outage can never
 break a checkpoint or a tick.
 """
 
@@ -33,13 +33,13 @@ def _ctx() -> ssl.SSLContext:
 
 
 def configured() -> bool:
-    """True if both Telegram secrets are set — i.e. sending is actually possible."""
+    """True if both Telegram secrets are set, i.e. sending is actually possible."""
     return bool(os.getenv("TELEGRAM_BOT_TOKEN") and os.getenv("TELEGRAM_CHAT_ID"))
 
 
 def send(text: str) -> bool:
     """Send a plain-text message to the configured chat. Returns False (and
-    never raises) if secrets aren't set or the request fails — Telegram
+    never raises) if secrets aren't set or the request fails. Telegram
     being down must never break a checkpoint or a tick."""
     if not configured():
         return False
@@ -58,7 +58,7 @@ def send(text: str) -> bool:
 
 def render_digest(state: dict, sims: list, fav_stats: dict,
                   mm_verdict: str, fav_verdict: str) -> str:
-    """The daily money message. PAPER is said out loud every single time —
+    """The daily money message. PAPER is said out loud every single time:
     this bot must never let a simulated number read like a real one."""
     start = state.get("campaign_start_ts") or time.time()
     day = max((time.time() - start) / 86400.0, 0.0)
@@ -76,7 +76,7 @@ def render_digest(state: dict, sims: list, fav_stats: dict,
         return f"${c/100:+.2f}"
 
     lines = [
-        f"📊 SKIM day {day:.1f}/{config.CAMPAIGN_DAYS} — PAPER results (nothing is real money)",
+        f"📊 SKIM day {day:.1f}/{config.CAMPAIGN_DAYS}: PAPER results (nothing is real money)",
         "",
         f"MM pools [{mm_verdict}]: decision {usd(decision)} "
         f"(rewards {usd(rewards)}, AS {usd(-adverse)}, {fills} fills, "

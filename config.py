@@ -1,11 +1,11 @@
 """
-config.py — every knob for the 2-week Kalshi paper campaign. Hand-set, inspectable.
+config.py: every knob for the 2-week Kalshi paper campaign. Hand-set, inspectable.
 
 TWO EXPERIMENTS, ONE VERDICT EACH (see report.py for the exact gates):
-  MM BREADTH  — rest hypothetical two-sided quotes on the top-N liquidity-pool
+  MM BREADTH: rest hypothetical two-sided quotes on the top-N liquidity-pool
                 markets and measure what Kalshi's published scoring would pay,
                 minus what the trade tape says adverse selection would cost.
-  FAVORITES   — rest hypothetical maker bids at 85-95c on soon-resolving markets
+  FAVORITES:  rest hypothetical maker bids at 85-95c on soon-resolving markets
                 (plus a taker control) and measure conditional-on-fill ROI.
 
 PAPER ONLY. This repo never sends an order; it only reads public endpoints.
@@ -33,7 +33,7 @@ DAILY_POOL_CAP_CENTS = 100_000.0   # $1,000/day per-program payout bound (publis
 MM_N_MARKETS = 15                  # how many pooled markets we quote concurrently
 MM_QUOTE_SIZE = 200                # hypothetical contracts per side (audit assumption)
 MM_CANDIDATE_POOL_LIMIT = 120      # rank this many top pools/day (book fetch each)
-MM_POLL_SECONDS = 20               # sim tick; Kalshi snapshots 1/s — our share
+MM_POLL_SECONDS = 20               # sim tick; Kalshi snapshots 1/s, our share
                                    # estimator stays unbiased, just noisier
 MM_MARKOUT_SECONDS = 300           # adverse-selection markout horizon (5 min)
 MM_RESERVE_PER_MARKET_USD = 200.0  # capital reserve assumption for ranking
@@ -42,7 +42,7 @@ MM_MAX_INVENTORY = 400             # |net contracts| cap per market (2x quote si
 QUEUE_POLICY = "conservative"      # cancels assumed BEHIND us -> UNDERSTATES fills.
                                    # NB (review-corrected): for the decision number
                                    # that is verdict-OPTIMISTIC (rewards accrue with
-                                   # or without fills; fills mostly bring costs) —
+                                   # or without fills; fills mostly bring costs),
                                    # hence the fills-evidence floor in the GO gate.
 
 # Maker fee: Kalshi now charges makers ~25% of the taker fee (pm.wiki, 2026).
@@ -62,7 +62,7 @@ FAV_MAX_POSITIONS = 120            # concurrent open paper positions (Kalshi).
                                    # at cap; 300 settles is reachable in 14d only in
                                    # the good case, hence FAV_END_DAYS extends grading.
 FAV_SCAN_SECONDS = 3600            # scan cadence (hourly)
-FAV_FILL_CHECK_SECONDS = 600       # maker tape-fill sweep cadence (was every tick —
+FAV_FILL_CHECK_SECONDS = 600       # maker tape-fill sweep cadence (was every tick,
                                    # pointless request load; fills replay incrementally)
 KALSHI_MAX_SPREAD_CENTS = 3.0      # skip wide-spread books (unfair maker/taker test)
 FAV_END_DAYS = 28                  # PRE-REGISTERED: favorites positions opened during
@@ -88,14 +88,14 @@ MM_CALIBRATION_MAX_PER_MARKET_DAY_CENTS = 900   # tripwire: modeled rewards/mark
 FAV_GO_MIN_RESOLUTIONS = 300                    # favorites verdict needs n >= this
                                                 # (report shows Wilson CI + power honestly)
 
-# --- Polymarket favorites leg (phase 1: TAKER-ONLY — see polymarket.py) -------
+# --- Polymarket favorites leg (phase 1: TAKER-ONLY, see polymarket.py) -------
 POLY_ENABLED = True
 POLY_SCAN_PAGES = 5                # top-volume gamma pages scanned per hour
 POLY_MAX_SPREAD_CENTS = 3.0        # skip wide-spread books (unfair taker test)
 POLY_TAKER_FEE_CENTS = 0.0         # Polymarket taker fee is currently zero
 POLY_FAV_MAX_POSITIONS = 80        # separate cap from the Kalshi book
 
-# --- Telegram (dedicated SKIM bot — separate from other projects' bots) -------
+# --- Telegram (dedicated SKIM bot, separate from other projects' bots) -------
 # Set as GitHub repo secrets TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID; env-only,
 # everything no-ops silently when unset. Digest once a day; PAPER said out loud.
 DIGEST_EVERY_HOURS = 20            # >= this long since last digest -> send one

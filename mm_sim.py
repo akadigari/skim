@@ -1,32 +1,32 @@
 """
-mm_sim.py — the MM BREADTH experiment: hypothetically quote the top-N pooled
+mm_sim.py: the MM BREADTH experiment: hypothetically quote the top-N pooled
 markets and account, honestly, for what that would earn and cost.
 
 WHAT ONE TICK DOES (per selected market)
   1. Replay ALL new public tape (exactly-once via tape.py's float-watermark +
-     id-dedup cursor — never wall clock) through the queue fill model, even on
+     id-dedup cursor, never wall clock) through the queue fill model, even on
      book-fetch blips, so fills/AS are never silently dropped.
   2. Pull the book; JOIN THE TOUCH both sides at MM_QUOTE_SIZE (never improve),
      standing down on one-sided/crossed books and on any side that would push
      |inventory| past MM_MAX_INVENTORY (the $-reserve realism cap).
   3. Accrue reward: pool_per_day * share * dt/86400 (published scoring in
-     rewards.py), with dt clamped and CLIPPED at the program's end_ts — an
+     rewards.py), with dt clamped and CLIPPED at the program's end_ts: an
      ended pool pays nothing, ever.
   4. Each fill schedules a MARKOUT check MM_MARKOUT_SECONDS later; the mid's
      move against us by then is booked as adverse selection. Unresolved
      markouts are flushed against the settlement value when a market resolves.
 
-QUEUE MODEL BIAS — read carefully (review-corrected):
+QUEUE MODEL BIAS: read carefully (review-corrected):
   We join the BACK of the displayed queue; cancels are assumed BEHIND us, so
   the model UNDERSTATES fills. For the DECISION NUMBER that bias is
   *optimistic*, not conservative: pool rewards accrue whether or not we fill,
   while fills mostly bring costs (adverse selection, fees). Fewer simulated
   fills therefore means fewer simulated costs against the same rewards. This
   is why report.py refuses a GO verdict without a minimum body of fill/cost
-  evidence and prints reward-haircut sensitivity — see the gates there.
+  evidence and prints reward-haircut sensitivity. See the gates there.
 
 INVENTORY is marked at the last KNOWN two-sided mid (a one-sided or crossed
-snapshot never clobbers the mark — that bug vanished short-inventory liability).
+snapshot never clobbers the mark: that bug vanished short-inventory liability).
 """
 
 from __future__ import annotations
@@ -102,7 +102,7 @@ class MarketSim:
             self.bid = self.ask = None          # one-sided or crossed: stand down
             return
         # Inventory realism cap: never quote the side that grows |inventory|
-        # past the cap — the $/market reserve assumption must stay honest.
+        # past the cap: the $/market reserve assumption must stay honest.
         allow_bid = self.inventory < config.MM_MAX_INVENTORY
         allow_ask = self.inventory > -config.MM_MAX_INVENTORY
         for side, best, allowed in (("bid", bb, allow_bid), ("ask", ba, allow_ask)):
@@ -200,7 +200,7 @@ class MarketSim:
             self.tape_cursor = tape.new_cursor(now)
 
         # Stale resume (job-chain gap): our quotes are fictions from 20-60 min
-        # ago — replaying gap tape against them would manufacture fills at
+        # ago. Replaying gap tape against them would manufacture fills at
         # prices we'd never still be resting at. Drop quotes, skip the gap.
         if self.last_tick_ts and now - self.last_tick_ts > 4 * config.MM_POLL_SECONDS:
             self.bid = self.ask = None
@@ -238,7 +238,7 @@ class MarketSim:
         if self.end_ts and now >= self.end_ts:
             self.bid = self.ask = None           # pool over: nothing left to skim
 
-        # 4. mark + markouts — only a real two-sided mid may move the mark
+        # 4. mark + markouts: only a real two-sided mid may move the mark
         if book.mid is not None:
             self.last_mid = book.mid
         self._settle_markouts(now, self.last_mid, evidence)
@@ -281,7 +281,7 @@ class MarketSim:
 # ---------------------------------------------------------------------------
 def select_markets(api: Kalshi, kept: list[MarketSim]) -> list[MarketSim]:
     """Return the quoting roster: surviving kept sims (with their pool terms
-    REFRESHED from the live program map — a shrunk/ended pool must never keep
+    REFRESHED from the live program map: a shrunk/ended pool must never keep
     paying its stale rate) plus new picks for vacancies, ranked by
     pool$/day x simulated-join share / capital reserve."""
     programs = {p.ticker: p for p in api.liquidity_programs()}

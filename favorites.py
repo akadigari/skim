@@ -1,20 +1,20 @@
 """
-favorites.py — the FAVORITES experiment: does the favorite-longshot bias still
+favorites.py: the FAVORITES experiment: does the favorite-longshot bias still
 pay a small maker after fees, CONDITIONAL ON GETTING FILLED?
 
 Evidence base (why this test exists): Whelan et al. (~300k Kalshi contracts)
 found makers on the >=50c side earned ~+2.6% post-fee while <10c longshots lose
->60% — but that's an UNCONDITIONAL average over a maker population that turned
+>60%, but that's an UNCONDITIONAL average over a maker population that turned
 professional post-2024 (Becker, 72M trades). The open question is adverse
 selection: are the fills you actually receive the bad ones? Two variants answer
 it, on identical candidates:
 
-  MAKER — hypothetically rest a bid joining the best bid in the 85-95c band on
+  MAKER: hypothetically rest a bid joining the best bid in the 85-95c band on
           markets resolving within FAV_MAX_DAYS_TO_CLOSE; fills come from the
           public tape via the same queue-conservative model as mm_sim.
-  TAKER — control: buy at the ask immediately (always fills, pays the spread
+  TAKER: control: buy at the ask immediately (always fills, pays the spread
           and the full taker fee). If maker ROI < taker ROI, queue fills are
-          adversely selected — the exact effect we're testing for.
+          adversely selected: the exact effect we're testing for.
 
 One position per (market, variant), FAV_CONTRACTS each, graded at settlement:
 YES pays 100-p per contract, NO loses p. All paper; nothing is ever sent.
@@ -35,7 +35,7 @@ log = logging.getLogger("lab.fav")
 
 def scan_candidates(api: Kalshi) -> list[dict]:
     """Open markets with best bid in the band, closing within the window.
-    Prices are read via Kalshi.market_price_cents — the live /markets payload
+    Prices are read via Kalshi.market_price_cents: the live /markets payload
     carries only *_dollars fields, and reading the legacy field left this whole
     experiment silently dead (review finding). The close window is filtered
     SERVER-side so we see the real universe, not a 4,000-row prefix."""
@@ -112,7 +112,7 @@ class Favorites:
             if book.best_ask - book.best_bid > config.KALSHI_MAX_SPREAD_CENTS:
                 continue
             if book.size_at("bid", book.best_bid) < config.FAV_MIN_BID_SIZE:
-                continue    # nobody real at the touch — skip ghost books
+                continue    # nobody real at the touch, skip ghost books
             n = config.FAV_CONTRACTS
             for variant in ("maker", "taker"):
                 key = f"kalshi|{c['ticker']}|{variant}"
@@ -138,7 +138,7 @@ class Favorites:
         return opened
 
     def _open_poly(self, poly, evidence: list, now: float) -> int:
-        """Polymarket leg, phase 1: TAKER-ONLY at the ask, zero fees — the
+        """Polymarket leg, phase 1: TAKER-ONLY at the ask, zero fees, the
         cheapest-execution test of whether the bias exists at all."""
         opened = 0
         open_count = self._open_count("polymarket")

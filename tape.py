@@ -1,16 +1,16 @@
 """
-tape.py — exactly-once tape consumption for paper fill simulation.
+tape.py: exactly-once tape consumption for paper fill simulation.
 
 THE BUG THIS KILLS (found in adversarial review, reproduced): the API floors
 min_ts to whole seconds and our old cursor was wall-clock tick-start, so trades
-in the boundary second were replayed twice — double-decrementing queue_ahead and
+in the boundary second were replayed twice, double-decrementing queue_ahead and
 manufacturing phantom fills that OVERSTATED the decision number. And trades
 printed between "now" and the fetch landing were processed, then re-fetched.
 
 THE FIX: a cursor of (float watermark = max processed trade ts, ids seen AT that
 exact ts). Each poll fetches from floor(watermark), then filters:
     keep t  iff  t.ts > watermark  OR  (t.ts == watermark AND t.trade_id unseen)
-The watermark advances only from trades actually processed — never wall clock —
+The watermark advances only from trades actually processed (never wall clock),
 so a failed/empty fetch leaves the window intact for retry, and a duplicate at
 the boundary is dropped by id. State is two small JSON-safe fields.
 """

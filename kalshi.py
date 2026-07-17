@@ -30,6 +30,8 @@ RETRYABLE = {429, 500, 502, 503, 504}
 
 
 def parse_iso(s):
+    """Turn an ISO-8601 timestamp string (with or without a trailing Z) into
+    a unix timestamp. Returns None if the string is missing or unparseable."""
     if not s:
         return None
     try:
@@ -39,23 +41,27 @@ def parse_iso(s):
 
 
 def dollars_to_cents(v):
+    """Turn a dollar-string price like '0.8700' into cents (87.0). None stays None."""
     if v in (None, ""):
         return None
     return float(v) * 100.0
 
 
 def fp_to_float(v):
+    """Turn one of Kalshi's fractional-size strings ('*_fp') into a plain float. Missing -> 0.0."""
     return float(v) if v not in (None, "") else 0.0
 
 
 @dataclass
 class Level:
+    """One price level in an order book: a price (in cents) and the size resting there."""
     price_cents: float
     size: float
 
 
 @dataclass
 class Book:
+    """A snapshot of one market's order book: bids and asks, both sorted best-first."""
     ticker: str
     ts: float
     bids: list = field(default_factory=list)   # yes-bids, best (highest) first
@@ -63,14 +69,17 @@ class Book:
 
     @property
     def best_bid(self):
+        """Highest bid price in cents, or None if the book has no bids."""
         return self.bids[0].price_cents if self.bids else None
 
     @property
     def best_ask(self):
+        """Lowest ask price in cents, or None if the book has no asks."""
         return self.asks[0].price_cents if self.asks else None
 
     @property
     def mid(self):
+        """Midpoint of best bid and best ask, or None if the book is empty or crossed."""
         if self.best_bid is None or self.best_ask is None:
             return None
         if self.best_ask <= self.best_bid:
@@ -78,12 +87,14 @@ class Book:
         return (self.best_bid + self.best_ask) / 2.0
 
     def size_at(self, side: str, price: float) -> float:
+        """How much size is resting at an exact price on one side ('bid' or 'ask')."""
         levels = self.bids if side == "bid" else self.asks
         return sum(l.size for l in levels if abs(l.price_cents - price) < 1e-9)
 
 
 @dataclass
 class Trade:
+    """One print from the public trade tape."""
     ts: float
     price_cents: float
     count: float
@@ -93,6 +104,8 @@ class Trade:
 
 @dataclass
 class Program:
+    """One active liquidity-incentive program for a market: the reward pool
+    and the schedule it pays out over."""
     ticker: str
     pool_cents: float
     start_ts: float
@@ -102,12 +115,17 @@ class Program:
 
     @property
     def pool_cents_per_day(self) -> float:
+        """The pool's payout rate per day, capped at the published daily program limit."""
         period = max(self.end_ts - self.start_ts, 1.0)
         return min(self.pool_cents * 86400.0 / period, config.DAILY_POOL_CAP_CENTS)
 
 
 class Kalshi:
+    """Thin wrapper around Kalshi's public read-only API — the only place in
+    this repo that makes a network call."""
+
     def __init__(self):
+        """Set up the HTTP session and the politeness/rate-limit bookkeeping."""
         self._s = requests.Session()
         self._s.headers.update({"User-Agent": "kalshi-paper-lab/1.0 (read-only research)"})
         self._lock = threading.Lock()
@@ -115,6 +133,8 @@ class Kalshi:
         self.request_count = 0
 
     def _get(self, path: str, params: dict | None = None) -> dict:
+        """One rate-limited GET with automatic retry on 429/5xx. Returns the
+        parsed JSON body, or {} if every attempt failed."""
         for attempt in range(config.MAX_RETRIES + 1):
             with self._lock:
                 gap = config.REQUEST_GAP_SECONDS - (time.time() - self._last)
@@ -137,6 +157,8 @@ class Kalshi:
         return {}
 
     def _paginate(self, path, params, key, max_pages=30):
+        """Walk a cursor-paginated endpoint and collect every row across all
+        pages (up to max_pages), handling Kalshi's two different cursor field names."""
         out, cursor = [], None
         for _ in range(max_pages):
             p = dict(params)
@@ -156,6 +178,8 @@ class Kalshi:
 
     # -- incentive pools ----------------------------------------------------
     def liquidity_programs(self) -> list[Program]:
+        """Fetch every currently-active liquidity incentive program (the
+        pools that pay makers for resting quotes)."""
         rows = self._paginate("/incentive_programs", {"status": "active", "limit": 200},
                               "incentive_programs")
         out = []
@@ -175,6 +199,10 @@ class Kalshi:
 
     # -- books / trades / markets --------------------------------------------
     def book(self, ticker: str) -> Book:
+        """Fetch and normalize one market's order book. Kalshi returns two
+        BID stacks (yes-bids and no-bids); a no-bid at price p is really a
+        yes-ask at 100-p, so that flip happens here — callers just see
+        plain bids/asks, best price first."""
         data = self._get(f"/markets/{ticker}/orderbook")
         ob = (data.get("orderbook_fp") or data.get("orderbook") or {})
         # Bind the unit conversion to WHICH key the response used — never to the
@@ -182,13 +210,16 @@ class Kalshi:
         if ob.get("yes_dollars") is not None or ob.get("no_dollars") is not None:
             yes, no = ob.get("yes_dollars") or [], ob.get("no_dollars") or []
             def px(v):
+                """Dollar-string level price -> cents."""
                 return float(v) * 100.0
         else:
             yes, no = ob.get("yes") or [], ob.get("no") or []
             def px(v):
+                """Legacy integer-cents level price, already in cents."""
                 return float(v)
 
         def ok(price):
+            """Drop levels with an impossible price (must be strictly between 0 and 100 cents)."""
             return 0.0 < price < 100.0            # drop impossible levels
 
         bids = sorted([Level(px(p), fp_to_float(s)) for p, s in yes if ok(px(p))],
@@ -244,6 +275,7 @@ class Kalshi:
         return float(legacy)
 
     def market(self, ticker: str) -> dict:
+        """Fetch the raw /markets/{ticker} row for one market."""
         return self._get(f"/markets/{ticker}").get("market") or {}
 
     def open_markets(self, max_pages: int = 20, min_close_ts: int | None = None,

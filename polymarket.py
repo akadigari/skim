@@ -31,12 +31,17 @@ GAMMA = "https://gamma-api.polymarket.com"
 
 
 class Polymarket:
+    """Thin wrapper around Polymarket's public read-only gamma API."""
+
     def __init__(self):
+        """Set up the HTTP session used for every request."""
         self._s = requests.Session()
         self._s.headers.update({"User-Agent": "skim/1.0 (read-only research)"})
         self.request_count = 0
 
     def _get(self, path: str, params: dict | None = None):
+        """One polite GET against the gamma API. Returns the parsed JSON
+        body, or None on any error (bad status, timeout, bad JSON)."""
         time.sleep(config.REQUEST_GAP_SECONDS)
         self.request_count += 1
         try:
@@ -49,6 +54,8 @@ class Polymarket:
 
     @staticmethod
     def _jlist(v):
+        """Gamma sometimes returns a list field as an actual list, sometimes
+        as a JSON-encoded string. Normalize either shape to a plain list."""
         if isinstance(v, list):
             return v
         try:

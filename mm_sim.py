@@ -45,17 +45,21 @@ log = logging.getLogger("lab.mm")
 
 
 def taker_fee_cents(price_cents: float, contracts: float) -> float:
+    """Kalshi's published taker fee formula, in cents, rounded up to the next whole cent."""
     p = max(0.0, min(1.0, price_cents / 100.0))
     raw = config.TAKER_FEE_COEF * contracts * p * (1.0 - p) * 100.0
     return math.ceil(round(raw, 6))   # round first: fp noise must not add a cent
 
 
 def maker_fee_cents(price_cents: float, contracts: float) -> float:
+    """Maker fee: a fixed fraction of what the same trade would cost as a taker."""
     return config.MAKER_FEE_FRACTION * taker_fee_cents(price_cents, contracts)
 
 
 @dataclass
 class SimQuote:
+    """One side of our hypothetical resting quote: price, size, and how much
+    displayed size is ahead of us in the queue at that price."""
     price: float
     size: float
     queue_ahead: float          # displayed contracts that fill before we do
@@ -90,6 +94,9 @@ class MarketSim:
 
     # -- quoting policy ----------------------------------------------------
     def _requote(self, book: Book) -> None:
+        """Update our hypothetical bid/ask to join the current best bid/ask.
+        Stands down (no quote) on a one-sided or crossed book, or on
+        whichever side would push our inventory past the reserve cap."""
         bb, ba = book.best_bid, book.best_ask
         if bb is None or ba is None or ba <= bb:
             self.bid = self.ask = None          # one-sided or crossed: stand down
@@ -117,6 +124,8 @@ class MarketSim:
 
     # -- tape replay ---------------------------------------------------------
     def _replay(self, trades, evidence) -> None:
+        """Walk new public trades oldest-first and check each one against
+        our resting quotes to see if it would have filled us."""
         for t in trades:
             if t.taker_side == "no" and self.bid:        # aggressor sold YES -> bids consumed
                 self._consume("bid", self.bid, t, evidence)
@@ -124,6 +133,9 @@ class MarketSim:
                 self._consume("ask", self.ask, t, evidence)
 
     def _consume(self, side, q, t, evidence) -> None:
+        """Check one trade against one of our resting quotes: if the trade
+        traded through our price (swept) we fill in full; if it traded
+        exactly at our price we fill only after the queue ahead of us clears."""
         swept = (t.price_cents < q.price - 1e-9) if side == "bid" \
                 else (t.price_cents > q.price + 1e-9)
         at_level = abs(t.price_cents - q.price) < 1e-9
@@ -155,6 +167,9 @@ class MarketSim:
                 self.ask = None
 
     def _settle_markouts(self, now: float, mid: float | None, evidence) -> None:
+        """Grade any fills whose markout window (MM_MARKOUT_SECONDS after
+        the fill) has come due: how far did the mid move against us since we
+        got filled. That's the adverse-selection cost."""
         if mid is None:
             return
         due = [m for m in self.pending_markouts if m[0] <= now]
@@ -175,6 +190,9 @@ class MarketSim:
 
     # -- one tick ------------------------------------------------------------
     def tick(self, api: Kalshi, evidence: list) -> None:
+        """One simulation step for this market: replay new tape against our
+        quotes, refresh the book and requote, accrue this tick's share of
+        the reward pool, and settle any markouts that came due."""
         if self.retired:
             return
         now = time.time()
@@ -237,10 +255,13 @@ class MarketSim:
 
     @property
     def decision_cents(self) -> float:
+        """The bottom-line number the GO/KILL gate judges: rewards earned
+        plus spread pnl, minus adverse selection and fees."""
         return (self.reward_cents + self.spread_pnl_cents
                 - self.adverse_cents - self.fees_cents)
 
     def to_dict(self) -> dict:
+        """Turn this sim into a plain dict for JSON checkpointing."""
         d = self.__dict__.copy()
         d["bid"] = self.bid.__dict__ if self.bid else None
         d["ask"] = self.ask.__dict__ if self.ask else None
@@ -248,6 +269,7 @@ class MarketSim:
 
     @classmethod
     def from_dict(cls, d: dict) -> "MarketSim":
+        """Rebuild a MarketSim from the dict produced by to_dict()."""
         d = dict(d)
         d["bid"] = SimQuote(**d["bid"]) if d.get("bid") else None
         d["ask"] = SimQuote(**d["ask"]) if d.get("ask") else None
@@ -307,6 +329,7 @@ def select_markets(api: Kalshi, kept: list[MarketSim]) -> list[MarketSim]:
 
 
 def _mk(p: Program) -> MarketSim:
+    """Build a fresh MarketSim for a newly-picked pool program."""
     return MarketSim(ticker=p.ticker, pool_per_day=p.pool_cents_per_day,
                      target_size=p.target_size, discount_factor=p.discount_factor,
                      end_ts=p.end_ts, category=p.ticker.split("-")[0])

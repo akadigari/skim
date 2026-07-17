@@ -19,6 +19,8 @@ from __future__ import annotations
 
 
 def new_cursor(start_ts: float) -> dict:
+    """Start a fresh exactly-once tape cursor: a float watermark plus the
+    ids seen at that exact second (for boundary-second dedup)."""
     return {"ts": float(start_ts), "ids": []}
 
 

@@ -21,6 +21,8 @@ import config
 
 
 def wilson(k: int, n: int, z: float = 1.96):
+    """Wilson score confidence interval for a win rate: k wins out of n
+    trials. Returns (low, high) — honest about uncertainty at small sample sizes."""
     if n <= 0:
         return (0.0, 1.0)
     ph = k / n
@@ -32,6 +34,8 @@ def wilson(k: int, n: int, z: float = 1.96):
 
 
 def mm_gate(totals: dict, days: float) -> tuple[str, str]:
+    """Decide the MM breadth experiment's verdict (GO/KILL/ON TRACK/etc.)
+    from the running totals so far. Returns (verdict, human-readable detail)."""
     if days < 1:
         return "PENDING", "less than one day of data"
     dec_day = totals["decision"] / days
@@ -59,6 +63,8 @@ def mm_gate(totals: dict, days: float) -> tuple[str, str]:
 
 
 def fav_gate(stats: dict) -> tuple[str, str]:
+    """Decide the Favorites experiment's verdict from the maker leg's
+    settled positions. Returns (verdict, human-readable detail)."""
     mk = stats.get("maker", {})
     n = mk.get("settled", 0)
     roi = mk.get("roi_pct")
@@ -71,6 +77,8 @@ def fav_gate(stats: dict) -> tuple[str, str]:
 
 
 def render(state: dict, sims: list, fav_stats: dict) -> str:
+    """Build the full text of REPORT.md: health block, both experiments'
+    tables and gate verdicts, and the pre-registered kill criteria."""
     start = state.get("campaign_start_ts") or time.time()
     days = max((time.time() - start) / 86400.0, 0.0)
 
@@ -114,6 +122,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     pt = fav_stats.get("poly_taker", {})
 
     def usd(c):
+        """Format a cents value as a signed dollar string, e.g. 150 -> '+$1.50'."""
         return f"${c/100:+.2f}"
 
     # -- health block: is the machine itself alive and behaving? ------------
@@ -181,6 +190,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
     lo, hi = wilson(w_mk, n_mk) if n_mk else (0.0, 1.0)
 
     def roi_str(v):
+        """Format an ROI percentage, or 'n/a' if there's nothing settled to compute it from."""
         return f"{v:+.2f}%" if v is not None else "n/a"
 
     mk_roi, tk_roi = roi_str(mk.get("roi_pct")), roi_str(tk.get("roi_pct"))

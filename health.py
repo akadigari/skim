@@ -43,12 +43,15 @@ def staleness_hours(now: float | None = None) -> float | None:
 
 
 def is_stale(hours: float | None) -> bool:
-    # No state at all is treated as NOT stale: the campaign simply hasn't had
-    # its first run yet, and alerting on that would cry wolf on day zero.
+    """True if the last checkpoint is older than the alarm threshold.
+    No state at all is treated as NOT stale: the campaign simply hasn't had
+    its first run yet, and alerting on that would cry wolf on day zero."""
     return hours is not None and hours > config.HEALTH_STALE_HOURS
 
 
 def main() -> int:
+    """Entry point for the watchdog workflow: check staleness and, in
+    --watchdog mode, send a Telegram alert if the campaign chain has gone quiet."""
     ap = argparse.ArgumentParser(description="SKIM health watchdog (read-only)")
     ap.add_argument("--watchdog", action="store_true")
     args = ap.parse_args()

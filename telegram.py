@@ -23,6 +23,8 @@ log = logging.getLogger("lab.telegram")
 
 
 def _ctx() -> ssl.SSLContext:
+    """Build an SSL context, preferring certifi's CA bundle if it's
+    installed (some environments ship without a working default one)."""
     try:
         import certifi
         return ssl.create_default_context(cafile=certifi.where())
@@ -31,10 +33,14 @@ def _ctx() -> ssl.SSLContext:
 
 
 def configured() -> bool:
+    """True if both Telegram secrets are set — i.e. sending is actually possible."""
     return bool(os.getenv("TELEGRAM_BOT_TOKEN") and os.getenv("TELEGRAM_CHAT_ID"))
 
 
 def send(text: str) -> bool:
+    """Send a plain-text message to the configured chat. Returns False (and
+    never raises) if secrets aren't set or the request fails — Telegram
+    being down must never break a checkpoint or a tick."""
     if not configured():
         return False
     url = f"https://api.telegram.org/bot{os.getenv('TELEGRAM_BOT_TOKEN')}/sendMessage"
@@ -66,6 +72,7 @@ def render_digest(state: dict, sims: list, fav_stats: dict,
     pt = fav_stats.get("poly_taker", {})
 
     def usd(c):
+        """Format a cents value as a signed dollar string, e.g. 150 -> '+$1.50'."""
         return f"${c/100:+.2f}"
 
     lines = [

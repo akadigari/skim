@@ -65,15 +65,20 @@ class Favorites:
     """Position book for both variants. State is a plain dict (JSON-persisted)."""
 
     def __init__(self, state: dict | None = None):
+        """Load the position book from a saved state dict, or start empty."""
         s = state or {}
         self.positions: dict = s.get("positions", {})   # key -> position dict
         self.last_scan_ts: float = s.get("last_scan_ts", 0.0)
 
     def to_dict(self) -> dict:
+        """Turn the position book back into a plain dict for JSON checkpointing."""
         return {"positions": self.positions, "last_scan_ts": self.last_scan_ts}
 
     # -- opening -------------------------------------------------------------
     def scan_and_open(self, api: Kalshi, evidence: list, poly=None) -> int:
+        """If enough time has passed since the last scan, look for new
+        favorite-band candidates on Kalshi (and Polymarket, if enabled) and
+        open paper positions on them. Returns how many positions were opened."""
         now = time.time()
         if now - self.last_scan_ts < config.FAV_SCAN_SECONDS:
             return 0
@@ -86,10 +91,13 @@ class Favorites:
         return opened
 
     def _open_count(self, venue: str) -> int:
+        """How many positions are currently open on one venue (kalshi or polymarket)."""
         return sum(1 for p in self.positions.values()
                    if p["status"] == "open" and p.get("venue", "kalshi") == venue)
 
     def _open_kalshi(self, api: Kalshi, evidence: list, now: float) -> int:
+        """Scan Kalshi for favorite-band candidates and open a maker + taker
+        paper position on each new one, up to FAV_MAX_POSITIONS."""
         open_count = self._open_count("kalshi")
         opened = 0
         for c in scan_candidates(api):
@@ -155,6 +163,9 @@ class Favorites:
 
     # -- maker fill simulation (tape replay, queue-conservative; Kalshi only) --
     def update_maker_fills(self, api: Kalshi, evidence: list) -> None:
+        """Replay the public trade tape for each open maker position and fill
+        it (partially or fully) whenever a real trade would have hit our
+        resting bid, using the same queue-conservative model as mm_sim."""
         now = time.time()
         for key, p in self.positions.items():
             if p["status"] != "open" or p["variant"] != "maker":
@@ -187,6 +198,9 @@ class Favorites:
 
     # -- grading ---------------------------------------------------------------
     def grade(self, api: Kalshi, evidence: list, poly=None) -> int:
+        """Check every open position whose market has closed, look up the
+        real result, and settle it (pnl, win/loss) or void it if the result
+        never shows up. Returns how many positions were settled this pass."""
         graded = 0
         for key, p in self.positions.items():
             if p["status"] != "open":
@@ -232,6 +246,7 @@ class Favorites:
         """'maker'/'taker' = the Kalshi experiment (the pre-registered gate);
         'poly_taker' = the Polymarket zero-fee existence test."""
         def bucket(venue, variant):
+            """Roll up one venue+variant slice (e.g. kalshi maker) into open/settled/pnl counts."""
             ps = [p for p in self.positions.values()
                   if p["variant"] == variant and p.get("venue", "kalshi") == venue]
             settled = [p for p in ps if p["status"] == "settled"]

@@ -50,6 +50,9 @@ def load_state() -> dict:
 
 
 def save_state(state: dict, sims: list, fav: Favorites) -> None:
+    """Write the campaign state to state/campaign.json, via a temp file +
+    atomic rename so a crash mid-write never leaves a half-written file
+    that the health watchdog or next job would choke on."""
     state["mm"] = [s.to_dict() for s in sims]
     state["favorites"] = fav.to_dict()
     state["last_checkpoint_ts"] = time.time()   # the health watchdog reads this
@@ -80,6 +83,8 @@ def maybe_send_digest(state: dict, sims: list, fav: Favorites) -> None:
 
 
 def append_evidence(rows: list) -> None:
+    """Append this checkpoint's evidence rows (fills, settles, etc.) to
+    data/evidence.jsonl, then clear the in-memory list so nothing is written twice."""
     if not rows:
         return
     config.DATA_DIR.mkdir(exist_ok=True)
@@ -93,7 +98,11 @@ def append_evidence(rows: list) -> None:
 # Git checkpointing (runs inside Actions; silently skipped when not a repo)
 # ---------------------------------------------------------------------------
 def git_checkpoint(push: bool) -> None:
+    """Commit (and optionally push) the current state/data/REPORT.md as one
+    checkpoint. No-ops outside a git repo. On a push race, pulls and retries
+    a few times rather than leaving a half-finished rebase behind."""
     def run(*args):
+        """Run one git command in the repo root and capture its output."""
         return subprocess.run(["git", *args], cwd=config.BASE_DIR,
                               capture_output=True, text=True)
     if run("rev-parse", "--is-inside-work-tree").returncode != 0:
@@ -116,6 +125,8 @@ def git_checkpoint(push: bool) -> None:
 # MM inventory grading: settle inventory in markets that resolved
 # ---------------------------------------------------------------------------
 def grade_mm(api: Kalshi, sims: list, evidence: list) -> list:
+    """Check every still-active MM sim's market for a real-world result and
+    settle its hypothetical inventory (win/loss/void) if the market resolved."""
     for s in sims:
         if s.retired:
             continue
@@ -186,6 +197,9 @@ def wind_down(api, poly, state, sims, fav, evidence, age_days, push) -> None:
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
+    """Entry point for one supervisor run: load state, refresh the quoting
+    roster, then loop ticking every quoted market and running the favorites
+    scan until the job deadline, checkpointing to git along the way."""
     ap = argparse.ArgumentParser(description="Kalshi paper-lab supervisor (paper-only)")
     ap.add_argument("--once", action="store_true", help="single tick, no git (smoke test)")
     ap.add_argument("--no-push", action="store_true", help="commit checkpoints, don't push")

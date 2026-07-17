@@ -62,11 +62,40 @@ alerts. Unset = everything still runs, just silently.
 
 ## Run it locally (optional)
 
+### Requirements
+
+- Python 3.12 (matches the GitHub Actions runner in `.github/workflows/campaign.yml`)
+- one dependency: `requests` (see [requirements.txt](requirements.txt))
+- no API keys needed — Telegram is optional (see above) and every market-data
+  endpoint used is public and unauthenticated
+
 ```bash
 pip install -r requirements.txt
 python supervisor.py --once      # single smoke tick, no git
 python -m unittest discover -s tests -q
+# (pytest also works and is what the maintainer actually runs: `pytest`)
 ```
+
+## Files
+
+| File | What it does |
+|---|---|
+| `supervisor.py` | the main loop that GitHub Actions runs: ticks every quoted market, runs the favorites scan, checkpoints state to git |
+| `config.py` | every tunable number for both experiments, hand-set and commented — the one file to read to understand the gates |
+| `kalshi.py` | the only module that talks to Kalshi's public API (books, trades, incentive programs) |
+| `polymarket.py` | reads Polymarket's public gamma API for the favorites taker-only leg |
+| `mm_sim.py` | the MM breadth experiment: hypothetical quoting, tape-replay fills, reward accrual, adverse-selection markouts |
+| `favorites.py` | the favorites experiment: maker vs taker paper positions in the 85-95c band |
+| `rewards.py` | Kalshi's published liquidity-incentive scoring math, ported from mm_bot |
+| `report.py` | builds [REPORT.md](REPORT.md), including the GO/KILL gate logic for both experiments |
+| `tape.py` | exactly-once trade-tape consumption — the cursor that makes fill replay safe to re-run |
+| `telegram.py` | the daily digest and health alerts, sent through the dedicated SKIM bot |
+| `health.py` | the watchdog logic: screams on Telegram if the campaign chain goes quiet |
+| `tests/` | offline unit tests for the scoring math, fill engine, and gates — no network needed |
+| `.github/workflows/campaign.yml` | the 6-hourly cron that runs `supervisor.py` |
+| `.github/workflows/watchdog.yml` | the separate cron that runs `health.py`'s dead-man's switch |
+| `state/campaign.json` | the running simulation state (bot-committed every checkpoint) |
+| `data/evidence.jsonl` | fill/orderbook evidence log nobody else records (bot-committed) |
 
 ## Honesty rules
 

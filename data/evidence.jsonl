@@ -2270,3 +2270,5 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "ask", "price": 46.0, "qty": 1.0, "mid_later": 46.5, "adverse_cents": 0.5}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "ask", "price": 46.0, "qty": 2.0, "mid_later": 46.5, "adverse_cents": 1.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2937528", "opened_ts": 1784280575.978281, "close_ts": 1784293200.0, "days_to_close_at_entry": 0.15, "question": "Valorant: Nova Esports vs JD Gaming (BO3) - VCT China Stage 2 Group Alpha"}
+{"type": "fav_settle", "key": "kalshi|KXWTESTMATCH-26JUL100600INDENG-IND|maker", "result": "yes", "pnl_cents": 118.0}
+{"type": "fav_settle", "key": "kalshi|KXWTESTMATCH-26JUL100600INDENG-IND|taker", "result": "yes", "pnl_cents": 103.0}

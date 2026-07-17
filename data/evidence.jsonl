@@ -2500,3 +2500,11 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RIH", "side": "bid", "price": 42.0, "qty": 196.0, "mid_later": 41.5, "adverse_cents": 98.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2937608", "opened_ts": 1784314227.3784513, "close_ts": 1784331000.0, "days_to_close_at_entry": 0.19, "question": "Valorant: Team Vitality vs Natus Vincere - Map 2 Winner"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2947335", "opened_ts": 1784314227.3784513, "close_ts": 1784390400.0, "days_to_close_at_entry": 0.88, "question": "Bitcoin Up or Down on July 18?"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784314810.84644, "trade_id": "7f2dd487-5788-6281-df7c-a96abc478061", "side": "ask", "price": 71.0, "qty": 59.89999999999999}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TIM", "ts": 1784314810.84644, "trade_id": "60e2aa47-d458-60f9-d8eb-a714af5883f9", "side": "ask", "price": 71.0, "qty": 10.1}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KYL", "ts": 1784315032.472153, "trade_id": "e47c1c1e-33e9-7964-22e9-b980faeb8014", "side": "ask", "price": 27.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KYL", "ts": 1784315080.36307, "trade_id": "e3ef7f20-df72-6fed-f81a-db9279b23807", "side": "ask", "price": 38.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 71.0, "qty": 59.89999999999999, "mid_later": 71.5, "adverse_cents": 29.949999999999996}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TIM", "side": "ask", "price": 71.0, "qty": 10.1, "mid_later": 71.5, "adverse_cents": 5.05}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "ask", "price": 27.0, "qty": 200, "mid_later": 41.0, "adverse_cents": 2800.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KYL", "side": "ask", "price": 38.0, "qty": 200, "mid_later": 40.5, "adverse_cents": 500.0}

@@ -2187,3 +2187,7 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEB", "ts": 1784267592.473366, "trade_id": "6ea3c414-8bd7-4ef6-58f9-e9ef42a24557", "side": "bid", "price": 49.0, "qty": 198.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 49.0, "qty": 2.0, "mid_later": 51.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 49.0, "qty": 198.0, "mid_later": 51.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TRA", "ts": 1784269350.162371, "trade_id": "e95e3375-dda8-5d5d-b3b2-9dd84354c36b", "side": "ask", "price": 72.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TRA", "side": "ask", "price": 72.0, "qty": 200, "mid_later": 73.5, "adverse_cents": 300.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.7, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2930662", "opened_ts": 1784269775.8626368, "close_ts": 1784289600.0, "days_to_close_at_entry": 0.23, "question": "Will the highest temperature in Hong Kong be 28\u00b0C on July 17?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2845349", "opened_ts": 1784269775.8626368, "close_ts": 1784292000.0, "days_to_close_at_entry": 0.26, "question": "Counter-Strike: FlyQuest vs DXA Esports (BO1) - HyperX & Intel Nationals Group B"}

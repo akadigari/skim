@@ -152,7 +152,7 @@ def render(state: dict, sims: list, fav_stats: dict) -> str:
         *(["**🏁 CAMPAIGN COMPLETE: verdicts below are FROZEN.**", ""]
           if state.get("campaign_complete") else []),
         f"_Auto-generated {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}, "
-        f"**day {days:.1f} of {config.CAMPAIGN_DAYS}**. 100% paper: this repo only "
+        f"**day {days:.1f} of {config.CAMPAIGN_DAYS}**. 100% sim: this repo only "
         "reads public endpoints and cannot place orders._",
         "",
         *health,

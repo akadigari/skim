@@ -1,5 +1,5 @@
 """
-tape.py: exactly-once tape consumption for paper fill simulation.
+tape.py: exactly-once tape consumption for sim-fill simulation.
 
 THE BUG THIS KILLS (found in adversarial review, reproduced): the API floors
 min_ts to whole seconds and our old cursor was wall-clock tick-start, so trades

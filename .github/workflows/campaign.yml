@@ -1,11 +1,11 @@
-name: SKIM paper campaign
+name: SKIM sim campaign
 
 # Long-runner chain: a job every 6 hours, each polling for ~5h40m, gives
 # near-continuous market coverage with zero machines of our own. Offset
 # minute :19 because GitHub delays top-of-the-hour crons heavily (same
 # lesson as the tipoff scanner). Public repo => standard runners are free.
 #
-# 100% PAPER: the supervisor only calls public read-only endpoints. There
+# 100% SIM: the supervisor only calls public read-only endpoints. There
 # are no exchange credentials anywhere in this repo or its secrets.
 on:
   schedule:
@@ -16,7 +16,7 @@ permissions:
   contents: write           # checkpoints commit state/data/REPORT.md back
 
 concurrency:
-  group: paper-campaign     # serialize: never two supervisors on one ledger
+  group: sim-campaign     # serialize: never two supervisors on one ledger
   cancel-in-progress: false
 
 jobs:
@@ -37,10 +37,10 @@ jobs:
 
       - name: Configure git identity for checkpoints
         run: |
-          git config user.name "paper-lab-bot"
+          git config user.name "sim-lab-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run supervisor (paper only)
+      - name: Run supervisor (sim only)
         env:
           # Dedicated SKIM bot (separate from other projects). Optional --
           # everything runs fine with these unset; you just get no digest.

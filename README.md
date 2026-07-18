@@ -57,7 +57,7 @@ This project uses its **own** bot so it stays separate from my other scanners:
 3. Repo → Settings → Secrets and variables → Actions → add
    `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
 
-You'll get one digest per day ("📊 SKIM day 3.2: PAPER results…") plus health
+You'll get one digest per day ("📊 SKIM day 3.2: SIM results…") plus health
 alerts. Unset = everything still runs, just silently.
 
 ## Run it locally (optional)

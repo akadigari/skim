@@ -17,7 +17,7 @@ it, on identical candidates:
           adversely selected: the exact effect we're testing for.
 
 One position per (market, variant), FAV_CONTRACTS each, graded at settlement:
-YES pays 100-p per contract, NO loses p. All paper; nothing is ever sent.
+YES pays 100-p per contract, NO loses p. All simulated; nothing is ever sent.
 """
 
 from __future__ import annotations
@@ -78,7 +78,7 @@ class Favorites:
     def scan_and_open(self, api: Kalshi, evidence: list, poly=None) -> int:
         """If enough time has passed since the last scan, look for new
         favorite-band candidates on Kalshi (and Polymarket, if enabled) and
-        open paper positions on them. Returns how many positions were opened."""
+        open sim positions on them. Returns how many positions were opened."""
         now = time.time()
         if now - self.last_scan_ts < config.FAV_SCAN_SECONDS:
             return 0
@@ -87,7 +87,7 @@ class Favorites:
         if poly is not None and config.POLY_ENABLED:
             opened += self._open_poly(poly, evidence, now)
         if opened:
-            log.info("favorites: opened %d paper positions", opened)
+            log.info("favorites: opened %d sim positions", opened)
         return opened
 
     def _open_count(self, venue: str) -> int:
@@ -97,7 +97,7 @@ class Favorites:
 
     def _open_kalshi(self, api: Kalshi, evidence: list, now: float) -> int:
         """Scan Kalshi for favorite-band candidates and open a maker + taker
-        paper position on each new one, up to FAV_MAX_POSITIONS."""
+        sim position on each new one, up to FAV_MAX_POSITIONS."""
         open_count = self._open_count("kalshi")
         opened = 0
         for c in scan_candidates(api):

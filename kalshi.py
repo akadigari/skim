@@ -127,7 +127,7 @@ class Kalshi:
     def __init__(self):
         """Set up the HTTP session and the politeness/rate-limit bookkeeping."""
         self._s = requests.Session()
-        self._s.headers.update({"User-Agent": "kalshi-paper-lab/1.0 (read-only research)"})
+        self._s.headers.update({"User-Agent": "kalshi-sim-lab/1.0 (read-only research)"})
         self._lock = threading.Lock()
         self._last = 0.0
         self.request_count = 0

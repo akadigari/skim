@@ -58,7 +58,7 @@ def send(text: str) -> bool:
 
 def render_digest(state: dict, sims: list, fav_stats: dict,
                   mm_verdict: str, fav_verdict: str) -> str:
-    """The daily money message. PAPER is said out loud every single time:
+    """The daily money message. SIM is said out loud every single time:
     this bot must never let a simulated number read like a real one."""
     start = state.get("campaign_start_ts") or time.time()
     day = max((time.time() - start) / 86400.0, 0.0)
@@ -76,7 +76,7 @@ def render_digest(state: dict, sims: list, fav_stats: dict,
         return f"${c/100:+.2f}"
 
     lines = [
-        f"📊 SKIM day {day:.1f}/{config.CAMPAIGN_DAYS}: PAPER results (nothing is real money)",
+        f"📊 SKIM day {day:.1f}/{config.CAMPAIGN_DAYS}: SIM results (nothing is real money)",
         "",
         f"MM pools [{mm_verdict}]: decision {usd(decision)} "
         f"(rewards {usd(rewards)}, AS {usd(-adverse)}, {fills} fills, "

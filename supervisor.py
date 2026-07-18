@@ -63,7 +63,7 @@ def save_state(state: dict, sims: list, fav: Favorites) -> None:
 
 
 def maybe_send_digest(state: dict, sims: list, fav: Favorites) -> None:
-    """Once a day, tell the (dedicated) Telegram bot how the PAPER money looks."""
+    """Once a day, tell the (dedicated) Telegram bot how the SIM money looks."""
     import report as report_mod
     import telegram
     if not telegram.configured():
@@ -200,7 +200,7 @@ def main() -> None:
     """Entry point for one supervisor run: load state, refresh the quoting
     roster, then loop ticking every quoted market and running the favorites
     scan until the job deadline, checkpointing to git along the way."""
-    ap = argparse.ArgumentParser(description="Kalshi paper-lab supervisor (paper-only)")
+    ap = argparse.ArgumentParser(description="Kalshi sim-lab supervisor (sim-only)")
     ap.add_argument("--once", action="store_true", help="single tick, no git (smoke test)")
     ap.add_argument("--no-push", action="store_true", help="commit checkpoints, don't push")
     args = ap.parse_args()

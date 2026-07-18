@@ -1,5 +1,5 @@
 """
-config.py: every knob for the 2-week Kalshi paper campaign. Hand-set, inspectable.
+config.py: every knob for the 2-week Kalshi sim campaign. Hand-set, inspectable.
 
 TWO EXPERIMENTS, ONE VERDICT EACH (see report.py for the exact gates):
   MM BREADTH: rest hypothetical two-sided quotes on the top-N liquidity-pool
@@ -8,7 +8,7 @@ TWO EXPERIMENTS, ONE VERDICT EACH (see report.py for the exact gates):
   FAVORITES:  rest hypothetical maker bids at 85-95c on soon-resolving markets
                 (plus a taker control) and measure conditional-on-fill ROI.
 
-PAPER ONLY. This repo never sends an order; it only reads public endpoints.
+SIM ONLY. This repo never sends an order; it only reads public endpoints.
 """
 
 from pathlib import Path
@@ -56,7 +56,7 @@ FAV_MAX_DAYS_TO_CLOSE = 7          # only soon-resolving markets (per Whelan: av
                                    # final-day entries; we log entry-day for cuts)
 FAV_CONTRACTS = 10                 # small hypothetical size per position
 FAV_MIN_BID_SIZE = 50              # book must show some real size at our price
-FAV_MAX_POSITIONS = 120            # concurrent open paper positions (Kalshi).
+FAV_MAX_POSITIONS = 120            # concurrent open sim positions (Kalshi).
                                    # Expected-n honesty: ~0.5-2 day median holding in
                                    # the <=7d window -> very roughly 15-60 settles/day
                                    # at cap; 300 settles is reachable in 14d only in
@@ -97,7 +97,7 @@ POLY_FAV_MAX_POSITIONS = 80        # separate cap from the Kalshi book
 
 # --- Telegram (dedicated SKIM bot, separate from other projects' bots) -------
 # Set as GitHub repo secrets TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID; env-only,
-# everything no-ops silently when unset. Digest once a day; PAPER said out loud.
+# everything no-ops silently when unset. Digest once a day; SIM said out loud.
 DIGEST_EVERY_HOURS = 20            # >= this long since last digest -> send one
 
 # --- Health watchdog -----------------------------------------------------------

@@ -38,14 +38,14 @@ class TestHealth(unittest.TestCase):
 
 
 class TestDigest(unittest.TestCase):
-    def test_render_says_paper_loudly(self):
+    def test_render_says_sim_loudly(self):
         s = MarketSim(ticker="T", pool_per_day=1000.0, target_size=1000,
                       discount_factor=0.5)
         s.reward_cents = 123.0
         text = telegram.render_digest({"campaign_start_ts": time.time() - 86400},
                                       [s], Favorites().stats(), "ON TRACK",
                                       "UNDERPOWERED")
-        self.assertIn("PAPER", text)
+        self.assertIn("SIM", text)
         self.assertIn("SKIM day 1.0", text)
         self.assertIn("ON TRACK", text)
         self.assertIn("REPORT.md", text)

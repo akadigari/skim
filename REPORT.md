@@ -1,71 +1,71 @@
 # SKIM — Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-18 18:39 UTC — **day 6.9 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-18 19:09 UTC — **day 6.9 of 14**. 100% paper: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-18 18:39 UTC — if this is > 7.5h old, the watchdog has already alerted Telegram |
+| last checkpoint | 2026-07-18 19:09 UTC — if this is > 7.5h old, the watchdog has already alerted Telegram |
 | jobs run (6h chain) | 15 |
-| current job age | 3.0h of 5.7h max |
+| current job age | 3.5h of 5.7h max |
 | markets quoting / retired | 15 / 18 |
 | favorites open (maker/taker/poly) | 60 / 60 / 57 |
-| API requests last job | 17297 |
+| API requests last job | 20132 |
 | crons (UTC) | campaign :19 of 1,7,13,19 — watchdog :49 of 3,9,15,21 |
 
 ## Experiment 1 — MM breadth (liquidity-pool harvesting)
 
-**Gate status: BEHIND** — decision $-828.61/day vs GO bar $5.00/day; earn/pay -0.59 vs 1.5; fills 1189/30 evidence floor
+**Gate status: BEHIND** — decision $-827.03/day vs GO bar $5.00/day; earn/pay -0.57 vs 1.5; fills 1212/30 evidence floor
 
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 33 |
-| est. rewards accrued | $+1380.21 |
-| spread P&L (cash + mark) | $-3492.02 |
-| adverse selection (markout) | $-3334.31 |
-| maker fees | $-248.32 |
-| **decision number** | **$-5694.43** |
-| decision at 0.25x rewards (share-optimism haircut) | $-6729.59 |
-| decision at 0.10x rewards | $-6936.63 |
-| fills / snapshots (counted) | 1189 / 237795 (225609) |
+| est. rewards accrued | $+1389.83 |
+| spread P&L (cash + mark) | $-3465.60 |
+| adverse selection (markout) | $-3373.46 |
+| maker fees | $-251.60 |
+| **decision number** | **$-5700.82** |
+| decision at 0.25x rewards (share-optimism haircut) | $-6743.20 |
+| decision at 0.10x rewards | $-6951.67 |
+| fills / snapshots (counted) | 1212 / 239145 (226959) |
 
 ### Per-market
 
 | ticker | pool $/day | share | rewards | AS | fills | decision |
 |---|---|---|---|---|---|---|
 | KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22 | $180 | 52% | $+8.73 | $-154.12 | 69 | $+72.88 |
-| KXWCATTEND-26JUL20-RIH | $63 | 35% | $+75.40 | $-39.71 | 31 | $+58.91 |
-| KXWCATTEND-26JUL20-VIC | $63 | 33% | $+70.90 | $-76.06 | 23 | $+55.56 |
+| KXWCATTEND-26JUL20-RIH | $63 | 35% | $+76.12 | $-39.71 | 31 | $+59.63 |
+| KXWCATTEND-26JUL20-VIC | $63 | 33% | $+71.67 | $-76.22 | 25 | $+52.56 |
 | KXAAAGASD-26JUL12-3.870 | $198 | 50% | $+21.11 | $-9.00 | 44 | $+27.44 |
 | KXAAAGASD-26JUL12-3.875 | $198 | 69% | $+32.13 | $-30.68 | 80 | $+21.09 |
 | KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19 | $193 | 62% | $+9.58 | $-1.00 | 2 | $+8.44 |
-| KXWCATTEND-26JUL20-TRAV | $63 | 15% | $+33.24 | $-5.13 | 4 | $+5.19 |
+| KXWCATTEND-26JUL20-TRAV | $63 | 16% | $+33.96 | $-5.13 | 4 | $+5.92 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+0.38 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $-2.78 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-13.01 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-20.47 |
-| KXWCATTEND-26JUL20-LEB | $63 | 47% | $+38.58 | $-55.83 | 61 | $-22.77 |
-| KXWCATTEND-26JUL20-ZEN | $63 | 32% | $+68.78 | $-30.00 | 31 | $-45.41 |
+| KXWCATTEND-26JUL20-LEB | $63 | 47% | $+39.19 | $-55.83 | 61 | $-22.16 |
+| KXWCATTEND-26JUL20-ZEN | $63 | 32% | $+69.58 | $-30.00 | 31 | $-44.61 |
 | KXWCSTART-26JUL11ARGSUI-ARG-JALVAR9 | $180 | 65% | $+8.99 | $-12.03 | 23 | $-47.00 |
 | KXWCSTART-26JUL11ARGSUI-SUI-FRIEDE22 | $193 | 85% | $+12.75 | $-39.21 | 9 | $-49.70 |
 | KXWCSTART-26JUL11ARGSUI-SUI-MMUHEI2 | $193 | 81% | $+12.72 | $-28.00 | 5 | $-49.96 |
 | KXWCSTART-26JUL11ARGSUI-ARG-LMARTI6 | $180 | 35% | $+4.87 | $-55.00 | 6 | $-52.59 |
+| KXWCATTEND-26JUL20-TOMH | $63 | 29% | $+61.76 | $-95.48 | 62 | $-145.68 |
 | KXWCSTART-26JUL11ARGSUI-SUI-AJASHA14 | $193 | 94% | $+13.86 | $-69.00 | 6 | $-150.37 |
-| KXWCATTEND-26JUL20-LEO | $63 | 44% | $+94.72 | $-132.67 | 65 | $-151.38 |
-| KXWCATTEND-26JUL20-PAR | $63 | 29% | $+61.44 | $-42.02 | 28 | $-152.60 |
-| KXWCATTEND-26JUL20-TOMH | $63 | 28% | $+60.87 | $-94.98 | 57 | $-154.81 |
-| KXWCATTEND-26JUL20-TRA | $63 | 47% | $+100.50 | $-85.80 | 63 | $-173.46 |
-| KXWCATTEND-26JUL20-KEN | $63 | 36% | $+78.02 | $-77.64 | 49 | $-253.07 |
+| KXWCATTEND-26JUL20-LEO | $63 | 44% | $+95.22 | $-132.67 | 65 | $-150.87 |
+| KXWCATTEND-26JUL20-PAR | $63 | 29% | $+62.01 | $-42.02 | 28 | $-154.65 |
+| KXWCATTEND-26JUL20-TRA | $63 | 47% | $+101.24 | $-85.80 | 63 | $-172.72 |
+| KXWCATTEND-26JUL20-KEN | $63 | 36% | $+78.58 | $-77.64 | 49 | $-252.51 |
 | KXMLBMENTION-26JUL12MILPIT-GRAN | $66 | 47% | $+5.48 | $-29.82 | 15 | $-265.48 |
-| KXWCATTEND-26JUL20-TIM | $63 | 38% | $+81.21 | $-50.37 | 104 | $-281.81 |
+| KXWCATTEND-26JUL20-TIM | $63 | 38% | $+81.56 | $-50.37 | 113 | $-280.91 |
 | KXWCSTART-26JUL11ARGSUI-ARG-NMOLIN26 | $180 | 69% | $+8.72 | $-205.65 | 26 | $-298.97 |
 | KXDXYDUD-26JUL13-T100.9650 | $218 | 39% | $+60.78 | $-136.62 | 6 | $-341.45 |
-| KXWCATTEND-26JUL20-KYL | $63 | 43% | $+92.51 | $-188.01 | 49 | $-416.33 |
-| KXWCATTEND-26JUL20-DRA | $63 | 37% | $+79.29 | $-239.55 | 99 | $-500.16 |
+| KXWCATTEND-26JUL20-KYL | $63 | 43% | $+93.10 | $-201.50 | 54 | $-401.17 |
+| KXWCATTEND-26JUL20-DRA | $63 | 37% | $+79.74 | $-245.55 | 100 | $-520.77 |
 | KXWCSTART-26JUL11ARGSUI-SUI-RVARGA17 | $193 | 79% | $+12.47 | $-273.86 | 10 | $-561.49 |
-| KXWCATTEND-26JUL20-RYA | $63 | 29% | $+62.71 | $-268.10 | 56 | $-575.83 |
-| KXWCATTEND-26JUL20-KIM | $63 | 50% | $+107.24 | $-399.04 | 102 | $-593.38 |
+| KXWCATTEND-26JUL20-RYA | $63 | 29% | $+63.12 | $-268.10 | 56 | $-575.42 |
+| KXWCATTEND-26JUL20-KIM | $63 | 50% | $+108.16 | $-418.04 | 103 | $-604.38 |
 | KXRAIN-26JUL15-MIA | $87 | 74% | $+30.50 | $-487.50 | 44 | $-770.04 |
 
 ## Experiment 2 — Favorites (85-95c maker vs taker control)

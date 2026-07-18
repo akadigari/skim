@@ -3030,3 +3030,24 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784392368.900556, "trade_id": "7cf6fba5-23a0-5b1c-4c11-c5959bad6683", "side": "ask", "price": 78.0, "qty": 39.09}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "ask", "price": 78.0, "qty": 39.09, "mid_later": 78.5, "adverse_cents": 19.545}
 {"type": "fav_settle", "key": "polymarket|2947335|taker", "result": "yes", "pnl_cents": 120.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.7, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2960149", "opened_ts": 1784392713.6794465, "close_ts": 1784966400.0, "days_to_close_at_entry": 6.64, "question": "Swedish Open: Andrey Rublev vs Alejandro Tabilo"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2964262", "opened_ts": 1784392713.6794465, "close_ts": 1784980800.0, "days_to_close_at_entry": 6.81, "question": "Livesport Prague Open, Qualification: Sofia Costoulas vs Nao Hibino"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2798851", "opened_ts": 1784392713.6794465, "close_ts": 1784397600.0, "days_to_close_at_entry": 0.06, "question": "Will Viking FK win on 2026-07-18?"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784393011.68822, "trade_id": "f1516503-781e-6536-e0fe-88c38d374d63", "side": "bid", "price": 52.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "bid", "price": 52.0, "qty": 200, "mid_later": 47.0, "adverse_cents": 1000.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784393510.36539, "trade_id": "b5e58ffa-ec87-433b-ede4-303a408ef6e6", "side": "bid", "price": 56.99999999999999, "qty": 28.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784393510.36539, "trade_id": "45df410e-7bea-4561-e8a1-6d244f813f6c", "side": "bid", "price": 56.99999999999999, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784393510.36539, "trade_id": "03b9ac5a-56f9-4cdb-d496-aa4c4d9f7ac0", "side": "bid", "price": 56.99999999999999, "qty": 0.01}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784393600.529837, "trade_id": "ea1a30db-54de-46f0-2143-6ed4e7a1e564", "side": "ask", "price": 11.0, "qty": 2.1199999999999997}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784393600.529837, "trade_id": "c0ebca2a-e75b-4d69-16b9-74c3c7396463", "side": "ask", "price": 11.0, "qty": 197.88}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 56.99999999999999, "qty": 28.0, "mid_later": 57.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 56.99999999999999, "qty": 8.0, "mid_later": 57.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "bid", "price": 56.99999999999999, "qty": 0.01, "mid_later": 57.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784393879.418616, "trade_id": "f9d4c03b-8981-4f9f-813e-de0989f5e97b", "side": "ask", "price": 60.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 11.0, "qty": 2.1199999999999997, "mid_later": 10.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "ask", "price": 11.0, "qty": 197.88, "mid_later": 10.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-TOMH", "ts": 1784394074.530914, "trade_id": "f9d0d23b-10a6-7e08-f04d-0c19dd797970", "side": "ask", "price": 47.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784394121.633921, "trade_id": "cd9e3907-2865-7490-373c-49b2880dfa18", "side": "bid", "price": 78.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-KIM", "side": "ask", "price": 60.0, "qty": 200, "mid_later": 62.0, "adverse_cents": 400.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "ask", "price": 47.0, "qty": 200, "mid_later": 49.5, "adverse_cents": 500.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 78.0, "qty": 200, "mid_later": 78.5, "adverse_cents": 0.0}

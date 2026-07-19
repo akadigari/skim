@@ -3553,3 +3553,5 @@
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 200, "mid_later": 58.5, "adverse_cents": 900.0}
 {"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-TOMH", "side": "bid", "price": 56.99999999999999, "qty": 200, "mid_later": 49.0, "adverse_cents": 1599.9999999999986}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.6, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2955573", "opened_ts": 1784446808.6793835, "close_ts": 1784462400.0, "days_to_close_at_entry": 0.18, "question": "Will the highest temperature in Hong Kong be 30\u00b0C on July 19?"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KIM", "ts": 1784448390.426781, "trade_id": "e84a6ee3-c4c4-76ce-85d4-85d224d7b3bb", "side": "bid", "price": 19.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-KYL", "ts": 1784448395.570025, "trade_id": "bc7c7931-013b-61d2-b393-91050465b2dd", "side": "bid", "price": 81.0, "qty": 200}

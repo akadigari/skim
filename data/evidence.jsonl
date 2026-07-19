@@ -3604,3 +3604,24 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784453915.667766, "trade_id": "196834e6-0707-6bd1-e40a-3f4ad6dc75e0", "side": "ask", "price": 87.0, "qty": 2.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2804482", "opened_ts": 1784454008.778656, "close_ts": 1784462400.0, "days_to_close_at_entry": 0.1, "question": "Valorant: Nongshim RedForce vs Gen.G Esports - Map 2 Winner"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2952471", "opened_ts": 1784454008.778656, "close_ts": 1784764740.0, "days_to_close_at_entry": 3.6, "question": "Israel x Iran ceasefire continues through July 22?"}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784454106.556975, "trade_id": "dc7d2c91-3f0b-4cbe-893f-e026edb7e628", "side": "ask", "price": 87.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEO", "ts": 1784454106.556975, "trade_id": "b10e2c34-3bd9-4aca-b6b0-ed205dc8f701", "side": "ask", "price": 87.0, "qty": 24.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 19.0, "mid_later": 43.5, "adverse_cents": 66.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 10.0, "mid_later": 43.5, "adverse_cents": 35.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 8.0, "mid_later": 43.5, "adverse_cents": 28.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 35.0, "mid_later": 43.5, "adverse_cents": 122.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 1.0, "mid_later": 43.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 5.0, "mid_later": 43.5, "adverse_cents": 17.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 3.0, "mid_later": 43.5, "adverse_cents": 10.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 3.0, "mid_later": 43.5, "adverse_cents": 10.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RYA", "side": "bid", "price": 47.0, "qty": 1.0, "mid_later": 43.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 87.0, "qty": 1.0, "mid_later": 86.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 87.0, "qty": 10.0, "mid_later": 86.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 87.0, "qty": 1.0, "mid_later": 86.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 87.0, "qty": 2.0, "mid_later": 86.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 87.0, "qty": 1.0, "mid_later": 86.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEO", "side": "ask", "price": 87.0, "qty": 24.0, "mid_later": 86.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784455828.358269, "trade_id": "ecbd395f-c279-47e4-7bb9-f8b73dec2155", "side": "bid", "price": 43.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784455828.358269, "trade_id": "dc064679-3485-476b-4e23-611e4e3f336c", "side": "bid", "price": 43.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784455828.358269, "trade_id": "3b156397-94b4-41a4-72d9-25248a044a21", "side": "bid", "price": 43.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RYA", "ts": 1784455828.358269, "trade_id": "1bf9ac8e-439b-4ab9-40d4-d36b4a261a6e", "side": "bid", "price": 43.0, "qty": 5.0}

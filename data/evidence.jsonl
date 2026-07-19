@@ -3468,3 +3468,27 @@
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEB", "ts": 1784441363.533947, "trade_id": "9cbda29d-641f-7a8c-12a1-8f707ede16f2", "side": "bid", "price": 47.0, "qty": 4.05}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEB", "ts": 1784441363.533947, "trade_id": "39d453e2-4617-753c-2626-d41d7b59eda2", "side": "bid", "price": 47.0, "qty": 1.0}
 {"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-LEB", "ts": 1784441363.533947, "trade_id": "25b7bd78-2e4f-7a6a-05c2-c7c1a32e6fbb", "side": "bid", "price": 47.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 47.0, "qty": 6.0, "mid_later": 43.0, "adverse_cents": 24.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 47.0, "qty": 1.0, "mid_later": 43.0, "adverse_cents": 4.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 47.0, "qty": 4.05, "mid_later": 43.0, "adverse_cents": 16.2}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 47.0, "qty": 1.0, "mid_later": 43.0, "adverse_cents": 4.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-LEB", "side": "bid", "price": 47.0, "qty": 5.0, "mid_later": 43.0, "adverse_cents": 20.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-RIH", "ts": 1784442432.994824, "trade_id": "2bb8b2b0-0fdf-42b0-e51b-be6673ed67a9", "side": "ask", "price": 52.0, "qty": 21.07}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "e13eaf7b-c70b-4854-5a04-b140490dd15f", "side": "bid", "price": 63.0, "qty": 14.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "d2ab73ed-1f6a-4809-6afe-aba2c77a7b07", "side": "bid", "price": 63.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "af7177db-db71-44a1-6702-acddef92ba9a", "side": "bid", "price": 63.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "87a4da4d-e152-4640-6f3b-7abdbf7e1b97", "side": "bid", "price": 63.0, "qty": 30.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "857e330e-fc47-4695-7b77-75361ce205aa", "side": "bid", "price": 63.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "7980d6f8-47d1-404f-5ac3-61ba16e4120a", "side": "bid", "price": 63.0, "qty": 7.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "54b8f6ee-ff34-4b7a-53b4-1b9760300de2", "side": "bid", "price": 63.0, "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWCATTEND-26JUL20-DRA", "ts": 1784442550.310979, "trade_id": "4faec1dd-207c-4024-4554-aa99b857c17d", "side": "bid", "price": 63.0, "qty": 0.01}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-RIH", "side": "ask", "price": 52.0, "qty": 21.07, "mid_later": 55.0, "adverse_cents": 63.21}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 14.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 4.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 5.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 30.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 2.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 7.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 10.0, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWCATTEND-26JUL20-DRA", "side": "bid", "price": 63.0, "qty": 0.01, "mid_later": 63.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2955540", "opened_ts": 1784443208.6568105, "close_ts": 1784462400.0, "days_to_close_at_entry": 0.22, "question": "Will the highest temperature in Seoul be 26\u00b0C on July 19?"}

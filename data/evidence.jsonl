@@ -9356,3 +9356,5 @@
 {"type": "fav_fill", "key": "kalshi|KXALBUMEQUIV-SET26JUL23-10K|maker", "ts": 1784567340.068806, "trade_id": "d7262ad9-33c7-599c-4432-1fd756f48136", "qty": 10.0}
 {"type": "fav_settle", "key": "polymarket|2907001|taker", "result": "yes", "pnl_cents": 80.0}
 {"type": "fav_settle", "key": "polymarket|2906907|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "ask", "price": 32.0, "qty": 83.98999999999998, "mid_later": 32.5, "adverse_cents": 41.99499999999999}
+{"type": "fav_fill", "key": "kalshi|KXALBUMEQUIV-DAU26JUL23B-120K|maker", "ts": 1784568666.181072, "trade_id": "d38ef6af-73e4-402d-21d4-e913c09c2f4c", "qty": 10.0}

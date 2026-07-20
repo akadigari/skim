@@ -9436,3 +9436,16 @@
 {"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 79.0, "qty": 5.0, "mid_later": 77.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "bid", "price": 78.0, "qty": 2.0, "mid_later": 78.0, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "bid", "price": 78.0, "qty": 2.0, "mid_later": 78.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "ts": 1784581280.01955, "trade_id": "76202094-69e4-4622-9424-50fd7c2c7813", "side": "ask", "price": 51.0, "qty": 3.79}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "ts": 1784581318.608639, "trade_id": "d319fa3c-dbd3-591e-4c8e-10414f6e326f", "side": "ask", "price": 50.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "side": "ask", "price": 51.0, "qty": 3.79, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "ask", "price": 50.0, "qty": 200, "mid_later": 50.5, "adverse_cents": 100.0}
+{"type": "fav_fill", "key": "kalshi|KXNBATEAMANNOUNCE-26LJAMES23-727|maker", "ts": 1784581226.99184, "trade_id": "07540726-2f5a-7057-0897-879c6800218b", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TRAV", "ts": 1784581868.868726, "trade_id": "440be682-5e31-674d-ee62-47f4dd4294f3", "side": "ask", "price": 79.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "ts": 1784582037.643688, "trade_id": "218df3a1-89a7-683f-2d87-b8c8a846fa91", "side": "ask", "price": 51.0, "qty": 2.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TRAV", "side": "ask", "price": 79.0, "qty": 200, "mid_later": 82.5, "adverse_cents": 700.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2987573", "opened_ts": 1784582258.9943097, "close_ts": 1784602800.0, "days_to_close_at_entry": 0.24, "question": "LoL: INTZ e-Sports vs 7REX (BO1) - Circuito Desafiante Regular Season"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2990263", "opened_ts": 1784582258.9943097, "close_ts": 1784597400.0, "days_to_close_at_entry": 0.18, "question": "Dota 2: Level UP vs Ilbirs eSports (BO3) - EPL Masters Play-In Group B"}
+{"type": "fav_settle", "key": "polymarket|2958781|taker", "result": "no", "pnl_cents": -920.0}
+{"type": "fav_settle", "key": "polymarket|2959976|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "ask", "price": 51.0, "qty": 2.0, "mid_later": 51.5, "adverse_cents": 1.0}

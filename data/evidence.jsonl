@@ -9087,3 +9087,6 @@
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL19CONNPHX-TECH", "ts": 1784534301.408318, "trade_id": "ed95ff2c-db2d-7cc6-8da7-11e2a2a055c1", "side": "bid", "price": 3.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "side": "bid", "price": 52.0, "qty": 3.0, "mid_later": 52.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL19CONNPHX-TECH", "side": "bid", "price": 3.0, "qty": 200, "mid_later": 11.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2885201|taker", "result": "no", "pnl_cents": -870.0}
+{"type": "fav_settle", "key": "polymarket|2885230|taker", "result": "no", "pnl_cents": -851.0}
+{"type": "fav_settle", "key": "polymarket|2885203|taker", "result": "yes", "pnl_cents": 144.00000000000006}

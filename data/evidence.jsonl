@@ -9165,3 +9165,6 @@
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-7", "side": "ask", "price": 11.0, "qty": 0.01, "mid_later": 10.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-7", "side": "ask", "price": 11.0, "qty": 3.99, "mid_later": 10.5, "adverse_cents": 0.0}
 {"type": "fav_settle", "key": "polymarket|2898921|taker", "result": "yes", "pnl_cents": 60.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784543340.524128, "trade_id": "688930a7-8d35-6710-8a88-4f6c403be718", "side": "ask", "price": 28.0, "qty": 122.14000000000001}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 122.14000000000001, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2898959|taker", "result": "yes", "pnl_cents": 120.0}

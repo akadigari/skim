@@ -474,16 +474,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 10.0,
-    "size": 200,
-    "queue_ahead": 29.0
-   },
-   "ask": {
-    "price": 11.0,
-    "size": 200,
-    "queue_ahead": 34.91
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497254.9042609,
    "tape_cursor": {
     "ts": 1784497165.030307,
@@ -491,8 +483,8 @@
      "b4716542-3750-7587-d693-b98002e3c764"
     ]
    },
-   "last_mid": 10.5,
-   "inventory": 154.62000000000023,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 581.8900000000002,
    "cash_cents": -23830.290000000008,
    "reward_cents": 8227.18101180892,
@@ -503,7 +495,7 @@
    "counted": 17353,
    "share_sum": 5670.47880516601,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-VIC",
@@ -521,10 +513,10 @@
      "ba1feb08-57c7-54a5-0316-892f404c57cf"
     ]
    },
-   "last_mid": 98.5,
-   "inventory": 166.4400000000001,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 484.59,
-   "cash_cents": -10015.320000000014,
+   "cash_cents": 6628.679999999997,
    "reward_cents": 8621.472811217987,
    "fees_cents": 1122.75,
    "adverse_cents": 13602.590000000002,
@@ -533,7 +525,7 @@
    "counted": 17082,
    "share_sum": 5939.064328350357,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-PAR",
@@ -543,11 +535,7 @@
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
    "bid": null,
-   "ask": {
-    "price": 6.0,
-    "size": 200,
-    "queue_ahead": 10.0
-   },
+   "ask": null,
    "last_tick_ts": 1784497255.6488307,
    "tape_cursor": {
     "ts": 1784496914.768534,
@@ -556,8 +544,8 @@
      "ad6032f3-dc37-6073-d0c1-ac78ffc36b64"
     ]
    },
-   "last_mid": 5.5,
-   "inventory": 517.3300000000002,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 555.1199999999999,
    "cash_cents": -40472.29,
    "reward_cents": 7826.782130536414,
@@ -568,7 +556,7 @@
    "counted": 17353,
    "share_sum": 5391.998099848961,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-KEN",
@@ -577,11 +565,7 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 1.0,
-    "size": 200,
-    "queue_ahead": 147.99
-   },
+   "bid": null,
    "ask": null,
    "last_tick_ts": 1784497255.84294,
    "tape_cursor": {
@@ -597,8 +581,8 @@
      "10c2526e-5c92-5f10-0161-6833b421b35e"
     ]
    },
-   "last_mid": 1.5,
-   "inventory": -455.3399999999999,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 588.5600000000002,
    "cash_cents": -71291.81,
    "reward_cents": 9463.145841927915,
@@ -608,21 +592,8 @@
    "snapshots": 17353,
    "counted": 17288,
    "share_sum": 6518.37975772152,
-   "pending_markouts": [
-    [
-     1784497390.20156,
-     "ask",
-     2.0,
-     1.7763568394002505e-15
-    ],
-    [
-     1784497390.20156,
-     "ask",
-     2.0,
-     60.17
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-RYA",
@@ -631,16 +602,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 2.0,
-    "size": 200,
-    "queue_ahead": 1727.21
-   },
-   "ask": {
-    "price": 3.0,
-    "size": 200,
-    "queue_ahead": 10.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497256.1406722,
    "tape_cursor": {
     "ts": 1784497198.344268,
@@ -651,44 +614,19 @@
      "2a74ba4d-4922-41ae-8931-2d941a15ecb3"
     ]
    },
-   "last_mid": 2.5,
-   "inventory": 241.81000000000006,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 595.71,
    "cash_cents": -41542.30999999999,
    "reward_cents": 7643.5392275234135,
    "fees_cents": 3716.25,
-   "adverse_cents": 45684.855,
+   "adverse_cents": 46484.855,
    "fills": 215,
    "snapshots": 17353,
    "counted": 17353,
    "share_sum": 5266.8039728539625,
-   "pending_markouts": [
-    [
-     1784497472.284463,
-     "ask",
-     5.0,
-     1.0
-    ],
-    [
-     1784497472.284463,
-     "ask",
-     5.0,
-     0.01
-    ],
-    [
-     1784497472.284463,
-     "ask",
-     5.0,
-     0.17
-    ],
-    [
-     1784497498.344268,
-     "bid",
-     4.0,
-     200
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-KIM",
@@ -697,16 +635,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 3.0,
-    "size": 200,
-    "queue_ahead": 23.53
-   },
-   "ask": {
-    "price": 5.0,
-    "size": 200,
-    "queue_ahead": 3.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497256.442076,
    "tape_cursor": {
     "ts": 1784497247.568578,
@@ -715,50 +645,19 @@
      "60368084-ce37-542b-3911-3ada30d55c8d"
     ]
    },
-   "last_mid": 4.0,
-   "inventory": -365.99999999999994,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 569.5800000000002,
    "cash_cents": -61462.890000000014,
    "reward_cents": 12279.42239646747,
    "fees_cents": 17689.0,
-   "adverse_cents": 181057.915,
+   "adverse_cents": 181657.915,
    "fills": 452,
    "snapshots": 17353,
    "counted": 17353,
    "share_sum": 8458.455180880004,
-   "pending_markouts": [
-    [
-     1784497258.182707,
-     "ask",
-     5.0,
-     200
-    ],
-    [
-     1784497425.738182,
-     "bid",
-     3.0,
-     4.0
-    ],
-    [
-     1784497425.738182,
-     "bid",
-     3.0,
-     1.0
-    ],
-    [
-     1784497425.738182,
-     "bid",
-     3.0,
-     195.0
-    ],
-    [
-     1784497498.389467,
-     "ask",
-     5.0,
-     200
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-KYL",
@@ -776,10 +675,10 @@
      "1bca317d-c03d-491d-d016-a071b649767c"
     ]
    },
-   "last_mid": 98.5,
-   "inventory": -280.06000000000006,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 527.44,
-   "cash_cents": -5932.489999999989,
+   "cash_cents": -33938.49,
    "reward_cents": 10441.774233494005,
    "fees_cents": 3897.0,
    "adverse_cents": 43272.77500000001,
@@ -788,7 +687,7 @@
    "counted": 16791,
    "share_sum": 7193.242035475275,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-DRA",
@@ -798,11 +697,7 @@
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
    "bid": null,
-   "ask": {
-    "price": 97.0,
-    "size": 200,
-    "queue_ahead": 153.29999999999998
-   },
+   "ask": null,
    "last_tick_ts": 1784497257.0299642,
    "tape_cursor": {
     "ts": 1784497256.386134,
@@ -810,62 +705,19 @@
      "03d6bff9-2764-45d7-80db-4cba3d48eae9"
     ]
    },
-   "last_mid": 96.5,
-   "inventory": 539.2299999999996,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 597.7099999999996,
-   "cash_cents": -109437.0,
+   "cash_cents": -55514.000000000044,
    "reward_cents": 9516.933736496207,
    "fees_cents": 17968.5,
-   "adverse_cents": 219204.29000000004,
+   "adverse_cents": 219779.73000000004,
    "fills": 533,
    "snapshots": 17353,
    "counted": 17353,
    "share_sum": 6559.080749393175,
-   "pending_markouts": [
-    [
-     1784497271.934018,
-     "ask",
-     97.0,
-     8.480000000000011
-    ],
-    [
-     1784497271.934018,
-     "ask",
-     97.0,
-     50.0
-    ],
-    [
-     1784497446.824035,
-     "ask",
-     98.0,
-     173.0000000000001
-    ],
-    [
-     1784497446.824035,
-     "ask",
-     98.0,
-     1.0
-    ],
-    [
-     1784497446.824035,
-     "ask",
-     98.0,
-     5.0
-    ],
-    [
-     1784497446.824035,
-     "ask",
-     98.0,
-     20.999999999999886
-    ],
-    [
-     1784497465.028811,
-     "bid",
-     98.0,
-     200
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-TIM",
@@ -883,10 +735,10 @@
      "71d8afff-dc21-48ac-eed0-70533c4c1315"
     ]
    },
-   "last_mid": 94.5,
-   "inventory": -53.989999999999895,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 480.7900000000001,
-   "cash_cents": -21707.92000000002,
+   "cash_cents": -27106.92000000001,
    "reward_cents": 9138.187454667102,
    "fees_cents": 1974.75,
    "adverse_cents": 7501.274999999999,
@@ -895,7 +747,7 @@
    "counted": 16756,
    "share_sum": 6294.602142174861,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-RIH",
@@ -913,10 +765,10 @@
      "7de6d0fa-8152-50f0-0011-a7fab8218ea8"
     ]
    },
-   "last_mid": 98.5,
-   "inventory": 242.97000000000017,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 591.46,
-   "cash_cents": -58682.060000000005,
+   "cash_cents": -34385.05999999998,
    "reward_cents": 9575.069467921392,
    "fees_cents": 4726.75,
    "adverse_cents": 84597.81,
@@ -925,7 +777,7 @@
    "counted": 17110,
    "share_sum": 6596.277120659148,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-TOMH",
@@ -934,16 +786,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 8.0,
-    "size": 200,
-    "queue_ahead": 33.76
-   },
-   "ask": {
-    "price": 9.0,
-    "size": 200,
-    "queue_ahead": 1.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497258.0429246,
    "tape_cursor": {
     "ts": 1784497253.899825,
@@ -951,10 +795,10 @@
      "7ab3a3fe-38d1-43c0-a2b3-bd46f43e39b3"
     ]
    },
-   "last_mid": 8.5,
-   "inventory": -371.7900000000001,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 588.8500000000003,
-   "cash_cents": -53834.99999999999,
+   "cash_cents": -91014.0,
    "reward_cents": 8533.937573833848,
    "fees_cents": 8558.75,
    "adverse_cents": 75275.08,
@@ -962,21 +806,8 @@
    "snapshots": 17353,
    "counted": 17353,
    "share_sum": 5878.390378537282,
-   "pending_markouts": [
-    [
-     1784497501.925518,
-     "bid",
-     11.0,
-     200
-    ],
-    [
-     1784497553.150782,
-     "bid",
-     9.0,
-     16.0
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-TRA",
@@ -985,16 +816,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 65.0,
-    "size": 200,
-    "queue_ahead": 21.0
-   },
-   "ask": {
-    "price": 70.0,
-    "size": 200,
-    "queue_ahead": 102.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497258.2294328,
    "tape_cursor": {
     "ts": 1784497252.153699,
@@ -1003,86 +826,19 @@
      "bc313562-be75-7d1d-9edc-8207e5c1abdd"
     ]
    },
-   "last_mid": 67.5,
-   "inventory": -157.41000000000008,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 591.77,
-   "cash_cents": -52616.57999999997,
+   "cash_cents": -68357.57999999999,
    "reward_cents": 11918.839260426197,
    "fees_cents": 17124.0,
-   "adverse_cents": 205938.03,
+   "adverse_cents": 229338.03,
    "fills": 415,
    "snapshots": 17353,
    "counted": 17353,
    "share_sum": 8211.80701490371,
-   "pending_markouts": [
-    [
-     1784497281.945979,
-     "ask",
-     79.0,
-     200
-    ],
-    [
-     1784497288.265301,
-     "bid",
-     78.0,
-     200
-    ],
-    [
-     1784497401.055452,
-     "bid",
-     72.0,
-     200
-    ],
-    [
-     1784497446.282565,
-     "ask",
-     74.0,
-     200
-    ],
-    [
-     1784497495.191523,
-     "bid",
-     73.0,
-     200
-    ],
-    [
-     1784497505.947937,
-     "bid",
-     57.99999999999999,
-     200
-    ],
-    [
-     1784497520.894934,
-     "ask",
-     63.0,
-     200
-    ],
-    [
-     1784497543.22457,
-     "ask",
-     67.0,
-     15.0
-    ],
-    [
-     1784497543.22457,
-     "ask",
-     67.0,
-     5.0
-    ],
-    [
-     1784497545.101642,
-     "ask",
-     67.0,
-     11.59
-    ],
-    [
-     1784497548.985926,
-     "ask",
-     67.0,
-     168.41
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXWCATTEND-26JUL20-LEO",
@@ -1091,16 +847,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 59.0,
-    "size": 200,
-    "queue_ahead": 9.74
-   },
-   "ask": {
-    "price": 66.0,
-    "size": 200,
-    "queue_ahead": 157.8
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497258.529484,
    "tape_cursor": {
     "ts": 1784497256.133828,
@@ -1114,50 +862,19 @@
      "0df39d7f-a21e-6a14-8246-784dcb3af3be"
     ]
    },
-   "last_mid": 62.5,
-   "inventory": 176.99,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 590.03,
    "cash_cents": -98365.72000000002,
    "reward_cents": 10577.576062517464,
    "fees_cents": 15542.75,
-   "adverse_cents": 202676.74000000005,
+   "adverse_cents": 228276.74000000005,
    "fills": 377,
    "snapshots": 17353,
    "counted": 17353,
    "share_sum": 7286.710595361031,
-   "pending_markouts": [
-    [
-     1784497283.005163,
-     "bid",
-     65.0,
-     200
-    ],
-    [
-     1784497431.354174,
-     "ask",
-     65.0,
-     200
-    ],
-    [
-     1784497474.286377,
-     "ask",
-     65.0,
-     200
-    ],
-    [
-     1784497513.879861,
-     "bid",
-     63.0,
-     200
-    ],
-    [
-     1784497556.133828,
-     "ask",
-     60.0,
-     200
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXMLBMENTION-26JUL12MILPIT-GRAN",
@@ -1196,16 +913,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 2.0,
-    "size": 200,
-    "queue_ahead": 176.0
-   },
-   "ask": {
-    "price": 3.0,
-    "size": 200,
-    "queue_ahead": 3.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497258.8623433,
    "tape_cursor": {
     "ts": 1784497214.259698,
@@ -1217,26 +926,19 @@
      "427bc2a3-7b17-542a-0a9a-c4235b29a24c"
     ]
    },
-   "last_mid": 2.5,
-   "inventory": -247.7100000000001,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 585.7900000000001,
    "cash_cents": 1691.1399999999999,
    "reward_cents": 4229.501953387978,
    "fees_cents": 788.25,
-   "adverse_cents": 6290.740000000001,
+   "adverse_cents": 6890.740000000001,
    "fills": 80,
    "snapshots": 17353,
    "counted": 17331,
    "share_sum": 2914.651799474987,
-   "pending_markouts": [
-    [
-     1784497514.259698,
-     "bid",
-     3.0,
-     200
-    ]
-   ],
-   "retired": false
+   "pending_markouts": [],
+   "retired": true
   },
   {
    "ticker": "KXDXYDUD-26JUL13-T100.9650",
@@ -1307,16 +1009,8 @@
    "discount_factor": 0.5,
    "end_ts": 1784519940.0,
    "category": "KXWCATTEND",
-   "bid": {
-    "price": 4.0,
-    "size": 200,
-    "queue_ahead": 10.0
-   },
-   "ask": {
-    "price": 5.0,
-    "size": 200,
-    "queue_ahead": 935.01
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1784497259.1315627,
    "tape_cursor": {
     "ts": 1784497248.413121,
@@ -1324,8 +1018,8 @@
      "52a320be-a6ed-7a53-fcfb-96d97a85659b"
     ]
    },
-   "last_mid": 4.5,
-   "inventory": -210.19999999999985,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 591.48,
    "cash_cents": 10222.320000000005,
    "reward_cents": 5276.286596940341,
@@ -1335,6 +1029,562 @@
    "snapshots": 8166,
    "counted": 8158,
    "share_sum": 3635.6648174710144,
+   "pending_markouts": [],
+   "retired": true
+  },
+  {
+   "ticker": "KXDXYDUD-26JUL20-T100.7560",
+   "pool_per_day": 21827.1939660325,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784656680.0,
+   "category": "KXDXYDUD",
+   "bid": {
+    "price": 46.0,
+    "size": 200,
+    "queue_ahead": 2.0
+   },
+   "ask": {
+    "price": 73.0,
+    "size": 200,
+    "queue_ahead": 79.0
+   },
+   "last_tick_ts": 1784525164.2008932,
+   "tape_cursor": {
+    "ts": 1784524763.415636,
+    "ids": [
+     "fb94355b-91c6-7298-9248-ef5053afc6a6",
+     "c28bf719-d312-7629-9a53-f13eba8f0637",
+     "c085e23b-22ca-7e2f-806d-c411ca1657f3",
+     "b41a07c0-06ef-7243-b07d-3da3dffb3dd1",
+     "519befc6-f7e1-7035-8fc0-d847bd0780c3",
+     "4aa9d075-1b2d-7b87-af50-5348f764d363"
+    ]
+   },
+   "last_mid": 59.5,
+   "inventory": 47.39,
+   "peak_abs_inventory": 47.39,
+   "cash_cents": -3459.4700000000003,
+   "reward_cents": 298.6526893320206,
+   "fees_cents": 16.75,
+   "adverse_cents": 639.765,
+   "fills": 5,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 59.10844241707724,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL19CHIATL-TAUR",
+   "pool_per_day": 5110.007097232079,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 6.0,
+    "size": 200,
+    "queue_ahead": 4.0
+   },
+   "ask": {
+    "price": 42.00000000000001,
+    "size": 200,
+    "queue_ahead": 10.0
+   },
+   "last_tick_ts": 1784525164.3696702,
+   "tape_cursor": {
+    "ts": 1784523364.3190198,
+    "ids": []
+   },
+   "last_mid": 24.000000000000004,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 97.16261204714297,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 82.13898630757845,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-TRAV",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 77.0,
+    "size": 200,
+    "queue_ahead": 15.0
+   },
+   "ask": {
+    "price": 83.0,
+    "size": 200,
+    "queue_ahead": 325.0
+   },
+   "last_tick_ts": 1784525164.6702147,
+   "tape_cursor": {
+    "ts": 1784523364.4711971,
+    "ids": []
+   },
+   "last_mid": 80.0,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 78.74599862412803,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 66.61092750946672,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 53.0,
+    "size": 200,
+    "queue_ahead": 10.0
+   },
+   "ask": {
+    "price": 54.0,
+    "size": 200,
+    "queue_ahead": 14.0
+   },
+   "last_tick_ts": 1784525164.9713395,
+   "tape_cursor": {
+    "ts": 1784523364.6212158,
+    "ids": []
+   },
+   "last_mid": 53.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 79.06210508068627,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 66.87415583481737,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-TRAD",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 37.0,
+    "size": 200,
+    "queue_ahead": 12.5
+   },
+   "ask": {
+    "price": 38.0,
+    "size": 200,
+    "queue_ahead": 170.0
+   },
+   "last_tick_ts": 1784525165.270209,
+   "tape_cursor": {
+    "ts": 1784523364.7752197,
+    "ids": []
+   },
+   "last_mid": 37.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 69.03088434381527,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 58.38435414067002,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL19CONNPHX-TECH",
+   "pool_per_day": 5111.821086261981,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 2.0,
+    "size": 200,
+    "queue_ahead": 563.0
+   },
+   "ask": {
+    "price": 17.0,
+    "size": 200,
+    "queue_ahead": 3.0
+   },
+   "last_tick_ts": 1784525165.572005,
+   "tape_cursor": {
+    "ts": 1784524091.311851,
+    "ids": [
+     "3776f2cd-ee8d-7d6e-8d41-59da2cc4a369"
+    ]
+   },
+   "last_mid": 9.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 33.043521699563144,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 51,
+   "share_sum": 27.90568865242759,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 19.0,
+    "size": 200,
+    "queue_ahead": 3.0
+   },
+   "ask": {
+    "price": 30.0,
+    "size": 200,
+    "queue_ahead": 24.0
+   },
+   "last_tick_ts": 1784525165.871006,
+   "tape_cursor": {
+    "ts": 1784523365.069334,
+    "ids": []
+   },
+   "last_mid": 24.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 70.60398148440584,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 59.70775966382686,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXTRUMPPHOTO-26JUL26-7",
+   "pool_per_day": 3371.345141841804,
+   "target_size": 300.0,
+   "discount_factor": 0.5,
+   "end_ts": 1785160800.0,
+   "category": "KXTRUMPPHOTO",
+   "bid": {
+    "price": 10.0,
+    "size": 200,
+    "queue_ahead": 2.0
+   },
+   "ask": {
+    "price": 11.0,
+    "size": 200,
+    "queue_ahead": 5.0
+   },
+   "last_tick_ts": 1784525166.1726513,
+   "tape_cursor": {
+    "ts": 1784524524.056345,
+    "ids": [
+     "b0c0b544-086a-79cd-fe93-17309dd23fdc",
+     "adb4dd98-eb19-7f6b-f119-7ce4c06e968f",
+     "212ee777-b8d6-7c0c-c461-f4ca9b388b6e"
+    ]
+   },
+   "last_mid": 10.5,
+   "inventory": 96.0,
+   "peak_abs_inventory": 96.0,
+   "cash_cents": -1056.0,
+   "reward_cents": 54.134012691068655,
+   "fees_cents": 17.0,
+   "adverse_cents": 48.0,
+   "fills": 3,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 69.32784673262788,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXTRUMPPHOTO-26JUL26-6",
+   "pool_per_day": 3371.345141841804,
+   "target_size": 300.0,
+   "discount_factor": 0.5,
+   "end_ts": 1785160800.0,
+   "category": "KXTRUMPPHOTO",
+   "bid": {
+    "price": 26.0,
+    "size": 200,
+    "queue_ahead": 77.99
+   },
+   "ask": {
+    "price": 29.0,
+    "size": 200,
+    "queue_ahead": 113.01
+   },
+   "last_tick_ts": 1784525166.472152,
+   "tape_cursor": {
+    "ts": 1784524391.076667,
+    "ids": [
+     "a7bc0b19-44c6-6647-9ed7-90ea2fd2c575",
+     "63a71335-acfd-6373-9587-54bc5b893df7"
+    ]
+   },
+   "last_mid": 27.5,
+   "inventory": 106.0,
+   "peak_abs_inventory": 106.0,
+   "cash_cents": -2968.0000000000005,
+   "reward_cents": 47.00600809319914,
+   "fees_cents": 38.25,
+   "adverse_cents": 40.000000000000284,
+   "fills": 8,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 60.19373978522585,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXTRUMPPHOTO-26JUL26-5",
+   "pool_per_day": 3371.345141841804,
+   "target_size": 300.0,
+   "discount_factor": 0.5,
+   "end_ts": 1785160800.0,
+   "category": "KXTRUMPPHOTO",
+   "bid": {
+    "price": 31.0,
+    "size": 200,
+    "queue_ahead": 58.0
+   },
+   "ask": {
+    "price": 32.0,
+    "size": 200,
+    "queue_ahead": 53.0
+   },
+   "last_tick_ts": 1784525166.7703977,
+   "tape_cursor": {
+    "ts": 1784523365.522698,
+    "ids": []
+   },
+   "last_mid": 31.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 41.998299602779255,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 53.77159272205676,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 62.0,
+    "size": 200,
+    "queue_ahead": 311.0
+   },
+   "ask": {
+    "price": 63.0,
+    "size": 200,
+    "queue_ahead": 186.51
+   },
+   "last_tick_ts": 1784525167.0909734,
+   "tape_cursor": {
+    "ts": 1784523365.6762512,
+    "ids": []
+   },
+   "last_mid": 62.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 51.7746021206624,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 43.76968572072462,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 26.0,
+    "size": 200,
+    "queue_ahead": 180.0
+   },
+   "ask": {
+    "price": 27.0,
+    "size": 200,
+    "queue_ahead": 75.0
+   },
+   "last_tick_ts": 1784525167.3730567,
+   "tape_cursor": {
+    "ts": 1784523365.8198593,
+    "ids": []
+   },
+   "last_mid": 26.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 44.71791029443474,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 37.7980597661536,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXTRUMPPHOTO-26JUL26-4",
+   "pool_per_day": 3371.345141841804,
+   "target_size": 300.0,
+   "discount_factor": 0.5,
+   "end_ts": 1785160800.0,
+   "category": "KXTRUMPPHOTO",
+   "bid": {
+    "price": 27.0,
+    "size": 200,
+    "queue_ahead": 10.0
+   },
+   "ask": {
+    "price": 29.0,
+    "size": 200,
+    "queue_ahead": 148.0
+   },
+   "last_tick_ts": 1784525167.6759174,
+   "tape_cursor": {
+    "ts": 1784523365.9714842,
+    "ids": []
+   },
+   "last_mid": 28.0,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 35.20620919745128,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 45.060754290428974,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 49.0,
+    "size": 200,
+    "queue_ahead": 24.3
+   },
+   "ask": {
+    "price": 50.0,
+    "size": 200,
+    "queue_ahead": 297.38
+   },
+   "last_tick_ts": 1784525167.9715648,
+   "tape_cursor": {
+    "ts": 1784523366.121991,
+    "ids": []
+   },
+   "last_mid": 49.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 45.732033285127066,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 38.65016284522274,
+   "pending_markouts": [],
+   "retired": false
+  },
+  {
+   "ticker": "KXWNBAMENTION-26JUL16NYDAL-AIRB",
+   "pool_per_day": 5106.382978723404,
+   "target_size": 1000.0,
+   "discount_factor": 0.5,
+   "end_ts": 1784606340.0,
+   "category": "KXWNBAMENTION",
+   "bid": {
+    "price": 32.0,
+    "size": 200,
+    "queue_ahead": 39.0
+   },
+   "ask": {
+    "price": 33.0,
+    "size": 200,
+    "queue_ahead": 245.15
+   },
+   "last_tick_ts": 1784525168.2740242,
+   "tape_cursor": {
+    "ts": 1784523366.2704859,
+    "ids": []
+   },
+   "last_mid": 32.5,
+   "inventory": 0.0,
+   "peak_abs_inventory": 0.0,
+   "cash_cents": 0.0,
+   "reward_cents": 43.690734748131646,
+   "fees_cents": 0.0,
+   "adverse_cents": 0.0,
+   "fills": 0,
+   "snapshots": 91,
+   "counted": 91,
+   "share_sum": 36.92257340758006,
    "pending_markouts": [],
    "retired": false
   }
@@ -4035,12 +4285,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2470849",
     "opened_ts": 1783918236.1434999,
     "close_ts": 1784519940.0,
     "days_to_close_at_entry": 6.96,
-    "question": "President Trump to Attend World Cup Final?"
+    "question": "President Trump to Attend World Cup Final?",
+    "pnl_cents": 70.0,
+    "result": "yes"
    },
    "polymarket|2833125|taker": {
     "venue": "polymarket",
@@ -4145,12 +4397,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2901770",
     "opened_ts": 1783929056.7738614,
     "close_ts": 1784521800.0,
     "days_to_close_at_entry": 6.86,
-    "question": "T20 World Cup Sub Regional Europe Qualifier B: Denmark vs Hungary"
+    "question": "T20 World Cup Sub Regional Europe Qualifier B: Denmark vs Hungary",
+    "pnl_cents": 110.0,
+    "result": "yes"
    },
    "polymarket|2870902|taker": {
     "venue": "polymarket",
@@ -5222,12 +5476,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2071546",
     "opened_ts": 1784061644.8976617,
     "close_ts": 1784505600.0,
     "days_to_close_at_entry": 5.14,
-    "question": "Will Spain reach the 2026 FIFA World Cup final?"
+    "question": "Will Spain reach the 2026 FIFA World Cup final?",
+    "pnl_cents": 80.0,
+    "result": "yes"
    },
    "polymarket|2804722|taker": {
     "venue": "polymarket",
@@ -5286,17 +5542,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 288.02,
     "tape_cursor": {
-     "ts": 1784481951.442058,
+     "ts": 1784519576.464857,
      "ids": [
-      "fb3694aa-2b9b-4177-6db9-9ad5eeb5d50a",
-      "e9882924-aa6a-41bc-4a5d-5a61a140a3ed",
-      "e8a225e6-6a6b-4c1f-5fdc-2e2067f720a4",
-      "cb40a3fd-7d2e-46d0-5c54-8cd00242c870",
-      "af2b52bd-32e2-4858-7d91-3b6648bfd9e5",
-      "6d1108de-92c3-4c68-6d9f-961101799c51",
-      "695932a0-9340-4ff0-64d0-0af2657a8561",
-      "4a16c9b2-2721-4771-5cc1-143c3abb37e0",
-      "3d6a1d3b-902b-452a-7b0e-29d24ea9e17d"
+      "286a568e-b8d3-42bb-212c-9aa7e360a254"
      ]
     },
     "status": "open",
@@ -5628,12 +5876,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2431013",
     "opened_ts": 1784176112.7972028,
     "close_ts": 1784519940.0,
     "days_to_close_at_entry": 3.98,
-    "question": "Will Lionel Messi win the Golden Ball at the 2026 FIFA World Cup?"
+    "question": "Will Lionel Messi win the Golden Ball at the 2026 FIFA World Cup?",
+    "pnl_cents": -909.0,
+    "result": "no"
    },
    "polymarket|2917071|taker": {
     "venue": "polymarket",
@@ -5658,12 +5908,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2437514",
     "opened_ts": 1784179712.8467824,
     "close_ts": 1784519940.0,
     "days_to_close_at_entry": 3.94,
-    "question": "Will Unai Sim\u00f3n win the Golden Glove at the 2026 FIFA World Cup?"
+    "question": "Will Unai Sim\u00f3n win the Golden Glove at the 2026 FIFA World Cup?",
+    "pnl_cents": 130.0,
+    "result": "yes"
    },
    "polymarket|2871319|taker": {
     "venue": "polymarket",
@@ -5921,12 +6173,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2930662",
     "opened_ts": 1784269775.8626368,
     "close_ts": 1784289600.0,
     "days_to_close_at_entry": 0.23,
-    "question": "Will the highest temperature in Hong Kong be 28\u00b0C on July 17?"
+    "question": "Will the highest temperature in Hong Kong be 28\u00b0C on July 17?",
+    "pnl_cents": -897.0,
+    "result": "no"
    },
    "polymarket|2845349|taker": {
     "venue": "polymarket",
@@ -6655,9 +6909,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 1319.0,
     "tape_cursor": {
-     "ts": 1784496657.072599,
+     "ts": 1784520847.519919,
      "ids": [
-      "776f373a-f22b-4631-56e4-2d6338f0ed6a"
+      "33c6fc98-e560-50b0-94e3-d5a4fc795b99"
      ]
     },
     "status": "open",
@@ -6721,9 +6975,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 2100.11,
     "tape_cursor": {
-     "ts": 1784458028.142854,
+     "ts": 1784524580.972768,
      "ids": [
-      "2925e114-e74a-6264-8258-dd8fb1176d12"
+      "e5bb728b-93aa-429e-2918-ace36218a135"
      ]
     },
     "status": "open",
@@ -6754,9 +7008,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 2037.0,
     "tape_cursor": {
-     "ts": 1784447828.096686,
+     "ts": 1784516384.218462,
      "ids": [
-      "0408b168-756f-74e4-c967-7bbebe254303"
+      "9d2ebdb3-c1dd-77d5-7a93-20120868fe47"
      ]
     },
     "status": "open",
@@ -6785,11 +7039,11 @@
     "qty": 10,
     "filled_qty": 0.0,
     "fee_cents": 0.0,
-    "queue_ahead": 2104.0,
+    "queue_ahead": 1162.77,
     "tape_cursor": {
-     "ts": 1784475252.871543,
+     "ts": 1784501238.284743,
      "ids": [
-      "50aa2b91-9a08-47f9-4f04-94108f9d9a78"
+      "f4b94f89-908c-5672-351b-b7a5f015ad4e"
      ]
     },
     "status": "open",
@@ -6854,10 +7108,10 @@
     "fee_cents": 0.0,
     "queue_ahead": 5000.0,
     "tape_cursor": {
-     "ts": 1784436323.61166,
+     "ts": 1784497607.021339,
      "ids": [
-      "ef3ca8b8-09bb-6801-02ff-e900b0047771",
-      "422a5b66-2049-629d-0411-df3f43593746"
+      "ec314e6c-81ae-754e-6272-6504708b71e2",
+      "9e57d8c6-315f-7f40-6320-7082c459d342"
      ]
     },
     "status": "open",
@@ -6954,8 +7208,10 @@
     "fee_cents": 0.0,
     "queue_ahead": 100.0,
     "tape_cursor": {
-     "ts": 1784348237.158941,
-     "ids": []
+     "ts": 1784523915.167443,
+     "ids": [
+      "f5a79572-725c-5d55-9279-07a69bf1f385"
+     ]
     },
     "status": "open",
     "venue": "kalshi",
@@ -6983,11 +7239,12 @@
     "qty": 10,
     "filled_qty": 0.0,
     "fee_cents": 0.0,
-    "queue_ahead": 738.0,
+    "queue_ahead": 731.52,
     "tape_cursor": {
-     "ts": 1784354551.148003,
+     "ts": 1784509755.361644,
      "ids": [
-      "862f65cf-fcc4-5738-e1fa-229a38b4cc51"
+      "f53e9446-dfdd-62de-0922-168f38d781ba",
+      "845a35e1-8a29-6229-166b-de9f73bbf6a8"
      ]
     },
     "status": "open",
@@ -7115,8 +7372,10 @@
     "fee_cents": 0.0,
     "queue_ahead": 436.78,
     "tape_cursor": {
-     "ts": 1784348237.158941,
-     "ids": []
+     "ts": 1784515465.857704,
+     "ids": [
+      "db909ef5-9f25-4fe5-8b56-d840de9879f3"
+     ]
     },
     "status": "open",
     "venue": "kalshi",
@@ -7357,8 +7616,10 @@
     "fee_cents": 0.0,
     "queue_ahead": 200.0,
     "tape_cursor": {
-     "ts": 1784355453.105024,
-     "ids": []
+     "ts": 1784511179.274606,
+     "ids": [
+      "c15f4993-f397-5cee-dbb4-f0eb0e4dc707"
+     ]
     },
     "status": "open",
     "venue": "kalshi",
@@ -7388,9 +7649,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 100.0,
     "tape_cursor": {
-     "ts": 1784435508.980126,
+     "ts": 1784523915.157833,
      "ids": [
-      "238de53b-4932-541e-e3fa-07927b6f6b0c"
+      "3b33721a-eb42-7721-8b25-14d7c4fb7375"
      ]
     },
     "status": "open",
@@ -7704,12 +7965,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2942074",
     "opened_ts": 1784407115.8795311,
     "close_ts": 1784487600.0,
     "days_to_close_at_entry": 0.93,
-    "question": "Spain vs. Argentina: O/U 0.5"
+    "question": "Spain vs. Argentina: O/U 0.5",
+    "pnl_cents": -892.5,
+    "result": "no"
    },
    "kalshi|KXAMSAVO-26JUL24-T0.80|maker": {
     "variant": "maker",
@@ -7749,12 +8012,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2069638",
     "opened_ts": 1784435985.1013227,
     "close_ts": 1784505600.0,
     "days_to_close_at_entry": 0.81,
-    "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?"
+    "question": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+    "pnl_cents": 60.0,
+    "result": "yes"
    },
    "polymarket|2960258|taker": {
     "venue": "polymarket",
@@ -7811,12 +8076,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2955573",
     "opened_ts": 1784446808.6793835,
     "close_ts": 1784462400.0,
     "days_to_close_at_entry": 0.18,
-    "question": "Will the highest temperature in Hong Kong be 30\u00b0C on July 19?"
+    "question": "Will the highest temperature in Hong Kong be 30\u00b0C on July 19?",
+    "pnl_cents": 44.00000000000006,
+    "result": "yes"
    },
    "polymarket|2804482|taker": {
     "venue": "polymarket",
@@ -7855,12 +8122,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2944554",
     "opened_ts": 1784476855.268148,
     "close_ts": 1784487600.0,
     "days_to_close_at_entry": 0.12,
-    "question": "Lionel Messi: 1+ shots"
+    "question": "Lionel Messi: 1+ shots",
+    "pnl_cents": -940.0,
+    "result": "no"
    },
    "polymarket|2851424|taker": {
     "venue": "polymarket",
@@ -7869,12 +8138,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2851424",
     "opened_ts": 1784476855.268148,
     "close_ts": 1784505540.0,
     "days_to_close_at_entry": 0.33,
-    "question": "Iran military action against a Gulf State on July 19?"
+    "question": "Iran military action against a Gulf State on July 19?",
+    "pnl_cents": 50.0,
+    "result": "yes"
    },
    "polymarket|2980359|taker": {
     "venue": "polymarket",
@@ -7953,12 +8224,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2981188",
     "opened_ts": 1784487679.2265527,
     "close_ts": 1784502000.0,
     "days_to_close_at_entry": 0.17,
-    "question": "Counter-Strike: G2 Ares vs megoshort (BO3) - NODWIN Clutch Series Play-In"
+    "question": "Counter-Strike: G2 Ares vs megoshort (BO3) - NODWIN Clutch Series Play-In",
+    "pnl_cents": 70.0,
+    "result": "yes"
    },
    "polymarket|2117909|taker": {
     "venue": "polymarket",
@@ -7967,23 +8240,28 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2117909",
     "opened_ts": 1784487679.2265527,
     "close_ts": 1784505600.0,
     "days_to_close_at_entry": 0.21,
-    "question": "Will Kylian Mbapp\u00e9 record the most goal contributions at the 2026 FIFA World Cup"
+    "question": "Will Kylian Mbapp\u00e9 record the most goal contributions at the 2026 FIFA World Cup",
+    "pnl_cents": 100.0,
+    "result": "yes"
    },
    "kalshi|KXTRUMPENDORSEMENTS-26JUL25-A5|maker": {
     "variant": "maker",
     "price": 85.0,
     "qty": 10,
-    "filled_qty": 0.0,
-    "fee_cents": 0.0,
-    "queue_ahead": 52.0,
+    "filled_qty": 4.0,
+    "fee_cents": 1.0,
+    "queue_ahead": 0.0,
     "tape_cursor": {
-     "ts": 1784491279.25317,
-     "ids": []
+     "ts": 1784510199.621209,
+     "ids": [
+      "d350be19-141a-5f3a-ab54-2d32521e7069",
+      "5d1f192c-e268-5131-86cc-f31356f9ee16"
+     ]
     },
     "status": "open",
     "venue": "kalshi",
@@ -8065,13 +8343,41 @@
     "close_ts": 1785096600.0,
     "days_to_close_at_entry": 6.96,
     "question": "St. Louis Cardinals vs. Arizona Diamondbacks"
+   },
+   "polymarket|2968784|taker": {
+    "venue": "polymarket",
+    "variant": "taker",
+    "price": 87.0,
+    "qty": 10,
+    "filled_qty": 10,
+    "fee_cents": 0.0,
+    "status": "open",
+    "ticker": "2968784",
+    "opened_ts": 1784523366.4203923,
+    "close_ts": 1784548800.0,
+    "days_to_close_at_entry": 0.29,
+    "question": "Will the highest temperature in Hong Kong be 29\u00b0C on July 20?"
+   },
+   "polymarket|2958864|taker": {
+    "venue": "polymarket",
+    "variant": "taker",
+    "price": 87.0,
+    "qty": 10,
+    "filled_qty": 10,
+    "fee_cents": 0.0,
+    "status": "open",
+    "ticker": "2958864",
+    "opened_ts": 1784523366.4203923,
+    "close_ts": 1784581200.0,
+    "days_to_close_at_entry": 0.67,
+    "question": "WTI Crude Oil (WTI) Up or Down on July 20?"
    }
   },
-  "last_scan_ts": 1784494879.271484
+  "last_scan_ts": 1784523366.4203923
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1784497260.5632598,
- "jobs_started": 17,
- "last_job_start_ts": 1784476844.3468933,
- "api_requests_last_job": 32432
+ "last_checkpoint_ts": 1784525175.3512807,
+ "jobs_started": 18,
+ "last_job_start_ts": 1784523339.097776,
+ "api_requests_last_job": 3039
 }

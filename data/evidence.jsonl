@@ -9079,3 +9079,8 @@
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784531480.951763, "trade_id": "aebb220c-dd8d-718e-50ca-c2b60e675e64", "side": "ask", "price": 27.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 27.0, "qty": 200, "mid_later": 27.5, "adverse_cents": 100.0}
 {"type": "fav_fill", "key": "kalshi|KXBRENTW-26JUL2417-T78.99|maker", "ts": 1784532304.430357, "trade_id": "2aee730f-c5f0-4f42-941a-87b83deed2cb", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-AIRB", "ts": 1784532819.533492, "trade_id": "6615d53f-e990-6a31-8198-b55c06671e3a", "side": "ask", "price": 33.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-AIRB", "side": "ask", "price": 33.0, "qty": 200, "mid_later": 33.5, "adverse_cents": 100.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "ts": 1784534080.734076, "trade_id": "687b27b1-e3e7-4195-91b7-5c8ce74aa4e6", "side": "bid", "price": 52.0, "qty": 3.0}
+{"type": "fav_settle", "key": "polymarket|2891174|taker", "result": "yes", "pnl_cents": 90.99999999999994}
+{"type": "fav_settle", "key": "polymarket|2885148|taker", "result": "yes", "pnl_cents": 80.0}

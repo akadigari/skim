@@ -1,34 +1,34 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-20 08:57 UTC, **day 8.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-20 09:27 UTC, **day 8.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-20 08:57 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| last checkpoint | 2026-07-20 09:27 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
 | jobs run (6h chain) | 18 |
-| current job age | 4.0h of 5.7h max |
+| current job age | 4.5h of 5.7h max |
 | markets quoting / retired | 15 / 33 |
 | favorites open (maker/taker/poly) | 60 / 60 / 46 |
-| API requests last job | 23119 |
+| API requests last job | 25951 |
 | crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |
 
 ## Experiment 1: MM breadth (liquidity-pool harvesting)
 
-**Gate status: BEHIND**, decision $-2573.75/day vs GO bar $5.00/day; earn/pay -0.36 vs 1.5; fills 4090/30 evidence floor
+**Gate status: BEHIND**, decision $-2566.38/day vs GO bar $5.00/day; earn/pay -0.36 vs 1.5; fills 4090/30 evidence floor
 
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 48 |
-| est. rewards accrued | $+1688.12 |
-| spread P&L (cash + mark) | $-7463.59 |
+| est. rewards accrued | $+1696.98 |
+| spread P&L (cash + mark) | $-7463.49 |
 | adverse selection (markout) | $-14844.59 |
 | maker fees | $-1174.81 |
-| **decision number** | **$-21794.87** |
-| decision at 0.25x rewards (share-optimism haircut) | $-23060.96 |
-| decision at 0.10x rewards | $-23314.18 |
-| fills / snapshots (counted) | 4090 / 286440 (272389) |
+| **decision number** | **$-21785.91** |
+| decision at 0.25x rewards (share-optimism haircut) | $-23058.65 |
+| decision at 0.10x rewards | $-23313.19 |
+| fills / snapshots (counted) | 4090 / 287790 (273739) |
 
 ### Per-market
 
@@ -37,28 +37,28 @@ _Auto-generated 2026-07-20 08:57 UTC, **day 8.5 of 14**. 100% sim: this repo onl
 | KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22 | $180 | 52% | $+8.73 | $-154.12 | 69 | $+72.88 |
 | KXAAAGASD-26JUL12-3.870 | $198 | 50% | $+21.11 | $-9.00 | 44 | $+27.44 |
 | KXAAAGASD-26JUL12-3.875 | $198 | 69% | $+32.13 | $-30.68 | 80 | $+21.09 |
+| KXWNBAMENTION-26JUL19CHIATL-TAUR | $51 | 90% | $+8.69 | $-0.00 | 0 | $+8.69 |
 | KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19 | $193 | 62% | $+9.58 | $-1.00 | 2 | $+8.44 |
-| KXWNBAMENTION-26JUL19CHIATL-TAUR | $51 | 90% | $+7.73 | $-0.00 | 0 | $+7.73 |
-| KXWNBAMENTION-26JUL16NYDAL-OVER | $51 | 76% | $+6.51 | $-0.07 | 4 | $+6.38 |
-| KXWNBAMENTION-26JUL16NYDAL-TRAV | $51 | 74% | $+6.32 | $-0.00 | 0 | $+6.32 |
-| KXWNBAMENTION-26JUL16NYDAL-TECH | $51 | 67% | $+5.69 | $-0.00 | 1 | $+5.69 |
+| KXWNBAMENTION-26JUL16NYDAL-TRAV | $51 | 74% | $+7.07 | $-0.00 | 0 | $+7.07 |
+| KXWNBAMENTION-26JUL16NYDAL-OVER | $51 | 75% | $+7.17 | $-0.07 | 4 | $+7.05 |
+| KXWNBAMENTION-26JUL16NYDAL-TECH | $51 | 66% | $+6.32 | $-0.00 | 1 | $+6.32 |
+| KXWNBAMENTION-26JUL16NYDAL-TRAD | $51 | 60% | $+5.81 | $-0.00 | 0 | $+5.81 |
 | KXWCATTEND-26JUL20-VIC | $63 | 35% | $+86.21 | $-136.03 | 101 | $+5.25 |
-| KXWNBAMENTION-26JUL16NYDAL-TRAD | $51 | 61% | $+5.20 | $-0.00 | 0 | $+5.20 |
-| KXWNBAMENTION-26JUL16NYDAL-CAIT | $51 | 47% | $+4.01 | $-0.00 | 0 | $+4.01 |
-| KXWNBAMENTION-26JUL16NYDAL-ANKL | $51 | 39% | $+3.32 | $-0.00 | 0 | $+3.32 |
-| KXTRUMPPHOTO-26JUL26-7 | $34 | 50% | $+2.82 | $-0.48 | 3 | $+1.69 |
-| KXTRUMPPHOTO-26JUL26-6 | $34 | 44% | $+2.47 | $-0.40 | 8 | $+1.15 |
-| KXTRUMPPHOTO-26JUL26-5 | $34 | 29% | $+1.62 | $-0.21 | 4 | $+1.04 |
-| KXWNBAMENTION-26JUL16NYDAL-AIRB | $51 | 44% | $+3.76 | $-1.00 | 1 | $+0.98 |
-| KXWNBAMENTION-26JUL16NYDAL-BUZZ | $51 | 36% | $+3.09 | $-1.00 | 1 | $+0.40 |
+| KXWNBAMENTION-26JUL16NYDAL-CAIT | $51 | 47% | $+4.49 | $-0.00 | 0 | $+4.49 |
+| KXWNBAMENTION-26JUL16NYDAL-ANKL | $51 | 39% | $+3.70 | $-0.00 | 0 | $+3.70 |
+| KXTRUMPPHOTO-26JUL26-7 | $34 | 48% | $+3.08 | $-0.48 | 3 | $+1.95 |
+| KXWNBAMENTION-26JUL16NYDAL-AIRB | $51 | 44% | $+4.22 | $-1.00 | 1 | $+1.44 |
+| KXTRUMPPHOTO-26JUL26-6 | $34 | 41% | $+2.62 | $-0.40 | 8 | $+1.31 |
+| KXTRUMPPHOTO-26JUL26-5 | $34 | 29% | $+1.84 | $-0.21 | 4 | $+1.26 |
+| KXDXYDUD-26JUL20-T100.7560 | $218 | 57% | $+23.31 | $-6.40 | 6 | $+0.90 |
+| KXWNBAMENTION-26JUL16NYDAL-BUZZ | $51 | 36% | $+3.47 | $-1.00 | 1 | $+0.78 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+0.38 |
-| KXTRUMPPHOTO-26JUL26-4 | $34 | 29% | $+1.65 | $-0.03 | 3 | $+0.07 |
-| KXDXYDUD-26JUL20-T100.7560 | $218 | 58% | $+21.20 | $-6.40 | 6 | $-1.21 |
+| KXTRUMPPHOTO-26JUL26-4 | $34 | 29% | $+1.83 | $-0.03 | 3 | $+0.25 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $-2.78 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-13.01 |
 | KXWCATTEND-26JUL20-TRAV | $63 | 17% | $+42.30 | $-68.91 | 80 | $-17.58 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-20.47 |
-| KXWNBAMENTION-26JUL19CONNPHX-TECH | $51 | 71% | $+5.23 | $-29.90 | 10 | $-32.92 |
+| KXWNBAMENTION-26JUL19CONNPHX-TECH | $51 | 69% | $+5.85 | $-29.90 | 10 | $-32.21 |
 | KXWCSTART-26JUL11ARGSUI-ARG-JALVAR9 | $180 | 65% | $+8.99 | $-12.03 | 23 | $-47.00 |
 | KXWCSTART-26JUL11ARGSUI-SUI-FRIEDE22 | $193 | 85% | $+12.75 | $-39.21 | 9 | $-49.70 |
 | KXWCSTART-26JUL11ARGSUI-SUI-MMUHEI2 | $193 | 81% | $+12.72 | $-28.00 | 5 | $-49.96 |

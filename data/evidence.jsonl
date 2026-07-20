@@ -9381,3 +9381,33 @@
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER", "ts": 1784573288.341936, "trade_id": "eb7d7e74-5efe-651e-9809-8d5343da4a84", "side": "bid", "price": 26.0, "qty": 7.0}
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER", "ts": 1784573288.341936, "trade_id": "c10659da-de67-6bf0-b814-63d45801f83d", "side": "bid", "price": 26.0, "qty": 8.0}
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER", "ts": 1784573288.341936, "trade_id": "3a80e644-af05-6ddc-bc5d-f427629f8615", "side": "bid", "price": 26.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL", "ts": 1784573322.539957, "trade_id": "a99ae1f6-1a1e-6231-64a5-89a5acf85c18", "side": "ask", "price": 64.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL", "ts": 1784573322.539957, "trade_id": "6484e65c-7d80-6349-5c9a-57740d27acfd", "side": "ask", "price": 64.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL", "ts": 1784573322.539957, "trade_id": "2c3e1f31-39c0-6680-4036-5c553d200db4", "side": "ask", "price": 64.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "ts": 1784573559.441514, "trade_id": "efa93455-e054-6ff6-c9d9-ca25cab6126b", "side": "ask", "price": 51.0, "qty": 89.59}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "ts": 1784573559.441514, "trade_id": "9d5b1c9c-d06b-6355-c6f3-58f2b57a195c", "side": "ask", "price": 51.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "ts": 1784573559.441514, "trade_id": "2f78cbb6-1c12-6e72-fa36-e8b34c2fc9a4", "side": "ask", "price": 51.0, "qty": 100.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER", "side": "bid", "price": 26.0, "qty": 7.0, "mid_later": 25.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER", "side": "bid", "price": 26.0, "qty": 8.0, "mid_later": 25.5, "adverse_cents": 4.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-OVER", "side": "bid", "price": 26.0, "qty": 5.0, "mid_later": 25.5, "adverse_cents": 2.5}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL", "side": "ask", "price": 64.0, "qty": 3.0, "mid_later": 65.5, "adverse_cents": 4.5}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL", "side": "ask", "price": 64.0, "qty": 5.0, "mid_later": 65.5, "adverse_cents": 7.5}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL", "side": "ask", "price": 64.0, "qty": 8.0, "mid_later": 65.5, "adverse_cents": 12.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784573759.334109, "trade_id": "9b154f65-c903-644d-db23-46915c27a258", "side": "ask", "price": 28.0, "qty": 3.2700000000000387}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784573759.334109, "trade_id": "71d04650-42a5-6ff0-fdb6-83c1844c6bd7", "side": "ask", "price": 28.0, "qty": 35.27}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784573759.334109, "trade_id": "54e6b832-5bac-67b3-cd53-45f9fd03ebd8", "side": "ask", "price": 28.0, "qty": 100.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784573759.334109, "trade_id": "39829343-b99e-6507-e631-6a93007ec170", "side": "ask", "price": 28.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784573759.334109, "trade_id": "30a9e21c-3c8d-6e51-c8b4-81f1cf951a02", "side": "ask", "price": 28.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "ts": 1784573759.334109, "trade_id": "2970b1da-b318-68d6-ea98-869459d1d4e1", "side": "ask", "price": 28.0, "qty": 57.45999999999995}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "side": "ask", "price": 51.0, "qty": 89.59, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "side": "ask", "price": 51.0, "qty": 1.0, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "side": "ask", "price": 51.0, "qty": 100.0, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 3.2700000000000387, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 35.27, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 100.0, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 1.0, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 3.0, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-BUZZ", "side": "ask", "price": 28.0, "qty": 57.45999999999995, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2989091", "opened_ts": 1784575058.9476023, "close_ts": 1785164400.0, "days_to_close_at_entry": 6.82, "question": "Hamburg European Open: Anna Bondar vs Moyuka Uchijima"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2996121", "opened_ts": 1784575058.9476023, "close_ts": 1784588400.0, "days_to_close_at_entry": 0.15, "question": "Counter-Strike: Misa Esports vs Lilmix (BO3) - NODWIN Clutch Series Play-In Grou"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.9, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2986366", "opened_ts": 1784575058.9476023, "close_ts": 1785160800.0, "days_to_close_at_entry": 6.78, "question": "Bloomfield Hills: Michael Zheng vs Abedallah Shelbayh"}

@@ -9449,3 +9449,14 @@
 {"type": "fav_settle", "key": "polymarket|2958781|taker", "result": "no", "pnl_cents": -920.0}
 {"type": "fav_settle", "key": "polymarket|2959976|taker", "result": "yes", "pnl_cents": 100.0}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "ask", "price": 51.0, "qty": 2.0, "mid_later": 51.5, "adverse_cents": 1.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TRAV", "ts": 1784582358.609167, "trade_id": "caddb52e-1525-6ffd-d1cc-e014ef424882", "side": "bid", "price": 82.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TRAV", "side": "bid", "price": 82.0, "qty": 200, "mid_later": 81.0, "adverse_cents": 200.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784583600.688417, "trade_id": "bc3c1227-8faa-761b-3c40-5a75d35c788c", "side": "ask", "price": 82.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784583600.688417, "trade_id": "99b08875-42e2-710d-3e6e-18f1af967499", "side": "ask", "price": 82.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784583600.688417, "trade_id": "3b42d916-c59f-7fd4-2131-aa4d9c3968ba", "side": "ask", "price": 82.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784583600.688417, "trade_id": "35b092d2-998b-7d7b-3877-bafe80fe0c4b", "side": "ask", "price": 82.0, "qty": 196.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 82.0, "qty": 1.0, "mid_later": 90.0, "adverse_cents": 8.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 82.0, "qty": 1.0, "mid_later": 90.0, "adverse_cents": 8.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 82.0, "qty": 2.0, "mid_later": 90.0, "adverse_cents": 16.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 82.0, "qty": 196.0, "mid_later": 90.0, "adverse_cents": 1568.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-TECH", "ts": 1784583899.017284, "trade_id": "951e8ea4-874c-777a-008f-3170fad3dfb7", "side": "ask", "price": 51.0, "qty": 5.6199999999999966}

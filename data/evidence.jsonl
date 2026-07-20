@@ -9413,3 +9413,12 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.9, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2986366", "opened_ts": 1784575058.9476023, "close_ts": 1785160800.0, "days_to_close_at_entry": 6.78, "question": "Bloomfield Hills: Michael Zheng vs Abedallah Shelbayh"}
 {"type": "fav_fill", "key": "kalshi|KXALBUMEQUIV-OHY26JUL23-35K|maker", "ts": 1784575241.473125, "trade_id": "fd872c6f-490e-78d8-4643-5b1c3a94198c", "qty": 10.0}
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "ts": 1784576694.121267, "trade_id": "785d79d0-c1ad-7039-618a-72fb94997156", "side": "bid", "price": 51.0, "qty": 28.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "bid", "price": 51.0, "qty": 28.0, "mid_later": 50.5, "adverse_cents": 14.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-5", "ts": 1784577643.847098, "trade_id": "57a97815-a0c8-79a1-bef2-305c2635f71b", "side": "ask", "price": 33.0, "qty": 4.780000000000001}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "ts": 1784577836.053415, "trade_id": "e65d6e22-e010-7be5-9c64-4d026285431a", "side": "ask", "price": 51.0, "qty": 2.7799999999999994}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "ts": 1784577836.053415, "trade_id": "aa8f4034-6f3f-7fde-9165-7b0e342a3b7d", "side": "ask", "price": 51.0, "qty": 197.22}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "ask", "price": 33.0, "qty": 4.780000000000001, "mid_later": 32.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "ask", "price": 51.0, "qty": 2.7799999999999994, "mid_later": 51.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "ask", "price": 51.0, "qty": 197.22, "mid_later": 51.0, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.60000000000001, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2980545", "opened_ts": 1784578658.972871, "close_ts": 1785139200.0, "days_to_close_at_entry": 6.49, "question": "Zug: Jerome Kym vs Jay Clarke"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.8, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2994096", "opened_ts": 1784578658.972871, "close_ts": 1785175200.0, "days_to_close_at_entry": 6.9, "question": "Palermo: Fiona Ferro vs Yufei Ren"}

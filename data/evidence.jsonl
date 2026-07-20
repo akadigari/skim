@@ -9422,3 +9422,17 @@
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "ask", "price": 51.0, "qty": 197.22, "mid_later": 51.0, "adverse_cents": 0.0}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.60000000000001, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2980545", "opened_ts": 1784578658.972871, "close_ts": 1785139200.0, "days_to_close_at_entry": 6.49, "question": "Zug: Jerome Kym vs Jay Clarke"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 90.8, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2994096", "opened_ts": 1784578658.972871, "close_ts": 1785175200.0, "days_to_close_at_entry": 6.9, "question": "Palermo: Fiona Ferro vs Yufei Ren"}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "ts": 1784578918.712588, "trade_id": "fabbaad6-c66d-78a2-8676-f6a491b67345", "side": "bid", "price": 51.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784579050.818132, "trade_id": "806e0110-4a36-7608-5ecf-a72edff8be02", "side": "ask", "price": 79.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784579050.818132, "trade_id": "7d6bcc9c-76ca-7e82-5b3e-8aed83678e3f", "side": "ask", "price": 79.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784579050.818132, "trade_id": "69024120-6ffb-7a4e-5065-a15712f6b69c", "side": "ask", "price": 79.0, "qty": 25.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784579050.818132, "trade_id": "3c2bffe1-f221-7e69-52e6-8cfae61f9dda", "side": "ask", "price": 79.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT", "side": "bid", "price": 51.0, "qty": 200, "mid_later": 50.5, "adverse_cents": 100.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784579343.46087, "trade_id": "a1ae8d63-b3fd-4827-2e0d-91ec65009c95", "side": "bid", "price": 78.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXDXYDUD-26JUL20-T100.7560", "ts": 1784579343.46087, "trade_id": "48299aec-5683-4c58-1a19-637d31a97c2e", "side": "bid", "price": 78.0, "qty": 2.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 79.0, "qty": 8.0, "mid_later": 77.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 79.0, "qty": 8.0, "mid_later": 77.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 79.0, "qty": 25.0, "mid_later": 77.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "ask", "price": 79.0, "qty": 5.0, "mid_later": 77.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "bid", "price": 78.0, "qty": 2.0, "mid_later": 78.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXDXYDUD-26JUL20-T100.7560", "side": "bid", "price": 78.0, "qty": 2.0, "mid_later": 78.0, "adverse_cents": 0.0}

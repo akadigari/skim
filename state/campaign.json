@@ -1041,7 +1041,7 @@
    "category": "KXDXYDUD",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615796.6289048,
+   "last_tick_ts": 1784617596.6406965,
    "tape_cursor": {
     "ts": 1784608573.681727,
     "ids": []
@@ -1054,7 +1054,7 @@
    "fees_cents": 182.0,
    "adverse_cents": 2258.58,
    "fills": 19,
-   "snapshots": 2404,
+   "snapshots": 2494,
    "counted": 2042,
    "share_sum": 953.3927794612935,
    "pending_markouts": [],
@@ -1302,7 +1302,7 @@
     "size": 200,
     "queue_ahead": 1625.01
    },
-   "last_tick_ts": 1784615796.7997875,
+   "last_tick_ts": 1784617596.813428,
    "tape_cursor": {
     "ts": 1784612762.325554,
     "ids": [
@@ -1317,8 +1317,8 @@
    "fees_cents": 33.5,
    "adverse_cents": 48.0,
    "fills": 12,
-   "snapshots": 2404,
-   "counted": 2404,
+   "snapshots": 2494,
+   "counted": 2494,
    "share_sum": 569.3650791232253,
    "pending_markouts": [],
    "retired": false
@@ -1340,7 +1340,7 @@
     "size": 146.32,
     "queue_ahead": 0.0
    },
-   "last_tick_ts": 1784615797.101778,
+   "last_tick_ts": 1784617597.1125176,
    "tape_cursor": {
     "ts": 1784613685.368298,
     "ids": [
@@ -1351,13 +1351,13 @@
    "inventory": 379.32,
    "peak_abs_inventory": 379.32,
    "cash_cents": -10909.64,
-   "reward_cents": 870.7174053592007,
+   "reward_cents": 904.7607814537561,
    "fees_cents": 175.25,
    "adverse_cents": 40.000000000000284,
    "fills": 18,
-   "snapshots": 2404,
-   "counted": 2404,
-   "share_sum": 1113.1946252757086,
+   "snapshots": 2494,
+   "counted": 2494,
+   "share_sum": 1156.8171361621555,
    "pending_markouts": [],
    "retired": false
   },
@@ -1378,7 +1378,7 @@
     "size": 200,
     "queue_ahead": 101.50999999999999
    },
-   "last_tick_ts": 1784615797.4006834,
+   "last_tick_ts": 1784617597.4115262,
    "tape_cursor": {
     "ts": 1784613647.315578,
     "ids": [
@@ -1389,13 +1389,13 @@
    "inventory": -246.76999999999998,
    "peak_abs_inventory": 446.77,
    "cash_cents": 7543.420000000002,
-   "reward_cents": 706.6167795591186,
+   "reward_cents": 748.2437050775774,
    "fees_cents": 291.75,
    "adverse_cents": 362.995,
    "fills": 29,
-   "snapshots": 2404,
-   "counted": 2404,
-   "share_sum": 901.7182707527754,
+   "snapshots": 2494,
+   "counted": 2494,
+   "share_sum": 955.0581749522509,
    "pending_markouts": [],
    "retired": false
   },
@@ -1488,7 +1488,7 @@
     "size": 200,
     "queue_ahead": 761.01
    },
-   "last_tick_ts": 1784615797.7244177,
+   "last_tick_ts": 1784617597.7375352,
    "tape_cursor": {
     "ts": 1784613865.705243,
     "ids": [
@@ -1503,8 +1503,8 @@
    "fees_cents": 206.0,
    "adverse_cents": 1069.0,
    "fills": 16,
-   "snapshots": 2404,
-   "counted": 2404,
+   "snapshots": 2494,
+   "counted": 2494,
    "share_sum": 570.8282296078969,
    "pending_markouts": [],
    "retired": false
@@ -1663,7 +1663,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615798.0008655,
+   "last_tick_ts": 1784617598.0119476,
    "tape_cursor": {
     "ts": 1784609993.913803,
     "ids": [
@@ -1678,7 +1678,7 @@
    "fees_cents": 324.75,
    "adverse_cents": 1900.0,
    "fills": 4,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 27,
    "share_sum": 21.692342789752495,
    "pending_markouts": [],
@@ -1693,7 +1693,7 @@
    "category": "KXTEMPNYCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615798.3015938,
+   "last_tick_ts": 1784617598.3128517,
    "tape_cursor": {
     "ts": 1784609417.664791,
     "ids": [
@@ -1708,7 +1708,7 @@
    "fees_cents": 84.5,
    "adverse_cents": 2400.0,
    "fills": 5,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 27,
    "share_sum": 11.188433959517099,
    "pending_markouts": [],
@@ -1723,7 +1723,7 @@
    "category": "KXTEMPLAXH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615798.6251233,
+   "last_tick_ts": 1784617598.6144671,
    "tape_cursor": {
     "ts": 1784609981.031533,
     "ids": [
@@ -1738,7 +1738,7 @@
    "fees_cents": 472.5,
    "adverse_cents": 9500.0,
    "fills": 12,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 39,
    "share_sum": 25.717025367125434,
    "pending_markouts": [],
@@ -1753,7 +1753,7 @@
    "category": "KXTEMPNYCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615798.901256,
+   "last_tick_ts": 1784617598.91378,
    "tape_cursor": {
     "ts": 1784609963.139446,
     "ids": [
@@ -1768,7 +1768,7 @@
    "fees_cents": 386.5,
    "adverse_cents": 7100.0,
    "fills": 5,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 36,
    "share_sum": 18.31519258202511,
    "pending_markouts": [],
@@ -1783,7 +1783,7 @@
    "category": "KXTEMPLAXH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615799.2028282,
+   "last_tick_ts": 1784617599.2169144,
    "tape_cursor": {
     "ts": 1784609968.311841,
     "ids": [
@@ -1798,7 +1798,7 @@
    "fees_cents": 76.0,
    "adverse_cents": 914.135,
    "fills": 12,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 35,
    "share_sum": 28.160255509744665,
    "pending_markouts": [],
@@ -1813,7 +1813,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615799.5265808,
+   "last_tick_ts": 1784617599.5142176,
    "tape_cursor": {
     "ts": 1784609659.495974,
     "ids": [
@@ -1828,7 +1828,7 @@
    "fees_cents": 492.25,
    "adverse_cents": 5320.119999999998,
    "fills": 9,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 27,
    "share_sum": 18.982571242255712,
    "pending_markouts": [],
@@ -1843,7 +1843,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615799.802843,
+   "last_tick_ts": 1784617599.8146465,
    "tape_cursor": {
     "ts": 1784609739.155364,
     "ids": [
@@ -1858,7 +1858,7 @@
    "fees_cents": 44.5,
    "adverse_cents": 157.915,
    "fills": 3,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 27,
    "share_sum": 23.045007846838637,
    "pending_markouts": [],
@@ -1873,7 +1873,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615800.10301,
+   "last_tick_ts": 1784617600.1146164,
    "tape_cursor": {
     "ts": 1784609918.041597,
     "ids": [
@@ -1889,7 +1889,7 @@
    "fees_cents": 140.25,
    "adverse_cents": 6020.0250000000015,
    "fills": 11,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 41,
    "share_sum": 23.602429439090734,
    "pending_markouts": [],
@@ -1904,7 +1904,7 @@
    "category": "KXTEMPDCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615800.4172702,
+   "last_tick_ts": 1784617600.415782,
    "tape_cursor": {
     "ts": 1784609663.853465,
     "ids": [
@@ -1919,7 +1919,7 @@
    "fees_cents": 349.25,
    "adverse_cents": 19771.05,
    "fills": 18,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 27,
    "share_sum": 21.808174133515312,
    "pending_markouts": [],
@@ -1934,7 +1934,7 @@
    "category": "KXTEMPDCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784615800.7027533,
+   "last_tick_ts": 1784617600.7153451,
    "tape_cursor": {
     "ts": 1784609063.778275,
     "ids": [
@@ -1950,7 +1950,7 @@
    "fees_cents": 11.5,
    "adverse_cents": 417.52500000000003,
    "fills": 3,
-   "snapshots": 362,
+   "snapshots": 452,
    "counted": 30,
    "share_sum": 10.884572583810613,
    "pending_markouts": [],
@@ -7350,9 +7350,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 1319.0,
     "tape_cursor": {
-     "ts": 1784604675.745461,
+     "ts": 1784616238.610462,
      "ids": [
-      "f53f1918-d298-5714-836e-05b906741aaa"
+      "b77547a8-f38a-719b-804a-ca2c02e271cc"
      ]
     },
     "status": "open",
@@ -7416,10 +7416,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 2098.11,
     "tape_cursor": {
-     "ts": 1784604071.093471,
+     "ts": 1784616291.269297,
      "ids": [
-      "9245c484-412b-63de-0e6e-a4254336268a",
-      "144ca148-2e19-6bb0-2d49-880304c5710a"
+      "841e4604-05f0-74da-582b-e914f98f38ae"
      ]
     },
     "status": "open",
@@ -7483,9 +7482,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 1162.77,
     "tape_cursor": {
-     "ts": 1784593884.33006,
+     "ts": 1784615627.258184,
      "ids": [
-      "7baba48f-6f87-6832-131c-eaa64d722c16"
+      "59669663-354c-5476-d14f-b35a285e38de"
      ]
     },
     "status": "open",
@@ -8898,10 +8897,9 @@
     "fee_cents": 1.0,
     "queue_ahead": 0.0,
     "tape_cursor": {
-     "ts": 1784611769.037653,
+     "ts": 1784616696.102543,
      "ids": [
-      "8ed24a54-9d83-5735-b099-371f99f8780a",
-      "2af62edf-c566-5fbd-a6b1-1316d90144d6"
+      "e0650b0e-de78-786f-9677-65834ba260fe"
      ]
     },
     "status": "open",
@@ -9032,13 +9030,16 @@
     "qty": 10,
     "filled_qty": 0.0,
     "fee_cents": 0.0,
-    "queue_ahead": 318.0,
+    "queue_ahead": 214.0,
     "tape_cursor": {
-     "ts": 1784577386.661665,
+     "ts": 1784615909.279079,
      "ids": [
-      "7e559847-6703-52a1-bbda-dc3f2d827d0b",
-      "76dd6c5e-217d-5421-93cb-d59ec15629ce",
-      "593b6fd0-27a3-58c1-9c2f-40953eb7837a"
+      "e58c759d-da5c-657d-8c11-ddf402936561",
+      "dfee8710-15d7-6a6b-8827-f5fa1c7b2fdb",
+      "ac569c4b-4eaf-6558-a540-20601be2aa01",
+      "8da98db0-7935-6b36-9ff8-5ae2642ae330",
+      "5a6d29fd-ab29-6937-ae30-4c2f5eb68e08",
+      "4b2cbb3f-4674-6e42-b08b-a04fd0cb8607"
      ]
     },
     "status": "open",
@@ -9471,8 +9472,8 @@
   "last_scan_ts": 1784615781.0045419
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1784615801.020561,
+ "last_checkpoint_ts": 1784617601.0328023,
  "jobs_started": 20,
  "last_job_start_ts": 1784608550.203427,
- "api_requests_last_job": 11641
+ "api_requests_last_job": 14482
 }

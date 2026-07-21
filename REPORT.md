@@ -1,34 +1,34 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-21 08:06 UTC, **day 9.4 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-21 08:36 UTC, **day 9.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-21 08:06 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| last checkpoint | 2026-07-21 08:36 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
 | jobs run (6h chain) | 20 |
-| current job age | 3.5h of 5.7h max |
+| current job age | 4.0h of 5.7h max |
 | markets quoting / retired | 15 / 37 |
 | favorites open (maker/taker/poly) | 60 / 60 / 44 |
-| API requests last job | 20206 |
+| API requests last job | 23089 |
 | crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |
 
 ## Experiment 1: MM breadth (liquidity-pool harvesting)
 
-**Gate status: BEHIND**, decision $-2537.05/day vs GO bar $5.00/day; earn/pay -0.39 vs 1.5; fills 4338/30 evidence floor
+**Gate status: BEHIND**, decision $-2531.38/day vs GO bar $5.00/day; earn/pay -0.39 vs 1.5; fills 4338/30 evidence floor
 
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 60 |
-| est. rewards accrued | $+1865.53 |
+| est. rewards accrued | $+1866.20 |
 | spread P&L (cash + mark) | $-8619.58 |
 | adverse selection (markout) | $-15948.45 |
 | maker fees | $-1230.05 |
-| **decision number** | **$-23932.54** |
-| decision at 0.25x rewards (share-optimism haircut) | $-25331.69 |
-| decision at 0.10x rewards | $-25611.52 |
-| fills / snapshots (counted) | 4338 / 315705 (292919) |
+| **decision number** | **$-23931.87** |
+| decision at 0.25x rewards (share-optimism haircut) | $-25331.52 |
+| decision at 0.10x rewards | $-25611.45 |
+| fills / snapshots (counted) | 4338 / 317055 (293279) |
 
 ### Per-market
 
@@ -50,7 +50,7 @@ _Auto-generated 2026-07-21 08:06 UTC, **day 9.4 of 14**. 100% sim: this repo onl
 | KXWCATTEND-26JUL20-VIC | $63 | 35% | $+86.21 | $-136.03 | 101 | $+5.25 |
 | KXWNBAMENTION-26JUL16NYDAL-CAIT | $51 | 45% | $+10.78 | $-2.15 | 7 | $+3.01 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+0.38 |
-| KXTRUMPPHOTO-26JUL26-6 | $34 | 46% | $+9.62 | $-0.40 | 19 | $-1.11 |
+| KXTRUMPPHOTO-26JUL26-6 | $34 | 46% | $+9.99 | $-0.40 | 19 | $-0.74 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $-2.78 |
 | KXTRUMPPHOTO-26JUL26-7 | $34 | 21% | $+4.46 | $-0.48 | 12 | $-4.24 |
 | KXWNBAMENTION-26JUL16NYDAL-TRAV | $51 | 48% | $+11.60 | $-9.00 | 2 | $-4.50 |
@@ -58,7 +58,7 @@ _Auto-generated 2026-07-21 08:06 UTC, **day 9.4 of 14**. 100% sim: this repo onl
 | KXTEMPDCH-26JUL2101-T75.99 | $1000 | 36% | $+2.53 | $-4.18 | 3 | $-5.94 |
 | KXTEMPLAXH-26JUL2101-T70.99 | $1000 | 80% | $+6.52 | $-9.14 | 12 | $-6.87 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-13.01 |
-| KXTRUMPPHOTO-26JUL26-5 | $34 | 39% | $+8.21 | $-3.63 | 29 | $-16.68 |
+| KXTRUMPPHOTO-26JUL26-5 | $34 | 39% | $+8.51 | $-3.63 | 29 | $-16.37 |
 | KXWCATTEND-26JUL20-TRAV | $63 | 17% | $+42.30 | $-68.91 | 80 | $-17.58 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-20.47 |
 | KXTRUMPPHOTO-26JUL26-4 | $34 | 21% | $+4.46 | $-10.69 | 16 | $-22.58 |
@@ -103,7 +103,7 @@ _Auto-generated 2026-07-21 08:06 UTC, **day 9.4 of 14**. 100% sim: this repo onl
 |---|---|---|---|---|---|---|
 | kalshi maker | 60 | 23 | 55 | 52 (win-rate CI 85%-98%) | $+19.39 | +3.88% |
 | kalshi taker | 60 | - | 78 | 75 | $+22.92 | +3.17% |
-| poly taker (zero-fee) | 44 | - | 124 | 109 | $-37.20 | -3.30% |
+| poly taker (zero-fee) | 44 | - | 127 | 111 | $-44.20 | -3.83% |
 
 _If maker ROI < taker ROI, queue fills are adversely selected: the exact failure mode this experiment exists to measure. The Polymarket taker leg is the zero-fee existence test of the bias itself (phase 1: taker-only there; the pre-registered gate is judged on the Kalshi maker leg only)._
 

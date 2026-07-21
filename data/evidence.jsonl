@@ -9684,3 +9684,9 @@
 {"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784618509.710928, "trade_id": "5ccd12e1-a455-7282-1a4c-c5225fadf48e", "side": "ask", "price": 27.0, "qty": 1.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "ask", "price": 27.0, "qty": 1.0, "mid_later": 26.5, "adverse_cents": 0.0}
 {"type": "fav_settle", "key": "polymarket|2909692|taker", "result": "yes", "pnl_cents": 40.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2993319", "opened_ts": 1784622985.35186, "close_ts": 1784649600.0, "days_to_close_at_entry": 0.31, "question": "Ethereum Up or Down on July 21?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2935353", "opened_ts": 1784622985.35186, "close_ts": 1784736000.0, "days_to_close_at_entry": 1.31, "question": "Will the price of Bitcoin be above $64,000 on July 22?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2922781", "opened_ts": 1784622985.35186, "close_ts": 1784649600.0, "days_to_close_at_entry": 0.31, "question": "Will the price of Ethereum be above $1,900 on July 21?"}
+{"type": "fav_settle", "key": "polymarket|2907199|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "fav_settle", "key": "polymarket|2907563|taker", "result": "no", "pnl_cents": -880.0}
+{"type": "fav_settle", "key": "polymarket|2899027|taker", "result": "yes", "pnl_cents": 80.0}

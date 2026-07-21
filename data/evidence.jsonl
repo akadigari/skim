@@ -9978,3 +9978,19 @@
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "bid", "price": 14.000000000000002, "qty": 28.0, "mid_later": 13.5, "adverse_cents": 14.00000000000005}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "bid", "price": 14.000000000000002, "qty": 4.0, "mid_later": 13.5, "adverse_cents": 2.000000000000007}
 {"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-PITC", "ts": 1784658487.589375, "trade_id": "9b71bac9-2d38-794e-4402-54dc6d8d725c", "side": "ask", "price": 43.99999999999999, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-PITC", "side": "ask", "price": 43.99999999999999, "qty": 200, "mid_later": 43.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-WALK", "ts": 1784658843.033, "trade_id": "658e4acd-c901-5437-9db2-9a672b6a252c", "side": "ask", "price": 38.0, "qty": 1.26}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "ts": 1784658912.644788, "trade_id": "fdd4f047-fdc1-53f7-1388-4639c9da6711", "side": "ask", "price": 47.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-WALK", "side": "ask", "price": 38.0, "qty": 1.26, "mid_later": 37.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL22-4.070", "ts": 1784659162.544789, "trade_id": "fbd66cc3-0178-6b00-e38e-8dc0e4e2a923", "side": "ask", "price": 14.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "ts": 1784659165.841, "trade_id": "2269f819-67ab-778d-2dec-90c878c90887", "side": "ask", "price": 51.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "ts": 1784659165.841, "trade_id": "1f3214ea-ad1c-7d4e-12d6-57fe146aec3c", "side": "ask", "price": 51.0, "qty": 199.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "side": "ask", "price": 47.0, "qty": 200, "mid_later": 51.5, "adverse_cents": 900.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 14.0, "qty": 200, "mid_later": 16.5, "adverse_cents": 500.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "side": "ask", "price": 51.0, "qty": 1.0, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "side": "ask", "price": 51.0, "qty": 199.0, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-WILD", "ts": 1784659760.921315, "trade_id": "57ec2f9c-bd35-757d-dbbb-b8caad453bc6", "side": "ask", "price": 32.0, "qty": 2.98}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-WILD", "side": "ask", "price": 32.0, "qty": 2.98, "mid_later": 31.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL22-4.080", "ts": 1784660260.846749, "trade_id": "5860c63a-ddfc-7449-7f73-b4109eeb0da8", "side": "bid", "price": 11.0, "qty": 2.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3018142", "opened_ts": 1784660307.67758, "close_ts": 1784673000.0, "days_to_close_at_entry": 0.15, "question": "Counter-Strike: magic vs Gentle Mates (BO3) - StarLadder StarSeries European Qua"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3011016", "opened_ts": 1784660307.67758, "close_ts": 1784676600.0, "days_to_close_at_entry": 0.19, "question": "Counter-Strike: ex-RUSTEC vs Just Players (BO3) - CCT Europe Series #5 Group Sta"}

@@ -1,34 +1,34 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-21 19:59 UTC, **day 9.9 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-21 20:29 UTC, **day 9.9 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-21 19:59 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| last checkpoint | 2026-07-21 20:29 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
 | jobs run (6h chain) | 21 |
-| current job age | 4.0h of 5.7h max |
+| current job age | 4.5h of 5.7h max |
 | markets quoting / retired | 15 / 55 |
 | favorites open (maker/taker/poly) | 60 / 60 / 43 |
-| API requests last job | 23217 |
+| API requests last job | 26058 |
 | crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |
 
 ## Experiment 1: MM breadth (liquidity-pool harvesting)
 
-**Gate status: BEHIND**, decision $-2508.42/day vs GO bar $5.00/day; earn/pay -0.44 vs 1.5; fills 4500/30 evidence floor
+**Gate status: BEHIND**, decision $-2502.49/day vs GO bar $5.00/day; earn/pay -0.44 vs 1.5; fills 4515/30 evidence floor
 
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 70 |
-| est. rewards accrued | $+2070.84 |
-| spread P&L (cash + mark) | $-9658.11 |
-| adverse selection (markout) | $-16066.89 |
-| maker fees | $-1249.62 |
-| **decision number** | **$-24903.77** |
-| decision at 0.25x rewards (share-optimism haircut) | $-26456.90 |
-| decision at 0.10x rewards | $-26767.52 |
-| fills / snapshots (counted) | 4500 / 332385 (303804) |
+| est. rewards accrued | $+2087.60 |
+| spread P&L (cash + mark) | $-9667.58 |
+| adverse selection (markout) | $-16067.02 |
+| maker fees | $-1250.05 |
+| **decision number** | **$-24897.05** |
+| decision at 0.25x rewards (share-optimism haircut) | $-26462.75 |
+| decision at 0.10x rewards | $-26775.89 |
+| fills / snapshots (counted) | 4515 / 333735 (304911) |
 
 ### Per-market
 
@@ -38,29 +38,29 @@ _Auto-generated 2026-07-21 19:59 UTC, **day 9.9 of 14**. 100% sim: this repo onl
 | KXWNBAMENTION-26JUL16NYDAL-CAIT | $51 | 45% | $+10.78 | $-2.15 | 7 | $+94.02 |
 | KXWCSTART-26JUL11ARGSUI-ARG-LMARTI22 | $180 | 52% | $+8.73 | $-154.12 | 69 | $+72.88 |
 | KXWNBAMENTION-26JUL16NYDAL-OVER | $51 | 64% | $+15.51 | $-0.45 | 12 | $+58.71 |
+| KXAAAGASD-26JUL22-4.070 | $193 | 68% | $+24.75 | $-22.35 | 23 | $+27.93 |
 | KXAAAGASD-26JUL12-3.870 | $198 | 50% | $+21.11 | $-9.00 | 44 | $+27.44 |
-| KXAAAGASD-26JUL22-4.070 | $193 | 70% | $+22.62 | $-22.21 | 16 | $+26.42 |
-| KXMLBMENTION-26JUL21LADPHI-WALK | $193 | 75% | $+24.19 | $-0.00 | 4 | $+24.19 |
+| KXMLBMENTION-26JUL21LADPHI-WALK | $193 | 72% | $+26.30 | $-0.00 | 4 | $+26.30 |
+| KXAAAGASD-26JUL22-4.080 | $193 | 61% | $+22.30 | $-0.01 | 6 | $+21.13 |
 | KXAAAGASD-26JUL12-3.875 | $198 | 69% | $+32.13 | $-30.68 | 80 | $+21.09 |
 | KXTEMPCHIH-26JUL2101-T75.99 | $1000 | 80% | $+5.02 | $-19.00 | 4 | $+20.77 |
-| KXAAAGASD-26JUL22-4.080 | $193 | 63% | $+20.40 | $-0.01 | 6 | $+19.24 |
-| KXMLBMENTION-26JUL21LADPHI-PITC | $193 | 66% | $+21.42 | $-3.00 | 16 | $+17.27 |
-| KXMLBMENTION-26JUL21LADPHI-EXTR | $193 | 55% | $+17.12 | $-0.04 | 2 | $+16.99 |
-| KXMLBMENTION-26JUL21LADPHI-WILD | $193 | 50% | $+15.42 | $-0.00 | 11 | $+15.52 |
-| KXMLBMENTION-26JUL21LADPHI-ROB | $193 | 51% | $+16.63 | $-1.10 | 6 | $+13.55 |
+| KXMLBMENTION-26JUL21LADPHI-PITC | $193 | 65% | $+23.57 | $-3.00 | 19 | $+19.44 |
+| KXMLBMENTION-26JUL21LADPHI-EXTR | $193 | 53% | $+18.64 | $-0.04 | 2 | $+18.51 |
+| KXMLBMENTION-26JUL21LADPHI-WILD | $193 | 50% | $+15.87 | $-0.00 | 13 | $+16.02 |
+| KXMLBMENTION-26JUL21LADPHI-ROB | $193 | 49% | $+17.74 | $-1.10 | 6 | $+14.66 |
 | KXWNBAMENTION-26JUL16NYDAL-TRAD | $51 | 51% | $+12.26 | $-0.00 | 0 | $+12.26 |
+| KXMLBMENTION-26JUL21LADPHI-PINC | $193 | 53% | $+19.12 | $-5.13 | 15 | $+11.97 |
 | KXTEMPCHIH-26JUL2101-T74.99 | $1000 | 85% | $+5.34 | $-1.58 | 3 | $+11.80 |
 | KXWNBAMENTION-26JUL19CHIATL-TAUR | $51 | 90% | $+10.91 | $-0.00 | 0 | $+10.91 |
-| KXMLBMENTION-26JUL21LADPHI-PINC | $193 | 55% | $+17.69 | $-5.13 | 12 | $+10.49 |
 | KXWCSTART-26JUL11ARGSUI-SUI-NOKAFO19 | $193 | 62% | $+9.58 | $-1.00 | 2 | $+8.44 |
 | KXWNBAMENTION-26JUL16NYDAL-ANKL | $51 | 47% | $+11.39 | $-0.24 | 3 | $+5.32 |
 | KXWCATTEND-26JUL20-VIC | $63 | 35% | $+86.21 | $-136.03 | 101 | $+5.25 |
+| KXMLBMENTION-26JUL21LADPHI-MVP | $193 | 74% | $+26.86 | $-11.11 | 18 | $+1.80 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+0.38 |
-| KXMLBMENTION-26JUL21LADPHI-MVP | $193 | 75% | $+24.12 | $-11.11 | 18 | $-0.94 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $-2.78 |
 | KXTRUMPPHOTO-26JUL26-7 | $34 | 19% | $+4.46 | $-0.48 | 13 | $-3.27 |
 | KXWNBAMENTION-26JUL16NYDAL-TRAV | $51 | 48% | $+11.60 | $-9.00 | 2 | $-4.50 |
-| KXTRUMPPHOTO-26JUL26-5 | $34 | 39% | $+11.71 | $-4.51 | 62 | $-7.76 |
+| KXTRUMPPHOTO-26JUL26-5 | $34 | 40% | $+11.99 | $-4.51 | 62 | $-7.48 |
 | KXTEMPDCH-26JUL2101-T75.99 | $1000 | 36% | $+2.53 | $-4.18 | 3 | $-8.44 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-13.01 |
 | KXTEMPNYCH-26JUL2101-T73.99 | $1000 | 41% | $+2.59 | $-24.00 | 5 | $-14.25 |
@@ -75,10 +75,10 @@ _Auto-generated 2026-07-21 19:59 UTC, **day 9.9 of 14**. 100% sim: this repo onl
 | KXWCSTART-26JUL11ARGSUI-ARG-LMARTI6 | $180 | 35% | $+4.87 | $-55.00 | 6 | $-52.59 |
 | KXTEMPAUSH-26JUL2101-T78.99 | $1000 | 58% | $+5.47 | $-60.20 | 11 | $-57.58 |
 | KXWNBAMENTION-26JUL16NYDAL-TECH | $51 | 40% | $+9.79 | $-0.00 | 7 | $-63.06 |
-| KXTRUMPPHOTO-26JUL26-6 | $34 | 45% | $+13.30 | $-33.40 | 32 | $-91.32 |
+| KXTRUMPPHOTO-26JUL26-6 | $34 | 45% | $+13.56 | $-33.40 | 32 | $-91.06 |
 | KXWNBAMENTION-26JUL16NYDAL-AIRB | $51 | 38% | $+9.15 | $-1.06 | 3 | $-118.32 |
 | KXWCSTART-26JUL11ARGSUI-SUI-AJASHA14 | $193 | 94% | $+13.86 | $-69.00 | 6 | $-150.37 |
-| KXMLBMENTION-26JUL21LADPHI-BUNT | $193 | 57% | $+18.52 | $-41.95 | 24 | $-172.80 |
+| KXMLBMENTION-26JUL21LADPHI-BUNT | $193 | 53% | $+19.17 | $-41.95 | 24 | $-181.67 |
 | KXTEMPNYCH-26JUL2101-T72.99 | $1000 | 51% | $+4.24 | $-71.00 | 5 | $-200.62 |
 | KXTEMPAUSH-26JUL2101-T77.99 | $1000 | 70% | $+4.40 | $-53.20 | 9 | $-222.91 |
 | KXMLBMENTION-26JUL12MILPIT-GRAN | $66 | 47% | $+5.48 | $-29.82 | 15 | $-265.48 |

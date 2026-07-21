@@ -9827,3 +9827,11 @@
 {"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "side": "bid", "price": 71.0, "qty": 200, "mid_later": 64.5, "adverse_cents": 1300.0}
 {"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-PINC", "ts": 1784651220.225779, "trade_id": "1a28b490-706d-42fa-66f5-5a9d3a169417", "side": "bid", "price": 77.0, "qty": 5.0}
 {"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL21LADPHI-PINC", "ts": 1784651232.615519, "trade_id": "ba20ab5f-2155-5fae-a753-e45492cc7a8a", "side": "bid", "price": 77.0, "qty": 195.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "side": "bid", "price": 69.0, "qty": 200, "mid_later": 64.5, "adverse_cents": 900.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-PINC", "side": "bid", "price": 77.0, "qty": 5.0, "mid_later": 74.5, "adverse_cents": 12.5}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-PINC", "side": "bid", "price": 77.0, "qty": 195.0, "mid_later": 74.5, "adverse_cents": 487.5}
+{"type": "fav_settle", "key": "polymarket|2922815|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "fav_settle", "key": "polymarket|2922818|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "fav_settle", "key": "polymarket|2981045|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "fav_settle", "key": "polymarket|2993319|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_settle", "key": "polymarket|2922781|taker", "result": "yes", "pnl_cents": 80.0}

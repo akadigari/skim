@@ -1,34 +1,34 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-21 09:07 UTC, **day 9.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-21 09:37 UTC, **day 9.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-21 09:07 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| last checkpoint | 2026-07-21 09:37 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
 | jobs run (6h chain) | 20 |
-| current job age | 4.5h of 5.7h max |
+| current job age | 5.0h of 5.7h max |
 | markets quoting / retired | 15 / 37 |
-| favorites open (maker/taker/poly) | 60 / 60 / 44 |
-| API requests last job | 25960 |
+| favorites open (maker/taker/poly) | 60 / 60 / 43 |
+| API requests last job | 28844 |
 | crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |
 
 ## Experiment 1: MM breadth (liquidity-pool harvesting)
 
-**Gate status: BEHIND**, decision $-2525.70/day vs GO bar $5.00/day; earn/pay -0.39 vs 1.5; fills 4338/30 evidence floor
+**Gate status: BEHIND**, decision $-2520.09/day vs GO bar $5.00/day; earn/pay -0.39 vs 1.5; fills 4338/30 evidence floor
 
 | metric | value |
 |---|---|
 | markets quoting now / touched | 15 / 60 |
-| est. rewards accrued | $+1866.77 |
+| est. rewards accrued | $+1867.27 |
 | spread P&L (cash + mark) | $-8619.58 |
 | adverse selection (markout) | $-15948.45 |
 | maker fees | $-1230.05 |
-| **decision number** | **$-23931.30** |
-| decision at 0.25x rewards (share-optimism haircut) | $-25331.38 |
-| decision at 0.10x rewards | $-25611.40 |
-| fills / snapshots (counted) | 4338 / 318420 (293643) |
+| **decision number** | **$-23930.80** |
+| decision at 0.25x rewards (share-optimism haircut) | $-25331.25 |
+| decision at 0.10x rewards | $-25611.35 |
+| fills / snapshots (counted) | 4338 / 319770 (294003) |
 
 ### Per-market
 
@@ -50,18 +50,18 @@ _Auto-generated 2026-07-21 09:07 UTC, **day 9.5 of 14**. 100% sim: this repo onl
 | KXWCATTEND-26JUL20-VIC | $63 | 35% | $+86.21 | $-136.03 | 101 | $+5.25 |
 | KXWNBAMENTION-26JUL16NYDAL-CAIT | $51 | 45% | $+10.78 | $-2.15 | 7 | $+3.01 |
 | KXWCSTART-26JUL11ARGSUI-SUI-LJAQUE25 | $193 | 64% | $+10.51 | $-2.00 | 2 | $+0.38 |
-| KXTRUMPPHOTO-26JUL26-6 | $34 | 46% | $+10.29 | $-0.40 | 19 | $-0.44 |
+| KXTRUMPPHOTO-26JUL26-6 | $34 | 46% | $+10.52 | $-0.40 | 19 | $-0.21 |
 | KXWCSTART-26JUL11ARGSUI-SUI-ZAMDOU23 | $193 | 63% | $+10.39 | $-3.00 | 3 | $-2.78 |
-| KXTRUMPPHOTO-26JUL26-7 | $34 | 20% | $+4.46 | $-0.48 | 12 | $-4.24 |
+| KXTRUMPPHOTO-26JUL26-7 | $34 | 19% | $+4.46 | $-0.48 | 12 | $-4.24 |
 | KXWNBAMENTION-26JUL16NYDAL-TRAV | $51 | 48% | $+11.60 | $-9.00 | 2 | $-4.50 |
 | KXWNBAMENTION-26JUL16NYDAL-BUZZ | $51 | 36% | $+7.57 | $-1.00 | 8 | $-5.10 |
 | KXTEMPDCH-26JUL2101-T75.99 | $1000 | 36% | $+2.53 | $-4.18 | 3 | $-5.94 |
 | KXTEMPLAXH-26JUL2101-T70.99 | $1000 | 80% | $+6.52 | $-9.14 | 12 | $-6.87 |
 | KXWCSTART-26JUL11ARGSUI-ARG-TALMAD16 | $180 | 52% | $+7.46 | $-8.00 | 11 | $-13.01 |
-| KXTRUMPPHOTO-26JUL26-5 | $34 | 39% | $+8.78 | $-3.63 | 29 | $-16.10 |
+| KXTRUMPPHOTO-26JUL26-5 | $34 | 39% | $+9.04 | $-3.63 | 29 | $-15.84 |
 | KXWCATTEND-26JUL20-TRAV | $63 | 17% | $+42.30 | $-68.91 | 80 | $-17.58 |
 | KXWCSTART-26JUL11ARGSUI-ARG-RDEPA7 | $180 | 27% | $+3.74 | $-4.90 | 6 | $-20.47 |
-| KXTRUMPPHOTO-26JUL26-4 | $34 | 20% | $+4.46 | $-10.69 | 16 | $-22.58 |
+| KXTRUMPPHOTO-26JUL26-4 | $34 | 19% | $+4.46 | $-10.69 | 16 | $-22.58 |
 | KXWNBAMENTION-26JUL19CONNPHX-TECH | $51 | 67% | $+7.32 | $-29.90 | 10 | $-31.43 |
 | KXTEMPNYCH-26JUL2101-T73.99 | $1000 | 41% | $+2.59 | $-24.00 | 5 | $-36.25 |
 | KXWCSTART-26JUL11ARGSUI-ARG-JALVAR9 | $180 | 65% | $+8.99 | $-12.03 | 23 | $-47.00 |
@@ -103,7 +103,7 @@ _Auto-generated 2026-07-21 09:07 UTC, **day 9.5 of 14**. 100% sim: this repo onl
 |---|---|---|---|---|---|---|
 | kalshi maker | 60 | 23 | 55 | 52 (win-rate CI 85%-98%) | $+19.39 | +3.88% |
 | kalshi taker | 60 | - | 78 | 75 | $+22.92 | +3.17% |
-| poly taker (zero-fee) | 44 | - | 127 | 111 | $-44.20 | -3.83% |
+| poly taker (zero-fee) | 43 | - | 128 | 112 | $-42.99 | -3.70% |
 
 _If maker ROI < taker ROI, queue fills are adversely selected: the exact failure mode this experiment exists to measure. The Polymarket taker leg is the zero-fee existence test of the bias itself (phase 1: taker-only there; the pre-registered gate is judged on the Kalshi maker leg only)._
 

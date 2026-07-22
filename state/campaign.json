@@ -1255,7 +1255,7 @@
    "category": "KXTRUMPPHOTO",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784754024.278104,
+   "last_tick_ts": 1784755824.2886286,
    "tape_cursor": {
     "ts": 1784750325.360417,
     "ids": [
@@ -1270,7 +1270,7 @@
    "fees_cents": 37.0,
    "adverse_cents": 48.0,
    "fills": 13,
-   "snapshots": 6004,
+   "snapshots": 6094,
    "counted": 3058,
    "share_sum": 569.3650791232253,
    "pending_markouts": [],
@@ -1291,26 +1291,26 @@
    "ask": {
     "price": 27.0,
     "size": 200,
-    "queue_ahead": 132.31
+    "queue_ahead": 129.98
    },
-   "last_tick_ts": 1784754024.4501855,
+   "last_tick_ts": 1784755824.4616485,
    "tape_cursor": {
-    "ts": 1784753296.56893,
+    "ts": 1784755187.776143,
     "ids": [
-     "759bff26-65b7-545e-4700-e4086bb0fa9b"
+     "c5353559-aed3-63f2-2e01-45390de54c1b"
     ]
    },
    "last_mid": 26.5,
    "inventory": 1.3199999999999363,
    "peak_abs_inventory": 578.3199999999999,
    "cash_cents": -6776.639999999999,
-   "reward_cents": 2413.6489918493426,
+   "reward_cents": 2460.923597870601,
    "fees_cents": 378.25,
    "adverse_cents": 3340.0000000000005,
    "fills": 32,
-   "snapshots": 6004,
-   "counted": 6004,
-   "share_sum": 3082.501386905358,
+   "snapshots": 6094,
+   "counted": 6094,
+   "share_sum": 3143.078097909826,
    "pending_markouts": [],
    "retired": false
   },
@@ -1331,7 +1331,7 @@
     "size": 200,
     "queue_ahead": 109.02
    },
-   "last_tick_ts": 1784754024.751953,
+   "last_tick_ts": 1784755824.7619548,
    "tape_cursor": {
     "ts": 1784744614.720863,
     "ids": [
@@ -1342,13 +1342,13 @@
    "inventory": -398.79999999999995,
    "peak_abs_inventory": 500.4,
    "cash_cents": 13431.910000000003,
-   "reward_cents": 1846.2711818135379,
+   "reward_cents": 1877.6424263824376,
    "fees_cents": 532.0,
    "adverse_cents": 492.92,
    "fills": 65,
-   "snapshots": 6004,
-   "counted": 6004,
-   "share_sum": 2356.4450456472314,
+   "snapshots": 6094,
+   "counted": 6094,
+   "share_sum": 2396.6435456472295,
    "pending_markouts": [],
    "retired": false
   },
@@ -1429,7 +1429,7 @@
     "size": 200,
     "queue_ahead": 585.01
    },
-   "last_tick_ts": 1784754025.0507963,
+   "last_tick_ts": 1784755825.0615864,
    "tape_cursor": {
     "ts": 1784744614.721101,
     "ids": [
@@ -1445,8 +1445,8 @@
    "fees_cents": 206.0,
    "adverse_cents": 1069.0,
    "fills": 16,
-   "snapshots": 6004,
-   "counted": 6004,
+   "snapshots": 6094,
+   "counted": 6094,
    "share_sum": 1058.2613554465252,
    "pending_markouts": [],
    "retired": false
@@ -2529,75 +2529,35 @@
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
    "bid": {
-    "price": 59.0,
+    "price": 66.0,
     "size": 200,
-    "queue_ahead": 2.0
+    "queue_ahead": 60.0
    },
    "ask": {
-    "price": 62.0,
+    "price": 69.0,
     "size": 200,
-    "queue_ahead": 3.0
+    "queue_ahead": 188.0
    },
-   "last_tick_ts": 1784754025.3527236,
+   "last_tick_ts": 1784755825.3615656,
    "tape_cursor": {
-    "ts": 1784753992.893153,
+    "ts": 1784755805.64302,
     "ids": [
-     "f74bd26b-78a5-6161-3c07-51f7fb71fa3a",
-     "df75c935-c0fc-6d7a-1a69-7db5b084ff11",
-     "db6a25c7-d15b-6a54-055e-f802be65f4f0",
-     "d9ed4d17-5282-6b84-3255-706ee62b952a",
-     "af382fc8-0a68-62c7-366c-2ac3420ee99c",
-     "998ad749-2c58-6b22-2696-debdb55ca59c",
-     "5b9fafce-e231-6036-2b59-eac79fa0248b",
-     "589399d6-dd24-634c-272e-95c94f296fa9",
-     "3c6eb8fb-08fb-6349-24b9-cc4a160f25d7",
-     "3709fd6d-aabe-615c-2ded-4ce40e1b7388",
-     "0170fff1-99d6-6bce-1a6e-0bafe35d0f6a"
+     "bae20fc1-0c26-7ffb-0228-f2862720bd93",
+     "478ee09b-7d94-7af3-0cbc-b01fdab9dec3"
     ]
    },
-   "last_mid": 60.5,
-   "inventory": 384.70000000000005,
-   "peak_abs_inventory": 571.0,
-   "cash_cents": -25830.040000000005,
-   "reward_cents": 2407.184790664588,
-   "fees_cents": 1514.75,
-   "adverse_cents": 8079.52,
-   "fills": 47,
-   "snapshots": 903,
-   "counted": 903,
-   "share_sum": 569.5844070921866,
-   "pending_markouts": [
-    [
-     1784754083.704182,
-     "bid",
-     65.0,
-     7.105427357601002e-15
-    ],
-    [
-     1784754083.704182,
-     "bid",
-     65.0,
-     3.0
-    ],
-    [
-     1784754083.704182,
-     "bid",
-     65.0,
-     12.0
-    ],
-    [
-     1784754172.399004,
-     "bid",
-     64.0,
-     14.0
-    ],
-    [
-     1784754292.893153,
-     "bid",
-     63.0,
-     200
-    ]
-   ],
+   "last_mid": 67.5,
+   "inventory": 312.7800000000001,
+   "peak_abs_inventory": 584.7,
+   "cash_cents": -21402.52000000001,
+   "reward_cents": 2644.3621501364464,
+   "fees_cents": 1866.25,
+   "adverse_cents": 11823.98,
+   "fills": 56,
+   "snapshots": 993,
+   "counted": 993,
+   "share_sum": 625.7242201535887,
+   "pending_markouts": [],
    "retired": false
   },
   {
@@ -2608,30 +2568,43 @@
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
    "bid": {
-    "price": 33.0,
+    "price": 34.0,
     "size": 200,
     "queue_ahead": 52.0
    },
    "ask": null,
-   "last_tick_ts": 1784754025.6655145,
+   "last_tick_ts": 1784755825.6626613,
    "tape_cursor": {
-    "ts": 1784753928.035353,
+    "ts": 1784755824.869174,
     "ids": [
-     "13d96210-aeda-464d-000b-a9ad3321f567"
+     "f6527349-f117-537f-2ceb-03dc332fd083"
     ]
    },
    "last_mid": 35.0,
    "inventory": -443.3,
    "peak_abs_inventory": 443.3,
-   "cash_cents": 16195.200000000004,
-   "reward_cents": 2329.6028704875007,
-   "fees_cents": 1707.0,
-   "adverse_cents": 9059.999999999996,
-   "fills": 34,
-   "snapshots": 903,
-   "counted": 903,
-   "share_sum": 551.1916105188727,
-   "pending_markouts": [],
+   "cash_cents": 15195.200000000004,
+   "reward_cents": 2511.706677754962,
+   "fees_cents": 2028.5,
+   "adverse_cents": 10359.999999999996,
+   "fills": 38,
+   "snapshots": 993,
+   "counted": 993,
+   "share_sum": 594.2950909678218,
+   "pending_markouts": [
+    [
+     1784755939.609333,
+     "bid",
+     38.0,
+     200
+    ],
+    [
+     1784756124.869174,
+     "ask",
+     36.0,
+     200
+    ]
+   ],
    "retired": false
   },
   {
@@ -2643,7 +2616,7 @@
    "category": "KXAAAGASD",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784754025.9515812,
+   "last_tick_ts": 1784755825.961836,
    "tape_cursor": {
     "ts": 1784748570.378958,
     "ids": [
@@ -2663,7 +2636,7 @@
    "fees_cents": 32.0,
    "adverse_cents": 610.5,
    "fills": 5,
-   "snapshots": 903,
+   "snapshots": 993,
    "counted": 630,
    "share_sum": 267.0167626307347,
    "pending_markouts": [],
@@ -2676,35 +2649,35 @@
    "discount_factor": 0.5,
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
-   "bid": {
-    "price": 3.0,
-    "size": 200,
-    "queue_ahead": 119.0
-   },
-   "ask": {
-    "price": 4.0,
-    "size": 194.57999999999998,
-    "queue_ahead": 0.0
-   },
-   "last_tick_ts": 1784754026.253842,
+   "bid": null,
+   "ask": null,
+   "last_tick_ts": 1784755826.2625418,
    "tape_cursor": {
-    "ts": 1784752812.862002,
+    "ts": 1784754897.191383,
     "ids": [
-     "e4f64f12-d1cf-67a0-e1bc-20bf8e6d845d",
-     "6a68b9ac-10e1-6cbe-c659-d955c1371382"
+     "e15540d7-ac4e-66b8-eecd-1717e2bf6ba1",
+     "d453d675-1169-6df0-f82b-6060799eb4f3",
+     "bbe254c1-6ca0-6b0e-c2e0-b09a073dcc49",
+     "a87e961a-a706-66dc-f44a-b53b0ab3b2d5",
+     "a5677eb4-89b7-6c26-fec1-71a9b6176d20",
+     "867c9096-1063-6e62-e583-f4fa21db8c3e",
+     "4bb04180-9edb-6707-c4c2-d0917dbcf7d7",
+     "48c3a5c2-f241-61a4-f3c1-22cd52c7af62",
+     "4319e67c-87e9-67d3-ed06-69804c739488",
+     "002be292-da89-6fbe-d56f-ee441986be32"
     ]
    },
-   "last_mid": 3.5,
-   "inventory": -324.42,
+   "last_mid": 2.5,
+   "inventory": -124.42000000000002,
    "peak_abs_inventory": 374.0,
-   "cash_cents": 1968.68,
-   "reward_cents": 2422.825685424339,
-   "fees_cents": 48.5,
+   "cash_cents": 1568.68,
+   "reward_cents": 2480.0699164402217,
+   "fees_cents": 55.5,
    "adverse_cents": 566.5,
-   "fills": 11,
-   "snapshots": 903,
-   "counted": 903,
-   "share_sum": 573.2363084152438,
+   "fills": 12,
+   "snapshots": 993,
+   "counted": 946,
+   "share_sum": 586.7859801392915,
    "pending_markouts": [],
    "retired": false
   },
@@ -2716,35 +2689,42 @@
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
    "bid": {
-    "price": 9.0,
+    "price": 4.0,
     "size": 200,
     "queue_ahead": 1.0
    },
    "ask": {
-    "price": 10.0,
+    "price": 5.0,
     "size": 200,
-    "queue_ahead": 27.0
+    "queue_ahead": 93.0
    },
-   "last_tick_ts": 1784754026.5521958,
+   "last_tick_ts": 1784755826.5645633,
    "tape_cursor": {
-    "ts": 1784754009.563724,
+    "ts": 1784755708.184196,
     "ids": [
-     "cdaa5278-bb79-4ef1-0ef0-32fb112c4f77",
-     "6cf3ab20-3bad-40b6-00e3-fca73744781a"
+     "c454dcf8-57ac-4258-da30-0f74fdda5dc5",
+     "0c93ada4-5b1a-44a6-fd0a-c048e77afa27"
     ]
    },
-   "last_mid": 9.5,
-   "inventory": 9.539999999999964,
+   "last_mid": 4.5,
+   "inventory": 24.539999999999964,
    "peak_abs_inventory": 402.53999999999996,
-   "cash_cents": -753.04,
-   "reward_cents": 2633.833403927172,
-   "fees_cents": 224.25,
-   "adverse_cents": 1844.52,
-   "fills": 12,
-   "snapshots": 903,
-   "counted": 903,
-   "share_sum": 623.0934882655565,
-   "pending_markouts": [],
+   "cash_cents": -867.04,
+   "reward_cents": 2878.008085832416,
+   "fees_cents": 226.75,
+   "adverse_cents": 1856.52,
+   "fills": 15,
+   "snapshots": 993,
+   "counted": 993,
+   "share_sum": 680.8892246506721,
+   "pending_markouts": [
+    [
+     1784755997.940366,
+     "bid",
+     6.0,
+     3.0
+    ]
+   ],
    "retired": false
   },
   {
@@ -2756,7 +2736,7 @@
    "category": "KXAAAGASD",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784754026.8534517,
+   "last_tick_ts": 1784755826.8635428,
    "tape_cursor": {
     "ts": 1784744617.175909,
     "ids": [
@@ -2785,7 +2765,7 @@
    "fees_cents": 27.0,
    "adverse_cents": 100.0,
    "fills": 2,
-   "snapshots": 903,
+   "snapshots": 993,
    "counted": 432,
    "share_sum": 155.74663075376728,
    "pending_markouts": [],
@@ -2799,34 +2779,41 @@
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
    "bid": {
-    "price": 5.0,
+    "price": 2.0,
     "size": 200,
-    "queue_ahead": 120.0
+    "queue_ahead": 439.0
    },
    "ask": {
-    "price": 6.0,
+    "price": 3.0,
     "size": 200,
-    "queue_ahead": 10.0
+    "queue_ahead": 202.0
    },
-   "last_tick_ts": 1784754027.153173,
+   "last_tick_ts": 1784755827.1631258,
    "tape_cursor": {
-    "ts": 1784753590.529513,
+    "ts": 1784755661.663887,
     "ids": [
-     "b5c93a0c-7ddc-4d74-32cf-7eb62c8970a7"
+     "b7d9709b-9f89-7d07-d183-24c871f79070"
     ]
    },
-   "last_mid": 5.5,
-   "inventory": -216.0,
+   "last_mid": 2.5,
+   "inventory": -191.0,
    "peak_abs_inventory": 224.0,
-   "cash_cents": 2662.0,
-   "reward_cents": 2486.764068740777,
-   "fees_cents": 102.5,
+   "cash_cents": 2562.0,
+   "reward_cents": 2642.837948394727,
+   "fees_cents": 104.25,
    "adverse_cents": 473.0,
-   "fills": 14,
-   "snapshots": 903,
-   "counted": 903,
-   "share_sum": 588.3246802098781,
-   "pending_markouts": [],
+   "fills": 15,
+   "snapshots": 993,
+   "counted": 993,
+   "share_sum": 625.2671467373787,
+   "pending_markouts": [
+    [
+     1784755837.048128,
+     "bid",
+     4.0,
+     25.0
+    ]
+   ],
    "retired": false
   },
   {
@@ -2836,39 +2823,29 @@
    "discount_factor": 0.5,
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
-   "bid": {
-    "price": 1.0,
-    "size": 200,
-    "queue_ahead": 1000.0
-   },
-   "ask": {
-    "price": 2.0,
-    "size": 200,
-    "queue_ahead": 100.0
-   },
-   "last_tick_ts": 1784754027.4556348,
+   "bid": null,
+   "ask": null,
+   "last_tick_ts": 1784755827.46508,
    "tape_cursor": {
-    "ts": 1784750008.569936,
+    "ts": 1784754893.104008,
     "ids": [
-     "e3ae86aa-8791-6c5e-852d-555404929ea7",
-     "bcb86d4c-bfb7-6eb6-9f50-2ddafdce7297",
-     "b76d4510-1fe2-6deb-b2b1-7caa623acfc3",
-     "a83cf92e-f890-640f-9095-91197974d073",
-     "21b77ef0-ea1b-6767-a99c-350d4aa0ed2e",
-     "0aac2c2b-cbed-6ad8-ade5-be7448b77238"
+     "ea78bf1d-0e0b-4d8e-d194-20cc6a962af5",
+     "83c919e9-53ba-479d-f49a-5bac8d1801b1",
+     "38ee6e47-a935-4881-f322-9da88693fd90",
+     "02af998e-8f5f-4f89-e2f2-921f4062a229"
     ]
    },
    "last_mid": 1.5,
-   "inventory": 0.0,
+   "inventory": 200.0,
    "peak_abs_inventory": 200.0,
-   "cash_cents": 200.0,
-   "reward_cents": 1513.5375218420531,
-   "fees_cents": 23.75,
+   "cash_cents": 0.0,
+   "reward_cents": 1555.4585782327645,
+   "fees_cents": 27.5,
    "adverse_cents": 200.0,
-   "fills": 2,
-   "snapshots": 903,
-   "counted": 829,
-   "share_sum": 358.0870167250813,
+   "fills": 5,
+   "snapshots": 993,
+   "counted": 872,
+   "share_sum": 368.0096904410936,
    "pending_markouts": [],
    "retired": false
   },
@@ -2881,7 +2858,7 @@
    "category": "KXAAAGASD",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784754027.7539885,
+   "last_tick_ts": 1784755827.7633653,
    "tape_cursor": {
     "ts": 1784744610.755276,
     "ids": [
@@ -2903,7 +2880,7 @@
    "fees_cents": 18.25,
    "adverse_cents": 179.0,
    "fills": 7,
-   "snapshots": 903,
+   "snapshots": 993,
    "counted": 432,
    "share_sum": 76.17723140132479,
    "pending_markouts": [],
@@ -2917,38 +2894,35 @@
    "end_ts": 1784779140.0,
    "category": "KXAAAGASD",
    "bid": {
-    "price": 16.0,
+    "price": 8.0,
     "size": 200,
-    "queue_ahead": 4.0
+    "queue_ahead": 6.0
    },
    "ask": {
-    "price": 18.0,
+    "price": 9.0,
     "size": 200,
-    "queue_ahead": 2.0
+    "queue_ahead": 193.9
    },
-   "last_tick_ts": 1784754028.0533228,
+   "last_tick_ts": 1784755828.063708,
    "tape_cursor": {
-    "ts": 1784753716.085983,
+    "ts": 1784755521.404712,
     "ids": [
-     "ea75988b-3392-4814-4161-4e9285746b0e",
-     "c3fae85d-a53a-4abe-524b-6ebb56b694b7",
-     "b174f7a9-1cd0-423c-7d56-ec0aab08eb9c",
-     "99a9c8f0-dd0b-4bc4-4fb7-4a8becef6378",
-     "6dff5c99-adc6-4096-71d1-737aa1fb880c",
-     "47d1a4c8-fb44-4b5b-643a-cc805640acdd"
+     "c9eca2f4-2f2d-4a05-97ce-3d7091f48a9a",
+     "2364f271-c3f8-4ed1-b080-b65ea37e19bc",
+     "235da48b-eea6-4bf9-a9bd-9fea7e65b24e"
     ]
    },
-   "last_mid": 17.0,
-   "inventory": -385.0,
+   "last_mid": 8.5,
+   "inventory": -185.0,
    "peak_abs_inventory": 385.0,
-   "cash_cents": 8958.0,
-   "reward_cents": 2145.046017522793,
-   "fees_cents": 487.25,
-   "adverse_cents": 2213.0,
-   "fills": 14,
-   "snapshots": 903,
-   "counted": 903,
-   "share_sum": 507.4804912796438,
+   "cash_cents": 5358.0,
+   "reward_cents": 2390.3739245700135,
+   "fees_cents": 539.0,
+   "adverse_cents": 3713.0,
+   "fills": 16,
+   "snapshots": 993,
+   "counted": 993,
+   "share_sum": 565.5492563989922,
    "pending_markouts": [],
    "retired": false
   },
@@ -2961,7 +2935,7 @@
    "category": "KXAAAGASD",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784754028.3544204,
+   "last_tick_ts": 1784755828.3639858,
    "tape_cursor": {
     "ts": 1784742970.55299,
     "ids": [
@@ -2976,7 +2950,7 @@
    "fees_cents": 7.25,
    "adverse_cents": 100.0,
    "fills": 2,
-   "snapshots": 903,
+   "snapshots": 993,
    "counted": 341,
    "share_sum": 25.676461767091265,
    "pending_markouts": [],
@@ -8596,9 +8570,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 4900.0,
     "tape_cursor": {
-     "ts": 1784706932.526156,
+     "ts": 1784754866.566967,
      "ids": [
-      "52a4175c-5a4c-5448-29a5-584f0dc98978"
+      "338259f2-eb74-7698-efff-e491b771c9b4"
      ]
     },
     "status": "open",
@@ -8907,19 +8881,19 @@
     "qty": 10,
     "filled_qty": 0.0,
     "fee_cents": 0.0,
-    "queue_ahead": 331.0,
+    "queue_ahead": 304.0,
     "tape_cursor": {
-     "ts": 1784747521.657552,
+     "ts": 1784755756.91374,
      "ids": [
-      "ceaa0b25-1b4f-6ca1-f81f-67b23a208f8a",
-      "a8e1ca39-b74c-6524-da6c-3b3b2d374158",
-      "a6143aef-eb2a-6d82-d007-9aed3f4c2ae5",
-      "a0e4b619-e3a9-6414-c5b9-fecc84421b2a",
-      "66d6259c-b468-6e1b-fc9f-5f53e41de421",
-      "49364260-4c02-6eb7-c740-558f26565967",
-      "3bf25a9d-e34a-62fb-e995-65bdedf29449",
-      "19179df2-48bd-6eb5-e105-6cbe81664a0c",
-      "13ce9910-0a6d-6b8d-e93e-3c4546077fff"
+      "f231b2ac-11c4-42d5-1838-4f93d55dc799",
+      "e28303ff-cf90-4109-1744-fc54f817ed0f",
+      "dc96d854-9b7a-4163-3be9-3fb664763d11",
+      "b5332a42-cd68-4633-068f-07d88378d710",
+      "807f7532-bee2-42b7-1a9c-78a25d48276f",
+      "6dc7cf02-4fe0-4436-3207-3142f4e7d679",
+      "2e9f0224-a571-4943-19a2-624a75c04679",
+      "17067665-6453-4fc8-2778-f6a383ce1d5d",
+      "0c408d0e-5733-49fb-1a6f-b2071dbad248"
      ]
     },
     "status": "open",
@@ -10069,9 +10043,9 @@
     "fee_cents": 1.0,
     "queue_ahead": 0.0,
     "tape_cursor": {
-     "ts": 1784751694.776269,
+     "ts": 1784754236.886045,
      "ids": [
-      "7dcf0ec8-8dda-428b-7213-232d93c975e2"
+      "c940458e-d3e6-5dc3-6730-f02c38e1a7ea"
      ]
     },
     "status": "open",
@@ -11251,10 +11225,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 260.16999999999996,
     "tape_cursor": {
-     "ts": 1784753605.502259,
+     "ts": 1784755604.649912,
      "ids": [
-      "50ddda86-5f36-4982-d68f-439abd2b22a1",
-      "21767ba2-7156-4303-fc14-c3e51e7b7c56"
+      "ebde7807-9996-59b8-cc44-5c7561bda676"
      ]
     },
     "status": "open",
@@ -11309,8 +11282,8 @@
   "last_scan_ts": 1784754006.6267867
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1784754028.671607,
+ "last_checkpoint_ts": 1784755835.5944755,
  "jobs_started": 23,
  "last_job_start_ts": 1784735953.1949244,
- "api_requests_last_job": 28887
+ "api_requests_last_job": 31725
 }

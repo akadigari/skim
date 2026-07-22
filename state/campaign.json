@@ -1255,7 +1255,7 @@
    "category": "KXTRUMPPHOTO",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711341.461964,
+   "last_tick_ts": 1784713145.779812,
    "tape_cursor": {
     "ts": 1784710645.006146,
     "ids": [
@@ -1271,7 +1271,7 @@
    "fees_cents": 37.0,
    "adverse_cents": 48.0,
    "fills": 13,
-   "snapshots": 4894,
+   "snapshots": 4984,
    "counted": 3058,
    "share_sum": 569.3650791232253,
    "pending_markouts": [],
@@ -1294,7 +1294,7 @@
     "size": 200,
     "queue_ahead": 31.42
    },
-   "last_tick_ts": 1784711341.641925,
+   "last_tick_ts": 1784713145.9601676,
    "tape_cursor": {
     "ts": 1784706800.045151,
     "ids": [
@@ -1307,13 +1307,13 @@
    "inventory": 1.3199999999999363,
    "peak_abs_inventory": 578.3199999999999,
    "cash_cents": -6776.639999999999,
-   "reward_cents": 1861.3815258615064,
+   "reward_cents": 1888.5273367167067,
    "fees_cents": 378.25,
    "adverse_cents": 3340.0000000000005,
    "fills": 32,
-   "snapshots": 4894,
-   "counted": 4894,
-   "share_sum": 2375.977364397814,
+   "snapshots": 4984,
+   "counted": 4984,
+   "share_sum": 2410.681008700836,
    "pending_markouts": [],
    "retired": false
   },
@@ -1327,31 +1327,31 @@
    "bid": {
     "price": 36.0,
     "size": 200,
-    "queue_ahead": 16.0
+    "queue_ahead": 41.0
    },
    "ask": {
     "price": 39.0,
     "size": 200,
-    "queue_ahead": 583.01
+    "queue_ahead": 580.56
    },
-   "last_tick_ts": 1784711341.943634,
+   "last_tick_ts": 1784713146.2607946,
    "tape_cursor": {
-    "ts": 1784706797.449165,
+    "ts": 1784711980.132277,
     "ids": [
-     "953ee0ef-8442-7a31-82b2-6511b1e75dbe"
+     "517ed235-0c7a-5103-77b1-49e0ccff5361"
     ]
    },
    "last_mid": 37.5,
    "inventory": -398.79999999999995,
    "peak_abs_inventory": 500.4,
    "cash_cents": 13431.910000000003,
-   "reward_cents": 1544.734806334231,
+   "reward_cents": 1572.3160051569046,
    "fees_cents": 532.0,
    "adverse_cents": 492.92,
    "fills": 65,
-   "snapshots": 4894,
-   "counted": 4894,
-   "share_sum": 1971.488795604929,
+   "snapshots": 4984,
+   "counted": 4984,
+   "share_sum": 2006.7470461300345,
    "pending_markouts": [],
    "retired": false
   },
@@ -1432,7 +1432,7 @@
     "size": 200,
     "queue_ahead": 141.01
    },
-   "last_tick_ts": 1784711342.2427773,
+   "last_tick_ts": 1784713146.5599341,
    "tape_cursor": {
     "ts": 1784705081.65987,
     "ids": [
@@ -1444,13 +1444,13 @@
    "inventory": -79.0,
    "peak_abs_inventory": 290.0,
    "cash_cents": 349.0,
-   "reward_cents": 764.9098096020025,
+   "reward_cents": 784.9873480594166,
    "fees_cents": 206.0,
    "adverse_cents": 1069.0,
    "fills": 16,
-   "snapshots": 4894,
-   "counted": 4894,
-   "share_sum": 976.9048721131905,
+   "snapshots": 4984,
+   "counted": 4984,
+   "share_sum": 1002.5715387798543,
    "pending_markouts": [],
    "retired": false
   },
@@ -2340,7 +2340,7 @@
    "category": "KXTEMPDCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711342.5439405,
+   "last_tick_ts": 1784713146.860946,
    "tape_cursor": {
     "ts": 1784696096.159573,
     "ids": [
@@ -2355,7 +2355,7 @@
    "fees_cents": 167.0,
    "adverse_cents": 62.625,
    "fills": 9,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 30,
    "share_sum": 19.367046738141596,
    "pending_markouts": [],
@@ -2370,7 +2370,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711342.8445048,
+   "last_tick_ts": 1784713147.1610782,
    "tape_cursor": {
     "ts": 1784695917.979402,
     "ids": [
@@ -2385,7 +2385,7 @@
    "fees_cents": 161.0,
    "adverse_cents": 5754.635,
    "fills": 8,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 29,
    "share_sum": 24.87731753978477,
    "pending_markouts": [],
@@ -2400,7 +2400,7 @@
    "category": "KXTEMPDCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711343.1429431,
+   "last_tick_ts": 1784713147.4615278,
    "tape_cursor": {
     "ts": 1784696352.276333,
     "ids": [
@@ -2415,7 +2415,7 @@
    "fees_cents": 160.0,
    "adverse_cents": 302.97,
    "fills": 6,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 30,
    "share_sum": 27.92698436859793,
    "pending_markouts": [],
@@ -2430,7 +2430,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711343.4439585,
+   "last_tick_ts": 1784713147.7623267,
    "tape_cursor": {
     "ts": 1784696253.014421,
     "ids": [
@@ -2445,7 +2445,7 @@
    "fees_cents": 315.0,
    "adverse_cents": 2621.725,
    "fills": 12,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 21,
    "share_sum": 19.586175777198353,
    "pending_markouts": [],
@@ -2460,7 +2460,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711343.7432554,
+   "last_tick_ts": 1784713148.0619473,
    "tape_cursor": {
     "ts": 1784696347.356136,
     "ids": [
@@ -2475,7 +2475,7 @@
    "fees_cents": 360.0,
    "adverse_cents": 13729.38,
    "fills": 14,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 30,
    "share_sum": 25.617412431520528,
    "pending_markouts": [],
@@ -2490,7 +2490,7 @@
    "category": "KXTEMPNYCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711344.0427406,
+   "last_tick_ts": 1784713148.3623302,
    "tape_cursor": {
     "ts": 1784696178.188703,
     "ids": [
@@ -2505,7 +2505,7 @@
    "fees_cents": 247.75,
    "adverse_cents": 6000.0,
    "fills": 4,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 20,
    "share_sum": 16.75821338197255,
    "pending_markouts": [],
@@ -2520,7 +2520,7 @@
    "category": "KXTEMPNYCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711344.3443542,
+   "last_tick_ts": 1784713148.6644294,
    "tape_cursor": {
     "ts": 1784696055.636775,
     "ids": [
@@ -2535,7 +2535,7 @@
    "fees_cents": 165.5,
    "adverse_cents": 1300.0,
    "fills": 4,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 30,
    "share_sum": 23.833760311661962,
    "pending_markouts": [],
@@ -2550,7 +2550,7 @@
    "category": "KXTEMPLAXH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711344.6438973,
+   "last_tick_ts": 1784713148.9633744,
    "tape_cursor": {
     "ts": 1784696194.845089,
     "ids": [
@@ -2565,7 +2565,7 @@
    "fees_cents": 214.25,
    "adverse_cents": 5521.075000000001,
    "fills": 11,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 42,
    "share_sum": 33.630263210204234,
    "pending_markouts": [],
@@ -2580,7 +2580,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711344.9435046,
+   "last_tick_ts": 1784713149.263741,
    "tape_cursor": {
     "ts": 1784696296.594814,
     "ids": [
@@ -2596,7 +2596,7 @@
    "fees_cents": 180.5,
    "adverse_cents": 26500.0,
    "fills": 6,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 20,
    "share_sum": 13.451766342242378,
    "pending_markouts": [],
@@ -2611,7 +2611,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711345.247018,
+   "last_tick_ts": 1784713149.5621157,
    "tape_cursor": {
     "ts": 1784696141.721674,
     "ids": [
@@ -2626,7 +2626,7 @@
    "fees_cents": 87.25,
    "adverse_cents": 1939.005,
    "fills": 9,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 22,
    "share_sum": 13.827544550309824,
    "pending_markouts": [],
@@ -2641,7 +2641,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784711345.5451543,
+   "last_tick_ts": 1784713149.8633554,
    "tape_cursor": {
     "ts": 1784695812.25335,
     "ids": [
@@ -2656,7 +2656,7 @@
    "fees_cents": 1.5,
    "adverse_cents": 25.000000000000014,
    "fills": 2,
-   "snapshots": 812,
+   "snapshots": 902,
    "counted": 23,
    "share_sum": 7.965767504789072,
    "pending_markouts": [],
@@ -7025,12 +7025,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2923102",
     "opened_ts": 1784148044.6714897,
     "close_ts": 1784710800.0,
     "days_to_close_at_entry": 6.51,
-    "question": "Croatia Open: Dino Prizmic vs Alex Molcan"
+    "question": "Croatia Open: Dino Prizmic vs Alex Molcan",
+    "pnl_cents": -900.0,
+    "result": "no"
    },
    "polymarket|2431013|taker": {
     "venue": "polymarket",
@@ -8096,9 +8098,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 1319.0,
     "tape_cursor": {
-     "ts": 1784656027.810189,
+     "ts": 1784712244.953337,
      "ids": [
-      "f4f7ba1f-b26c-5b24-f353-0363b4e9ff31"
+      "cde29312-61de-646a-58e9-e5a239cad5b1"
      ]
     },
     "status": "open",
@@ -10647,11 +10649,11 @@
     "question": "Will the price of Bitcoin be above $64,000 on July 23?"
    }
   },
-  "last_scan_ts": 1784709511.342304
+  "last_scan_ts": 1784713125.8588643
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1784711345.8637407,
+ "last_checkpoint_ts": 1784713150.1812692,
  "jobs_started": 22,
  "last_job_start_ts": 1784695063.1095905,
- "api_requests_last_job": 25903
+ "api_requests_last_job": 28783
 }

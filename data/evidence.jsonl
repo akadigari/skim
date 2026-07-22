@@ -10629,3 +10629,34 @@
 {"type": "fav_open", "variant": "maker", "price": 91.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 305.01, "tape_cursor": {"ts": 1784746786.583189, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXCHINAAI-26JUL27-ALIB", "opened_ts": 1784746786.583189, "close_ts": 1785160800.0, "days_to_close_at_entry": 4.79}
 {"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXCHINAAI-26JUL27-ALIB", "opened_ts": 1784746786.583189, "close_ts": 1785160800.0, "days_to_close_at_entry": 4.79}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3024497", "opened_ts": 1784746786.583189, "close_ts": 1784762100.0, "days_to_close_at_entry": 0.18, "question": "Counter-Strike: QUAZAR vs SAW Youngsters (BO3) - CCT Europe Closed Qualifier: Se"}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.130", "ts": 1784746829.319307, "trade_id": "b7f0e89a-4da4-470b-ffe6-9f51edc1a8a2", "side": "bid", "price": 4.0, "qty": 15.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.130", "ts": 1784746829.319307, "trade_id": "793eac48-70ff-4dfa-c827-befbb64bd2c5", "side": "bid", "price": 4.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.130", "ts": 1784746829.319307, "trade_id": "31e1b6c1-b48b-4a2c-cf39-33129f44103a", "side": "bid", "price": 4.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.115", "side": "bid", "price": 11.0, "qty": 8.0, "mid_later": 6.5, "adverse_cents": 36.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784747031.577976, "trade_id": "b6a112e1-3ef0-7f76-7959-d0572a5fb455", "side": "bid", "price": 73.0, "qty": 9.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784747031.577976, "trade_id": "9cdfc136-14be-72b1-4574-587e2f05f9d6", "side": "bid", "price": 73.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784747031.577976, "trade_id": "2e4dd3bd-a0d0-782b-7ddd-090e30d3db1b", "side": "bid", "price": 73.0, "qty": 9.97}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784747031.577976, "trade_id": "27b9c03c-8d1c-7804-5323-709dbf03676a", "side": "bid", "price": 73.0, "qty": 179.03}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.130", "side": "bid", "price": 4.0, "qty": 15.0, "mid_later": 3.5, "adverse_cents": 7.5}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.130", "side": "bid", "price": 4.0, "qty": 2.0, "mid_later": 3.5, "adverse_cents": 1.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.130", "side": "bid", "price": 4.0, "qty": 4.0, "mid_later": 3.5, "adverse_cents": 2.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 73.0, "qty": 9.0, "mid_later": 73.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 73.0, "qty": 2.0, "mid_later": 73.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 73.0, "qty": 9.97, "mid_later": 73.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 73.0, "qty": 179.03, "mid_later": 73.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.105", "ts": 1784747910.5707, "trade_id": "e999b696-579e-496e-4e9b-2dcd1b9ed0ef", "side": "ask", "price": 26.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784748062.324119, "trade_id": "1520a844-7c6f-7376-35d3-ac3131728410", "side": "bid", "price": 73.0, "qty": 4.04}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.130", "ts": 1784748069.405584, "trade_id": "956b8f0a-85b3-4cd5-fba9-80d75177e509", "side": "bid", "price": 3.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.120", "ts": 1784748077.158391, "trade_id": "38da830c-787d-6309-49c7-108ccbb1fa87", "side": "bid", "price": 7.000000000000001, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.120", "ts": 1784748077.158391, "trade_id": "1ae5559e-1dff-6299-7b58-fce55064bd1d", "side": "bid", "price": 7.000000000000001, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.120", "ts": 1784748077.158391, "trade_id": "187bbfc1-6107-62cc-5323-fa367dc3d4f0", "side": "bid", "price": 7.000000000000001, "qty": 24.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.105", "side": "ask", "price": 26.0, "qty": 200, "mid_later": 27.0, "adverse_cents": 200.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 73.0, "qty": 4.04, "mid_later": 73.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784748348.93079, "trade_id": "e91203f8-2c96-63d0-6af3-2282544f6545", "side": "bid", "price": 47.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.130", "side": "bid", "price": 3.0, "qty": 200, "mid_later": 1.5, "adverse_cents": 300.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.120", "side": "bid", "price": 7.000000000000001, "qty": 1.0, "mid_later": 5.5, "adverse_cents": 1.5000000000000009}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.120", "side": "bid", "price": 7.000000000000001, "qty": 1.0, "mid_later": 5.5, "adverse_cents": 1.5000000000000009}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.120", "side": "bid", "price": 7.000000000000001, "qty": 24.0, "mid_later": 5.5, "adverse_cents": 36.00000000000002}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784748407.619147, "trade_id": "c7960c14-a0f1-7292-cd75-28e919cdfa5c", "side": "ask", "price": 74.0, "qty": 0.28000000000000624}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784748470.144629, "trade_id": "f5361831-c018-629e-037f-8211bf2ae570", "side": "ask", "price": 37.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.125", "ts": 1784748574.026542, "trade_id": "d2553ec5-c443-5d1a-c873-ade734687512", "side": "bid", "price": 3.0, "qty": 200}

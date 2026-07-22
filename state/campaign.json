@@ -1255,7 +1255,7 @@
    "category": "KXTRUMPPHOTO",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707726.944202,
+   "last_tick_ts": 1784709506.9553022,
    "tape_cursor": {
     "ts": 1784695086.8047922,
     "ids": []
@@ -1268,7 +1268,7 @@
    "fees_cents": 37.0,
    "adverse_cents": 48.0,
    "fills": 13,
-   "snapshots": 4714,
+   "snapshots": 4803,
    "counted": 3058,
    "share_sum": 569.3650791232253,
    "pending_markouts": [],
@@ -1291,7 +1291,7 @@
     "size": 200,
     "queue_ahead": 31.42
    },
-   "last_tick_ts": 1784707727.1237211,
+   "last_tick_ts": 1784709507.1372476,
    "tape_cursor": {
     "ts": 1784706800.045151,
     "ids": [
@@ -1304,13 +1304,13 @@
    "inventory": 1.3199999999999363,
    "peak_abs_inventory": 578.3199999999999,
    "cash_cents": -6776.639999999999,
-   "reward_cents": 1785.1324220163708,
+   "reward_cents": 1826.4515709489244,
    "fees_cents": 378.25,
    "adverse_cents": 3340.0000000000005,
    "fills": 32,
-   "snapshots": 4714,
-   "counted": 4714,
-   "share_sum": 2278.679999036075,
+   "snapshots": 4803,
+   "counted": 4803,
+   "share_sum": 2331.6254390958684,
    "pending_markouts": [],
    "retired": false
   },
@@ -1331,7 +1331,7 @@
     "size": 200,
     "queue_ahead": 583.01
    },
-   "last_tick_ts": 1784707727.4268773,
+   "last_tick_ts": 1784709507.435562,
    "tape_cursor": {
     "ts": 1784706797.449165,
     "ids": [
@@ -1342,13 +1342,13 @@
    "inventory": -398.79999999999995,
    "peak_abs_inventory": 500.4,
    "cash_cents": 13431.910000000003,
-   "reward_cents": 1485.0531190425,
+   "reward_cents": 1515.064962781482,
    "fees_cents": 532.0,
    "adverse_cents": 492.92,
    "fills": 65,
-   "snapshots": 4714,
-   "counted": 4714,
-   "share_sum": 1895.326943296489,
+   "snapshots": 4803,
+   "counted": 4803,
+   "share_sum": 1933.7835614069932,
    "pending_markouts": [],
    "retired": false
   },
@@ -1429,7 +1429,7 @@
     "size": 200,
     "queue_ahead": 141.01
    },
-   "last_tick_ts": 1784707727.7253294,
+   "last_tick_ts": 1784709507.7360835,
    "tape_cursor": {
     "ts": 1784705081.65987,
     "ids": [
@@ -1441,13 +1441,13 @@
    "inventory": -79.0,
    "peak_abs_inventory": 290.0,
    "cash_cents": 349.0,
-   "reward_cents": 714.9878723423495,
+   "reward_cents": 740.6540727761031,
    "fees_cents": 206.0,
    "adverse_cents": 1069.0,
    "fills": 16,
-   "snapshots": 4714,
-   "counted": 4714,
-   "share_sum": 913.2114764489752,
+   "snapshots": 4803,
+   "counted": 4803,
+   "share_sum": 946.0996353964496,
    "pending_markouts": [],
    "retired": false
   },
@@ -2337,7 +2337,7 @@
    "category": "KXTEMPDCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707728.024351,
+   "last_tick_ts": 1784709508.0355015,
    "tape_cursor": {
     "ts": 1784696096.159573,
     "ids": [
@@ -2352,7 +2352,7 @@
    "fees_cents": 167.0,
    "adverse_cents": 62.625,
    "fills": 9,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 30,
    "share_sum": 19.367046738141596,
    "pending_markouts": [],
@@ -2367,7 +2367,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707728.3250928,
+   "last_tick_ts": 1784709508.3356986,
    "tape_cursor": {
     "ts": 1784695917.979402,
     "ids": [
@@ -2382,7 +2382,7 @@
    "fees_cents": 161.0,
    "adverse_cents": 5754.635,
    "fills": 8,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 29,
    "share_sum": 24.87731753978477,
    "pending_markouts": [],
@@ -2397,7 +2397,7 @@
    "category": "KXTEMPDCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707728.6264553,
+   "last_tick_ts": 1784709508.637012,
    "tape_cursor": {
     "ts": 1784696352.276333,
     "ids": [
@@ -2412,7 +2412,7 @@
    "fees_cents": 160.0,
    "adverse_cents": 302.97,
    "fills": 6,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 30,
    "share_sum": 27.92698436859793,
    "pending_markouts": [],
@@ -2427,7 +2427,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707728.9277446,
+   "last_tick_ts": 1784709508.9358191,
    "tape_cursor": {
     "ts": 1784696253.014421,
     "ids": [
@@ -2442,7 +2442,7 @@
    "fees_cents": 315.0,
    "adverse_cents": 2621.725,
    "fills": 12,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 21,
    "share_sum": 19.586175777198353,
    "pending_markouts": [],
@@ -2457,7 +2457,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707729.2256498,
+   "last_tick_ts": 1784709509.2358444,
    "tape_cursor": {
     "ts": 1784696347.356136,
     "ids": [
@@ -2472,7 +2472,7 @@
    "fees_cents": 360.0,
    "adverse_cents": 13729.38,
    "fills": 14,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 30,
    "share_sum": 25.617412431520528,
    "pending_markouts": [],
@@ -2487,7 +2487,7 @@
    "category": "KXTEMPNYCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707729.529556,
+   "last_tick_ts": 1784709509.5394073,
    "tape_cursor": {
     "ts": 1784696178.188703,
     "ids": [
@@ -2502,7 +2502,7 @@
    "fees_cents": 247.75,
    "adverse_cents": 6000.0,
    "fills": 4,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 20,
    "share_sum": 16.75821338197255,
    "pending_markouts": [],
@@ -2517,7 +2517,7 @@
    "category": "KXTEMPNYCH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707729.8267865,
+   "last_tick_ts": 1784709509.8390646,
    "tape_cursor": {
     "ts": 1784696055.636775,
     "ids": [
@@ -2532,7 +2532,7 @@
    "fees_cents": 165.5,
    "adverse_cents": 1300.0,
    "fills": 4,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 30,
    "share_sum": 23.833760311661962,
    "pending_markouts": [],
@@ -2547,7 +2547,7 @@
    "category": "KXTEMPLAXH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707730.127658,
+   "last_tick_ts": 1784709510.1377032,
    "tape_cursor": {
     "ts": 1784696194.845089,
     "ids": [
@@ -2562,7 +2562,7 @@
    "fees_cents": 214.25,
    "adverse_cents": 5521.075000000001,
    "fills": 11,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 42,
    "share_sum": 33.630263210204234,
    "pending_markouts": [],
@@ -2577,7 +2577,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707730.430252,
+   "last_tick_ts": 1784709510.4385471,
    "tape_cursor": {
     "ts": 1784696296.594814,
     "ids": [
@@ -2593,7 +2593,7 @@
    "fees_cents": 180.5,
    "adverse_cents": 26500.0,
    "fills": 6,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 20,
    "share_sum": 13.451766342242378,
    "pending_markouts": [],
@@ -2608,7 +2608,7 @@
    "category": "KXTEMPAUSH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707730.7305274,
+   "last_tick_ts": 1784709510.7400668,
    "tape_cursor": {
     "ts": 1784696141.721674,
     "ids": [
@@ -2623,7 +2623,7 @@
    "fees_cents": 87.25,
    "adverse_cents": 1939.005,
    "fills": 9,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 22,
    "share_sum": 13.827544550309824,
    "pending_markouts": [],
@@ -2638,7 +2638,7 @@
    "category": "KXTEMPCHIH",
    "bid": null,
    "ask": null,
-   "last_tick_ts": 1784707731.0273101,
+   "last_tick_ts": 1784709511.0381477,
    "tape_cursor": {
     "ts": 1784695812.25335,
     "ids": [
@@ -2653,7 +2653,7 @@
    "fees_cents": 1.5,
    "adverse_cents": 25.000000000000014,
    "fills": 2,
-   "snapshots": 632,
+   "snapshots": 721,
    "counted": 23,
    "share_sum": 7.965767504789072,
    "pending_markouts": [],
@@ -7100,12 +7100,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2920202",
     "opened_ts": 1784190521.6255383,
     "close_ts": 1784707200.0,
     "days_to_close_at_entry": 5.98,
-    "question": "Cordenons: Max Alcala Gurri vs Lorenzo Angelini"
+    "question": "Cordenons: Max Alcala Gurri vs Lorenzo Angelini",
+    "pnl_cents": 70.0,
+    "result": "yes"
    },
    "polymarket|2766413|taker": {
     "venue": "polymarket",
@@ -7263,12 +7265,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2923037",
     "opened_ts": 1784220600.0587637,
     "close_ts": 1784707200.0,
     "days_to_close_at_entry": 5.63,
-    "question": "Swiss Open: Alexander Bublik vs Quentin Halys"
+    "question": "Swiss Open: Alexander Bublik vs Quentin Halys",
+    "pnl_cents": -855.0,
+    "result": "no"
    },
    "polymarket|2905629|taker": {
     "venue": "polymarket",
@@ -7293,12 +7297,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2922975",
     "opened_ts": 1784224220.0615504,
     "close_ts": 1784707200.0,
     "days_to_close_at_entry": 5.59,
-    "question": "Swedish Open: Alejandro Tabilo vs Lautaro Midon"
+    "question": "Swedish Open: Alejandro Tabilo vs Lautaro Midon",
+    "pnl_cents": 95.0,
+    "result": "yes"
    },
    "polymarket|2871252|taker": {
     "venue": "polymarket",
@@ -10277,11 +10283,10 @@
     "fee_cents": 0.0,
     "queue_ahead": 255.0,
     "tape_cursor": {
-     "ts": 1784685554.317639,
+     "ts": 1784708361.184096,
      "ids": [
-      "d40d7347-97c5-5d0e-1838-6d509b04d8f5",
-      "ca170340-ac3c-521e-21a0-b86fa4d5f486",
-      "105e7976-7e53-5888-21fe-c0cf9a5850e7"
+      "5274a27a-fb4c-65fa-1574-b2ec5b5973a0",
+      "020201d2-f777-63ef-1488-c1f1c1e2154d"
      ]
     },
     "status": "open",
@@ -10312,10 +10317,9 @@
     "fee_cents": 0.0,
     "queue_ahead": 0.0,
     "tape_cursor": {
-     "ts": 1784706392.423776,
+     "ts": 1784708836.82345,
      "ids": [
-      "a60b3efc-47cd-495e-c6d3-0fb6e9435c57",
-      "529174d9-8568-44cb-ec90-54910dd39b8b"
+      "3761cbc2-e79e-63eb-baa1-23f3240d8d03"
      ]
     },
     "status": "open",
@@ -10639,11 +10643,11 @@
     "question": "Will the price of Bitcoin be above $64,000 on July 23?"
    }
   },
-  "last_scan_ts": 1784705907.307251
+  "last_scan_ts": 1784709511.342304
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1784707738.2586253,
+ "last_checkpoint_ts": 1784709540.0469177,
  "jobs_started": 22,
  "last_job_start_ts": 1784695063.1095905,
- "api_requests_last_job": 20230
+ "api_requests_last_job": 23081
 }

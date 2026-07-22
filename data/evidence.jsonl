@@ -10407,3 +10407,6 @@
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 38.0, "qty": 74.6, "mid_later": 37.5, "adverse_cents": 37.3}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 38.0, "qty": 2.0, "mid_later": 37.5, "adverse_cents": 1.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 38.0, "qty": 7.0, "mid_later": 37.5, "adverse_cents": 3.5}
+{"type": "fav_settle", "key": "polymarket|2920202|taker", "result": "yes", "pnl_cents": 70.0}
+{"type": "fav_settle", "key": "polymarket|2923037|taker", "result": "no", "pnl_cents": -855.0}
+{"type": "fav_settle", "key": "polymarket|2922975|taker", "result": "yes", "pnl_cents": 95.0}

@@ -10575,3 +10575,16 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3024495", "opened_ts": 1784743186.559507, "close_ts": 1784762100.0, "days_to_close_at_entry": 0.22, "question": "Counter-Strike: QUAZAR vs SAW Youngsters - Map 1 Winner"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3031293", "opened_ts": 1784743186.559507, "close_ts": 1784761200.0, "days_to_close_at_entry": 0.21, "question": "Counter-Strike: Aurora Gaming vs Team Nemesis - Map 2 Winner"}
 {"type": "fav_settle", "key": "polymarket|2930522|taker", "result": "yes", "pnl_cents": 110.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784744114.088281, "trade_id": "f4731087-5a9c-4ba0-e189-378c3b72e9cb", "side": "bid", "price": 40.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784744419.197168, "trade_id": "ede95744-3f5e-558e-8ecb-f86fb61e1022", "side": "ask", "price": 41.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 40.0, "qty": 200, "mid_later": 46.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784744510.267758, "trade_id": "8f612e88-dbc3-490b-193d-a0ac4767e9da", "side": "bid", "price": 71.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784744530.035773, "trade_id": "e22fe3f2-bf43-54b8-8a8f-ded1d45302d8", "side": "ask", "price": 47.0, "qty": 38.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.135", "ts": 1784744617.175909, "trade_id": "a83a1f05-2dad-67ba-8dfd-a95bd0a645c4", "side": "bid", "price": 4.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.140", "ts": 1784744610.755276, "trade_id": "108ee66c-7b04-4d6f-cb27-9eb8e9d8f6ed", "side": "bid", "price": 1.0, "qty": 99.99999999999989}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "ask", "price": 41.0, "qty": 200, "mid_later": 46.5, "adverse_cents": 1100.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.110", "ts": 1784744729.681496, "trade_id": "e7fa1cbb-1127-48b3-b68d-35b7a1c5340a", "side": "bid", "price": 17.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 71.0, "qty": 200, "mid_later": 73.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "ask", "price": 47.0, "qty": 38.0, "mid_later": 46.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.135", "side": "bid", "price": 4.0, "qty": 200, "mid_later": 4.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.140", "side": "bid", "price": 1.0, "qty": 99.99999999999989, "mid_later": 1.5, "adverse_cents": 0.0}

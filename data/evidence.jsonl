@@ -10550,3 +10550,28 @@
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.110", "side": "ask", "price": 13.0, "qty": 200, "mid_later": 15.0, "adverse_cents": 400.0}
 {"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.120", "side": "ask", "price": 6.0, "qty": 200, "mid_later": 8.0, "adverse_cents": 400.0}
 {"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784741159.073063, "trade_id": "4b940f06-567d-743c-8586-13fbd72c9f1f", "side": "ask", "price": 65.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "ask", "price": 65.0, "qty": 200, "mid_later": 67.5, "adverse_cents": 500.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784741691.975091, "trade_id": "a0432990-baf6-61b9-4077-57ddbe2fbe3a", "side": "bid", "price": 43.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784741691.975091, "trade_id": "61fc353b-37fe-6d55-4593-680f283300e4", "side": "bid", "price": 43.0, "qty": 6.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784741691.975091, "trade_id": "5e25c7c3-e5e7-6ff8-4328-c6c46db5f2d4", "side": "bid", "price": 43.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784741701.029721, "trade_id": "8f088463-f392-6515-6325-93a196d77146", "side": "bid", "price": 43.0, "qty": 184.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784741832.276243, "trade_id": "e4502c5d-6735-7109-5dfb-6eaaf5d816dc", "side": "ask", "price": 42.00000000000001, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 43.0, "qty": 2.0, "mid_later": 40.5, "adverse_cents": 5.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 43.0, "qty": 6.0, "mid_later": 40.5, "adverse_cents": 15.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 43.0, "qty": 8.0, "mid_later": 40.5, "adverse_cents": 20.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 43.0, "qty": 184.0, "mid_later": 40.5, "adverse_cents": 460.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "ask", "price": 42.00000000000001, "qty": 200, "mid_later": 40.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784742296.070297, "trade_id": "d2f7c5e3-2ed0-762f-bb47-07028c1c613c", "side": "bid", "price": 42.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784742390.743511, "trade_id": "d5fd6528-eb20-4ecb-4c05-73428410ff54", "side": "bid", "price": 39.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784742391.176776, "trade_id": "fac22089-af52-6607-2209-6a0e74c92491", "side": "ask", "price": 41.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 42.0, "qty": 200, "mid_later": 40.0, "adverse_cents": 400.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784742648.857527, "trade_id": "fe627e0b-f2fa-7876-60c8-2373912f3582", "side": "ask", "price": 41.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 39.0, "qty": 200, "mid_later": 40.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "ask", "price": 41.0, "qty": 200, "mid_later": 40.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.140", "ts": 1784742817.835857, "trade_id": "4eff83fa-36e1-428e-1606-22ba9001153d", "side": "bid", "price": 2.0, "qty": 155.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "ask", "price": 41.0, "qty": 200, "mid_later": 41.5, "adverse_cents": 100.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.140", "side": "bid", "price": 2.0, "qty": 155.0, "mid_later": 1.5, "adverse_cents": 77.5}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.8, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3017916", "opened_ts": 1784743186.559507, "close_ts": 1785337200.0, "days_to_close_at_entry": 6.88, "question": "Hamburg European Open: Anna Bondar vs Noma Noha Akugue"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3024495", "opened_ts": 1784743186.559507, "close_ts": 1784762100.0, "days_to_close_at_entry": 0.22, "question": "Counter-Strike: QUAZAR vs SAW Youngsters - Map 1 Winner"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3031293", "opened_ts": 1784743186.559507, "close_ts": 1784761200.0, "days_to_close_at_entry": 0.21, "question": "Counter-Strike: Aurora Gaming vs Team Nemesis - Map 2 Winner"}
+{"type": "fav_settle", "key": "polymarket|2930522|taker", "result": "yes", "pnl_cents": 110.0}

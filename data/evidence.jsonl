@@ -10812,3 +10812,19 @@
 {"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784755639.609333, "trade_id": "c80fbfaf-be22-54da-e0c6-3582c0fca54f", "side": "bid", "price": 38.0, "qty": 200}
 {"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.110", "ts": 1784755697.940366, "trade_id": "300a77f4-dd8e-7fa2-5b91-0040c09f6874", "side": "bid", "price": 6.0, "qty": 3.0}
 {"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784755824.869174, "trade_id": "f6527349-f117-537f-2ceb-03dc332fd083", "side": "ask", "price": 36.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.115", "side": "bid", "price": 4.0, "qty": 25.0, "mid_later": 2.5, "adverse_cents": 37.5}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784755935.845694, "trade_id": "b421f0ad-daaa-4d24-be18-7e85f65bbc9b", "side": "bid", "price": 36.0, "qty": 4.55}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 38.0, "qty": 200, "mid_later": 39.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.110", "ts": 1784755948.110149, "trade_id": "dae2d4f8-743a-409b-d100-3e3e7245807d", "side": "bid", "price": 4.0, "qty": 11.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.110", "ts": 1784755948.110149, "trade_id": "27a4dd26-7457-4071-cf41-466c506f7a7f", "side": "bid", "price": 4.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.110", "side": "bid", "price": 6.0, "qty": 3.0, "mid_later": 4.0, "adverse_cents": 6.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.105", "ts": 1784756004.413899, "trade_id": "894dda05-1449-69c0-f411-bbae90500390", "side": "ask", "price": 9.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.110", "ts": 1784756019.180493, "trade_id": "ba1da355-862d-78ed-da08-488cb8501152", "side": "ask", "price": 5.0, "qty": 25.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "ask", "price": 36.0, "qty": 200, "mid_later": 38.5, "adverse_cents": 500.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.110", "ts": 1784756226.658298, "trade_id": "005fa86b-181c-54fb-3a7b-671d22c91496", "side": "bid", "price": 4.0, "qty": 13.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 36.0, "qty": 4.55, "mid_later": 38.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.110", "side": "bid", "price": 4.0, "qty": 11.0, "mid_later": 3.5, "adverse_cents": 5.5}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.110", "side": "bid", "price": 4.0, "qty": 1.0, "mid_later": 3.5, "adverse_cents": 0.5}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.105", "side": "ask", "price": 9.0, "qty": 200, "mid_later": 9.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.110", "side": "ask", "price": 5.0, "qty": 25.0, "mid_later": 3.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2963694|taker", "result": "yes", "pnl_cents": 50.0}

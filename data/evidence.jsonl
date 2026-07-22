@@ -10411,3 +10411,61 @@
 {"type": "fav_settle", "key": "polymarket|2923037|taker", "result": "no", "pnl_cents": -855.0}
 {"type": "fav_settle", "key": "polymarket|2922975|taker", "result": "yes", "pnl_cents": 95.0}
 {"type": "fav_settle", "key": "polymarket|2923102|taker", "result": "no", "pnl_cents": -900.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 1.0, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 17.49, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 9.0, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 5.0, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 28.0, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 3.0, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 28.0, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 40.94, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL22-4.070", "side": "ask", "price": 9.0, "qty": 35.51, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_settle", "ticker": "KXAAAGASD-26JUL22-4.070", "result": "no", "decision_cents": 478.61876157475535}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-PITC", "result": "yes", "decision_cents": -28946.387995546087}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-MVP", "result": "no", "decision_cents": -7266.7611372362535}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-WALK", "result": "no", "decision_cents": 3774.3431693878097}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-EXTR", "result": "no", "decision_cents": 2210.3454701409414}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL21LADPHI-PINC", "side": "ask", "price": 77.0, "qty": 11.5, "mid_later": 100.0, "adverse_cents": 264.5}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-PINC", "result": "yes", "decision_cents": 3704.4588257766027}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-WILD", "result": "no", "decision_cents": 5110.105450942627}
+{"type": "mm_settle", "ticker": "KXAAAGASD-26JUL22-4.080", "result": "no", "decision_cents": 1680.010843103837}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-ROB", "result": "yes", "decision_cents": -3313.8571859124086}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL21LADPHI-BUNT", "result": "no", "decision_cents": 467.5580025683066}
+{"type": "mm_settle", "ticker": "KXTEMPDCH-26JUL2201-T72.99", "result": "yes", "decision_cents": -11618.840648264342}
+{"type": "mm_settle", "ticker": "KXTEMPCHIH-26JUL2201-T67.99", "result": "yes", "decision_cents": -17395.955890075005}
+{"type": "mm_settle", "ticker": "KXTEMPDCH-26JUL2201-T73.99", "result": "no", "decision_cents": -2604.4177877426455}
+{"type": "mm_settle", "ticker": "KXTEMPAUSH-26JUL2201-T80.99", "result": "no", "decision_cents": 7923.763328567318}
+{"type": "mm_settle", "ticker": "KXTEMPCHIH-26JUL2201-T68.99", "result": "no", "decision_cents": -21417.70457202571}
+{"type": "mm_settle", "ticker": "KXTEMPNYCH-26JUL2201-T72.99", "result": "yes", "decision_cents": -28259.254207943977}
+{"type": "mm_settle", "ticker": "KXTEMPNYCH-26JUL2201-T71.99", "result": "yes", "decision_cents": -4713.064619188992}
+{"type": "mm_settle", "ticker": "KXTEMPLAXH-26JUL2201-T73.99", "result": "no", "decision_cents": -10226.959621466267}
+{"type": "mm_settle", "ticker": "KXTEMPAUSH-26JUL2201-T79.99", "result": "no", "decision_cents": -36768.35581930112}
+{"type": "mm_settle", "ticker": "KXTEMPAUSH-26JUL2201-T78.99", "result": "yes", "decision_cents": -6537.991491563836}
+{"type": "mm_settle", "ticker": "KXTEMPCHIH-26JUL2201-T66.99", "result": "yes", "decision_cents": 83.8558144866732}
+{"type": "fav_settle", "key": "kalshi|KXSPRLVL-26JUL22-T310|maker", "result": "yes", "pnl_cents": 128.0}
+{"type": "fav_settle", "key": "kalshi|KXSPRLVL-26JUL22-T310|taker", "result": "yes", "pnl_cents": 112.0}
+{"type": "fav_settle", "key": "kalshi|KXSPRLVL-26JUL22-T308|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-7", "gap_s": 20491.247489452362}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-6", "gap_s": 20491.365994930267}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-5", "gap_s": 20491.362016916275}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-4", "gap_s": 20491.364253520966}
+{"type": "fav_open", "variant": "maker", "price": 94.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 812.0, "tape_cursor": {"ts": 1784737376.919296, "ids": ["3bd9979d-f346-5827-0939-8538aaad3597"]}, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL27-4.120", "opened_ts": 1784735979.8870897, "close_ts": 1785124740.0, "days_to_close_at_entry": 4.5}
+{"type": "fav_open", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXAAAGASW-26JUL27-4.120", "opened_ts": 1784735979.8870897, "close_ts": 1785124740.0, "days_to_close_at_entry": 4.5}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2987047", "opened_ts": 1784735979.8870897, "close_ts": 1784754000.0, "days_to_close_at_entry": 0.21, "question": "Valorant: FUT Esports vs Pcific Esports (BO3) - VCT EMEA Group Alpha"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3001695", "opened_ts": 1784735979.8870897, "close_ts": 1785319200.0, "days_to_close_at_entry": 6.75, "question": "Estoril Open: Alejandro Tabilo vs Tiago Torres"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3021425", "opened_ts": 1784735979.8870897, "close_ts": 1785328200.0, "days_to_close_at_entry": 6.85, "question": "ITF Horb: Lea Nilsson vs Fiona Ganz"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 97.2, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3016295", "opened_ts": 1784735979.8870897, "close_ts": 1784750400.0, "days_to_close_at_entry": 0.17, "question": "S&P 500 (SPY) closes above $745 on July 22?"}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784736328.33362, "trade_id": "428c8476-2bd0-7c4a-cd4f-aa1fa1ee6f8c", "side": "ask", "price": 74.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "ask", "price": 74.0, "qty": 200, "mid_later": 78.5, "adverse_cents": 900.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.140", "ts": 1784736920.152385, "trade_id": "1e739136-ec86-7c77-4814-d11a9a00fdfc", "side": "bid", "price": 5.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.130", "ts": 1784737190.832939, "trade_id": "4b8450c4-1e8a-4082-091a-e69ca00032d1", "side": "bid", "price": 6.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.095", "ts": 1784737204.695786, "trade_id": "02fc43e6-795e-74f6-a01a-dd00c1c6f9dd", "side": "bid", "price": 78.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.140", "side": "bid", "price": 5.0, "qty": 1.0, "mid_later": 4.5, "adverse_cents": 0.5}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.140", "ts": 1784737221.372863, "trade_id": "5188bb5f-002a-678e-b63f-909f14bd8095", "side": "bid", "price": 4.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.100", "ts": 1784737288.520267, "trade_id": "90c4d123-1875-51bd-6d6f-e46ae2be50df", "side": "bid", "price": 44.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.130", "side": "bid", "price": 6.0, "qty": 200, "mid_later": 4.5, "adverse_cents": 300.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.095", "side": "bid", "price": 78.0, "qty": 4.0, "mid_later": 74.5, "adverse_cents": 14.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.140", "side": "bid", "price": 4.0, "qty": 2.0, "mid_later": 3.5, "adverse_cents": 1.0}
+{"type": "mm_markout", "ticker": "KXAAAGASD-26JUL23-4.100", "side": "bid", "price": 44.0, "qty": 200, "mid_later": 41.5, "adverse_cents": 500.0}
+{"type": "mm_fill", "ticker": "KXAAAGASD-26JUL23-4.105", "ts": 1784737682.983215, "trade_id": "b49d6ecf-20f9-4898-090d-85f8a7dfe9a4", "side": "ask", "price": 30.0, "qty": 200}
+{"type": "fav_fill", "key": "kalshi|KXAAAGASW-26JUL27-4.120|maker", "ts": 1784737376.919296, "trade_id": "3bd9979d-f346-5827-0939-8538aaad3597", "qty": 10.0}

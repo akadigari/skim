@@ -11163,3 +11163,4 @@
 {"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-MOBI", "side": "ask", "price": 81.0, "qty": 200, "mid_later": 83.0, "adverse_cents": 400.0}
 {"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "side": "bid", "price": 63.0, "qty": 200, "mid_later": 61.5, "adverse_cents": 300.0}
 {"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 66.0, "qty": 200, "mid_later": 77.5, "adverse_cents": 2300.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 96.89999999999999, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3010612", "opened_ts": 1784795999.6171076, "close_ts": 1784808000.0, "days_to_close_at_entry": 0.14, "question": "Will the highest temperature in Chengdu be 37\u00b0C on July 23?"}

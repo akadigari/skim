@@ -11449,3 +11449,19 @@
 {"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 50.0, "qty": 200, "mid_later": 43.5, "adverse_cents": 1300.0}
 {"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784831478.868389, "trade_id": "9b57d268-b789-46f2-bcf1-2537869bf5cb", "side": "bid", "price": 40.0, "qty": 17.0}
 {"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784831478.868389, "trade_id": "1d01373e-96fb-406b-bc9a-489b38afe510", "side": "bid", "price": 40.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784831697.43327, "trade_id": "a6c1d1b0-8a34-493e-d4d6-ed823374d697", "side": "bid", "price": 26.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 40.0, "qty": 17.0, "mid_later": 23.5, "adverse_cents": 280.5}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 40.0, "qty": 3.0, "mid_later": 23.5, "adverse_cents": 49.5}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "ts": 1784831967.106365, "trade_id": "eb4c99d6-deb1-6d72-1786-7474f6dd53ff", "side": "ask", "price": 55.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 26.0, "qty": 200, "mid_later": 24.0, "adverse_cents": 400.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 55.0, "qty": 200, "mid_later": 55.5, "adverse_cents": 100.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784832301.848446, "trade_id": "d04c2930-f345-7245-5b92-7cc6c9375b8c", "side": "bid", "price": 12.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784832456.837957, "trade_id": "0793c03c-ac89-52a5-fb0a-42223cf10830", "side": "bid", "price": 20.0, "qty": 7.41}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 12.0, "qty": 200, "mid_later": 6.5, "adverse_cents": 1100.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 20.0, "qty": 7.41, "mid_later": 17.5, "adverse_cents": 18.525}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784832816.812373, "trade_id": "dcde4707-9929-714b-3057-0a4b2daf1a36", "side": "ask", "price": 21.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "ask", "price": 21.0, "qty": 200, "mid_later": 35.5, "adverse_cents": 2900.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2987088", "opened_ts": 1784833284.0447483, "close_ts": 1784849400.0, "days_to_close_at_entry": 0.19, "question": "Valorant: Gentle Mates vs Natus Vincere (BO3) - VCT EMEA Group Alpha"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2993997", "opened_ts": 1784833284.0447483, "close_ts": 1784847600.0, "days_to_close_at_entry": 0.17, "question": "LoL: Myth Esports vs Dynasty (BO3) - Road Of Legends Regular Season"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2987087", "opened_ts": 1784833284.0447483, "close_ts": 1784849400.0, "days_to_close_at_entry": 0.19, "question": "Valorant: Gentle Mates vs Natus Vincere - Map 2 Winner"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2963750", "opened_ts": 1784833284.0447483, "close_ts": 1784851500.0, "days_to_close_at_entry": 0.21, "question": "Counter-Strike: Spirit vs OG - Map 2 Winner"}

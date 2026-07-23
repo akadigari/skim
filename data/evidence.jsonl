@@ -11195,3 +11195,18 @@
 {"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784797695.886579, "trade_id": "db68ff0e-2790-49d3-5f00-225e4e239059", "side": "bid", "price": 81.0, "qty": 6.0}
 {"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784797695.886579, "trade_id": "d3161fcc-0f20-4bcc-51ba-b4be53e14bcf", "side": "bid", "price": 81.0, "qty": 189.0}
 {"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "side": "bid", "price": 63.0, "qty": 200, "mid_later": 61.5, "adverse_cents": 300.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 81.0, "qty": 5.0, "mid_later": 79.0, "adverse_cents": 10.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 81.0, "qty": 6.0, "mid_later": 79.0, "adverse_cents": 12.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 81.0, "qty": 189.0, "mid_later": 79.0, "adverse_cents": 378.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-ATH", "ts": 1784798109.854585, "trade_id": "0dcb3d42-69d4-6117-f45f-e07a7a103634", "side": "ask", "price": 36.0, "qty": 20.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-ATH", "side": "ask", "price": 36.0, "qty": 20.0, "mid_later": 35.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784798932.847222, "trade_id": "fc21b056-3f58-5d43-55d3-093069c44b62", "side": "bid", "price": 79.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784799213.771984, "trade_id": "fcefec35-e0d5-7ed9-4baa-e484c92be009", "side": "bid", "price": 79.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 79.0, "qty": 200, "mid_later": 73.0, "adverse_cents": 1200.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "ts": 1784799258.407319, "trade_id": "79863a11-6d68-5e77-6ea4-e7e9ce6a3e8c", "side": "ask", "price": 57.0, "qty": 4.07999999999997}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "ts": 1784799258.407319, "trade_id": "4061b73d-ab28-5bb3-61ee-561aef2c5ca1", "side": "ask", "price": 57.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 79.0, "qty": 200, "mid_later": 70.0, "adverse_cents": 1800.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "side": "ask", "price": 57.0, "qty": 4.07999999999997, "mid_later": 56.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "side": "ask", "price": 57.0, "qty": 5.0, "mid_later": 56.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3030301", "opened_ts": 1784799599.6377995, "close_ts": 1785398400.0, "days_to_close_at_entry": 6.93, "question": "Hamburg European Open: Mayar Sherif vs Elsa Jacquemot"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3045313", "opened_ts": 1784799599.6377995, "close_ts": 1785398400.0, "days_to_close_at_entry": 6.93, "question": "ITF Gentofte: Johanne Christine Svendsen vs Merel Hoedt"}

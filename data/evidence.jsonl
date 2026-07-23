@@ -10884,3 +10884,34 @@
 {"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "ask", "price": 82.0, "qty": 5.0, "mid_later": 93.0, "adverse_cents": 55.0}
 {"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "ask", "price": 82.0, "qty": 1.0, "mid_later": 93.0, "adverse_cents": 11.0}
 {"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "side": "bid", "price": 84.0, "qty": 200, "mid_later": 81.0, "adverse_cents": 600.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "ts": 1784783667.699269, "trade_id": "aed408fb-c0ac-436a-75ce-d8b21911d6a9", "side": "bid", "price": 55.00000000000001, "qty": 1.78}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "ts": 1784783699.76623, "trade_id": "d18a4d56-9eab-40b0-5a82-d5edb194f33a", "side": "bid", "price": 80.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "ts": 1784783699.76623, "trade_id": "cebd54db-1892-4d7f-5cd4-381393ff9ce7", "side": "bid", "price": 80.0, "qty": 197.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-ATH", "ts": 1784783906.5435, "trade_id": "6def094d-5a82-7e3e-db30-daa34f8c6f03", "side": "ask", "price": 34.0, "qty": 3.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "ts": 1784783925.801181, "trade_id": "3a668588-e9b2-45e9-84ae-597eb764303c", "side": "ask", "price": 65.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "side": "bid", "price": 55.00000000000001, "qty": 1.78, "mid_later": 57.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "side": "bid", "price": 80.0, "qty": 3.0, "mid_later": 80.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "side": "bid", "price": 80.0, "qty": 197.0, "mid_later": 80.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784784199.534128, "trade_id": "1298cf4b-98bd-5877-3708-b53dda081e9d", "side": "ask", "price": 84.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-ATH", "side": "ask", "price": 34.0, "qty": 3.0, "mid_later": 33.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "side": "ask", "price": 65.0, "qty": 4.0, "mid_later": 66.5, "adverse_cents": 6.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "ts": 1784784237.654907, "trade_id": "ea94cde7-5edc-4af4-f04d-8b29cfc5b7b7", "side": "ask", "price": 27.0, "qty": 29.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "ts": 1784784237.654907, "trade_id": "e7c0a410-3d02-4ab7-c9ef-9813d58dd855", "side": "ask", "price": 27.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "ts": 1784784237.654907, "trade_id": "e4d62940-f737-49a3-fcfb-9343b4246b43", "side": "ask", "price": 27.0, "qty": 170.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 84.0, "qty": 1.0, "mid_later": 83.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "side": "ask", "price": 27.0, "qty": 29.0, "mid_later": 31.5, "adverse_cents": 130.5}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "side": "ask", "price": 27.0, "qty": 1.0, "mid_later": 31.5, "adverse_cents": 4.5}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "side": "ask", "price": 27.0, "qty": 170.0, "mid_later": 31.5, "adverse_cents": 765.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "ts": 1784784578.924337, "trade_id": "f019338f-5a3b-531f-de43-4ccd0caf501a", "side": "ask", "price": 22.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "ts": 1784784659.285319, "trade_id": "fdcfd31e-4595-43c6-de6f-7b06af3d501a", "side": "ask", "price": 25.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "ts": 1784784703.126183, "trade_id": "b479a3be-0d72-52e2-31b4-9aca20b3ac9e", "side": "bid", "price": 66.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "ts": 1784784766.872908, "trade_id": "eb529a3b-0c27-6dc0-6c6d-b2231a0859f4", "side": "bid", "price": 27.0, "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "ts": 1784784766.872908, "trade_id": "970f467b-438e-66a9-7ec5-383ae771523f", "side": "bid", "price": 27.0, "qty": 2.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "side": "ask", "price": 22.0, "qty": 200, "mid_later": 27.5, "adverse_cents": 1100.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "ts": 1784784949.158429, "trade_id": "ec64b2f0-78e1-7c44-9785-5ded030b527c", "side": "bid", "price": 79.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "side": "ask", "price": 25.0, "qty": 200, "mid_later": 27.0, "adverse_cents": 400.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "side": "bid", "price": 66.0, "qty": 200, "mid_later": 62.5, "adverse_cents": 700.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "side": "bid", "price": 27.0, "qty": 10.0, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "side": "bid", "price": 27.0, "qty": 2.0, "mid_later": 27.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2963751", "opened_ts": 1784785199.558656, "close_ts": 1784847600.0, "days_to_close_at_entry": 0.72, "question": "Counter-Strike: Spirit vs OG (BO3) - BLAST Bounty Qualifier"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 87.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2929617", "opened_ts": 1784785199.558656, "close_ts": 1784851140.0, "days_to_close_at_entry": 0.76, "question": "Will the next Claude Opus model be released on July 23, 2026?"}

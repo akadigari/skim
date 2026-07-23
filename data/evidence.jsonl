@@ -11331,3 +11331,32 @@
 {"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 7.0, "qty": 200, "mid_later": 10.0, "adverse_cents": 600.0}
 {"type": "fav_settle", "key": "polymarket|2947129|taker", "result": "yes", "pnl_cents": 50.0}
 {"type": "fav_settle", "key": "polymarket|3010612|taker", "result": "yes", "pnl_cents": 31.000000000000085}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 12.0, "qty": 200, "mid_later": 9.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784826163.02466, "trade_id": "6df31ccd-18c8-433c-dbe1-60dbf2a1d33e", "side": "ask", "price": 10.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 8.0, "qty": 186.18, "mid_later": 12.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784826216.409385, "trade_id": "dae8b6b9-3920-4161-03c0-a16c3a4e5f06", "side": "ask", "price": 14.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784826256.650246, "trade_id": "c8a03f0c-e70b-6c4c-85fa-dd9e8d3f0f37", "side": "bid", "price": 90.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 10.0, "qty": 200, "mid_later": 14.5, "adverse_cents": 900.0}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "ts": 1784826348.669362, "trade_id": "7847355b-9c52-760f-b2cc-268c37227c58", "side": "ask", "price": 50.0, "qty": 0.8600000000000011}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "ts": 1784826369.802646, "trade_id": "d834251e-ae3b-4a32-631d-74ae4dcb6f06", "side": "ask", "price": 50.0, "qty": 15.18}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "ts": 1784826369.802646, "trade_id": "c74e9b95-7a52-44de-56be-37ceac602c5a", "side": "ask", "price": 50.0, "qty": 4.14}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 10.0, "qty": 200, "mid_later": 14.5, "adverse_cents": 900.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "ask", "price": 14.0, "qty": 200, "mid_later": 14.5, "adverse_cents": 100.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784826526.438656, "trade_id": "f025ea1b-428f-5dcb-6c6c-0acda6aae5a2", "side": "ask", "price": 78.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 90.0, "qty": 200, "mid_later": 79.0, "adverse_cents": 2200.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 50.0, "qty": 0.8600000000000011, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 50.0, "qty": 15.18, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 50.0, "qty": 4.14, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784826783.206198, "trade_id": "d6e5520e-e2da-437a-1523-1eec7cf1ddf7", "side": "bid", "price": 76.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "ask", "price": 78.0, "qty": 200, "mid_later": 70.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "bid", "price": 76.0, "qty": 200, "mid_later": 67.0, "adverse_cents": 1800.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784827129.967209, "trade_id": "b45b6f14-2db9-4385-a284-a58844678843", "side": "ask", "price": 69.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "ts": 1784827153.759598, "trade_id": "9fb1d478-90ef-758e-93f7-fae85f84298a", "side": "ask", "price": 50.0, "qty": 8.82}
+{"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "ts": 1784827153.759598, "trade_id": "1e1f8e0b-9212-7cc4-af63-0c5ad55b197a", "side": "ask", "price": 50.0, "qty": 1.18}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784827316.937147, "trade_id": "b593fd84-e880-7215-7730-d70656f80d9f", "side": "bid", "price": 22.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL27", "side": "ask", "price": 69.0, "qty": 200, "mid_later": 70.5, "adverse_cents": 300.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 50.0, "qty": 8.82, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 50.0, "qty": 1.18, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXCLAUDE-OPUS-26JUL24", "side": "bid", "price": 22.0, "qty": 200, "mid_later": 15.5, "adverse_cents": 1300.0}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL24", "ts": 1784827649.602846, "trade_id": "a3c88860-a22f-6d40-1412-f878e3eb7378", "side": "ask", "price": 16.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXCLAUDE-OPUS-26JUL27", "ts": 1784827652.203268, "trade_id": "0e7e5851-b898-5916-57ad-c4a2d55e8b11", "side": "bid", "price": 70.0, "qty": 3.0}

@@ -11681,3 +11681,13 @@
 {"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-4", "gap_s": 25020.171231269836}
 {"type": "fav_fill", "key": "kalshi|KXCHINAAI-26JUL27-ALIB|maker", "ts": 1784852752.468157, "trade_id": "0e0417c5-ce92-5342-098b-dcca8893abcc", "qty": 10.0}
 {"type": "fav_settle", "key": "polymarket|2929617|taker", "result": "no", "pnl_cents": -870.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784878089.375871, "trade_id": "e374b5aa-b37d-7743-874f-0018f1423199", "side": "ask", "price": 48.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784878169.686369, "trade_id": "6ffcee99-7d58-7fad-a8a9-ccb09ed6457b", "side": "ask", "price": 50.0, "qty": 15.98}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784878197.811336, "trade_id": "e04fc303-95cf-4395-9a85-e3a6584fd13f", "side": "ask", "price": 50.0, "qty": 184.02}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "ask", "price": 48.0, "qty": 200, "mid_later": 50.5, "adverse_cents": 500.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "ask", "price": 50.0, "qty": 15.98, "mid_later": 51.5, "adverse_cents": 23.97}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "ask", "price": 50.0, "qty": 184.02, "mid_later": 51.5, "adverse_cents": 276.03000000000003}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2936906", "opened_ts": 1784878708.9217224, "close_ts": 1784898600.0, "days_to_close_at_entry": 0.23, "question": "LoL: Anyone's Legend vs LGD Gaming - Game 1 Winner"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2936908", "opened_ts": 1784878708.9217224, "close_ts": 1784898600.0, "days_to_close_at_entry": 0.23, "question": "LoL: Anyone's Legend vs LGD Gaming (BO3) - LPL Group Ascend"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3025033", "opened_ts": 1784878708.9217224, "close_ts": 1784894400.0, "days_to_close_at_entry": 0.18, "question": "Will the highest temperature in Hong Kong be 33\u00b0C on July 24?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2972731", "opened_ts": 1784878708.9217224, "close_ts": 1784995200.0, "days_to_close_at_entry": 1.35, "question": "Will the price of Bitcoin be above $64,000 on July 25?"}

@@ -11655,3 +11655,28 @@
 {"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-MOBI", "side": "ask", "price": 23.0, "qty": 2.0, "mid_later": 13.0, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-MOBI", "ts": 1784842831.592602, "trade_id": "f79aeee8-5e5c-7e41-0194-f9eee5d57ba6", "side": "ask", "price": 14.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "bid", "price": 20.0, "qty": 200, "mid_later": 11.5, "adverse_cents": 1700.0}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-WORL", "result": "no", "decision_cents": -29155.723755643707}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENU", "result": "no", "decision_cents": 9172.975957871651}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-CENT", "result": "no", "decision_cents": -535.1665184696151}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-VENT", "result": "no", "decision_cents": -3729.6720124161375}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONAAL-26JUL23-ATH", "result": "yes", "decision_cents": -7728.75901581875}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-ORIO", "result": "no", "decision_cents": -15040.54071437599}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-MOBI", "side": "ask", "price": 14.0, "qty": 200, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-MOBI", "result": "no", "decision_cents": -81617.37167817504}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONLMT-26JUL23-PERU", "result": "no", "decision_cents": 12533.880365023659}
+{"type": "mm_markout", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "side": "ask", "price": 22.0, "qty": 200, "mid_later": 0.0, "adverse_cents": 0.0}
+{"type": "mm_settle", "ticker": "KXEARNINGSMENTIONINTC-26JUL23-ARIZ", "result": "no", "decision_cents": -49138.95058500554}
+{"type": "fav_settle", "key": "polymarket|2947167|taker", "result": "yes", "pnl_cents": 112.00000000000003}
+{"type": "fav_settle", "key": "polymarket|2952467|taker", "result": "yes", "pnl_cents": 70.0}
+{"type": "fav_settle", "key": "polymarket|2963751|taker", "result": "yes", "pnl_cents": 60.0}
+{"type": "fav_settle", "key": "polymarket|3010506|taker", "result": "yes", "pnl_cents": 30.0}
+{"type": "fav_settle", "key": "polymarket|2987088|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "fav_settle", "key": "polymarket|2993997|taker", "result": "yes", "pnl_cents": 120.0}
+{"type": "fav_settle", "key": "polymarket|2987087|taker", "result": "yes", "pnl_cents": 130.0}
+{"type": "fav_settle", "key": "polymarket|2963750|taker", "result": "no", "pnl_cents": -910.0}
+{"type": "fav_settle", "key": "polymarket|3016937|taker", "result": "yes", "pnl_cents": 30.0}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-7", "gap_s": 25020.080740213394}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-6", "gap_s": 25020.1468770504}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-5", "gap_s": 25020.171896457672}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-4", "gap_s": 25020.171231269836}
+{"type": "fav_fill", "key": "kalshi|KXCHINAAI-26JUL27-ALIB|maker", "ts": 1784852752.468157, "trade_id": "0e0417c5-ce92-5342-098b-dcca8893abcc", "qty": 10.0}

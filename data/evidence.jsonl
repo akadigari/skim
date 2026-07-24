@@ -11764,3 +11764,12 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3050205", "opened_ts": 1784912378.0551248, "close_ts": 1784980800.0, "days_to_close_at_entry": 0.79, "question": "Will the highest temperature in Wellington be 12\u00b0C on July 25?"}
 {"type": "fav_fill", "key": "kalshi|KXAAAGASM-26JUL31-4.16|maker", "ts": 1784914726.376406, "trade_id": "f12fa6a6-273a-6957-49a2-29bcc7ed7f0e", "qty": 10.0}
 {"type": "fav_settle", "key": "polymarket|2960075|taker", "result": "yes", "pnl_cents": 120.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784916097.189999, "trade_id": "c142ca1a-621f-7311-2f04-ca4a4c18e63f", "side": "bid", "price": 19.0, "qty": 6.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784916097.189999, "trade_id": "5da8d2e9-3001-7986-1717-c9942e84122d", "side": "bid", "price": 19.0, "qty": 25.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 6.0, "mid_later": 18.5, "adverse_cents": 3.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 25.0, "mid_later": 18.5, "adverse_cents": 12.5}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784917267.248271, "trade_id": "e6256246-3deb-5f96-d731-777747d752db", "side": "ask", "price": 52.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784917550.764256, "trade_id": "ac0dbd28-14d0-4938-1e41-0152989d5399", "side": "bid", "price": 52.0, "qty": 17.02}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784917550.764256, "trade_id": "6ae4adb1-77d7-4a16-0dda-d640e24abc6c", "side": "bid", "price": 52.0, "qty": 9.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784917550.764256, "trade_id": "552bef3f-8f90-4439-1582-ca38a2fddccb", "side": "bid", "price": 52.0, "qty": 1.24}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "ask", "price": 52.0, "qty": 200, "mid_later": 52.0, "adverse_cents": 0.0}

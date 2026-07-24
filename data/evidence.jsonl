@@ -11844,3 +11844,40 @@
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 37.0, "qty": 17.0, "mid_later": 38.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 37.0, "qty": 8.0, "mid_later": 38.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 18.0, "qty": 200, "mid_later": 16.0, "adverse_cents": 400.0}
+{"type": "fav_settle", "key": "polymarket|2951730|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_settle", "key": "kalshi|KXXRPD-26JUL2417-T0.9599|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "kalshi|KXXRPD-26JUL2417-T0.9399|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "kalshi|KXXRPD-26JUL2417-T0.9199|taker", "result": "yes", "pnl_cents": 18.0}
+{"type": "fav_settle", "key": "kalshi|KXSOLD-26JUL2417-T62.9999|taker", "result": "yes", "pnl_cents": 18.0}
+{"type": "fav_settle", "key": "kalshi|KXSILVERW-26JUL2417-T50.99|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXGOLDW-26JUL2417-T3843.99|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXGOLDW-26JUL2417-T3823.99|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXGOLDW-26JUL2417-T3803.99|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "kalshi|KXGOLDW-26JUL2417-T3783.99|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "kalshi|KXGOLDW-26JUL2417-T3763.99|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "kalshi|KXETHD-26JUL2417-T1679.99|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXCOPPERW-26JUL2417-T6.02|taker", "result": "yes", "pnl_cents": 103.0}
+{"type": "fav_settle", "key": "kalshi|KXCOPPERW-26JUL2417-T5.99|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "kalshi|KXCOPPERW-26JUL2417-T5.96|taker", "result": "yes", "pnl_cents": 46.0}
+{"type": "fav_settle", "key": "kalshi|KXCOPPERW-26JUL2417-T5.93|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T60999.99|taker", "result": "yes", "pnl_cents": 131.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T60499.99|maker", "result": "yes", "pnl_cents": 118.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T60499.99|taker", "result": "yes", "pnl_cents": 93.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T59999.99|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T59499.99|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T58999.99|taker", "result": "yes", "pnl_cents": 46.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T58499.99|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T57999.99|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "kalshi|KXBTCD-26JUL2417-T57499.99|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTW-26JUL2417-T84.99|maker", "result": "yes", "pnl_cents": 88.5}
+{"type": "fav_settle", "key": "kalshi|KXBRENTW-26JUL2417-T84.99|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTW-26JUL2417-T78.99|maker", "result": "yes", "pnl_cents": 59.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTW-26JUL2417-T78.99|taker", "result": "yes", "pnl_cents": 27.0}
+{"type": "fav_settle", "key": "kalshi|KXSILVERW-26JUL2417-T51.99|taker", "result": "yes", "pnl_cents": 103.0}
+{"type": "fav_settle", "key": "kalshi|KXNATGASW-26JUL2417-T2.599|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXNATGASW-26JUL2417-T2.499|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "kalshi|KXNATGASW-26JUL2417-T2.299|taker", "result": "yes", "pnl_cents": 18.0}
+{"type": "fav_settle", "key": "kalshi|KXNATGASW-26JUL2417-T2.199|taker", "result": "yes", "pnl_cents": 18.0}
+{"type": "fav_settle", "key": "kalshi|KXBRENTW-26JUL2417-T76.99|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "kalshi|KXXRPD-26JUL2417-T0.9799|taker", "result": "yes", "pnl_cents": 74.0}
+{"type": "fav_settle", "key": "kalshi|KXSOLD-26JUL2417-T64.9999|taker", "result": "yes", "pnl_cents": 18.0}

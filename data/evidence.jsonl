@@ -11749,3 +11749,12 @@
 {"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784910275.951118, "trade_id": "8070bc25-b4d5-5a6b-a2b3-212f8bdc17bb", "side": "ask", "price": 31.0, "qty": 200}
 {"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-5", "ts": 1784910296.488722, "trade_id": "c540a3ca-7bc8-4506-6d33-71cdde3d8f06", "side": "bid", "price": 45.0, "qty": 200}
 {"type": "fav_fill", "key": "kalshi|KXMATHAI-26JUL31-CLAU|maker", "ts": 1784910555.012627, "trade_id": "eff976e0-c90c-7e22-c1a2-a9000f3e4459", "qty": 10.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "ask", "price": 31.0, "qty": 200, "mid_later": 30.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 45.0, "qty": 200, "mid_later": 44.0, "adverse_cents": 200.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-5", "ts": 1784911506.629858, "trade_id": "2fbb86e1-5b5f-7dc5-0be5-905ebef10eec", "side": "bid", "price": 44.0, "qty": 5.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-5", "ts": 1784911551.286167, "trade_id": "320a0d1c-39b3-5d3d-82d0-ed8db39d8078", "side": "bid", "price": 44.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-5", "ts": 1784911790.574175, "trade_id": "ab1e657e-f34b-4219-f9d5-699fef2c9cb4", "side": "bid", "price": 44.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 44.0, "qty": 5.0, "mid_later": 44.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 44.0, "qty": 1.0, "mid_later": 44.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 44.0, "qty": 1.0, "mid_later": 44.5, "adverse_cents": 0.0}
+{"type": "fav_settle", "key": "polymarket|2960116|taker", "result": "yes", "pnl_cents": 130.0}

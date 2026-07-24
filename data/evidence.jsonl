@@ -11815,3 +11815,18 @@
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 39.0, "mid_later": 19.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 8.0, "mid_later": 19.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 12.0, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24TORBOS-MVP", "ts": 1784926268.161241, "trade_id": "15f5631f-b515-7095-deae-6f009ebdd11b", "side": "bid", "price": 64.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24TORBOS-MVP", "side": "bid", "price": 64.0, "qty": 200, "mid_later": 59.5, "adverse_cents": 900.0}
+{"type": "fav_settle", "key": "kalshi|KXH200WS-26JUL24-3.500|taker", "result": "yes", "pnl_cents": 46.0}
+{"type": "fav_settle", "key": "kalshi|KXB200WS-26JUL24-6.500|maker", "result": "yes", "pnl_cents": 147.75}
+{"type": "fav_settle", "key": "kalshi|KXB200WS-26JUL24-6.500|taker", "result": "yes", "pnl_cents": 131.0}
+{"type": "fav_settle", "key": "kalshi|KXB200WS-26JUL24-6.000|taker", "result": "yes", "pnl_cents": 56.0}
+{"type": "fav_settle", "key": "polymarket|2916659|taker", "result": "yes", "pnl_cents": 115.0}
+{"type": "fav_settle", "key": "polymarket|3053948|taker", "result": "yes", "pnl_cents": 100.0}
+{"type": "fav_open", "variant": "maker", "price": 93.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 100.0, "tape_cursor": {"ts": 1784926780.4789326, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXB200WS-26JUL31-5.500", "opened_ts": 1784926780.4789326, "close_ts": 1785528000.0, "days_to_close_at_entry": 6.96}
+{"type": "fav_open", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 4, "status": "open", "venue": "kalshi", "ticker": "KXB200WS-26JUL31-5.500", "opened_ts": 1784926780.4789326, "close_ts": 1785528000.0, "days_to_close_at_entry": 6.96}
+{"type": "fav_open", "variant": "maker", "price": 89.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 100.0, "tape_cursor": {"ts": 1784926780.4789326, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXUST30A-26JUL31-T5.00", "opened_ts": 1784926780.4789326, "close_ts": 1785526200.0, "days_to_close_at_entry": 6.94}
+{"type": "fav_open", "variant": "taker", "price": 92.0, "qty": 10, "filled_qty": 10, "fee_cents": 6, "status": "open", "venue": "kalshi", "ticker": "KXUST30A-26JUL31-T5.00", "opened_ts": 1784926780.4789326, "close_ts": 1785526200.0, "days_to_close_at_entry": 6.94}
+{"type": "fav_open", "variant": "maker", "price": 85.0, "qty": 10, "filled_qty": 0.0, "fee_cents": 0.0, "queue_ahead": 100.0, "tape_cursor": {"ts": 1784926780.4789326, "ids": []}, "status": "open", "venue": "kalshi", "ticker": "KXUST2AM-26JUL31-T4.24", "opened_ts": 1784926780.4789326, "close_ts": 1785526200.0, "days_to_close_at_entry": 6.94}
+{"type": "fav_open", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 9, "status": "open", "venue": "kalshi", "ticker": "KXUST2AM-26JUL31-T4.24", "opened_ts": 1784926780.4789326, "close_ts": 1785526200.0, "days_to_close_at_entry": 6.94}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3049244", "opened_ts": 1784926780.4789326, "close_ts": 1784952000.0, "days_to_close_at_entry": 0.29, "question": "Counter-Strike: largadosypelados vs MAGICOS (BO3) - CCT South America Series 4 P"}

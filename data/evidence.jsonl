@@ -11804,3 +11804,8 @@
 {"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784920068.437243, "trade_id": "3c1ab0bd-546b-5ac7-58d6-bb756bfafd80", "side": "bid", "price": 19.0, "qty": 1.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 1.98, "mid_later": 19.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 1.0, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784921914.108709, "trade_id": "c685035b-0fa4-55da-2104-5121506d3ce7", "side": "bid", "price": 19.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784921914.108709, "trade_id": "85a00237-0da5-5d63-0889-70a4aa18cd50", "side": "bid", "price": 19.0, "qty": 195.02}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 2.0, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 195.02, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3071985", "opened_ts": 1784923179.3933132, "close_ts": 1785519000.0, "days_to_close_at_entry": 6.9, "question": "Estoril Open: Jaime Faria vs Luciano Darderi"}

@@ -11800,3 +11800,7 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 98.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3049124", "opened_ts": 1784919579.369013, "close_ts": 1784939400.0, "days_to_close_at_entry": 0.23, "question": "Valorant: Team Liquid vs Fnatic - Map 1 Winner"}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 44.0, "qty": 7.0, "mid_later": 44.0, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 44.0, "qty": 1.0, "mid_later": 44.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784920068.437243, "trade_id": "970f26d1-d19e-52dc-5f71-90898d1ab92d", "side": "bid", "price": 19.0, "qty": 1.98}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784920068.437243, "trade_id": "3c1ab0bd-546b-5ac7-58d6-bb756bfafd80", "side": "bid", "price": 19.0, "qty": 1.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 1.98, "mid_later": 19.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "bid", "price": 19.0, "qty": 1.0, "mid_later": 19.5, "adverse_cents": 0.0}

@@ -11698,3 +11698,13 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 89.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3053858", "opened_ts": 1784885908.9681711, "close_ts": 1784923200.0, "days_to_close_at_entry": 0.43, "question": "S&P 500 (SPX) Opens Up or Down on July 24?"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3028917", "opened_ts": 1784885908.9681711, "close_ts": 1784902500.0, "days_to_close_at_entry": 0.19, "question": "Counter-Strike: CYBERSHOKE Prospects vs Honv\u00e9d (BO3) - NODWIN Clutch Series Grou"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2960075", "opened_ts": 1784885908.9681711, "close_ts": 1784908800.0, "days_to_close_at_entry": 0.26, "question": "Will the price of Bitcoin be between $64,000 and $66,000 on July 24?"}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784886640.153871, "trade_id": "f7340e59-7bae-6bbc-f280-f03d177748ea", "side": "bid", "price": 51.0, "qty": 7.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784886640.153871, "trade_id": "d24a5353-290c-645b-e363-28831aa556df", "side": "bid", "price": 51.0, "qty": 100.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784886640.153871, "trade_id": "c7ab206b-4beb-6f58-f824-6c5cfad7286f", "side": "bid", "price": 51.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784886640.153871, "trade_id": "9f0f284e-9520-6137-c77e-e71121e65f53", "side": "bid", "price": 51.0, "qty": 8.0}
+{"type": "mm_fill", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "ts": 1784886640.153871, "trade_id": "36ffc417-fab6-60ac-e9f4-f504162d1de6", "side": "bid", "price": 51.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "bid", "price": 51.0, "qty": 7.0, "mid_later": 50.5, "adverse_cents": 3.5}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "bid", "price": 51.0, "qty": 100.0, "mid_later": 50.5, "adverse_cents": 50.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "bid", "price": 51.0, "qty": 1.0, "mid_later": 50.5, "adverse_cents": 0.5}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "bid", "price": 51.0, "qty": 8.0, "mid_later": 50.5, "adverse_cents": 4.0}
+{"type": "mm_markout", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "side": "bid", "price": 51.0, "qty": 5.0, "mid_later": 50.5, "adverse_cents": 2.5}

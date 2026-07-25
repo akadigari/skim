@@ -12080,3 +12080,16 @@
 {"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL3117-T59999.99|maker", "ts": 1784985235.086708, "trade_id": "19a8b689-d51b-6259-eee0-181be39d9af7", "qty": 10.0}
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784996304.293518, "trade_id": "f65d30f9-bf14-54f2-36c9-687dcab8991e", "side": "ask", "price": 39.0, "qty": 200}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 39.0, "qty": 200, "mid_later": 47.5, "adverse_cents": 1700.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784996626.347932, "trade_id": "5a941759-5a3f-5927-a06c-014b0576d0bd", "side": "ask", "price": 48.0, "qty": 1.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784996626.347932, "trade_id": "013eccb2-4733-53bc-bdb9-6f675085f64c", "side": "ask", "price": 48.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784996626.843751, "trade_id": "f9a93689-e876-536d-1ca6-383e4ab4100d", "side": "ask", "price": 48.0, "qty": 197.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 48.0, "qty": 1.0, "mid_later": 49.0, "adverse_cents": 1.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 48.0, "qty": 2.0, "mid_later": 49.0, "adverse_cents": 2.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 48.0, "qty": 197.0, "mid_later": 49.0, "adverse_cents": 197.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784997605.306299, "trade_id": "a2feb352-483a-4449-cabe-0ce8e11df3c4", "side": "ask", "price": 51.0, "qty": 18.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784997605.306299, "trade_id": "1442be5d-6a39-415f-c5c6-0f39287a701e", "side": "ask", "price": 51.0, "qty": 6.69}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 51.0, "qty": 18.0, "mid_later": 50.0, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 51.0, "qty": 6.69, "mid_later": 50.0, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784998332.145376, "trade_id": "8a59bc6a-83e4-546a-6e07-577f76bc7b80", "side": "ask", "price": 6.0, "qty": 200}
+{"type": "fav_settle", "key": "polymarket|2972731|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_settle", "key": "polymarket|3050361|taker", "result": "no", "pnl_cents": -940.0}

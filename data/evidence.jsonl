@@ -12093,3 +12093,16 @@
 {"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-4", "ts": 1784998332.145376, "trade_id": "8a59bc6a-83e4-546a-6e07-577f76bc7b80", "side": "ask", "price": 6.0, "qty": 200}
 {"type": "fav_settle", "key": "polymarket|2972731|taker", "result": "yes", "pnl_cents": 80.0}
 {"type": "fav_settle", "key": "polymarket|3050361|taker", "result": "no", "pnl_cents": -940.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3095952", "opened_ts": 1784998437.265396, "close_ts": 1785598200.0, "days_to_close_at_entry": 6.94, "question": "Mubadala Citi DC Open, Qualification: Andre Ilagan vs Remy Bertola"}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-4", "side": "ask", "price": 6.0, "qty": 200, "mid_later": 6.5, "adverse_cents": 100.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784999004.073168, "trade_id": "119952be-bc13-74da-6c8e-f7d9d168eb23", "side": "bid", "price": 50.0, "qty": 18.0}
+{"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL3117-T60999.99|maker", "ts": 1784998572.725337, "trade_id": "4b1d2e47-817b-7282-c832-98574f351aa0", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784999251.258931, "trade_id": "818fcf24-c073-65c6-a451-39c538b12d5f", "side": "bid", "price": 50.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 50.0, "qty": 18.0, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784999514.427406, "trade_id": "c89058a4-5d2d-5d17-7a84-906a037d145a", "side": "bid", "price": 50.0, "qty": 177.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 50.0, "qty": 5.0, "mid_later": 49.5, "adverse_cents": 2.5}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784999620.299648, "trade_id": "6750b6bc-7224-5587-9dd3-918a2cb2c9d3", "side": "ask", "price": 51.0, "qty": 20.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 50.0, "qty": 177.0, "mid_later": 49.5, "adverse_cents": 88.5}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 51.0, "qty": 20.0, "mid_later": 50.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1785000161.264609, "trade_id": "5fbccb13-bfb0-4fe0-4e0b-0f4bce304007", "side": "bid", "price": 48.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1785000211.587355, "trade_id": "9bde45ee-d2e3-76e9-12fd-d9b710552f05", "side": "ask", "price": 43.99999999999999, "qty": 200}

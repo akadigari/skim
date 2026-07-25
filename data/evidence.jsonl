@@ -12031,3 +12031,13 @@
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 49.0, "qty": 3.0, "mid_later": 49.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 49.0, "qty": 8.0, "mid_later": 49.5, "adverse_cents": 0.0}
 {"type": "fav_settle", "key": "polymarket|2942407|taker", "result": "yes", "pnl_cents": 140.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784972963.517019, "trade_id": "a11c6467-beae-64f5-7e52-f3b335502933", "side": "bid", "price": 49.0, "qty": 14.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784972963.517019, "trade_id": "3c79c7b1-aeb9-6536-4822-92a7381a0574", "side": "bid", "price": 49.0, "qty": 5.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 49.0, "qty": 14.0, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-6", "side": "bid", "price": 49.0, "qty": 5.0, "mid_later": 49.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1784973278.119432, "trade_id": "e5d80912-1374-4b6d-0ca1-65f1eeca0a3e", "side": "bid", "price": 50.0, "qty": 90.09}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1784973278.119432, "trade_id": "cca96db9-5ffd-4247-3b5c-6de40a296a56", "side": "bid", "price": 50.0, "qty": 25.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1784973278.119432, "trade_id": "cac6b3a3-4663-43a0-3ee4-a5f72beca627", "side": "bid", "price": 50.0, "qty": 84.91}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "bid", "price": 50.0, "qty": 90.09, "mid_later": 49.5, "adverse_cents": 45.045}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "bid", "price": 50.0, "qty": 25.0, "mid_later": 49.5, "adverse_cents": 12.5}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "bid", "price": 50.0, "qty": 84.91, "mid_later": 49.5, "adverse_cents": 42.455}

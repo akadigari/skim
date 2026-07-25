@@ -12022,3 +12022,4 @@
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3070910", "opened_ts": 1784968362.9034562, "close_ts": 1784988000.0, "days_to_close_at_entry": 0.23, "question": "Counter-Strike: STATE vs Fortress (BO3) - Thunderpick World Championship Europea"}
 {"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3050361", "opened_ts": 1784968362.9034562, "close_ts": 1784980800.0, "days_to_close_at_entry": 0.14, "question": "Will the highest temperature in Chengdu be 40\u00b0C on July 25?"}
 {"type": "fav_settle", "key": "polymarket|2960149|taker", "result": "yes", "pnl_cents": 62.99999999999997}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-6", "ts": 1784969905.498874, "trade_id": "7593182a-f4a2-747c-d18c-b57d7482b90b", "side": "ask", "price": 50.0, "qty": 200}

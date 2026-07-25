@@ -12013,3 +12013,12 @@
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "side": "ask", "price": 47.0, "qty": 1.56, "mid_later": 54.5, "adverse_cents": 11.700000000000001}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "side": "ask", "price": 47.0, "qty": 168.0, "mid_later": 54.5, "adverse_cents": 1260.0}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "bid", "price": 44.0, "qty": 200, "mid_later": 41.0, "adverse_cents": 600.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784967393.040498, "trade_id": "6f982a6e-4689-7fe9-492a-dedd13c24b56", "side": "ask", "price": 41.0, "qty": 11.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784967393.040498, "trade_id": "345ec95a-4096-7ff9-5983-6595811c0edb", "side": "ask", "price": 41.0, "qty": 4.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784967393.040498, "trade_id": "0c8ec988-bcd6-7700-4b77-f0573db42c2d", "side": "ask", "price": 41.0, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 41.0, "qty": 11.0, "mid_later": 40.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 41.0, "qty": 4.0, "mid_later": 40.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 41.0, "qty": 4.0, "mid_later": 40.5, "adverse_cents": 0.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 91.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3070910", "opened_ts": 1784968362.9034562, "close_ts": 1784988000.0, "days_to_close_at_entry": 0.23, "question": "Counter-Strike: STATE vs Fortress (BO3) - Thunderpick World Championship Europea"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 94.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3050361", "opened_ts": 1784968362.9034562, "close_ts": 1784980800.0, "days_to_close_at_entry": 0.14, "question": "Will the highest temperature in Chengdu be 40\u00b0C on July 25?"}
+{"type": "fav_settle", "key": "polymarket|2960149|taker", "result": "yes", "pnl_cents": 62.99999999999997}

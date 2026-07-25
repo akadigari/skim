@@ -12041,3 +12041,42 @@
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "bid", "price": 50.0, "qty": 90.09, "mid_later": 49.5, "adverse_cents": 45.045}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "bid", "price": 50.0, "qty": 25.0, "mid_later": 49.5, "adverse_cents": 12.5}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "bid", "price": 50.0, "qty": 84.91, "mid_later": 49.5, "adverse_cents": 42.455}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24TORBOS-MVP", "result": "yes", "decision_cents": 7865.273225910378}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24TORBOS-OHTA", "result": "yes", "decision_cents": 1036.8507618288943}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24NYYPHI-CARE", "result": "yes", "decision_cents": 1259.6414599810012}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24TORBOS-BUNT", "result": "yes", "decision_cents": 1494.1208439078114}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24NYYPHI-WALK", "result": "no", "decision_cents": 1028.6284445483952}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24TORBOS-EXTR", "result": "no", "decision_cents": 1164.5570629707051}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24NYYPHI-PITC", "result": "no", "decision_cents": 22333.79391230016}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24NYYPHI-MOME", "result": "yes", "decision_cents": 1125.5720840787396}
+{"type": "mm_settle", "ticker": "KXMLBMENTION-26JUL24NYYPHI-MVP", "result": "yes", "decision_cents": 1073.4417935430452}
+{"type": "fav_settle", "key": "polymarket|2960161|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_settle", "key": "polymarket|2964262|taker", "result": "yes", "pnl_cents": 110.0}
+{"type": "fav_settle", "key": "polymarket|3050205|taker", "result": "yes", "pnl_cents": 80.0}
+{"type": "fav_settle", "key": "polymarket|3050187|taker", "result": "yes", "pnl_cents": 60.0}
+{"type": "fav_settle", "key": "polymarket|3070910|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-7", "gap_s": 20451.174901485443}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-6", "gap_s": 20451.18938755989}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-5", "gap_s": 20451.193345546722}
+{"type": "mm_gap_resume", "ticker": "KXTRUMPPHOTO-26JUL26-4", "gap_s": 20451.19029521942}
+{"type": "mm_gap_resume", "ticker": "KXMOVIERELEASEDATE-GRO-27JAN01", "gap_s": 20451.192833662033}
+{"type": "mm_gap_resume", "ticker": "KXPERSONAWARD-TRA27-69", "gap_s": 20451.194180727005}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "gap_s": 20451.15893292427}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAV", "gap_s": 20451.192484140396}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "gap_s": 20451.190382003784}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-DOUB", "gap_s": 20451.194627046585}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-UCSC", "gap_s": 20451.194952487946}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "gap_s": 20451.189294576645}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "gap_s": 20451.195763111115}
+{"type": "mm_gap_resume", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TECH", "gap_s": 20451.2366065979}
+{"type": "mm_gap_resume", "ticker": "KXFUNDRAISING-JOSSQ326-A25000000", "gap_s": 20451.209132671356}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 95.3, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3093439", "opened_ts": 1784994814.1417274, "close_ts": 1785009600.0, "days_to_close_at_entry": 0.17, "question": "Counter-Strike: magic vs Gentle Mates (BO3) - StarLadder StarSeries European Qua"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 88.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3083667", "opened_ts": 1784994814.1417274, "close_ts": 1785283140.0, "days_to_close_at_entry": 3.34, "question": "Israel x Iran ceasefire continues through July 28?"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3082097", "opened_ts": 1784994814.1417274, "close_ts": 1785571200.0, "days_to_close_at_entry": 6.67, "question": "Segovia: Luka Pavlovic vs Keegan Smith"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3095882", "opened_ts": 1784994814.1417274, "close_ts": 1785598200.0, "days_to_close_at_entry": 6.98, "question": "Mubadala Citi DC Open, Qualification: Zachary Svajda vs Stefan Kozlov"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 96.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3095187", "opened_ts": 1784994814.1417274, "close_ts": 1785011100.0, "days_to_close_at_entry": 0.19, "question": "Counter-Strike: GenOne vs BET-M 33 (BO3) - NODWIN Clutch Series Group Stage"}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 86.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "3083701", "opened_ts": 1784994814.1417274, "close_ts": 1785369540.0, "days_to_close_at_entry": 4.34, "question": "Israel x Iran ceasefire continues through July 29?"}
+{"type": "fav_fill", "key": "kalshi|KXGDP-26JUL30-T1.0|maker", "ts": 1784981404.336106, "trade_id": "c5c4605f-bf7a-6d80-ddde-a86c384e832e", "qty": 10.0}
+{"type": "fav_fill", "key": "kalshi|KXBTCD-26JUL3117-T59999.99|maker", "ts": 1784985235.086708, "trade_id": "19a8b689-d51b-6259-eee0-181be39d9af7", "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "ts": 1784996304.293518, "trade_id": "f65d30f9-bf14-54f2-36c9-687dcab8991e", "side": "ask", "price": 39.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "side": "ask", "price": 39.0, "qty": 200, "mid_later": 47.5, "adverse_cents": 1700.0}

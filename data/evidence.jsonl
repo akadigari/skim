@@ -12355,3 +12355,33 @@
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785010809.431815, "trade_id": "53cf5bbd-4e0e-7935-4d79-a0c0e14e2014", "side": "ask", "price": 42.00000000000001, "qty": 33.640000000000015}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TECH", "side": "ask", "price": 32.0, "qty": 200, "mid_later": 31.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785011020.215505, "trade_id": "d41c683e-b8d6-5355-9059-482aaa44451c", "side": "ask", "price": 42.00000000000001, "qty": 0.22}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "ask", "price": 42.00000000000001, "qty": 33.640000000000015, "mid_later": 41.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "ask", "price": 42.00000000000001, "qty": 0.22, "mid_later": 41.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "ts": 1785011479.322254, "trade_id": "5a681a15-923b-533a-094b-7ae4dafb059d", "side": "bid", "price": 61.0, "qty": 6.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "ts": 1785011479.322254, "trade_id": "540c7a84-b734-5df8-0e66-2c93de1015c3", "side": "bid", "price": 61.0, "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785011513.313815, "trade_id": "7a08482b-951a-4749-69a1-6be68bb6a924", "side": "ask", "price": 42.00000000000001, "qty": 12.33}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "ts": 1785011574.769751, "trade_id": "1c4b0328-bfac-4c18-9611-1a597f5a15d4", "side": "bid", "price": 60.0, "qty": 8.00000000000001}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785011689.14859, "trade_id": "71723ffc-8822-409d-0685-c3350ae0f434", "side": "ask", "price": 42.00000000000001, "qty": 6.45}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "side": "bid", "price": 61.0, "qty": 6.0, "mid_later": 59.5, "adverse_cents": 9.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "side": "bid", "price": 61.0, "qty": 10.0, "mid_later": 59.5, "adverse_cents": 15.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "ask", "price": 42.00000000000001, "qty": 12.33, "mid_later": 41.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-UCSC", "ts": 1785011824.7942, "trade_id": "f567ffc3-00b6-596c-e8dd-126c5517ade7", "side": "ask", "price": 83.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "side": "bid", "price": 60.0, "qty": 8.00000000000001, "mid_later": 59.5, "adverse_cents": 4.000000000000005}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "ask", "price": 42.00000000000001, "qty": 6.45, "mid_later": 41.5, "adverse_cents": 0.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785012083.874015, "trade_id": "1d5ccd2a-29a2-5751-84d4-6223400a3a7c", "side": "ask", "price": 42.00000000000001, "qty": 4.0}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-UCSC", "side": "ask", "price": 83.0, "qty": 200, "mid_later": 88.0, "adverse_cents": 1000.0}
+{"type": "mm_fill", "ticker": "KXTRUMPPHOTO-26JUL26-5", "ts": 1785012192.04816, "trade_id": "d220684b-b5b4-6e64-2bba-05b79c351caa", "side": "bid", "price": 49.0, "qty": 200}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "ask", "price": 42.00000000000001, "qty": 4.0, "mid_later": 41.5, "adverse_cents": 0.0}
+{"type": "mm_markout", "ticker": "KXTRUMPPHOTO-26JUL26-5", "side": "bid", "price": 49.0, "qty": 200, "mid_later": 46.0, "adverse_cents": 600.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "ts": 1785012697.338324, "trade_id": "1a0bd306-12ed-5cf2-2033-2de1185c2dc7", "side": "bid", "price": 59.0, "qty": 12.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012704.526564, "trade_id": "f538ccec-5ca3-4dcf-8d29-1e4dbfb3349a", "side": "bid", "price": 68.0, "qty": 25.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012704.526564, "trade_id": "d8b37773-673f-4809-b987-cd91e1abf467", "side": "bid", "price": 68.0, "qty": 50.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012704.526564, "trade_id": "a5c0f883-3228-4f00-94e0-78e6425ee0e4", "side": "bid", "price": 68.0, "qty": 11.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012704.526564, "trade_id": "9cab93b4-8f36-4336-9f91-c239f80c03b0", "side": "bid", "price": 68.0, "qty": 2.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012704.526564, "trade_id": "88c5e374-004f-4ffe-9cb1-72c1f1efd38c", "side": "bid", "price": 68.0, "qty": 10.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012704.526564, "trade_id": "216404e5-14f6-4026-a3a5-f6afed9ab147", "side": "bid", "price": 68.0, "qty": 6.0}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "ts": 1785012743.474635, "trade_id": "83dfee23-efcf-7c6e-262e-552b5e0693ad", "side": "bid", "price": 66.0, "qty": 200}
+{"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785012768.070067, "trade_id": "2cc062b0-82ea-65e5-c313-a937156eb3f8", "side": "ask", "price": 42.00000000000001, "qty": 4.57}
+{"type": "fav_settle", "key": "polymarket|3093439|taker", "result": "yes", "pnl_cents": 47.00000000000003}
+{"type": "fav_settle", "key": "polymarket|3095187|taker", "result": "yes", "pnl_cents": 40.0}
+{"type": "fav_open", "venue": "polymarket", "variant": "taker", "price": 93.0, "qty": 10, "filled_qty": 10, "fee_cents": 0.0, "status": "open", "ticker": "2987881", "opened_ts": 1785012858.425654, "close_ts": 1785615000.0, "days_to_close_at_entry": 6.97, "question": "Toronto Blue Jays vs. Boston Red Sox"}

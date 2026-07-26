@@ -10728,12 +10728,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2952471",
     "opened_ts": 1784454008.778656,
     "close_ts": 1784764740.0,
     "days_to_close_at_entry": 3.6,
-    "question": "Israel x Iran ceasefire continues through July 22?"
+    "question": "Israel x Iran ceasefire continues through July 22?",
+    "pnl_cents": 130.0,
+    "result": "yes"
    },
    "polymarket|2944554|taker": {
     "venue": "polymarket",
@@ -10830,12 +10832,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2895401",
     "opened_ts": 1784487679.2265527,
     "close_ts": 1785024480.0,
     "days_to_close_at_entry": 6.21,
-    "question": "Los Angeles Dodgers vs. New York Yankees"
+    "question": "Los Angeles Dodgers vs. New York Yankees",
+    "pnl_cents": 40.0,
+    "result": "yes"
    },
    "polymarket|2981188|taker": {
     "venue": "polymarket",
@@ -14623,12 +14627,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2883604",
     "opened_ts": 1785002037.28775,
     "close_ts": 1785018600.0,
     "days_to_close_at_entry": 0.19,
-    "question": "LoL: Karmine Corp vs Movistar KOI (BO3) - LEC Regular Season"
+    "question": "LoL: Karmine Corp vs Movistar KOI (BO3) - LEC Regular Season",
+    "pnl_cents": 100.0,
+    "result": "yes"
    },
    "polymarket|3091148|taker": {
     "venue": "polymarket",
@@ -14746,8 +14752,21 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785015220.4254615,
- "jobs_started": 29,
- "last_job_start_ts": 1784994802.7413025,
- "api_requests_last_job": 32281
+ "last_checkpoint_ts": 1785041169.5486972,
+ "jobs_started": 30,
+ "last_job_start_ts": 1785041163.8608675,
+ "api_requests_last_job": 30,
+ "mm_final": {
+  "verdict": "KILL",
+  "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",
+  "totals": {
+   "rewards": 283332.3331476906,
+   "spread": -1262630.7100000002,
+   "adverse": 1902359.7750000001,
+   "fees": 147960.25,
+   "decision": -3029618.4018523097,
+   "fills": 5491
+  },
+  "frozen_ts": 1785041165.9923022
+ }
 }

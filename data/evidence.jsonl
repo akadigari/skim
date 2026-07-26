@@ -12471,3 +12471,6 @@
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "side": "ask", "price": 62.0, "qty": 26.6, "mid_later": 61.5, "adverse_cents": 0.0}
 {"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAV", "side": "ask", "price": 48.0, "qty": 10.0, "mid_later": 47.5, "adverse_cents": 0.0}
 {"type": "mm_fill", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "ts": 1785015127.174536, "trade_id": "1097d06a-eeaf-751c-270a-9e32c577933c", "side": "ask", "price": 41.0, "qty": 23.42}
+{"type": "fav_settle", "key": "polymarket|2952471|taker", "result": "yes", "pnl_cents": 130.0}
+{"type": "fav_settle", "key": "polymarket|2895401|taker", "result": "yes", "pnl_cents": 40.0}
+{"type": "fav_settle", "key": "polymarket|2883604|taker", "result": "yes", "pnl_cents": 100.0}

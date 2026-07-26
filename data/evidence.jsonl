@@ -12480,3 +12480,24 @@
 {"type": "fav_settle", "key": "kalshi|KXTRUMPACT-26JUL19-T2|taker", "result": "yes", "pnl_cents": 103.0}
 {"type": "fav_settle", "key": "kalshi|KXTRUMPENDORSEMENTS-26JUL25-A3|maker", "result": "yes", "pnl_cents": 78.5}
 {"type": "fav_settle", "key": "kalshi|KXTRUMPENDORSEMENTS-26JUL25-A3|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAD", "result": "no", "decision_cents": 17702.71339220836}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TRAV", "result": "no", "decision_cents": -16381.76169832164}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-AIRB", "result": "no", "decision_cents": 10314.0724636458}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-DOUB", "result": "no", "decision_cents": 12129.260654078249}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-UCSC", "result": "yes", "decision_cents": -3222.761126149843}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-CARE", "result": "yes", "decision_cents": -9026.090541885185}
+{"type": "mm_markout", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "side": "ask", "price": 41.0, "qty": 23.42, "mid_later": 100.0, "adverse_cents": 1381.7800000000002}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-BUZZ", "result": "yes", "decision_cents": -5168.336092603595}
+{"type": "mm_settle", "ticker": "KXWNBAMENTION-26JUL25SPNCOO-TECH", "result": "no", "decision_cents": 13389.688839152872}
+{"type": "fav_settle", "key": "polymarket|2980413|taker", "result": "yes", "pnl_cents": 130.0}
+{"type": "fav_settle", "key": "polymarket|2905878|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "fav_settle", "key": "polymarket|2905884|taker", "result": "yes", "pnl_cents": 50.0}
+{"type": "fav_settle", "key": "polymarket|2905888|taker", "result": "yes", "pnl_cents": 90.0}
+{"type": "fav_settle", "key": "polymarket|2905902|taker", "result": "no", "pnl_cents": -910.0}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-SET26JUL23-10K|maker", "result": "yes", "pnl_cents": 78.5}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-SET26JUL23-10K|taker", "result": "yes", "pnl_cents": 65.0}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-OHY26JUL23-35K|maker", "result": "no", "pnl_cents": -921.5}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-OHY26JUL23-35K|taker", "result": "no", "pnl_cents": -944.0}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-DAU26JUL23B-120K|maker", "result": "yes", "pnl_cents": 49.0}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-DAU26JUL23B-120K|taker", "result": "yes", "pnl_cents": 37.0}
+{"type": "fav_settle", "key": "kalshi|KXALBUMEQUIV-SET26JUL23-15K|taker", "result": "yes", "pnl_cents": 46.0}

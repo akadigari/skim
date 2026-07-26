@@ -10776,12 +10776,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2980359",
     "opened_ts": 1784476855.268148,
     "close_ts": 1785069000.0,
     "days_to_close_at_entry": 6.85,
-    "question": "Hamburg European Open, Qualification: Elena Pridankina vs Diana Martynov"
+    "question": "Hamburg European Open, Qualification: Elena Pridankina vs Diana Martynov",
+    "pnl_cents": 90.0,
+    "result": "yes"
    },
    "polymarket|2980413|taker": {
     "venue": "polymarket",
@@ -10886,12 +10888,14 @@
       "b03c575b-20cb-5fff-9735-3d8a6a903678"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPENDORSEMENTS-26JUL25-A5",
     "opened_ts": 1784491279.25317,
     "close_ts": 1785074400.0,
-    "days_to_close_at_entry": 6.75
+    "days_to_close_at_entry": 6.75,
+    "pnl_cents": 147.5,
+    "result": "yes"
    },
    "kalshi|KXTRUMPENDORSEMENTS-26JUL25-A5|taker": {
     "variant": "taker",
@@ -10899,12 +10903,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 9,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPENDORSEMENTS-26JUL25-A5",
     "opened_ts": 1784491279.25317,
     "close_ts": 1785074400.0,
-    "days_to_close_at_entry": 6.75
+    "days_to_close_at_entry": 6.75,
+    "pnl_cents": 131.0,
+    "result": "yes"
    },
    "kalshi|KXTRUMPACT-26JUL19-T2|maker": {
     "variant": "maker",
@@ -10919,7 +10925,7 @@
       "96eb753b-0ab0-4cde-bdb7-9c9e1c1b5577"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXTRUMPACT-26JUL19-T2",
     "opened_ts": 1784491279.25317,
@@ -10932,12 +10938,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 7,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPACT-26JUL19-T2",
     "opened_ts": 1784491279.25317,
     "close_ts": 1785074400.0,
-    "days_to_close_at_entry": 6.75
+    "days_to_close_at_entry": 6.75,
+    "pnl_cents": 103.0,
+    "result": "yes"
    },
    "polymarket|2905888|taker": {
     "venue": "polymarket",
@@ -11212,12 +11220,14 @@
       "093a5512-39b4-5de4-e748-11ed57e83e43"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPENDORSEMENTS-26JUL25-A3",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785074400.0,
-    "days_to_close_at_entry": 5.9
+    "days_to_close_at_entry": 5.9,
+    "pnl_cents": 78.5,
+    "result": "yes"
    },
    "kalshi|KXTRUMPENDORSEMENTS-26JUL25-A3|taker": {
     "variant": "taker",
@@ -11225,12 +11235,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 5,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPENDORSEMENTS-26JUL25-A3",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785074400.0,
-    "days_to_close_at_entry": 5.9
+    "days_to_close_at_entry": 5.9,
+    "pnl_cents": 65.0,
+    "result": "yes"
    },
    "kalshi|KXALBUMEQUIV-SET26JUL23-10K|maker": {
     "variant": "maker",
@@ -14752,10 +14764,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785058000.8973172,
- "jobs_started": 31,
- "last_job_start_ts": 1785057998.412538,
- "api_requests_last_job": 15,
+ "last_checkpoint_ts": 1785077132.995218,
+ "jobs_started": 32,
+ "last_job_start_ts": 1785077128.2345574,
+ "api_requests_last_job": 29,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

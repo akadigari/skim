@@ -11102,12 +11102,14 @@
       "cf8c73e4-73a2-68c3-9147-3b2ed1c2e37b"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXNBATEAMANNOUNCE-26LJAMES23-727",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 6.49
+    "days_to_close_at_entry": 6.49,
+    "pnl_cents": 137.75,
+    "result": "yes"
    },
    "kalshi|KXNBATEAMANNOUNCE-26LJAMES23-727|taker": {
     "variant": "taker",
@@ -11115,12 +11117,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXNBATEAMANNOUNCE-26LJAMES23-727",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 6.49
+    "days_to_close_at_entry": 6.49,
+    "pnl_cents": 122.0,
+    "result": "yes"
    },
    "kalshi|KXAAAGASW-26JUL27-4.040|maker": {
     "variant": "maker",
@@ -12628,12 +12632,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3025033",
     "opened_ts": 1784878708.9217224,
     "close_ts": 1784894400.0,
     "days_to_close_at_entry": 0.18,
-    "question": "Will the highest temperature in Hong Kong be 33\u00b0C on July 24?"
+    "question": "Will the highest temperature in Hong Kong be 33\u00b0C on July 24?",
+    "pnl_cents": 50.0,
+    "result": "yes"
    },
    "polymarket|2972731|taker": {
     "venue": "polymarket",
@@ -14729,10 +14735,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785097079.0217166,
- "jobs_started": 33,
- "last_job_start_ts": 1785097074.1192932,
- "api_requests_last_job": 23,
+ "last_checkpoint_ts": 1785128149.8540227,
+ "jobs_started": 34,
+ "last_job_start_ts": 1785128146.5976608,
+ "api_requests_last_job": 19,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

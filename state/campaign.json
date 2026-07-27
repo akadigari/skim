@@ -11465,12 +11465,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2994096",
     "opened_ts": 1784578658.972871,
     "close_ts": 1785175200.0,
     "days_to_close_at_entry": 6.9,
-    "question": "Palermo: Fiona Ferro vs Yufei Ren"
+    "question": "Palermo: Fiona Ferro vs Yufei Ren",
+    "pnl_cents": 92.00000000000003,
+    "result": "yes"
    },
    "polymarket|2987573|taker": {
     "venue": "polymarket",
@@ -12208,12 +12210,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3001571",
     "opened_ts": 1784739581.4523675,
     "close_ts": 1785168000.0,
     "days_to_close_at_entry": 4.96,
-    "question": "Will the price of Bitcoin be above $62,000 on July 27?"
+    "question": "Will the price of Bitcoin be above $62,000 on July 27?",
+    "pnl_cents": 50.0,
+    "result": "yes"
    },
    "polymarket|3017916|taker": {
     "venue": "polymarket",
@@ -14763,10 +14767,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785167729.8375497,
- "jobs_started": 36,
- "last_job_start_ts": 1785167724.4171102,
- "api_requests_last_job": 27,
+ "last_checkpoint_ts": 1785185194.0203323,
+ "jobs_started": 37,
+ "last_job_start_ts": 1785185192.4135773,
+ "api_requests_last_job": 5,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

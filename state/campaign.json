@@ -1264,8 +1264,8 @@
      "2b739571-1958-5807-38ce-4b54af8f96c1"
     ]
    },
-   "last_mid": 1.5,
-   "inventory": 483.01,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 483.01,
    "cash_cents": -1313.11,
    "reward_cents": 446.14633496497225,
@@ -1276,7 +1276,7 @@
    "counted": 3541,
    "share_sum": 569.3650791232253,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXTRUMPPHOTO-26JUL26-6",
@@ -1285,16 +1285,8 @@
    "discount_factor": 0.5,
    "end_ts": 1785160800.0,
    "category": "KXTRUMPPHOTO",
-   "bid": {
-    "price": 56.00000000000001,
-    "size": 200,
-    "queue_ahead": 15.0
-   },
-   "ask": {
-    "price": 57.0,
-    "size": 200,
-    "queue_ahead": 5.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1785015215.8279793,
    "tape_cursor": {
     "ts": 1785013078.244159,
@@ -1302,10 +1294,10 @@
      "4221eacd-1fb9-687c-5454-7761c84df330"
     ]
    },
-   "last_mid": 56.5,
-   "inventory": -200.2700000000001,
+   "last_mid": 100.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 578.3199999999999,
-   "cash_cents": -8195.949999999999,
+   "cash_cents": -28222.95000000001,
    "reward_cents": 5121.1928954253935,
    "fees_cents": 1377.25,
    "adverse_cents": 9747.985,
@@ -1314,7 +1306,7 @@
    "counted": 12247,
    "share_sum": 6541.881675878113,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXTRUMPPHOTO-26JUL26-5",
@@ -1323,16 +1315,8 @@
    "discount_factor": 0.5,
    "end_ts": 1785160800.0,
    "category": "KXTRUMPPHOTO",
-   "bid": {
-    "price": 46.0,
-    "size": 200,
-    "queue_ahead": 8.0
-   },
-   "ask": {
-    "price": 47.0,
-    "size": 200,
-    "queue_ahead": 4.0
-   },
+   "bid": null,
+   "ask": null,
    "last_tick_ts": 1785015216.1243587,
    "tape_cursor": {
     "ts": 1785012192.04816,
@@ -1342,8 +1326,8 @@
      "06668314-9e63-691b-2b48-05b1d27be642"
     ]
    },
-   "last_mid": 46.5,
-   "inventory": -139.78999999999996,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 539.79,
    "cash_cents": -1013.5399999999972,
    "reward_cents": 3623.1516405182615,
@@ -1354,7 +1338,7 @@
    "counted": 12247,
    "share_sum": 4627.088007050759,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWNBAMENTION-26JUL16NYDAL-ANKL",
@@ -1432,8 +1416,8 @@
      "7da4c8d8-2f72-4eae-cb82-15edccfaa9b9"
     ]
    },
-   "last_mid": 2.5,
-   "inventory": 376.98,
+   "last_mid": 0.0,
+   "inventory": 0.0,
    "peak_abs_inventory": 552.0,
    "cash_cents": -6791.83,
    "reward_cents": 2769.6249881254307,
@@ -1444,7 +1428,7 @@
    "counted": 11907,
    "share_sum": 3535.1901023978357,
    "pending_markouts": [],
-   "retired": false
+   "retired": true
   },
   {
    "ticker": "KXWNBAMENTION-26JUL16NYDAL-CAIT",
@@ -11035,12 +11019,14 @@
       "8bbbc01a-ef12-47a3-1377-28e28463b316"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPSAY-26JUL27-TRUM",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 6.9
+    "days_to_close_at_entry": 6.9,
+    "pnl_cents": 59.0,
+    "result": "yes"
    },
    "kalshi|KXTRUMPSAY-26JUL27-TRUM|taker": {
     "variant": "taker",
@@ -11048,12 +11034,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTRUMPSAY-26JUL27-TRUM",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 6.9
+    "days_to_close_at_entry": 6.9,
+    "pnl_cents": 122.0,
+    "result": "yes"
    },
    "kalshi|KXRT-PIN-35|maker": {
     "variant": "maker",
@@ -11069,12 +11057,14 @@
       "884ff9b9-46a9-721e-f836-705752fbe285"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXRT-PIN-35",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 6.9
+    "days_to_close_at_entry": 6.9,
+    "pnl_cents": 49.0,
+    "result": "yes"
    },
    "kalshi|KXRT-PIN-35|taker": {
     "variant": "taker",
@@ -11082,12 +11072,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXRT-PIN-35",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 6.9
+    "days_to_close_at_entry": 6.9,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXNBATEAMANNOUNCE-26LJAMES23-727|maker": {
     "variant": "maker",
@@ -11139,7 +11131,7 @@
       "df2c86e6-6978-4751-ee03-b466a3a1128a"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.040",
     "opened_ts": 1784564254.2209895,
@@ -11152,12 +11144,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.040",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 6.49
+    "days_to_close_at_entry": 6.49,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXTRUMPENDORSEMENTS-26JUL25-A3|maker": {
     "variant": "maker",
@@ -11327,12 +11321,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2989123",
     "opened_ts": 1784564254.2209895,
     "close_ts": 1785157200.0,
     "days_to_close_at_entry": 6.86,
-    "question": "Hamburg European Open: Nadia Podoroska vs Julia Stusek"
+    "question": "Hamburg European Open: Nadia Podoroska vs Julia Stusek",
+    "pnl_cents": -870.0,
+    "result": "no"
    },
    "polymarket|2958621|taker": {
     "venue": "polymarket",
@@ -11405,12 +11401,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2989091",
     "opened_ts": 1784575058.9476023,
     "close_ts": 1785164400.0,
     "days_to_close_at_entry": 6.82,
-    "question": "Hamburg European Open: Anna Bondar vs Moyuka Uchijima"
+    "question": "Hamburg European Open: Anna Bondar vs Moyuka Uchijima",
+    "pnl_cents": 80.0,
+    "result": "yes"
    },
    "polymarket|2996121|taker": {
     "venue": "polymarket",
@@ -11435,12 +11433,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2986366",
     "opened_ts": 1784575058.9476023,
     "close_ts": 1785160800.0,
     "days_to_close_at_entry": 6.78,
-    "question": "Bloomfield Hills: Michael Zheng vs Abedallah Shelbayh"
+    "question": "Bloomfield Hills: Michael Zheng vs Abedallah Shelbayh",
+    "pnl_cents": 70.99999999999994,
+    "result": "yes"
    },
    "polymarket|2980545|taker": {
     "venue": "polymarket",
@@ -11517,12 +11517,14 @@
       "9684bac2-394f-5cad-0b02-5a10cbb66532"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTOPMODEL-26JUL27-CLAUT",
     "opened_ts": 1784608576.6832461,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 6.39
+    "days_to_close_at_entry": 6.39,
+    "pnl_cents": -931.25,
+    "result": "no"
    },
    "kalshi|KXTOPMODEL-26JUL27-CLAUT|taker": {
     "variant": "taker",
@@ -11530,12 +11532,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXTOPMODEL-26JUL27-CLAUT",
     "opened_ts": 1784608576.6832461,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 6.39
+    "days_to_close_at_entry": 6.39,
+    "pnl_cents": -944.0,
+    "result": "no"
    },
    "polymarket|2922157|taker": {
     "venue": "polymarket",
@@ -11691,12 +11695,14 @@
       "245f7a23-e219-761e-0785-24f9fb9ff78e"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXRT-PIN-55",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 5.92
+    "days_to_close_at_entry": 5.92,
+    "pnl_cents": 98.25,
+    "result": "yes"
    },
    "kalshi|KXRT-PIN-55|taker": {
     "variant": "taker",
@@ -11704,12 +11710,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 5,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXRT-PIN-55",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 5.92
+    "days_to_close_at_entry": 5.92,
+    "pnl_cents": 65.0,
+    "result": "yes"
    },
    "kalshi|KXBBCHARTPOSITIONSONG-26AUG01IKN-2|maker": {
     "variant": "maker",
@@ -11761,12 +11769,14 @@
       "07001a38-05c0-66c6-8243-2d0b37014084"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.100",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 5.5
+    "days_to_close_at_entry": 5.5,
+    "pnl_cents": 88.25,
+    "result": "yes"
    },
    "kalshi|KXAAAGASW-26JUL27-4.100|taker": {
     "variant": "taker",
@@ -11774,12 +11784,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.100",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 5.5
+    "days_to_close_at_entry": 5.5,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXAAAGASW-26JUL27-4.080|maker": {
     "variant": "maker",
@@ -11797,12 +11809,14 @@
       "080f1541-f236-74a1-86b3-12e2f193946e"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.080",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 5.5
+    "days_to_close_at_entry": 5.5,
+    "pnl_cents": 49.0,
+    "result": "yes"
    },
    "kalshi|KXAAAGASW-26JUL27-4.080|taker": {
     "variant": "taker",
@@ -11810,12 +11824,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.080",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 5.5
+    "days_to_close_at_entry": 5.5,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXALBUMEQUIV-SET26JUL23-15K|maker": {
     "variant": "maker",
@@ -12069,12 +12085,14 @@
       "3bd9979d-f346-5827-0939-8538aaad3597"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.120",
     "opened_ts": 1784735979.8870897,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 4.5
+    "days_to_close_at_entry": 4.5,
+    "pnl_cents": -941.0,
+    "result": "no"
    },
    "kalshi|KXAAAGASW-26JUL27-4.120|taker": {
     "variant": "taker",
@@ -12082,12 +12100,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASW-26JUL27-4.120",
     "opened_ts": 1784735979.8870897,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 4.5
+    "days_to_close_at_entry": 4.5,
+    "pnl_cents": -954.0,
+    "result": "no"
    },
    "polymarket|2987047|taker": {
     "venue": "polymarket",
@@ -12255,12 +12275,14 @@
       "72a7296e-afda-4530-243f-656c376249d5"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXCHINAAI-26JUL27-ALIB",
     "opened_ts": 1784746786.583189,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 4.79
+    "days_to_close_at_entry": 4.79,
+    "pnl_cents": 88.5,
+    "result": "yes"
    },
    "kalshi|KXCHINAAI-26JUL27-ALIB|taker": {
     "variant": "taker",
@@ -12268,12 +12290,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXCHINAAI-26JUL27-ALIB",
     "opened_ts": 1784746786.583189,
     "close_ts": 1785160800.0,
-    "days_to_close_at_entry": 4.79
+    "days_to_close_at_entry": 4.79,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "polymarket|3024497|taker": {
     "venue": "polymarket",
@@ -14739,10 +14763,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785149502.0643501,
- "jobs_started": 35,
- "last_job_start_ts": 1785149498.7312555,
- "api_requests_last_job": 17,
+ "last_checkpoint_ts": 1785167729.8375497,
+ "jobs_started": 36,
+ "last_job_start_ts": 1785167724.4171102,
+ "api_requests_last_job": 27,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

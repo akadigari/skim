@@ -11449,12 +11449,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2980545",
     "opened_ts": 1784578658.972871,
     "close_ts": 1785139200.0,
     "days_to_close_at_entry": 6.49,
-    "question": "Zug: Jerome Kym vs Jay Clarke"
+    "question": "Zug: Jerome Kym vs Jay Clarke",
+    "pnl_cents": 63.999999999999915,
+    "result": "yes"
    },
    "polymarket|2994096|taker": {
     "venue": "polymarket",
@@ -11857,12 +11859,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2980362",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785142800.0,
     "days_to_close_at_entry": 5.71,
-    "question": "Generali Open: Daniel Altmaier vs Raphael Collignon"
+    "question": "Generali Open: Daniel Altmaier vs Raphael Collignon",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3000221|taker": {
     "venue": "polymarket",
@@ -14735,10 +14739,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785128149.8540227,
- "jobs_started": 34,
- "last_job_start_ts": 1785128146.5976608,
- "api_requests_last_job": 19,
+ "last_checkpoint_ts": 1785149502.0643501,
+ "jobs_started": 35,
+ "last_job_start_ts": 1785149498.7312555,
+ "api_requests_last_job": 17,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

@@ -11736,7 +11736,7 @@
       "66611447-ab7a-68aa-b45f-c89736d54b68"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBBCHARTPOSITIONSONG-26AUG01IKN-2",
     "opened_ts": 1784649476.38055,
@@ -11749,12 +11749,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 2,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBBCHARTPOSITIONSONG-26AUG01IKN-2",
     "opened_ts": 1784649476.38055,
     "close_ts": 1785124740.0,
-    "days_to_close_at_entry": 5.5
+    "days_to_close_at_entry": 5.5,
+    "pnl_cents": 18.0,
+    "result": "yes"
    },
    "kalshi|KXAAAGASW-26JUL27-4.100|maker": {
     "variant": "maker",
@@ -14769,9 +14771,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785232718.3751073,
- "jobs_started": 39,
- "last_job_start_ts": 1785232717.2401454,
+ "last_checkpoint_ts": 1785253035.0410776,
+ "jobs_started": 40,
+ "last_job_start_ts": 1785253033.643202,
  "api_requests_last_job": 5,
  "mm_final": {
   "verdict": "KILL",

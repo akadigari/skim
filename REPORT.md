@@ -1,13 +1,13 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-29 04:34 UTC, **day 17.3 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-29 10:00 UTC, **day 17.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-29 04:34 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
-| jobs run (6h chain) | 42 |
+| last checkpoint | 2026-07-29 10:00 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| jobs run (6h chain) | 43 |
 | current job age | 0.0h of 5.7h max |
 | markets quoting / retired | 15 / 120 |
 | favorites open (maker/taker/poly) | 42 / 42 / 38 |

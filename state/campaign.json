@@ -12140,12 +12140,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3001695",
     "opened_ts": 1784735979.8870897,
     "close_ts": 1785319200.0,
     "days_to_close_at_entry": 6.75,
-    "question": "Estoril Open: Alejandro Tabilo vs Tiago Torres"
+    "question": "Estoril Open: Alejandro Tabilo vs Tiago Torres",
+    "pnl_cents": -880.0,
+    "result": "no"
    },
    "polymarket|3021425|taker": {
     "venue": "polymarket",
@@ -12154,12 +12156,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3021425",
     "opened_ts": 1784735979.8870897,
     "close_ts": 1785328200.0,
     "days_to_close_at_entry": 6.85,
-    "question": "ITF Horb: Lea Nilsson vs Fiona Ganz"
+    "question": "ITF Horb: Lea Nilsson vs Fiona Ganz",
+    "pnl_cents": 40.0,
+    "result": "yes"
    },
    "polymarket|3016295|taker": {
     "venue": "polymarket",
@@ -12232,12 +12236,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3017916",
     "opened_ts": 1784743186.559507,
     "close_ts": 1785337200.0,
     "days_to_close_at_entry": 6.88,
-    "question": "Hamburg European Open: Anna Bondar vs Noma Noha Akugue"
+    "question": "Hamburg European Open: Anna Bondar vs Noma Noha Akugue",
+    "pnl_cents": 62.00000000000003,
+    "result": "yes"
    },
    "polymarket|3024495|taker": {
     "venue": "polymarket",
@@ -12380,12 +12386,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3018040",
     "opened_ts": 1784781597.9967735,
     "close_ts": 1785319200.0,
     "days_to_close_at_entry": 6.22,
-    "question": "Estoril Open: Andrey Rublev vs Timofey Skatov"
+    "question": "Estoril Open: Andrey Rublev vs Timofey Skatov",
+    "pnl_cents": 90.0,
+    "result": "yes"
    },
    "polymarket|2963751|taker": {
     "venue": "polymarket",
@@ -12580,12 +12588,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3021297",
     "opened_ts": 1784836884.0714579,
     "close_ts": 1785333600.0,
     "days_to_close_at_entry": 5.75,
-    "question": "Bloomfield Hills: J.J. Wolf vs Coleman Wong"
+    "question": "Bloomfield Hills: J.J. Wolf vs Coleman Wong",
+    "pnl_cents": 110.0,
+    "result": "yes"
    },
    "polymarket|3024852|taker": {
     "venue": "polymarket",
@@ -14773,9 +14783,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785319200.4024434,
- "jobs_started": 43,
- "last_job_start_ts": 1785319199.0958214,
+ "last_checkpoint_ts": 1785338552.8516078,
+ "jobs_started": 44,
+ "last_job_start_ts": 1785338549.8331602,
  "api_requests_last_job": 3,
  "mm_final": {
   "verdict": "KILL",

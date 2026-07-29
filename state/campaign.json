@@ -12011,12 +12011,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "1654958",
     "opened_ts": 1784695089.6624806,
     "close_ts": 1785283200.0,
     "days_to_close_at_entry": 6.81,
-    "question": "Will there be no change in Fed interest rates after the July 2026 meeting?"
+    "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+    "pnl_cents": 146.00000000000009,
+    "result": "yes"
    },
    "polymarket|2977551|taker": {
     "venue": "polymarket",
@@ -14783,9 +14785,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785338552.8516078,
- "jobs_started": 44,
- "last_job_start_ts": 1785338549.8331602,
+ "last_checkpoint_ts": 1785356320.8765147,
+ "jobs_started": 45,
+ "last_job_start_ts": 1785356319.6253934,
  "api_requests_last_job": 3,
  "mm_final": {
   "verdict": "KILL",

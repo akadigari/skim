@@ -11598,12 +11598,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2952472",
     "opened_ts": 1784612178.078897,
     "close_ts": 1785023940.0,
     "days_to_close_at_entry": 4.77,
-    "question": "Israel x Iran ceasefire continues through July 25?"
+    "question": "Israel x Iran ceasefire continues through July 25?",
+    "pnl_cents": 130.0,
+    "result": "yes"
    },
    "polymarket|2980825|taker": {
     "venue": "polymarket",
@@ -14771,9 +14773,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785270975.528512,
- "jobs_started": 41,
- "last_job_start_ts": 1785270974.627242,
+ "last_checkpoint_ts": 1785299658.5899568,
+ "jobs_started": 42,
+ "last_job_start_ts": 1785299656.7165854,
  "api_requests_last_job": 3,
  "mm_final": {
   "verdict": "KILL",

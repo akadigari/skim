@@ -12646,12 +12646,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3050117",
     "opened_ts": 1784836884.0714579,
     "close_ts": 1785429000.0,
     "days_to_close_at_entry": 6.85,
-    "question": "ITF Evansville: Yuki Naito vs Fiona Crawley"
+    "question": "ITF Evansville: Yuki Naito vs Fiona Crawley",
+    "pnl_cents": 40.0,
+    "result": "yes"
    },
    "polymarket|2936906|taker": {
     "venue": "polymarket",
@@ -14807,10 +14809,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785425174.9679253,
- "jobs_started": 48,
- "last_job_start_ts": 1785425172.7670856,
- "api_requests_last_job": 9,
+ "last_checkpoint_ts": 1785443845.2388535,
+ "jobs_started": 49,
+ "last_job_start_ts": 1785443843.6256983,
+ "api_requests_last_job": 3,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

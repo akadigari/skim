@@ -12043,12 +12043,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "1697034",
     "opened_ts": 1784695089.6624806,
     "close_ts": 1785283200.0,
     "days_to_close_at_entry": 6.81,
-    "question": "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (Apr\u2013Jun\u2013Jul)?"
+    "question": "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (Apr\u2013Jun\u2013Jul)?",
+    "pnl_cents": 134.00000000000006,
+    "result": "yes"
    },
    "polymarket|2963706|taker": {
     "venue": "polymarket",
@@ -12972,7 +12974,7 @@
       "41d4e030-431f-592a-0d9b-b353462f34fc"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXLOLGAME-26JUL271900KITSFUE-FUE",
     "opened_ts": 1784908754.995721,
@@ -12985,12 +12987,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXLOLGAME-26JUL271900KITSFUE-FUE",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785366000.0,
-    "days_to_close_at_entry": 5.29
+    "days_to_close_at_entry": 5.29,
+    "pnl_cents": 112.0,
+    "result": "yes"
    },
    "polymarket|3053856|taker": {
     "venue": "polymarket",
@@ -14482,12 +14486,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3044546",
     "opened_ts": 1784961162.859165,
     "close_ts": 1785110340.0,
     "days_to_close_at_entry": 1.73,
-    "question": "Israel x Iran ceasefire continues through July 26?"
+    "question": "Israel x Iran ceasefire continues through July 26?",
+    "pnl_cents": 90.0,
+    "result": "yes"
    },
    "polymarket|3083664|taker": {
     "venue": "polymarket",
@@ -14785,10 +14791,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785356320.8765147,
- "jobs_started": 45,
- "last_job_start_ts": 1785356319.6253934,
- "api_requests_last_job": 3,
+ "last_checkpoint_ts": 1785385429.7443717,
+ "jobs_started": 46,
+ "last_job_start_ts": 1785385428.1742866,
+ "api_requests_last_job": 5,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

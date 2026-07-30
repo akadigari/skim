@@ -12502,12 +12502,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3024828",
     "opened_ts": 1784822457.5314445,
     "close_ts": 1785420000.0,
     "days_to_close_at_entry": 6.92,
-    "question": "Bloomfield Hills: Jacob Fearnley vs Tristan Boyer"
+    "question": "Bloomfield Hills: Jacob Fearnley vs Tristan Boyer",
+    "pnl_cents": 130.0,
+    "result": "yes"
    },
    "polymarket|2959829|taker": {
     "venue": "polymarket",
@@ -12612,12 +12614,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3024852",
     "opened_ts": 1784836884.0714579,
     "close_ts": 1785423600.0,
     "days_to_close_at_entry": 6.79,
-    "question": "Winnipeg: Shintaro Mochizuki vs Duncan Chan"
+    "question": "Winnipeg: Shintaro Mochizuki vs Duncan Chan",
+    "pnl_cents": 75.0,
+    "result": "yes"
    },
    "polymarket|3016937|taker": {
     "venue": "polymarket",
@@ -12912,7 +12916,7 @@
       "d0253e1b-0790-51cd-34b1-71ea95eab6f8"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXGDP-26JUL30-T1.5",
     "opened_ts": 1784908754.995721,
@@ -12925,12 +12929,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXGDP-26JUL30-T1.5",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785414540.0,
-    "days_to_close_at_entry": 5.85
+    "days_to_close_at_entry": 5.85,
+    "pnl_cents": -888.0,
+    "result": "no"
    },
    "kalshi|KXGDP-26JUL30-T1.0|maker": {
     "variant": "maker",
@@ -12945,12 +12951,14 @@
       "ed84b4d9-730a-6a19-9898-52235d4cc4a8"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXGDP-26JUL30-T1.0",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785414540.0,
-    "days_to_close_at_entry": 5.85
+    "days_to_close_at_entry": 5.85,
+    "pnl_cents": 59.0,
+    "result": "yes"
    },
    "kalshi|KXGDP-26JUL30-T1.0|taker": {
     "variant": "taker",
@@ -12958,12 +12966,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXGDP-26JUL30-T1.0",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785414540.0,
-    "days_to_close_at_entry": 5.85
+    "days_to_close_at_entry": 5.85,
+    "pnl_cents": 46.0,
+    "result": "yes"
    },
    "kalshi|KXLOLGAME-26JUL271900KITSFUE-FUE|maker": {
     "variant": "maker",
@@ -14405,7 +14415,7 @@
       "2f76c252-a3ac-4f60-5b7a-99e758bf05f6"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXLOLGAME-26JUL281100UCAMUB-UCAM",
     "opened_ts": 1784953946.9670632,
@@ -14418,12 +14428,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 7,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXLOLGAME-26JUL281100UCAMUB-UCAM",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785423600.0,
-    "days_to_close_at_entry": 5.44
+    "days_to_close_at_entry": 5.44,
+    "pnl_cents": 93.0,
+    "result": "yes"
    },
    "polymarket|2948596|taker": {
     "venue": "polymarket",
@@ -14795,10 +14807,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785404719.7054055,
- "jobs_started": 47,
- "last_job_start_ts": 1785404717.9693387,
- "api_requests_last_job": 3,
+ "last_checkpoint_ts": 1785425174.9679253,
+ "jobs_started": 48,
+ "last_job_start_ts": 1785425172.7670856,
+ "api_requests_last_job": 9,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

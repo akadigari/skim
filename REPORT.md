@@ -1,17 +1,17 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-30 09:45 UTC, **day 18.5 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-30 15:26 UTC, **day 18.7 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-30 09:45 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
-| jobs run (6h chain) | 47 |
+| last checkpoint | 2026-07-30 15:26 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| jobs run (6h chain) | 48 |
 | current job age | 0.0h of 5.7h max |
 | markets quoting / retired | 15 / 120 |
-| favorites open (maker/taker/poly) | 41 / 41 / 28 |
-| API requests last job | 3 |
+| favorites open (maker/taker/poly) | 38 / 38 / 26 |
+| API requests last job | 9 |
 | crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |
 
 ## Experiment 1: MM breadth (liquidity-pool harvesting)
@@ -160,13 +160,13 @@ _Auto-generated 2026-07-30 09:45 UTC, **day 18.5 of 14**. 100% sim: this repo on
 
 ## Experiment 2: Favorites (85-95c maker vs taker control)
 
-**Gate status: UNDERPOWERED**, 78/300 settled maker positions, no verdict yet (this is honest, not broken)
+**Gate status: UNDERPOWERED**, 79/300 settled maker positions, no verdict yet (this is honest, not broken)
 
 | variant | open | unfilled | settled | wins | P&L | cond-on-fill ROI |
 |---|---|---|---|---|---|---|
-| kalshi maker | 41 | 68 | 78 | 72 (win-rate CI 84%-96%) | $+10.62 | +1.51% |
-| kalshi taker | 41 | - | 146 | 139 | $+26.49 | +1.95% |
-| poly taker (zero-fee) | 28 | - | 234 | 206 | $-68.94 | -3.24% |
+| kalshi maker | 38 | 70 | 79 | 73 (win-rate CI 84%-96%) | $+11.21 | +1.58% |
+| kalshi taker | 38 | - | 149 | 141 | $+19.00 | +1.37% |
+| poly taker (zero-fee) | 26 | - | 236 | 208 | $-66.89 | -3.12% |
 
 _If maker ROI < taker ROI, queue fills are adversely selected: the exact failure mode this experiment exists to measure. The Polymarket taker leg is the zero-fee existence test of the bias itself (phase 1: taker-only there; the pre-registered gate is judged on the Kalshi maker leg only)._
 

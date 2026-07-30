@@ -12470,12 +12470,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3030301",
     "opened_ts": 1784799599.6377995,
     "close_ts": 1785398400.0,
     "days_to_close_at_entry": 6.93,
-    "question": "Hamburg European Open: Mayar Sherif vs Elsa Jacquemot"
+    "question": "Hamburg European Open: Mayar Sherif vs Elsa Jacquemot",
+    "pnl_cents": 120.0,
+    "result": "yes"
    },
    "polymarket|3045313|taker": {
     "venue": "polymarket",
@@ -12484,12 +12486,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3045313",
     "opened_ts": 1784799599.6377995,
     "close_ts": 1785398400.0,
     "days_to_close_at_entry": 6.93,
-    "question": "ITF Gentofte: Johanne Christine Svendsen vs Merel Hoedt"
+    "question": "ITF Gentofte: Johanne Christine Svendsen vs Merel Hoedt",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3024828|taker": {
     "venue": "polymarket",
@@ -14791,10 +14795,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785385429.7443717,
- "jobs_started": 46,
- "last_job_start_ts": 1785385428.1742866,
- "api_requests_last_job": 5,
+ "last_checkpoint_ts": 1785404719.7054055,
+ "jobs_started": 47,
+ "last_job_start_ts": 1785404717.9693387,
+ "api_requests_last_job": 3,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

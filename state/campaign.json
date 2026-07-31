@@ -12742,12 +12742,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3030313",
     "opened_ts": 1784885908.9681711,
     "close_ts": 1785484800.0,
     "days_to_close_at_entry": 6.93,
-    "question": "Segovia: Luka Pavlovic vs Mert Alkaya"
+    "question": "Segovia: Luka Pavlovic vs Mert Alkaya",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3045212|taker": {
     "venue": "polymarket",
@@ -12756,12 +12758,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3045212",
     "opened_ts": 1784885908.9681711,
     "close_ts": 1785484800.0,
     "days_to_close_at_entry": 6.93,
-    "question": "Hamburg European Open: Anna Bondar vs Alina Charaeva"
+    "question": "Hamburg European Open: Anna Bondar vs Alina Charaeva",
+    "pnl_cents": 130.0,
+    "result": "yes"
    },
    "polymarket|3071954|taker": {
     "venue": "polymarket",
@@ -12770,12 +12774,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3071954",
     "opened_ts": 1784885908.9681711,
     "close_ts": 1785481200.0,
     "days_to_close_at_entry": 6.89,
-    "question": "ITF Bacau: Radu Mihai Papoe vs Stefan Adrian Andreescu"
+    "question": "ITF Bacau: Radu Mihai Papoe vs Stefan Adrian Andreescu",
+    "pnl_cents": 90.0,
+    "result": "yes"
    },
    "polymarket|3053858|taker": {
     "venue": "polymarket",
@@ -13065,12 +13071,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3030390",
     "opened_ts": 1784912378.0551248,
     "close_ts": 1785484800.0,
     "days_to_close_at_entry": 6.63,
-    "question": "Zug: Max Hans Rehberg vs Anton Matusevich"
+    "question": "Zug: Max Hans Rehberg vs Anton Matusevich",
+    "pnl_cents": 70.0,
+    "result": "yes"
    },
    "polymarket|3053948|taker": {
     "venue": "polymarket",
@@ -14811,9 +14819,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785473179.608948,
- "jobs_started": 50,
- "last_job_start_ts": 1785473177.802151,
+ "last_checkpoint_ts": 1785492030.4534278,
+ "jobs_started": 51,
+ "last_job_start_ts": 1785492027.367405,
  "api_requests_last_job": 7,
  "mm_final": {
   "verdict": "KILL",

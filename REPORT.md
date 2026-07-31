@@ -1,17 +1,17 @@
 # SKIM: Skimming Kalshi's Incentive Markets (campaign report)
 
-_Auto-generated 2026-07-30 20:37 UTC, **day 19.0 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
+_Auto-generated 2026-07-31 04:46 UTC, **day 19.3 of 14**. 100% sim: this repo only reads public endpoints and cannot place orders._
 
 ## Health
 
 | check | status |
 |---|---|
-| last checkpoint | 2026-07-30 20:37 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
-| jobs run (6h chain) | 49 |
+| last checkpoint | 2026-07-31 04:46 UTC (if this is > 7.5h old, the watchdog has already alerted Telegram) |
+| jobs run (6h chain) | 50 |
 | current job age | 0.0h of 5.7h max |
 | markets quoting / retired | 15 / 120 |
-| favorites open (maker/taker/poly) | 38 / 38 / 25 |
-| API requests last job | 3 |
+| favorites open (maker/taker/poly) | 38 / 38 / 24 |
+| API requests last job | 7 |
 | crons (UTC) | campaign :19 of 1,7,13,19 (watchdog :49 of 3,9,15,21) |
 
 ## Experiment 1: MM breadth (liquidity-pool harvesting)
@@ -166,7 +166,7 @@ _Auto-generated 2026-07-30 20:37 UTC, **day 19.0 of 14**. 100% sim: this repo on
 |---|---|---|---|---|---|---|
 | kalshi maker | 38 | 70 | 79 | 73 (win-rate CI 84%-96%) | $+11.21 | +1.58% |
 | kalshi taker | 38 | - | 149 | 141 | $+19.00 | +1.37% |
-| poly taker (zero-fee) | 25 | - | 237 | 209 | $-66.50 | -3.08% |
+| poly taker (zero-fee) | 24 | - | 238 | 210 | $-65.19 | -3.01% |
 
 _If maker ROI < taker ROI, queue fills are adversely selected: the exact failure mode this experiment exists to measure. The Polymarket taker leg is the zero-fee existence test of the bias itself (phase 1: taker-only there; the pre-registered gate is judged on the Kalshi maker leg only)._
 

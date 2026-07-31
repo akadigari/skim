@@ -13143,12 +13143,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3021041",
     "opened_ts": 1784919579.369013,
     "close_ts": 1785519000.0,
     "days_to_close_at_entry": 6.94,
-    "question": "The Hundred: Birmingham Phoenix vs Trent Rockets"
+    "question": "The Hundred: Birmingham Phoenix vs Trent Rockets",
+    "pnl_cents": 130.0,
+    "result": "yes"
    },
    "polymarket|3049124|taker": {
     "venue": "polymarket",
@@ -13173,12 +13175,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3071985",
     "opened_ts": 1784923179.3933132,
     "close_ts": 1785519000.0,
     "days_to_close_at_entry": 6.9,
-    "question": "Estoril Open: Jaime Faria vs Luciano Darderi"
+    "question": "Estoril Open: Jaime Faria vs Luciano Darderi",
+    "pnl_cents": -940.0,
+    "result": "no"
    },
    "kalshi|KXB200WS-26JUL31-5.500|maker": {
     "variant": "maker",
@@ -14831,9 +14835,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785511874.014649,
- "jobs_started": 52,
- "last_job_start_ts": 1785511871.8643904,
+ "last_checkpoint_ts": 1785530245.457755,
+ "jobs_started": 53,
+ "last_job_start_ts": 1785530243.173288,
  "api_requests_last_job": 9,
  "mm_final": {
   "verdict": "KILL",

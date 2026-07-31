@@ -12849,12 +12849,14 @@
       "27c17d4d-a951-7e3d-c34b-d3cad62e795a"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXMATHAI-26JUL31-CLAU",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785506400.0,
-    "days_to_close_at_entry": 6.92
+    "days_to_close_at_entry": 6.92,
+    "pnl_cents": 59.0,
+    "result": "yes"
    },
    "kalshi|KXMATHAI-26JUL31-CLAU|taker": {
     "variant": "taker",
@@ -12862,12 +12864,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXMATHAI-26JUL31-CLAU",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785506400.0,
-    "days_to_close_at_entry": 6.92
+    "days_to_close_at_entry": 6.92,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXAAAGASM-26JUL31-4.16|maker": {
     "variant": "maker",
@@ -12891,12 +12895,14 @@
       "3e48a7c8-eda4-6965-6a58-c99d52a8d569"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASM-26JUL31-4.16",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785470340.0,
-    "days_to_close_at_entry": 6.5
+    "days_to_close_at_entry": 6.5,
+    "pnl_cents": -882.0,
+    "result": "no"
    },
    "kalshi|KXAAAGASM-26JUL31-4.16|taker": {
     "variant": "taker",
@@ -12904,12 +12910,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 7,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXAAAGASM-26JUL31-4.16",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785470340.0,
-    "days_to_close_at_entry": 6.5
+    "days_to_close_at_entry": 6.5,
+    "pnl_cents": -897.0,
+    "result": "no"
    },
    "kalshi|KXGDP-26JUL30-T1.5|maker": {
     "variant": "maker",
@@ -13041,12 +13049,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3030822",
     "opened_ts": 1784908754.995721,
     "close_ts": 1785502800.0,
     "days_to_close_at_entry": 6.88,
-    "question": "Metro Bank One Day Cup: Somerset vs Gloucestershire"
+    "question": "Metro Bank One Day Cup: Somerset vs Gloucestershire",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3053961|taker": {
     "venue": "polymarket",
@@ -14391,7 +14401,7 @@
       "8b510f88-bd98-41a7-05b2-efc3d06a76c9"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXCBDECISIONJAPAN-26JUL30-HOLD",
     "opened_ts": 1784953946.9670632,
@@ -14404,12 +14414,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXCBDECISIONJAPAN-26JUL30-HOLD",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785464940.0,
-    "days_to_close_at_entry": 5.91
+    "days_to_close_at_entry": 5.91,
+    "pnl_cents": 27.0,
+    "result": "yes"
    },
    "kalshi|KXLOLGAME-26JUL281100UCAMUB-UCAM|maker": {
     "variant": "maker",
@@ -14819,10 +14831,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785492030.4534278,
- "jobs_started": 51,
- "last_job_start_ts": 1785492027.367405,
- "api_requests_last_job": 7,
+ "last_checkpoint_ts": 1785511874.014649,
+ "jobs_started": 52,
+ "last_job_start_ts": 1785511871.8643904,
+ "api_requests_last_job": 9,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

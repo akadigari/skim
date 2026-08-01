@@ -14836,12 +14836,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3091149",
     "opened_ts": 1785005638.3617046,
     "close_ts": 1785592800.0,
     "days_to_close_at_entry": 6.8,
-    "question": "Bloomfield Hills: Jacob Fearnley vs Michael Zheng"
+    "question": "Bloomfield Hills: Jacob Fearnley vs Michael Zheng",
+    "pnl_cents": 100.0,
+    "result": "yes"
    },
    "polymarket|3095900|taker": {
     "venue": "polymarket",
@@ -14864,12 +14866,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3030492",
     "opened_ts": 1785009238.4294112,
     "close_ts": 1785589200.0,
     "days_to_close_at_entry": 6.71,
-    "question": "The Hundred: Welsh Fire vs MI London"
+    "question": "The Hundred: Welsh Fire vs MI London",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3091167|taker": {
     "venue": "polymarket",
@@ -14917,9 +14921,9 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785576302.7802563,
- "jobs_started": 55,
- "last_job_start_ts": 1785576300.373787,
+ "last_checkpoint_ts": 1785595280.4756362,
+ "jobs_started": 56,
+ "last_job_start_ts": 1785595278.0906832,
  "api_requests_last_job": 11,
  "mm_final": {
   "verdict": "KILL",

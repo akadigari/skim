@@ -13113,12 +13113,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2431240",
     "opened_ts": 1784912378.0551248,
     "close_ts": 1785456000.0,
     "days_to_close_at_entry": 6.29,
-    "question": "Will Alibaba have the best Chinese AI model at the end of July 2026?"
+    "question": "Will Alibaba have the best Chinese AI model at the end of July 2026?",
+    "pnl_cents": 140.99999999999994,
+    "result": "yes"
    },
    "polymarket|3050205|taker": {
     "venue": "polymarket",
@@ -13197,7 +13199,7 @@
       "6f091447-cab8-6184-e15b-de0811227356"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200WS-26JUL31-5.500",
     "opened_ts": 1784926780.4789326,
@@ -13210,12 +13212,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200WS-26JUL31-5.500",
     "opened_ts": 1784926780.4789326,
     "close_ts": 1785528000.0,
-    "days_to_close_at_entry": 6.96
+    "days_to_close_at_entry": 6.96,
+    "pnl_cents": 56.0,
+    "result": "yes"
    },
    "kalshi|KXUST30A-26JUL31-T5.00|maker": {
     "variant": "maker",
@@ -13228,7 +13232,7 @@
      "ts": 1784926780.4789326,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXUST30A-26JUL31-T5.00",
     "opened_ts": 1784926780.4789326,
@@ -13241,12 +13245,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXUST30A-26JUL31-T5.00",
     "opened_ts": 1784926780.4789326,
     "close_ts": 1785526200.0,
-    "days_to_close_at_entry": 6.94
+    "days_to_close_at_entry": 6.94,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXUST2AM-26JUL31-T4.24|maker": {
     "variant": "maker",
@@ -13261,12 +13267,14 @@
       "2b250f98-caf3-6295-cf6c-de55a7729611"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXUST2AM-26JUL31-T4.24",
     "opened_ts": 1784926780.4789326,
     "close_ts": 1785526200.0,
-    "days_to_close_at_entry": 6.94
+    "days_to_close_at_entry": 6.94,
+    "pnl_cents": 147.75,
+    "result": "yes"
    },
    "kalshi|KXUST2AM-26JUL31-T4.24|taker": {
     "variant": "taker",
@@ -13274,12 +13282,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 9,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXUST2AM-26JUL31-T4.24",
     "opened_ts": 1784926780.4789326,
     "close_ts": 1785526200.0,
-    "days_to_close_at_entry": 6.94
+    "days_to_close_at_entry": 6.94,
+    "pnl_cents": 131.0,
+    "result": "yes"
    },
    "polymarket|3049244|taker": {
     "venue": "polymarket",
@@ -13314,7 +13324,7 @@
       "11180750-aadc-60a2-e318-56e3d0032385"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.460",
     "opened_ts": 1784953946.9670632,
@@ -13327,12 +13337,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.460",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 122.0,
+    "result": "yes"
    },
    "kalshi|KXH100MON-26JUL31-2.410|maker": {
     "variant": "maker",
@@ -13345,7 +13357,7 @@
      "ts": 1784953946.9670632,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.410",
     "opened_ts": 1784953946.9670632,
@@ -13358,12 +13370,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.410",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 84.0,
+    "result": "yes"
    },
    "kalshi|KXH100MON-26JUL31-2.360|maker": {
     "variant": "maker",
@@ -13380,7 +13394,7 @@
       "083517af-93af-6774-129e-5ad6617fa727"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.360",
     "opened_ts": 1784953946.9670632,
@@ -13393,12 +13407,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.360",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 46.0,
+    "result": "yes"
    },
    "kalshi|KXH100MON-26JUL31-2.310|maker": {
     "variant": "maker",
@@ -13418,7 +13434,7 @@
       "4392a428-2b30-7e08-db8a-5e893711cd81"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.310",
     "opened_ts": 1784953946.9670632,
@@ -13431,12 +13447,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXH100MON-26JUL31-2.310",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.860|maker": {
     "variant": "maker",
@@ -13451,7 +13469,7 @@
       "10ac9a0a-b48a-6596-de3e-1182ae8e571d"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.860",
     "opened_ts": 1784953946.9670632,
@@ -13464,12 +13482,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.860",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 122.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.760|maker": {
     "variant": "maker",
@@ -13482,7 +13502,7 @@
      "ts": 1784953946.9670632,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.760",
     "opened_ts": 1784953946.9670632,
@@ -13495,12 +13515,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.760",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.660|maker": {
     "variant": "maker",
@@ -13527,7 +13549,7 @@
       "03554b7c-b2b7-7ecf-8f3b-7735abb31bbe"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.660",
     "opened_ts": 1784953946.9670632,
@@ -13540,12 +13562,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.660",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.560|maker": {
     "variant": "maker",
@@ -13562,7 +13586,7 @@
       "03849cba-1c53-43b6-8a75-d2afcc7cc4fc"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.560",
     "opened_ts": 1784953946.9670632,
@@ -13575,12 +13599,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.560",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.460|maker": {
     "variant": "maker",
@@ -13597,7 +13623,7 @@
       "2ec44233-25f9-522c-df96-08c204d069fe"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.460",
     "opened_ts": 1784953946.9670632,
@@ -13610,12 +13636,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.460",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 46.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.360|maker": {
     "variant": "maker",
@@ -13639,7 +13667,7 @@
       "01de2c58-4f0d-6f85-20b0-56d52175239e"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.360",
     "opened_ts": 1784953946.9670632,
@@ -13652,12 +13680,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.360",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 46.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.260|maker": {
     "variant": "maker",
@@ -13672,7 +13702,7 @@
       "f72e7495-7bdf-7ebb-6b4a-66a1a0981c27"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.260",
     "opened_ts": 1784953946.9670632,
@@ -13685,12 +13715,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.260",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-5.060|maker": {
     "variant": "maker",
@@ -13707,7 +13739,7 @@
       "611ec922-c5e8-7bbf-784c-6771b68051dc"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.060",
     "opened_ts": 1784953946.9670632,
@@ -13720,12 +13752,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 2,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-5.060",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 18.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-4.960|maker": {
     "variant": "maker",
@@ -13745,7 +13779,7 @@
       "01454458-96aa-75d2-ccee-178b2a42311f"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-4.960",
     "opened_ts": 1784953946.9670632,
@@ -13758,12 +13792,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-4.960",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 27.0,
+    "result": "yes"
    },
    "kalshi|KXB200MON-26JUL31-4.360|maker": {
     "variant": "maker",
@@ -13790,7 +13826,7 @@
       "0499b910-0ab9-5fc0-146b-55a245bea0e7"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-4.360",
     "opened_ts": 1784953946.9670632,
@@ -13803,12 +13839,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXB200MON-26JUL31-4.360",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785556799.0,
-    "days_to_close_at_entry": 6.98
+    "days_to_close_at_entry": 6.98,
+    "pnl_cents": 27.0,
+    "result": "yes"
    },
    "kalshi|KXSILVERW-26JUL3117-T53.99|maker": {
     "variant": "maker",
@@ -13821,7 +13859,7 @@
      "ts": 1784953946.9670632,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXSILVERW-26JUL3117-T53.99",
     "opened_ts": 1784953946.9670632,
@@ -13834,12 +13872,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXSILVERW-26JUL3117-T53.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 122.0,
+    "result": "yes"
    },
    "kalshi|KXSILVERMON-26JUL3117-T52.99|maker": {
     "variant": "maker",
@@ -13947,7 +13987,7 @@
      "ts": 1784953946.9670632,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXGOLDW-26JUL3117-T3888.99",
     "opened_ts": 1784953946.9670632,
@@ -13960,12 +14000,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXGOLDW-26JUL3117-T3888.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXGOLDW-26JUL3117-T3868.99|maker": {
     "variant": "maker",
@@ -13978,7 +14020,7 @@
      "ts": 1784953946.9670632,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXGOLDW-26JUL3117-T3868.99",
     "opened_ts": 1784953946.9670632,
@@ -13991,12 +14033,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 5,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXGOLDW-26JUL3117-T3868.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 65.0,
+    "result": "yes"
    },
    "kalshi|KXGOLDW-26JUL3117-T3828.99|maker": {
     "variant": "maker",
@@ -14009,7 +14053,7 @@
      "ts": 1784953946.9670632,
      "ids": []
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXGOLDW-26JUL3117-T3828.99",
     "opened_ts": 1784953946.9670632,
@@ -14022,12 +14066,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXGOLDW-26JUL3117-T3828.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXETHD-26JUL3117-T1689.99|maker": {
     "variant": "maker",
@@ -14042,7 +14088,7 @@
       "023a0047-b3e1-6fa5-f5f1-d67ce0220918"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXETHD-26JUL3117-T1689.99",
     "opened_ts": 1784953946.9670632,
@@ -14055,12 +14101,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXETHD-26JUL3117-T1689.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 46.0,
+    "result": "yes"
    },
    "kalshi|KXCOPPERMON-26JUL3117-T5.99|maker": {
     "variant": "maker",
@@ -14108,12 +14156,14 @@
       "e8e69251-cfce-45ca-b69a-693c17d8783e"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T60999.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 147.75,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T60999.99|taker": {
     "variant": "taker",
@@ -14121,12 +14171,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 9,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T60999.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 131.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T60499.99|maker": {
     "variant": "maker",
@@ -14141,12 +14193,14 @@
       "903946c0-cb28-66c0-ea05-cd3f46f1e4b9"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T60499.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 118.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T60499.99|taker": {
     "variant": "taker",
@@ -14154,12 +14208,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 7,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T60499.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 93.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T59999.99|maker": {
     "variant": "maker",
@@ -14174,12 +14230,14 @@
       "8c8629c1-207f-6653-3220-1ebb757f1151"
      ]
     },
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T59999.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 88.5,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T59999.99|taker": {
     "variant": "taker",
@@ -14187,12 +14245,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 6,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T59999.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 74.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T59499.99|maker": {
     "variant": "maker",
@@ -14207,7 +14267,7 @@
       "943b6461-34dd-40dc-7821-21cb54a80b26"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T59499.99",
     "opened_ts": 1784953946.9670632,
@@ -14220,12 +14280,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T59499.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 56.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T58999.99|maker": {
     "variant": "maker",
@@ -14240,7 +14302,7 @@
       "d84ef839-6ba2-52ec-f6f7-8944992976bc"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T58999.99",
     "opened_ts": 1784953946.9670632,
@@ -14253,12 +14315,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T58999.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 37.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T58499.99|maker": {
     "variant": "maker",
@@ -14273,7 +14337,7 @@
       "4ec1ad1d-626c-7f26-6f55-01b50363072c"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T58499.99",
     "opened_ts": 1784953946.9670632,
@@ -14286,12 +14350,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 3,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T58499.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 27.0,
+    "result": "yes"
    },
    "kalshi|KXBTCD-26JUL3117-T57999.99|maker": {
     "variant": "maker",
@@ -14306,7 +14372,7 @@
       "75b662ce-a787-6804-73f4-2b4268d8ba65"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T57999.99",
     "opened_ts": 1784953946.9670632,
@@ -14319,12 +14385,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 2,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBTCD-26JUL3117-T57999.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 18.0,
+    "result": "yes"
    },
    "kalshi|KXBRENTW-26JUL3117-T82.99|maker": {
     "variant": "maker",
@@ -14339,7 +14407,7 @@
       "73c37420-7d69-6777-9d84-574209d37c98"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBRENTW-26JUL3117-T82.99",
     "opened_ts": 1784953946.9670632,
@@ -14352,12 +14420,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 8,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBRENTW-26JUL3117-T82.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 112.0,
+    "result": "yes"
    },
    "kalshi|KXBRENTW-26JUL3117-T80.99|maker": {
     "variant": "maker",
@@ -14372,7 +14442,7 @@
       "1817148c-99c6-410b-9d66-25a8a3e89635"
      ]
     },
-    "status": "open",
+    "status": "unfilled",
     "venue": "kalshi",
     "ticker": "KXBRENTW-26JUL3117-T80.99",
     "opened_ts": 1784953946.9670632,
@@ -14385,12 +14455,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 4,
-    "status": "open",
+    "status": "settled",
     "venue": "kalshi",
     "ticker": "KXBRENTW-26JUL3117-T80.99",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785531600.0,
-    "days_to_close_at_entry": 6.69
+    "days_to_close_at_entry": 6.69,
+    "pnl_cents": 56.0,
+    "result": "yes"
    },
    "kalshi|KXCBDECISIONJAPAN-26JUL30-HOLD|maker": {
     "variant": "maker",
@@ -14470,12 +14542,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2948596",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785542340.0,
     "days_to_close_at_entry": 6.81,
-    "question": "Will Trump meet with Netanyahu by July 31, 2026?"
+    "question": "Will Trump meet with Netanyahu by July 31, 2026?",
+    "pnl_cents": 60.0,
+    "result": "yes"
    },
    "polymarket|2698849|taker": {
     "venue": "polymarket",
@@ -14484,12 +14558,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2698849",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785542340.0,
     "days_to_close_at_entry": 6.81,
-    "question": "Will Trump meet with Benjamin Netanyahu in July 2026?"
+    "question": "Will Trump meet with Benjamin Netanyahu in July 2026?",
+    "pnl_cents": 80.99999999999994,
+    "result": "yes"
    },
    "polymarket|2929595|taker": {
     "venue": "polymarket",
@@ -14498,12 +14574,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2929595",
     "opened_ts": 1784953946.9670632,
     "close_ts": 1785542340.0,
     "days_to_close_at_entry": 6.81,
-    "question": "Will there be Houthi military action against Saudi Arabia by July 31, 2026?"
+    "question": "Will there be Houthi military action against Saudi Arabia by July 31, 2026?",
+    "pnl_cents": 90.0,
+    "result": "yes"
    },
    "polymarket|3050187|taker": {
     "venue": "polymarket",
@@ -14624,12 +14702,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3083667",
     "opened_ts": 1784994814.1417274,
     "close_ts": 1785283140.0,
     "days_to_close_at_entry": 3.34,
-    "question": "Israel x Iran ceasefire continues through July 28?"
+    "question": "Israel x Iran ceasefire continues through July 28?",
+    "pnl_cents": 120.0,
+    "result": "yes"
    },
    "polymarket|3082097|taker": {
     "venue": "polymarket",
@@ -14835,10 +14915,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785530245.457755,
- "jobs_started": 53,
- "last_job_start_ts": 1785530243.173288,
- "api_requests_last_job": 9,
+ "last_checkpoint_ts": 1785559298.1625328,
+ "jobs_started": 54,
+ "last_job_start_ts": 1785559285.5458627,
+ "api_requests_last_job": 73,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

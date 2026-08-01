@@ -14734,12 +14734,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3095882",
     "opened_ts": 1784994814.1417274,
     "close_ts": 1785598200.0,
     "days_to_close_at_entry": 6.98,
-    "question": "Mubadala Citi DC Open, Qualification: Zachary Svajda vs Stefan Kozlov"
+    "question": "Mubadala Citi DC Open, Qualification: Zachary Svajda vs Stefan Kozlov",
+    "pnl_cents": 70.0,
+    "result": "yes"
    },
    "polymarket|3095187|taker": {
     "venue": "polymarket",
@@ -14778,12 +14780,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3095952",
     "opened_ts": 1784998437.265396,
     "close_ts": 1785598200.0,
     "days_to_close_at_entry": 6.94,
-    "question": "Mubadala Citi DC Open, Qualification: Andre Ilagan vs Remy Bertola"
+    "question": "Mubadala Citi DC Open, Qualification: Andre Ilagan vs Remy Bertola",
+    "pnl_cents": 70.0,
+    "result": "yes"
    },
    "polymarket|2883604|taker": {
     "venue": "polymarket",
@@ -14808,12 +14812,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3091148",
     "opened_ts": 1785002037.28775,
     "close_ts": 1785603600.0,
     "days_to_close_at_entry": 6.96,
-    "question": "Palermo: Francesca Jones vs Alevtina Ibragimova"
+    "question": "Palermo: Francesca Jones vs Alevtina Ibragimova",
+    "pnl_cents": 120.0,
+    "result": "yes"
    },
    "polymarket|3095986|taker": {
     "venue": "polymarket",
@@ -14822,12 +14828,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3095986",
     "opened_ts": 1785002037.28775,
     "close_ts": 1785598200.0,
     "days_to_close_at_entry": 6.9,
-    "question": "Mubadala Citi DC Open, Qualification: Polina Kudermetova vs Mei Yamaguchi"
+    "question": "Mubadala Citi DC Open, Qualification: Polina Kudermetova vs Mei Yamaguchi",
+    "pnl_cents": 100.0,
+    "result": "yes"
    },
    "polymarket|3091149|taker": {
     "venue": "polymarket",
@@ -14852,12 +14860,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3095900",
     "opened_ts": 1785005638.3617046,
     "close_ts": 1785603600.0,
     "days_to_close_at_entry": 6.92,
-    "question": "Mubadala Citi DC Open, Qualification: Daria Kasatkina vs Mariam Bolkvadze"
+    "question": "Mubadala Citi DC Open, Qualification: Daria Kasatkina vs Mariam Bolkvadze",
+    "pnl_cents": 120.0,
+    "result": "yes"
    },
    "polymarket|3030492|taker": {
     "venue": "polymarket",
@@ -14882,12 +14892,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3091167",
     "opened_ts": 1785009238.4294112,
     "close_ts": 1785609000.0,
     "days_to_close_at_entry": 6.94,
-    "question": "Palermo: Fiona Ferro vs Lucia Bronzetti"
+    "question": "Palermo: Fiona Ferro vs Lucia Bronzetti",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3095812|taker": {
     "venue": "polymarket",
@@ -14896,12 +14908,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3095812",
     "opened_ts": 1785009238.4294112,
     "close_ts": 1785609000.0,
     "days_to_close_at_entry": 6.94,
-    "question": "Bloomfield Hills: Alex Michelsen vs Dhakshineswar Suresh"
+    "question": "Bloomfield Hills: Alex Michelsen vs Dhakshineswar Suresh",
+    "pnl_cents": 60.0,
+    "result": "yes"
    },
    "polymarket|2987881|taker": {
     "venue": "polymarket",
@@ -14910,20 +14924,22 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "2987881",
     "opened_ts": 1785012858.425654,
     "close_ts": 1785615000.0,
     "days_to_close_at_entry": 6.97,
-    "question": "Toronto Blue Jays vs. Boston Red Sox"
+    "question": "Toronto Blue Jays vs. Boston Red Sox",
+    "pnl_cents": 70.0,
+    "result": "yes"
    }
   },
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785595280.4756362,
- "jobs_started": 56,
- "last_job_start_ts": 1785595278.0906832,
+ "last_checkpoint_ts": 1785615343.9840145,
+ "jobs_started": 57,
+ "last_job_start_ts": 1785615339.2594807,
  "api_requests_last_job": 11,
  "mm_final": {
   "verdict": "KILL",

@@ -14718,12 +14718,14 @@
     "qty": 10,
     "filled_qty": 10,
     "fee_cents": 0.0,
-    "status": "open",
+    "status": "settled",
     "ticker": "3082097",
     "opened_ts": 1784994814.1417274,
     "close_ts": 1785571200.0,
     "days_to_close_at_entry": 6.67,
-    "question": "Segovia: Luka Pavlovic vs Keegan Smith"
+    "question": "Segovia: Luka Pavlovic vs Keegan Smith",
+    "pnl_cents": 140.0,
+    "result": "yes"
    },
    "polymarket|3095882|taker": {
     "venue": "polymarket",
@@ -14915,10 +14917,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785559298.1625328,
- "jobs_started": 54,
- "last_job_start_ts": 1785559285.5458627,
- "api_requests_last_job": 73,
+ "last_checkpoint_ts": 1785576302.7802563,
+ "jobs_started": 55,
+ "last_job_start_ts": 1785576300.373787,
+ "api_requests_last_job": 11,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",

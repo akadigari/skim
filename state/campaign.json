@@ -14947,10 +14947,10 @@
   "last_scan_ts": 1785012858.425654
  },
  "quoting_now": 15,
- "last_checkpoint_ts": 1785789600.461421,
- "jobs_started": 65,
- "last_job_start_ts": 1785789598.9408453,
- "api_requests_last_job": 11,
+ "last_checkpoint_ts": 1785817993.6031535,
+ "jobs_started": 66,
+ "last_job_start_ts": 1785817993.2386806,
+ "api_requests_last_job": 3,
  "mm_final": {
   "verdict": "KILL",
   "detail": "decision $-2164.01/day vs GO bar $5.00/day; earn/pay -0.48 vs 1.5; fills 5491/30 evidence floor",
